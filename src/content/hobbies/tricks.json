@@ -16,7 +16,7 @@
     "partyTrick": true
   },
   {
-    "id": "lockpicking", "name": "Lock Picking", "pop": 3,
+    "id": "lockpicking", "name": "Lock Picking", "pop": 3, "traits": "dexterity3 precision3 patience3 mechanical2 presence0",
     "summary": "Locksport: the puzzle of opening pin-tumbler locks without the key, using tension, feel and patience, on locks you own.",
     "stats": { "difficulty": 3, "hours": 20, "cost": 1, "gear": ["Beginner pick set with tension wrenches", "Clear practice lock", "A few cheap padlocks"], "social": "solo", "setting": "indoor", "focus": ["mental", "physical"] },
     "tags": ["locksport", "puzzles", "mechanics", "security"],

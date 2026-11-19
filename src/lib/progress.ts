@@ -85,14 +85,14 @@ export const character = derived(progress, (p) => {
 });
 
 export function exportProgress(): string {
-  return JSON.stringify({ app: 'skillnet', version: 1, exported: new Date().toISOString(), progress: get(progress) }, null, 2);
+  return JSON.stringify({ app: 'skilltree', version: 1, exported: new Date().toISOString(), progress: get(progress) }, null, 2);
 }
 
 /** Merges an exported file into current progress. Returns the number of nodes imported. */
 export function importProgress(text: string): number {
   const data = JSON.parse(text);
   const incoming: unknown = data?.progress ?? data;
-  if (!incoming || typeof incoming !== 'object') throw new Error('Not a Skillnet progress file');
+  if (!incoming || typeof incoming !== 'object') throw new Error('Not a Skilltree progress file');
   let count = 0;
   const clean: ProgressMap = {};
   for (const [k, v] of Object.entries(incoming as Record<string, NodeProgress>)) {
@@ -101,7 +101,7 @@ export function importProgress(text: string): number {
     count++;
   }
   // An empty export is fine; an unrelated JSON file with nothing usable is not.
-  if (count === 0 && data?.app !== 'skillnet') throw new Error('Not a Skillnet progress file');
+  if (count === 0 && data?.app !== 'skillnet' && data?.app !== 'skilltree') throw new Error('Not a Skilltree progress file');
   progress.update((p) => ({ ...p, ...clean }));
   return count;
 }

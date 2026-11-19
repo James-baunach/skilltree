@@ -1,100 +1,75 @@
-// Builds the runtime map from authored content. Hobby lists are bundled eagerly;
-// each skill tree is its own lazily loaded chunk.
+// Builds the runtime catalogue from authored content. Hobby lists and the taxonomy are bundled;
+// each skill tree and the relationship graph are lazily loaded chunks.
 
 import domainsJson from '../content/domains.json';
+import taxonomyJson from '../content/taxonomy.json';
+import traitsJson from '../content/traits.json';
 import metaJson from '../content/_meta.json';
-import { axialToWorld, hexKey, type Axial } from './hex';
-import { layoutMap, TILE_R, type Bounds } from './layout';
-import type { ContentMeta, Domain, DomainEntry, Hobby, HobbyEntry, SkillTree } from './types';
+import type { ContentMeta, Domain, Graph, Hobby, HobbyMeta, SkillTree, Taxonomy, Trait } from './types';
 
 const hobbyFiles = import.meta.glob<Hobby[]>('../content/hobbies/*.json', { eager: true, import: 'default' });
 const treeFiles = import.meta.glob<SkillTree>('../content/trees/*.json', { import: 'default' });
 
-/** What occupies a tile on the map. */
-export interface Cell {
-  domain: number; // -1 for the hub
-  hobby: number; // -1 for an empty lot or the hub
+export interface HobbyEntry extends Hobby {
+  domain: string;
+  sub: string;
+  charted: boolean;
+  meta: HobbyMeta | null;
 }
-
-export interface Galaxy {
-  domains: DomainEntry[];
+export interface SubEntry {
+  id: string;
+  key: string; // "domain/sub"
+  name: string;
+  domain: string;
   hobbies: HobbyEntry[];
-  domainById: Map<string, DomainEntry>;
-  hobbyById: Map<string, HobbyEntry>;
-  /** Every claimed tile, keyed by hexKey(q, r). */
-  cells: Map<string, Cell>;
-  hub: { cells: Axial[]; pos: [number, number] };
-  bounds: Bounds;
+  charted: number;
+}
+export interface DomainEntry extends Domain {
+  subs: SubEntry[];
+  count: number;
+  charted: number;
 }
 
-const fileId = (path: string) => path.slice(path.lastIndexOf('/') + 1, -'.json'.length);
+const meta = metaJson as ContentMeta;
+export const traits = traitsJson as Trait[];
+export const traitById = new Map(traits.map((t) => [t.id, t]));
+export const traitGroups = [...new Set(traits.map((t) => t.group))];
 
-function build(): Galaxy {
-  const meta = metaJson as ContentMeta;
-  const domainList = domainsJson as Domain[];
-  const listsByDomain = new Map<string, Hobby[]>();
-  for (const [path, list] of Object.entries(hobbyFiles)) listsByDomain.set(fileId(path), list);
+const hobbyRaw = new Map<string, Hobby>();
+for (const list of Object.values(hobbyFiles)) for (const h of list) hobbyRaw.set(h.id, h);
 
-  // Most popular hobbies take the tiles nearest each district's centre.
-  const lists = domainList.map((d) =>
-    [...(listsByDomain.get(d.id) ?? [])].sort((a, b) => b.pop - a.pop || a.name.localeCompare(b.name)),
-  );
-  const map = layoutMap(lists.map((l) => l.length));
-
-  const domains: DomainEntry[] = [];
-  const hobbies: HobbyEntry[] = [];
-  const cells = new Map<string, Cell>();
-
-  domainList.forEach((d, di) => {
-    const layout = map.districts[di];
-    const list = lists[di];
-    const start = hobbies.length;
-    list.forEach((h, i) => {
-      const cell = layout.cells[i];
-      hobbies.push({
-        ...h,
-        index: start + i,
-        domain: d.id,
-        domainIndex: di,
-        cell,
-        pos: axialToWorld(cell[0], cell[1], TILE_R),
-        charted: Boolean(meta.hobbies[h.id]),
-        meta: meta.hobbies[h.id] ?? null,
-      });
-    });
-    layout.cells.forEach(([q, r], i) => cells.set(hexKey(q, r), { domain: di, hobby: i < list.length ? start + i : -1 }));
-    domains.push({
-      ...d,
-      index: di,
-      code: `SEC-${String(di + 1).padStart(2, '0')}`,
-      pos: axialToWorld(layout.center[0], layout.center[1], TILE_R),
-      cells: layout.cells,
-      border: layout.border,
-      bounds: layout.bounds,
-      hobbies: list.map((_, i) => start + i),
-    });
+export const hobbyById = new Map<string, HobbyEntry>();
+export const domains: DomainEntry[] = (domainsJson as Domain[]).map((d) => {
+  const subs = ((taxonomyJson as Taxonomy)[d.id] ?? []).map((s): SubEntry => {
+    const hobbies = s.hobbies
+      .map((id) => hobbyRaw.get(id))
+      .filter((h): h is Hobby => !!h)
+      .map((h) => {
+        const e: HobbyEntry = { ...h, domain: d.id, sub: s.id, charted: !!meta.hobbies[h.id], meta: meta.hobbies[h.id] ?? null };
+        hobbyById.set(h.id, e);
+        return e;
+      })
+      // charted trees first, then most popular, then A-Z
+      .sort((a, b) => Number(b.charted) - Number(a.charted) || b.pop - a.pop || a.name.localeCompare(b.name));
+    return { id: s.id, key: `${d.id}/${s.id}`, name: s.name, domain: d.id, hobbies, charted: hobbies.filter((h) => h.charted).length };
   });
-  for (const [q, r] of map.hub.cells) cells.set(hexKey(q, r), { domain: -1, hobby: -1 });
-
-  const hobbyById = new Map(hobbies.map((h) => [h.id, h]));
-  // Drop synergies that point at hobbies which haven't been written yet.
-  for (const h of hobbies) h.synergies = h.synergies.filter((s) => s !== h.id && hobbyById.has(s));
-
   return {
-    domains,
-    hobbies,
-    domainById: new Map(domains.map((d) => [d.id, d])),
-    hobbyById,
-    cells,
-    hub: { cells: map.hub.cells, pos: [0, 0] },
-    bounds: map.bounds,
+    ...d,
+    subs,
+    count: subs.reduce((a, s) => a + s.hobbies.length, 0),
+    charted: subs.reduce((a, s) => a + s.charted, 0),
   };
-}
-
-export const galaxy = build();
+});
+export const domainById = new Map(domains.map((d) => [d.id, d]));
+export const subByKey = new Map(domains.flatMap((d) => d.subs.map((s) => [s.key, s] as const)));
+export const totals = {
+  hobbies: hobbyById.size,
+  charted: Object.keys(meta.hobbies).length,
+  nodes: Object.values(meta.hobbies).reduce((a, m) => a + m.nodes, 0),
+  subs: subByKey.size,
+};
 
 const treeCache = new Map<string, Promise<SkillTree | null>>();
-
 export function loadTree(hobbyId: string): Promise<SkillTree | null> {
   const loader = treeFiles[`../content/trees/${hobbyId}.json`];
   if (!loader) return Promise.resolve(null);
@@ -109,3 +84,6 @@ export function loadTree(hobbyId: string): Promise<SkillTree | null> {
   }
   return p;
 }
+
+let graphP: Promise<Graph> | null = null;
+export const loadGraph = () => (graphP ??= import('../content/_graph.json').then((m) => m.default as unknown as Graph));
