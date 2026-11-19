@@ -254,5 +254,10 @@
   { "id": "prop-making", "name": "Prop & Armour Making", "pop": 2, "traits": "materials3 ideation3 hand-tools2 design2 improvisation2 visual-eye1",
     "summary": "Build swords, helmets and armour from EVA foam, worbla and 3D prints for cosplay and film.",
     "stats": { "difficulty": 3, "hours": 50, "cost": 2, "gear": ["EVA foam", "Heat gun", "Craft knife"], "social": "solo", "setting": "indoor", "focus": ["creative", "physical"] },
-    "tags": ["cosplay", "foam"], "synergies": ["cosplay", "3d-printing", "sfx-makeup", "chainmail"] }
+    "tags": ["cosplay", "foam"], "synergies": ["cosplay", "3d-printing", "sfx-makeup", "chainmail"] },
+  { "id": "gift-wrapping", "name": "Gift Wrapping", "pop": 2, "traits": "precision3 dexterity3 design2 spatial2 visual-eye1 color1",
+    "summary": "Crisp corners, hidden tape, ribbon bows and Japanese furoshiki cloth wraps.",
+    "stats": { "difficulty": 1, "hours": 3, "cost": 1, "gear": ["Paper", "Double-sided tape", "Ribbon"], "social": "either", "setting": "indoor", "focus": ["creative"] },
+    "tags": ["presents", "folding"], "synergies": ["origami", "napkin-folding", "hand-lettering"],
+    "partyTrick": true }
 ]

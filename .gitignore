@@ -4,3 +4,4 @@ dist
 src/content/_meta.json
 src/content/_search.json
 src/content/_graph.json
+.claude/settings.local.json

@@ -1,206 +1,213 @@
 {
   "wellness": [
-    { "id": "mindfulness", "name": "Mindfulness & Meditation", "traits": "focus3 self-awareness3 composure3 patience2 discipline1", "hobbies": ["meditation", "breathwork", "yoga-nidra", "singing-bowls", "lucid-dreaming", "self-hypnosis", "journaling" ] },
-    { "id": "internal-arts", "name": "Internal Arts", "traits": "body-awareness3 balance2 composure2 focus2 flexibility1 discipline1", "hobbies": ["tai-chi", "qigong" ] },
-    { "id": "body-care", "name": "Body Care & Recovery", "traits": "body-awareness2 self-awareness2 discipline2 composure2 empathy1", "hobbies": ["cold-exposure", "sauna-bathing", "massage", "acupressure", "aromatherapy", "sleep-optimization", "nutrition" ] },
-    { "id": "philosophy", "name": "Philosophy of Living", "traits": "self-awareness3 discipline2 analysis1 composure2", "hobbies": ["stoicism", "digital-minimalism" ] },
-    { "id": "esoteric", "name": "Esoteric & Divination", "traits": "storytelling2 empathy2 patterns2 memory1 self-awareness1", "hobbies": ["tarot", "astrology" ] },
-    { "id": "natural", "name": "Nature & Herbal", "traits": "nature3 patience2 composure2 palate1 chemistry1", "hobbies": ["forest-bathing", "herbalism", "tea-ceremony" ] }
+    { "id": "mindfulness", "name": "Mindfulness & Meditation", "traits": "focus3 self-awareness3 composure3 patience2 discipline1", "hobbies": ["meditation", "breathwork", "yoga-nidra", "singing-bowls", "lucid-dreaming", "self-hypnosis", "journaling"] },
+    { "id": "internal-arts", "name": "Internal Arts", "traits": "body-awareness3 balance2 composure2 focus2 flexibility1 discipline1", "hobbies": ["tai-chi", "qigong"] },
+    { "id": "body-care", "name": "Body Care & Recovery", "traits": "body-awareness2 self-awareness2 discipline2 composure2 empathy1", "hobbies": ["cold-exposure", "sauna-bathing", "massage", "acupressure", "aromatherapy", "sleep-optimization", "nutrition"] },
+    { "id": "philosophy", "name": "Philosophy of Living", "traits": "self-awareness3 discipline2 analysis1 composure2", "hobbies": ["stoicism", "digital-minimalism"] },
+    { "id": "esoteric", "name": "Esoteric & Divination", "traits": "storytelling2 empathy2 patterns2 memory1 self-awareness1", "hobbies": ["tarot", "astrology", "palm-reading"] },
+    { "id": "natural", "name": "Nature & Herbal", "traits": "nature3 patience2 composure2 palate1 chemistry1", "hobbies": ["forest-bathing", "herbalism", "tea-ceremony"] }
   ],
   "movement": [
-    { "id": "running", "name": "Running & Walking", "traits": "endurance3 discipline2 strength1 nature1 composure1", "hobbies": ["running", "trail-running", "ultrarunning", "sprinting", "barefoot-running", "nordic-walking", "rucking" ] },
-    { "id": "strength", "name": "Strength Training", "traits": "strength3 discipline2 body-awareness2 endurance1", "hobbies": ["strength-training", "powerlifting", "olympic-weightlifting", "bodybuilding", "kettlebells", "strongman", "arm-wrestling", "calisthenics" ] },
-    { "id": "conditioning", "name": "Fitness & Conditioning", "traits": "endurance3 strength2 coordination2 discipline2", "hobbies": ["functional-fitness", "hiit", "indoor-cycling", "aqua-fitness", "jump-rope", "obstacle-racing", "ninja-training" ] },
-    { "id": "mind-body", "name": "Mind-Body & Mobility", "traits": "flexibility3 body-awareness3 balance2 focus1 strength1", "hobbies": ["yoga", "pilates", "barre", "flexibility", "mobility", "contortion", "feldenkrais", "alexander-technique" ] },
-    { "id": "acrobatics", "name": "Acrobatics & Aerial", "traits": "strength3 balance3 body-awareness3 flexibility2 courage2 coordination2", "hobbies": ["gymnastics", "acrobatics", "acroyoga", "trampolining", "handbalancing", "aerial-silks", "aerial-hoop", "flying-trapeze", "mallakhamb" ] },
-    { "id": "flow", "name": "Flow & Balance", "traits": "balance3 coordination2 courage2 body-awareness2 improvisation1", "hobbies": ["parkour", "slacklining", "rope-flow" ] }
+    { "id": "running", "name": "Running & Walking", "traits": "endurance3 discipline2 strength1 nature1 composure1", "hobbies": ["running", "trail-running", "ultrarunning", "sprinting", "barefoot-running", "nordic-walking", "rucking"] },
+    { "id": "strength", "name": "Strength Training", "traits": "strength3 discipline2 body-awareness2 endurance1", "hobbies": ["strength-training", "powerlifting", "olympic-weightlifting", "bodybuilding", "kettlebells", "strongman", "arm-wrestling", "calisthenics"] },
+    { "id": "conditioning", "name": "Fitness & Conditioning", "traits": "endurance3 strength2 coordination2 discipline2", "hobbies": ["functional-fitness", "hiit", "indoor-cycling", "aqua-fitness", "jump-rope", "obstacle-racing", "ninja-training"] },
+    { "id": "mind-body", "name": "Mind-Body & Mobility", "traits": "flexibility3 body-awareness3 balance2 focus1 strength1", "hobbies": ["yoga", "pilates", "barre", "flexibility", "mobility", "contortion", "feldenkrais", "alexander-technique"] },
+    { "id": "acrobatics", "name": "Acrobatics & Aerial", "traits": "strength3 balance3 body-awareness3 flexibility2 courage2 coordination2", "hobbies": ["gymnastics", "acrobatics", "acroyoga", "trampolining", "handbalancing", "aerial-silks", "aerial-hoop", "flying-trapeze", "mallakhamb"] },
+    { "id": "flow", "name": "Flow & Balance", "traits": "balance3 coordination2 courage2 body-awareness2 improvisation1", "hobbies": ["parkour", "slacklining", "rope-flow"] }
   ],
   "dance": [
-    { "id": "latin", "name": "Latin & Partner Social", "traits": "rhythm3 musicality2 coordination2 communication2 expression2 empathy1", "hobbies": ["salsa", "bachata", "kizomba", "rueda", "cumbia", "brazilian-zouk", "samba" ] },
-    { "id": "ballroom", "name": "Ballroom, Swing & Social", "traits": "rhythm3 coordination2 communication2 musicality2 memory1 teamwork1", "hobbies": ["tango", "ballroom", "swing-dance", "modern-jive", "west-coast-swing", "line-dancing", "square-dance" ] },
-    { "id": "concert", "name": "Ballet & Concert", "traits": "body-awareness3 expression3 flexibility3 balance2 discipline2 rhythm2", "hobbies": ["ballet", "contemporary-dance", "contact-improv", "jazz-dance", "tap-dance" ] },
-    { "id": "street", "name": "Street & Club", "traits": "rhythm3 expression3 improvisation2 coordination2 presence2 strength1", "hobbies": ["hip-hop-dance", "breaking", "popping", "house-dance", "voguing", "k-pop-dance", "shuffle-dance", "afro-dance", "dancehall", "heels-dance" ] },
-    { "id": "cultural", "name": "Cultural & Folk", "traits": "rhythm3 expression2 storytelling2 memory2 coordination2", "hobbies": ["irish-dance", "highland-dance", "flamenco", "bollywood-dance", "kathak", "bharatanatyam", "belly-dance", "hula", "tahitian-dance", "folk-dance" ] },
-    { "id": "freeform", "name": "Fitness, Freeform & Choreography", "traits": "rhythm2 expression2 endurance2 improvisation2 design1", "hobbies": ["pole-dance", "dance-fitness", "ecstatic-dance", "choreography" ] }
+    { "id": "latin", "name": "Latin & Partner Social", "traits": "rhythm3 musicality2 coordination2 communication2 expression2 empathy1", "hobbies": ["salsa", "bachata", "kizomba", "rueda", "cumbia", "brazilian-zouk", "samba"] },
+    { "id": "ballroom", "name": "Ballroom, Swing & Social", "traits": "rhythm3 coordination2 communication2 musicality2 memory1 teamwork1", "hobbies": ["tango", "ballroom", "swing-dance", "modern-jive", "west-coast-swing", "line-dancing", "square-dance"] },
+    { "id": "concert", "name": "Ballet & Concert", "traits": "body-awareness3 expression3 flexibility3 balance2 discipline2 rhythm2", "hobbies": ["ballet", "contemporary-dance", "contact-improv", "jazz-dance", "tap-dance"] },
+    { "id": "street", "name": "Street & Club", "traits": "rhythm3 expression3 improvisation2 coordination2 presence2 strength1", "hobbies": ["hip-hop-dance", "breaking", "popping", "house-dance", "voguing", "k-pop-dance", "shuffle-dance", "afro-dance", "dancehall", "heels-dance"] },
+    { "id": "cultural", "name": "Cultural & Folk", "traits": "rhythm3 expression2 storytelling2 memory2 coordination2", "hobbies": ["irish-dance", "highland-dance", "flamenco", "bollywood-dance", "kathak", "bharatanatyam", "belly-dance", "hula", "tahitian-dance", "folk-dance"] },
+    { "id": "freeform", "name": "Fitness, Freeform & Choreography", "traits": "rhythm2 expression2 endurance2 improvisation2 design1", "hobbies": ["pole-dance", "dance-fitness", "ecstatic-dance", "choreography"] }
   ],
   "martial-arts": [
-    { "id": "striking", "name": "Striking", "traits": "reflexes3 endurance3 strength2 courage2 discipline2 coordination2", "hobbies": ["boxing", "kickboxing", "muay-thai", "muay-boran", "savate", "sanda", "karate", "taekwondo" ] },
-    { "id": "grappling", "name": "Grappling", "traits": "strength3 endurance3 strategy2 body-awareness2 courage2", "hobbies": ["brazilian-jiu-jitsu", "submission-grappling", "judo", "wrestling", "sambo", "sumo" ] },
-    { "id": "mixed", "name": "Mixed & Self-Defence", "traits": "reflexes3 courage3 composure2 strength2 endurance2", "hobbies": ["mma", "krav-maga", "self-defense", "systema", "jeet-kune-do" ] },
-    { "id": "traditional", "name": "Traditional Arts", "traits": "discipline3 coordination3 flexibility2 balance2 memory1 composure1", "hobbies": ["kung-fu", "wing-chun", "aikido", "hapkido", "jujutsu", "capoeira", "kalaripayattu" ] },
-    { "id": "weapons", "name": "Weapons Arts", "traits": "reflexes3 coordination3 precision2 discipline2 strategy1", "hobbies": ["kali", "silat", "kendo", "iaido", "kyudo", "kobudo", "fencing", "hema", "staff-fighting", "nunchaku", "lightsaber-combat", "bartitsu" ] },
-    { "id": "forms", "name": "Forms & Tricking", "traits": "coordination3 flexibility3 courage2 strength2 presence2 balance2", "hobbies": ["wushu", "tricking" ] }
+    { "id": "striking", "name": "Striking", "traits": "reflexes3 endurance3 strength2 courage2 discipline2 coordination2", "hobbies": ["boxing", "kickboxing", "muay-thai", "muay-boran", "savate", "sanda", "karate", "taekwondo"] },
+    { "id": "grappling", "name": "Grappling", "traits": "strength3 endurance3 strategy2 body-awareness2 courage2", "hobbies": ["brazilian-jiu-jitsu", "submission-grappling", "judo", "wrestling", "sambo", "sumo"] },
+    { "id": "mixed", "name": "Mixed & Self-Defence", "traits": "reflexes3 courage3 composure2 strength2 endurance2", "hobbies": ["mma", "krav-maga", "self-defense", "systema", "jeet-kune-do"] },
+    { "id": "traditional", "name": "Traditional Arts", "traits": "discipline3 coordination3 flexibility2 balance2 memory1 composure1", "hobbies": ["kung-fu", "wing-chun", "aikido", "hapkido", "jujutsu", "capoeira", "kalaripayattu"] },
+    { "id": "weapons", "name": "Weapons Arts", "traits": "reflexes3 coordination3 precision2 discipline2 strategy1", "hobbies": ["kali", "silat", "kendo", "iaido", "kyudo", "kobudo", "fencing", "hema", "staff-fighting", "nunchaku", "lightsaber-combat", "bartitsu"] },
+    { "id": "forms", "name": "Forms & Tricking", "traits": "coordination3 flexibility3 courage2 strength2 presence2 balance2", "hobbies": ["wushu", "tricking"] }
   ],
   "sports": [
-    { "id": "field", "name": "Field Team Sports", "traits": "teamwork3 endurance2 strategy2 coordination2 reflexes2 strength1", "hobbies": ["soccer", "rugby", "flag-football", "australian-football", "gaelic-football", "hurling", "field-hockey", "lacrosse", "ultimate-frisbee", "quadball" ] },
-    { "id": "bat-ball", "name": "Bat & Ball", "traits": "coordination3 reflexes3 precision2 teamwork2 strategy2 patience1", "hobbies": ["baseball", "softball", "cricket" ] },
-    { "id": "court", "name": "Court & Ice Team Sports", "traits": "teamwork3 reflexes3 coordination2 endurance2 strategy1", "hobbies": ["basketball", "volleyball", "beach-volleyball", "handball", "netball", "dodgeball", "ice-hockey", "floorball", "water-polo", "roller-derby", "sepak-takraw", "roundnet" ] },
-    { "id": "racket", "name": "Racket Sports", "traits": "reflexes3 coordination3 strategy2 endurance2 precision2", "hobbies": ["tennis", "table-tennis", "badminton", "squash", "pickleball", "padel", "racquetball" ] },
-    { "id": "target", "name": "Target & Precision", "traits": "precision3 focus3 composure2 patience2 analysis1", "hobbies": ["golf", "disc-golf", "bowling", "archery", "darts", "pool", "snooker", "lawn-bowls", "petanque", "curling", "target-shooting", "cornhole", "kubb" ] },
-    { "id": "athletics", "name": "Athletics, Water & Endurance", "traits": "endurance3 discipline3 strength2 body-awareness2", "hobbies": ["track-and-field", "swimming", "springboard-diving", "artistic-swimming", "lifeguarding", "triathlon", "road-cycling", "ice-skating", "rowing" ] },
-    { "id": "spirit", "name": "Cheer & Adaptive", "traits": "teamwork3 strength2 coordination2 courage2 discipline2", "hobbies": ["cheerleading", "adaptive-sports" ] }
+    { "id": "field", "name": "Field Team Sports", "traits": "teamwork3 endurance2 strategy2 coordination2 reflexes2 strength1", "hobbies": ["soccer", "rugby", "flag-football", "australian-football", "gaelic-football", "hurling", "field-hockey", "lacrosse", "ultimate-frisbee", "quadball"] },
+    { "id": "bat-ball", "name": "Bat & Ball", "traits": "coordination3 reflexes3 precision2 teamwork2 strategy2 patience1", "hobbies": ["baseball", "softball", "cricket"] },
+    { "id": "court", "name": "Court & Ice Team Sports", "traits": "teamwork3 reflexes3 coordination2 endurance2 strategy1", "hobbies": ["basketball", "volleyball", "beach-volleyball", "handball", "netball", "dodgeball", "ice-hockey", "floorball", "water-polo", "roller-derby", "sepak-takraw", "roundnet"] },
+    { "id": "racket", "name": "Racket Sports", "traits": "reflexes3 coordination3 strategy2 endurance2 precision2", "hobbies": ["tennis", "table-tennis", "badminton", "squash", "pickleball", "padel", "racquetball"] },
+    { "id": "target", "name": "Target & Precision", "traits": "precision3 focus3 composure2 patience2 analysis1", "hobbies": ["golf", "disc-golf", "bowling", "archery", "darts", "pool", "snooker", "lawn-bowls", "petanque", "curling", "target-shooting", "cornhole", "kubb"] },
+    { "id": "athletics", "name": "Athletics, Water & Endurance", "traits": "endurance3 discipline3 strength2 body-awareness2", "hobbies": ["track-and-field", "swimming", "springboard-diving", "artistic-swimming", "lifeguarding", "triathlon", "road-cycling", "ice-skating", "rowing"] },
+    { "id": "spirit", "name": "Cheer & Adaptive", "traits": "teamwork3 strength2 coordination2 courage2 discipline2", "hobbies": ["cheerleading", "adaptive-sports"] }
   ],
   "adventure": [
-    { "id": "climbing", "name": "Climbing & Mountains", "traits": "strength3 courage3 composure2 balance2 endurance2 analysis1", "hobbies": ["rock-climbing", "bouldering", "trad-climbing", "deep-water-soloing", "ice-climbing", "mountaineering", "scrambling", "via-ferrata", "canyoning", "caving", "highlining" ] },
-    { "id": "waves", "name": "Waves & Wind", "traits": "balance3 courage2 nature2 endurance2 strength1", "hobbies": ["surfing", "bodyboarding", "kitesurfing", "windsurfing", "wing-foiling", "wakeboarding", "waterskiing", "paddleboarding", "snowkiting" ] },
-    { "id": "paddle", "name": "Paddle, Sail & Expedition", "traits": "endurance2 navigation2 nature2 courage2 strength2 teamwork1", "hobbies": ["whitewater-kayaking", "sea-kayaking", "rafting", "sailing", "adventure-racing" ] },
-    { "id": "underwater", "name": "Underwater & Open Water", "traits": "composure3 courage2 endurance2 nature2 body-awareness2", "hobbies": ["scuba-diving", "freediving", "snorkeling", "open-water-swimming", "cliff-diving", "coasteering" ] },
-    { "id": "snow", "name": "Snow & Ice", "traits": "balance3 courage2 endurance2 coordination2 nature1", "hobbies": ["skiing", "snowboarding", "ski-touring", "cross-country-skiing", "nordic-skating" ] },
-    { "id": "air", "name": "Air Sports", "traits": "courage3 composure3 nature2 analysis2 navigation1", "hobbies": ["skydiving", "paragliding", "hang-gliding", "paramotoring" ] },
-    { "id": "wheels", "name": "Wheels & Boards", "traits": "balance3 courage3 coordination2 improvisation1", "hobbies": ["skateboarding", "longboarding", "inline-skating", "roller-skating", "bmx", "mountain-biking", "trick-scootering", "sandboarding" ] }
+    { "id": "climbing", "name": "Climbing & Mountains", "traits": "strength3 courage3 composure2 balance2 endurance2 analysis1", "hobbies": ["rock-climbing", "bouldering", "trad-climbing", "deep-water-soloing", "ice-climbing", "mountaineering", "scrambling", "via-ferrata", "highlining"] },
+    { "id": "caves-canyons", "name": "Caves & Canyons", "traits": "courage3 composure2 navigation2 strength2 nature2", "hobbies": ["caving", "canyoning"] },
+    { "id": "waves", "name": "Waves & Wind", "traits": "balance3 courage2 nature2 endurance2 strength1", "hobbies": ["surfing", "bodyboarding", "kitesurfing", "windsurfing", "wing-foiling", "wakeboarding", "waterskiing", "paddleboarding", "snowkiting"] },
+    { "id": "paddle", "name": "Paddle, Sail & Expedition", "traits": "endurance2 navigation2 nature2 courage2 strength2 teamwork1", "hobbies": ["whitewater-kayaking", "sea-kayaking", "rafting", "sailing", "adventure-racing"] },
+    { "id": "underwater", "name": "Underwater & Open Water", "traits": "composure3 courage2 endurance2 nature2 body-awareness2", "hobbies": ["scuba-diving", "freediving", "snorkeling", "open-water-swimming", "cliff-diving", "coasteering"] },
+    { "id": "snow", "name": "Snow & Ice", "traits": "balance3 courage2 endurance2 coordination2 nature1", "hobbies": ["skiing", "snowboarding", "ski-touring", "cross-country-skiing", "nordic-skating"] },
+    { "id": "air", "name": "Air Sports", "traits": "courage3 composure3 nature2 analysis2 navigation1", "hobbies": ["skydiving", "paragliding", "hang-gliding", "paramotoring"] },
+    { "id": "wheels", "name": "Wheels & Boards", "traits": "balance3 courage3 coordination2 improvisation1", "hobbies": ["skateboarding", "longboarding", "inline-skating", "roller-skating", "bmx", "mountain-biking", "trick-scootering", "sandboarding"] }
   ],
   "outdoors": [
-    { "id": "trekking", "name": "Hiking & Camping", "traits": "endurance3 nature2 navigation2 discipline1 patience1", "hobbies": ["hiking", "backpacking", "ultralight-backpacking", "thru-hiking", "camping", "hammock-camping", "winter-camping", "long-distance-walking", "snowshoeing", "overlanding" ] },
-    { "id": "bushcraft", "name": "Bushcraft & Survival", "traits": "nature3 hand-tools2 materials2 patience2 composure1 dexterity1", "hobbies": ["bushcraft", "wilderness-survival", "fire-craft", "knot-tying", "cordage", "wilderness-first-aid", "search-and-rescue", "flintknapping", "campfire-cooking", "tree-climbing", "weather-reading", "trail-building", "bow-making" ] },
-    { "id": "gathering", "name": "Foraging & Finding", "traits": "nature3 patience3 patterns2 analysis1", "hobbies": ["foraging", "mushroom-foraging", "gold-panning", "metal-detecting", "rockhounding", "beachcombing" ] },
-    { "id": "fishing", "name": "Fishing", "traits": "patience3 nature3 dexterity1 precision1", "hobbies": ["fishing", "fly-fishing", "ice-fishing", "spearfishing", "crabbing", "fly-tying" ] },
-    { "id": "hunting", "name": "Hunting & Tracking", "traits": "nature3 patience3 precision2 composure2 patterns2", "hobbies": ["hunting", "bowhunting", "animal-tracking" ] },
-    { "id": "navigation", "name": "Navigation & River Travel", "traits": "navigation3 analysis2 nature2 endurance1 numeracy1", "hobbies": ["orienteering", "navigation", "celestial-navigation", "geocaching", "canoeing", "packrafting" ] }
+    { "id": "trekking", "name": "Hiking & Camping", "traits": "endurance3 nature2 navigation2 discipline1 patience1", "hobbies": ["hiking", "backpacking", "ultralight-backpacking", "thru-hiking", "camping", "hammock-camping", "winter-camping", "long-distance-walking", "snowshoeing", "overlanding"] },
+    { "id": "bushcraft", "name": "Bushcraft & Survival", "traits": "nature3 hand-tools2 materials2 patience2 composure1 dexterity1", "hobbies": ["bushcraft", "wilderness-survival", "fire-craft", "knot-tying", "cordage", "wilderness-first-aid", "search-and-rescue", "flintknapping", "campfire-cooking", "tree-climbing", "weather-reading", "trail-building", "bow-making"] },
+    { "id": "gathering", "name": "Foraging & Finding", "traits": "nature3 patience3 patterns2 analysis1", "hobbies": ["foraging", "mushroom-foraging", "gold-panning", "metal-detecting", "rockhounding", "beachcombing"] },
+    { "id": "fishing", "name": "Fishing", "traits": "patience3 nature3 dexterity1 precision1", "hobbies": ["fishing", "fly-fishing", "ice-fishing", "spearfishing", "crabbing", "fly-tying"] },
+    { "id": "hunting", "name": "Hunting & Tracking", "traits": "nature3 patience3 precision2 composure2 patterns2", "hobbies": ["hunting", "bowhunting", "animal-tracking"] },
+    { "id": "navigation", "name": "Navigation & River Travel", "traits": "navigation3 analysis2 nature2 endurance1 numeracy1", "hobbies": ["orienteering", "navigation", "celestial-navigation", "geocaching", "canoeing", "packrafting"] }
   ],
   "animals": [
-    { "id": "dogs", "name": "Dog Training & Sports", "traits": "animal-handling3 patience3 communication2 empathy2 endurance1", "hobbies": ["dog-training", "dog-tricks", "dog-agility", "scent-work", "canicross", "canine-freestyle", "service-dog-raising", "sheepdog-trialing", "dog-sledding" ] },
-    { "id": "pet-care", "name": "Pet Care", "traits": "animal-handling3 empathy3 patience2", "hobbies": ["dog-grooming", "cat-training", "pet-fostering", "pet-first-aid", "rabbit-keeping", "parrot-training" ] },
-    { "id": "equestrian", "name": "Equestrian", "traits": "animal-handling3 balance3 courage2 composure2 strength1", "hobbies": ["horse-riding", "horse-training", "dressage", "show-jumping", "western-riding", "mounted-archery" ] },
-    { "id": "smallholding", "name": "Smallholding", "traits": "animal-handling2 nature2 patience2 discipline2 hand-tools1", "hobbies": ["beekeeping", "backyard-chickens", "duck-keeping", "goat-keeping" ] },
-    { "id": "aquatic", "name": "Aquatic & Exotic Keeping", "traits": "patience3 chemistry2 analysis2 nature2 design1", "hobbies": ["aquariums", "reef-aquariums", "aquascaping", "koi-ponds", "reptile-keeping", "invertebrate-keeping", "ant-keeping" ] },
-    { "id": "birds-wild", "name": "Birds & Wildlife", "traits": "animal-handling3 patience3 nature2 empathy2", "hobbies": ["falconry", "pigeon-racing", "wildlife-rehabilitation" ] }
+    { "id": "dogs", "name": "Dog Training & Sports", "traits": "animal-handling3 patience3 communication2 empathy2 endurance1", "hobbies": ["dog-training", "dog-tricks", "dog-agility", "scent-work", "canicross", "canine-freestyle", "service-dog-raising", "sheepdog-trialing", "dog-sledding"] },
+    { "id": "pet-care", "name": "Pet Care", "traits": "animal-handling3 empathy3 patience2", "hobbies": ["dog-grooming", "cat-training", "pet-fostering", "pet-first-aid", "rabbit-keeping", "parrot-training"] },
+    { "id": "equestrian", "name": "Equestrian", "traits": "animal-handling3 balance3 courage2 composure2 strength1", "hobbies": ["horse-riding", "horse-training", "dressage", "show-jumping", "western-riding", "mounted-archery"] },
+    { "id": "smallholding", "name": "Smallholding", "traits": "animal-handling2 nature2 patience2 discipline2 hand-tools1", "hobbies": ["beekeeping", "backyard-chickens", "duck-keeping", "goat-keeping"] },
+    { "id": "aquatic", "name": "Aquatic & Exotic Keeping", "traits": "patience3 chemistry2 analysis2 nature2 design1", "hobbies": ["aquariums", "reef-aquariums", "aquascaping", "koi-ponds", "reptile-keeping", "invertebrate-keeping", "ant-keeping"] },
+    { "id": "birds-wild", "name": "Birds & Wildlife", "traits": "animal-handling3 patience3 nature2 empathy2", "hobbies": ["falconry", "pigeon-racing", "wildlife-rehabilitation"] }
   ],
   "tricks": [
-    { "id": "manipulation", "name": "Juggling & Object Manipulation", "traits": "coordination3 dexterity2 rhythm2 patience2 focus2", "hobbies": ["juggling", "diabolo", "contact-juggling", "devil-sticks", "plate-spinning", "ball-spinning", "object-balancing", "kendama", "yo-yo", "footbag", "freestyle-football" ] },
-    { "id": "flow-arts", "name": "Flow Arts", "traits": "coordination3 rhythm3 body-awareness2 expression2", "hobbies": ["poi", "hula-hoop", "staff-spinning", "fire-spinning" ] },
-    { "id": "sleight", "name": "Sleight of Hand", "traits": "dexterity3 presence2 patience2 precision2", "hobbies": ["card-magic", "coin-magic", "cardistry", "pen-spinning", "rubber-band-magic" ] },
-    { "id": "circus", "name": "Circus Skills", "traits": "balance3 coordination2 courage2 presence1", "hobbies": ["unicycling", "stilt-walking", "tightrope-walking", "trick-roping", "whip-cracking" ] },
-    { "id": "paper-string", "name": "Paper, String & Shadow", "traits": "dexterity2 spatial3 memory1 presence1", "hobbies": ["balloon-twisting", "string-figures", "napkin-folding", "paper-airplanes", "hand-shadows", "finger-tutting" ] },
-    { "id": "throwing", "name": "Throwing Arts", "traits": "coordination3 precision3 nature1", "hobbies": ["stone-skipping", "boomerangs", "freestyle-frisbee", "card-throwing" ] },
-    { "id": "talents", "name": "Party Talents", "traits": "dexterity2 patience2 presence2 precision2", "hobbies": ["whistling", "sport-stacking", "domino-toppling", "flair-bartending", "lockpicking", "bar-bets" ] }
+    { "id": "manipulation", "name": "Juggling & Object Manipulation", "traits": "coordination3 dexterity2 rhythm2 patience2 focus2", "hobbies": ["juggling", "diabolo", "contact-juggling", "devil-sticks", "plate-spinning", "ball-spinning", "object-balancing", "kendama", "yo-yo", "footbag", "freestyle-football"] },
+    { "id": "flow-arts", "name": "Flow Arts", "traits": "coordination3 rhythm3 body-awareness2 expression2", "hobbies": ["poi", "hula-hoop", "staff-spinning", "fire-spinning"] },
+    { "id": "sleight", "name": "Sleight of Hand", "traits": "dexterity3 presence2 patience2 precision2", "hobbies": ["card-magic", "coin-magic", "cardistry", "pen-spinning", "rubber-band-magic"] },
+    { "id": "circus", "name": "Circus Skills", "traits": "balance3 coordination2 courage2 presence1", "hobbies": ["unicycling", "stilt-walking", "tightrope-walking", "trick-roping", "whip-cracking"] },
+    { "id": "paper-string", "name": "Paper, String & Shadow", "traits": "dexterity2 spatial3 memory1 presence1", "hobbies": ["balloon-twisting", "string-figures", "napkin-folding", "paper-airplanes", "hand-shadows", "finger-tutting"] },
+    { "id": "throwing", "name": "Throwing Arts", "traits": "coordination3 precision3 nature1", "hobbies": ["stone-skipping", "boomerangs", "freestyle-frisbee", "card-throwing"] },
+    { "id": "talents", "name": "Party Talents", "traits": "dexterity2 patience2 presence2 precision2", "hobbies": ["whistling", "sport-stacking", "domino-toppling", "flair-bartending", "lockpicking", "bar-bets"] }
   ],
   "performance": [
-    { "id": "theatre", "name": "Acting & Theatre", "traits": "presence3 expression3 memory2 empathy2 teamwork2", "hobbies": ["acting", "musical-theatre", "shakespeare", "stage-combat", "theatre-directing" ] },
-    { "id": "comedy", "name": "Comedy & Improv", "traits": "improvisation3 presence3 storytelling2 expression2", "hobbies": ["improv", "stand-up-comedy", "sketch-comedy", "clowning", "mime", "impressions" ] },
-    { "id": "magic", "name": "Magic & Mentalism", "traits": "presence3 dexterity2 persuasion2 empathy2 storytelling1", "hobbies": ["stage-magic", "street-magic", "mentalism", "palm-reading", "escapology", "theatrical-pickpocketing", "stage-hypnosis" ] },
-    { "id": "voice", "name": "Voice & Spoken Word", "traits": "expression3 storytelling3 presence2 communication2", "hobbies": ["voice-acting", "audiobook-narration", "storytelling", "spoken-word", "ventriloquism", "emceeing" ] },
-    { "id": "variety", "name": "Street & Variety", "traits": "presence3 expression2 improvisation2 design1", "hobbies": ["busking", "living-statue", "puppetry", "kids-entertaining", "drag", "cosplay" ] },
-    { "id": "stagecraft", "name": "Stagecraft", "traits": "design3 hand-tools2 teamwork2 visual-eye2 materials1", "hobbies": ["stage-management", "stage-lighting", "set-design", "costume-design", "sfx-makeup" ] }
+    { "id": "theatre", "name": "Acting & Theatre", "traits": "presence3 expression3 memory2 empathy2 teamwork2", "hobbies": ["acting", "musical-theatre", "shakespeare", "stage-combat", "theatre-directing"] },
+    { "id": "comedy", "name": "Comedy & Improv", "traits": "improvisation3 presence3 storytelling2 expression2", "hobbies": ["improv", "stand-up-comedy", "sketch-comedy", "clowning", "mime", "impressions"] },
+    { "id": "magic", "name": "Magic & Mentalism", "traits": "presence3 dexterity2 persuasion2 empathy2 storytelling1", "hobbies": ["stage-magic", "street-magic", "mentalism", "escapology", "theatrical-pickpocketing", "stage-hypnosis"] },
+    { "id": "voice", "name": "Voice & Spoken Word", "traits": "expression3 storytelling3 presence2 communication2", "hobbies": ["voice-acting", "audiobook-narration", "storytelling", "spoken-word", "ventriloquism", "emceeing"] },
+    { "id": "variety", "name": "Street & Variety", "traits": "presence3 expression2 improvisation2 design1", "hobbies": ["busking", "living-statue", "puppetry", "kids-entertaining", "drag", "cosplay"] },
+    { "id": "stagecraft", "name": "Stagecraft", "traits": "design3 hand-tools2 teamwork2 visual-eye2 materials1", "hobbies": ["stage-management", "stage-lighting", "set-design", "costume-design", "sfx-makeup"] }
   ],
   "music": [
-    { "id": "strings", "name": "Strings", "traits": "dexterity3 musicality3 rhythm2 discipline2 patience1", "hobbies": ["guitar", "electric-guitar", "bass-guitar", "classical-guitar", "violin", "cello", "double-bass", "harp", "ukulele", "banjo", "mandolin", "sitar" ] },
-    { "id": "keys", "name": "Keys & Synths", "traits": "musicality3 dexterity2 coordination2 discipline1", "hobbies": ["piano", "synthesizers", "modular-synths", "accordion", "theremin", "piano-tuning" ] },
-    { "id": "percussion", "name": "Percussion", "traits": "rhythm3 coordination3 musicality2 endurance1", "hobbies": ["drumming", "hand-percussion", "steelpan", "handpan", "kalimba" ] },
-    { "id": "winds", "name": "Winds & Brass", "traits": "musicality3 discipline2 dexterity2 body-awareness1 endurance1", "hobbies": ["flute", "clarinet", "saxophone", "trumpet", "trombone", "french-horn", "harmonica", "bagpipes", "didgeridoo", "ocarina", "tin-whistle", "jaw-harp" ] },
-    { "id": "voice", "name": "Voice", "traits": "musicality3 expression3 presence2 body-awareness2 rhythm1", "hobbies": ["singing", "choir", "a-cappella", "opera", "beatboxing", "throat-singing", "yodeling", "rap" ] },
-    { "id": "production", "name": "Production & DJing", "traits": "software3 musicality2 rhythm2 design1 electronics1", "hobbies": ["music-production", "djing", "live-looping", "chiptune", "live-sound" ] },
-    { "id": "theory", "name": "Theory, Writing & Ensemble", "traits": "musicality3 patterns2 ideation2 memory1 teamwork1", "hobbies": ["songwriting", "music-theory", "composing", "jazz-improv", "ear-training", "sight-reading", "conducting", "band-playing", "change-ringing" ] }
+    { "id": "strings", "name": "Strings", "traits": "dexterity3 musicality3 rhythm2 discipline2 patience1", "hobbies": ["guitar", "electric-guitar", "bass-guitar", "classical-guitar", "violin", "cello", "double-bass", "harp", "ukulele", "banjo", "mandolin", "sitar"] },
+    { "id": "keys", "name": "Keys & Synths", "traits": "musicality3 dexterity2 coordination2 discipline1", "hobbies": ["piano", "synthesizers", "modular-synths", "accordion", "theremin", "piano-tuning"] },
+    { "id": "percussion", "name": "Percussion", "traits": "rhythm3 coordination3 musicality2 endurance1", "hobbies": ["drumming", "hand-percussion", "steelpan", "handpan", "kalimba"] },
+    { "id": "winds", "name": "Winds & Brass", "traits": "musicality3 discipline2 dexterity2 body-awareness1 endurance1", "hobbies": ["flute", "clarinet", "saxophone", "trumpet", "trombone", "french-horn", "harmonica", "bagpipes", "didgeridoo", "ocarina", "tin-whistle", "jaw-harp"] },
+    { "id": "voice", "name": "Voice", "traits": "musicality3 expression3 presence2 body-awareness2 rhythm1", "hobbies": ["singing", "choir", "a-cappella", "opera", "beatboxing", "throat-singing", "yodeling", "rap"] },
+    { "id": "production", "name": "Production & DJing", "traits": "software3 musicality2 rhythm2 design1 electronics1", "hobbies": ["music-production", "djing", "live-looping", "chiptune", "live-sound"] },
+    { "id": "theory", "name": "Theory, Writing & Ensemble", "traits": "musicality3 patterns2 ideation2 memory1 teamwork1", "hobbies": ["songwriting", "music-theory", "composing", "jazz-improv", "ear-training", "sight-reading", "conducting", "band-playing", "change-ringing"] }
   ],
   "visual-arts": [
-    { "id": "drawing", "name": "Drawing & Illustration", "traits": "visual-eye3 dexterity2 composition2 patience2", "hobbies": ["drawing", "figure-drawing", "portrait-drawing", "urban-sketching", "illustration", "botanical-illustration", "comics", "anime-drawing", "caricature", "zentangle", "colored-pencil" ] },
-    { "id": "painting", "name": "Painting", "traits": "color3 visual-eye3 composition2 materials1 patience1", "hobbies": ["watercolor", "acrylic-painting", "oil-painting", "gouache", "plein-air", "ink-wash", "pastels", "acrylic-pouring", "encaustic" ] },
-    { "id": "mixed-media", "name": "Mixed Media & Paper", "traits": "ideation2 visual-eye2 design2 dexterity1", "hobbies": ["mixed-media", "art-journaling", "collage", "silhouette-cutting" ] },
-    { "id": "public-body", "name": "Street & Body Art", "traits": "visual-eye2 design2 color2 dexterity2 presence1", "hobbies": ["murals", "graffiti", "chalk-art", "tattoo-design", "henna", "face-painting" ] },
-    { "id": "photography", "name": "Photography", "traits": "visual-eye3 composition3 patience2 software1 analysis1", "hobbies": ["photography", "film-photography", "portrait-photography", "landscape-photography", "street-photography", "wildlife-photography", "pet-photography", "event-photography", "underwater-photography", "astrophotography", "macro-photography", "studio-lighting", "light-painting" ] },
-    { "id": "printmaking", "name": "Printmaking", "traits": "hand-tools2 design2 precision2 materials2 color1", "hobbies": ["printmaking", "mokuhanga", "screen-printing" ] },
-    { "id": "sculpture", "name": "Sculpture", "traits": "spatial3 hand-tools2 materials2 visual-eye2 strength1", "hobbies": ["sculpture", "stone-carving", "sand-sculpture" ] },
-    { "id": "study", "name": "Art Study", "traits": "memory2 analysis2 visual-eye2 storytelling1", "hobbies": ["art-history" ] }
+    { "id": "drawing", "name": "Drawing & Illustration", "traits": "visual-eye3 dexterity2 composition2 patience2", "hobbies": ["drawing", "figure-drawing", "portrait-drawing", "urban-sketching", "illustration", "botanical-illustration", "comics", "anime-drawing", "caricature", "zentangle", "colored-pencil", "fantasy-cartography"] },
+    { "id": "painting", "name": "Painting", "traits": "color3 visual-eye3 composition2 materials1 patience1", "hobbies": ["watercolor", "acrylic-painting", "oil-painting", "gouache", "plein-air", "ink-wash", "pastels", "acrylic-pouring", "encaustic"] },
+    { "id": "mixed-media", "name": "Mixed Media & Paper", "traits": "ideation2 visual-eye2 design2 dexterity1", "hobbies": ["mixed-media", "art-journaling", "collage", "silhouette-cutting"] },
+    { "id": "public-body", "name": "Street & Body Art", "traits": "visual-eye2 design2 color2 dexterity2 presence1", "hobbies": ["murals", "graffiti", "chalk-art", "tattoo-design", "henna", "face-painting"] },
+    { "id": "photography", "name": "Photography", "traits": "visual-eye3 composition3 patience2 software1 analysis1", "hobbies": ["photography", "film-photography", "portrait-photography", "landscape-photography", "street-photography", "wildlife-photography", "pet-photography", "event-photography", "underwater-photography", "astrophotography", "macro-photography", "studio-lighting", "light-painting"] },
+    { "id": "printmaking", "name": "Printmaking", "traits": "hand-tools2 design2 precision2 materials2 color1", "hobbies": ["printmaking", "mokuhanga", "screen-printing"] },
+    { "id": "sculpture", "name": "Sculpture", "traits": "spatial3 hand-tools2 materials2 visual-eye2 strength1", "hobbies": ["sculpture", "stone-carving", "sand-sculpture"] },
+    { "id": "study", "name": "Art Study", "traits": "memory2 analysis2 visual-eye2 storytelling1", "hobbies": ["art-history"] }
   ],
   "crafts": [
-    { "id": "wood", "name": "Woodworking", "traits": "hand-tools3 precision2 materials2 patience2 spatial2", "hobbies": ["woodworking", "furniture-making", "woodturning", "wood-carving", "whittling", "spoon-carving", "pyrography", "luthiery" ] },
-    { "id": "metal", "name": "Metal & Smithing", "traits": "hand-tools3 materials3 strength2 precision2 courage1", "hobbies": ["blacksmithing", "knifemaking", "welding", "metal-casting", "chainmail" ] },
-    { "id": "jewelry", "name": "Jewellery & Gems", "traits": "dexterity3 precision3 design2 materials2", "hobbies": ["jewelry-making", "enameling", "lapidary", "beadwork" ] },
-    { "id": "fiber", "name": "Fibre Arts", "traits": "dexterity3 patience3 patterns2 design1 color1", "hobbies": ["knitting", "crochet", "sewing", "quilting", "embroidery", "cross-stitch", "weaving", "spinning-yarn", "fabric-dyeing", "macrame", "needle-felting", "rug-tufting", "visible-mending", "basket-weaving", "upholstery" ] },
-    { "id": "paper", "name": "Paper Crafts", "traits": "dexterity2 precision2 patience2 spatial2 design1", "hobbies": ["origami", "bookbinding", "paper-making", "paper-marbling", "scrapbooking", "quilling", "decoupage" ] },
-    { "id": "clay-glass", "name": "Clay & Glass", "traits": "materials3 dexterity2 spatial2 patience2 design1", "hobbies": ["pottery", "hand-building", "polymer-clay", "glassblowing", "stained-glass", "lampworking", "mosaics", "kintsugi" ] },
-    { "id": "models", "name": "Models & Miniatures", "traits": "precision3 patience3 dexterity2 spatial2 design1", "hobbies": ["miniature-painting", "scale-models", "model-railways", "lego-building", "dioramas", "ships-in-bottles" ] },
-    { "id": "leather", "name": "Leather, Shoes & Props", "traits": "hand-tools3 materials2 precision2 design2", "hobbies": ["leatherworking", "shoemaking", "prop-making" ] },
-    { "id": "scent", "name": "Candles, Soap & Scent", "traits": "chemistry2 materials2 precision2 design1 palate1", "hobbies": ["candle-making", "soap-making", "resin-art", "perfumery" ] }
+    { "id": "wood", "name": "Woodworking", "traits": "hand-tools3 precision2 materials2 patience2 spatial2", "hobbies": ["woodworking", "furniture-making", "woodturning", "wood-carving", "whittling", "spoon-carving", "pyrography", "luthiery"] },
+    { "id": "metal", "name": "Metal & Smithing", "traits": "hand-tools3 materials3 strength2 precision2 courage1", "hobbies": ["blacksmithing", "knifemaking", "welding", "metal-casting", "chainmail"] },
+    { "id": "jewelry", "name": "Jewellery & Gems", "traits": "dexterity3 precision3 design2 materials2", "hobbies": ["jewelry-making", "enameling", "lapidary", "beadwork"] },
+    { "id": "fiber", "name": "Fibre Arts", "traits": "dexterity3 patience3 patterns2 design1 color1", "hobbies": ["knitting", "crochet", "sewing", "quilting", "embroidery", "cross-stitch", "weaving", "spinning-yarn", "fabric-dyeing", "macrame", "needle-felting", "rug-tufting", "visible-mending", "basket-weaving", "upholstery"] },
+    { "id": "paper", "name": "Paper Crafts", "traits": "dexterity2 precision2 patience2 spatial2 design1", "hobbies": ["origami", "bookbinding", "paper-making", "paper-marbling", "scrapbooking", "quilling", "decoupage", "gift-wrapping"] },
+    { "id": "clay-glass", "name": "Clay, Glass & Resin", "traits": "materials3 dexterity2 spatial2 patience2 design1", "hobbies": ["pottery", "hand-building", "polymer-clay", "glassblowing", "stained-glass", "lampworking", "mosaics", "kintsugi", "resin-art"] },
+    { "id": "models", "name": "Models & Miniatures", "traits": "precision3 patience3 dexterity2 spatial2 design1", "hobbies": ["miniature-painting", "scale-models", "model-railways", "lego-building", "dioramas", "ships-in-bottles"] },
+    { "id": "leather", "name": "Leather, Shoes & Props", "traits": "hand-tools3 materials2 precision2 design2", "hobbies": ["leatherworking", "shoemaking", "prop-making"] },
+    { "id": "scent", "name": "Candles, Soap & Scent", "traits": "chemistry2 materials2 precision2 design1 palate1", "hobbies": ["candle-making", "soap-making", "perfumery"] }
   ],
   "culinary": [
-    { "id": "baking", "name": "Bread & Baking", "traits": "chemistry2 patience2 precision2 palate2 dexterity1", "hobbies": ["sourdough", "bread-baking", "home-baking", "gluten-free-baking", "pie-making", "pastry", "pizza-making" ] },
-    { "id": "sweets", "name": "Sweets & Decorating", "traits": "dexterity3 visual-eye2 precision2 design2 palate1", "hobbies": ["cake-decorating", "cookie-decorating", "chocolate-making", "candy-making", "sugar-art", "ice-cream-making", "gingerbread-houses", "pancake-art", "food-plating", "latte-art" ] },
-    { "id": "world", "name": "World Cuisines", "traits": "palate3 dexterity2 memory1 improvisation1", "hobbies": ["sushi", "dumplings", "ramen", "hand-pulled-noodles", "wok-cooking", "indian-cooking", "thai-cooking", "mexican-cooking", "french-cooking", "italian-cooking", "korean-cooking", "middle-eastern-cooking", "west-african-cooking", "fresh-pasta" ] },
-    { "id": "fundamentals", "name": "Kitchen Fundamentals", "traits": "palate3 improvisation2 dexterity2 chemistry1 discipline1", "hobbies": ["home-cooking", "knife-skills", "meal-prep", "plant-based-cooking", "sous-vide", "molecular-gastronomy", "spice-blending", "bbq", "tofu-making" ] },
-    { "id": "preserving", "name": "Preserving & Fermenting", "traits": "chemistry3 patience3 palate2 precision1", "hobbies": ["fermentation", "cheesemaking", "canning", "meat-curing", "sausage-making", "home-butchery", "hot-sauce" ] },
-    { "id": "drinks", "name": "Drinks & Brewing", "traits": "palate3 chemistry2 patience2 precision2", "hobbies": ["mixology", "homebrewing", "coffee-roasting", "mead-making", "winemaking", "cider-making" ] }
+    { "id": "baking", "name": "Bread & Baking", "traits": "chemistry2 patience2 precision2 palate2 dexterity1", "hobbies": ["sourdough", "bread-baking", "home-baking", "gluten-free-baking", "pie-making", "pastry", "pizza-making"] },
+    { "id": "sweets", "name": "Sweets & Decorating", "traits": "dexterity3 visual-eye2 precision2 design2 palate1", "hobbies": ["cake-decorating", "cookie-decorating", "chocolate-making", "candy-making", "sugar-art", "ice-cream-making", "gingerbread-houses"] },
+    { "id": "food-art", "name": "Food & Drink Art", "traits": "visual-eye3 dexterity3 design2 precision2", "hobbies": ["latte-art", "pancake-art", "food-plating"] },
+    { "id": "world", "name": "World Cuisines", "traits": "palate3 dexterity2 memory1 improvisation1", "hobbies": ["sushi", "dumplings", "ramen", "hand-pulled-noodles", "wok-cooking", "indian-cooking", "thai-cooking", "mexican-cooking", "french-cooking", "italian-cooking", "korean-cooking", "middle-eastern-cooking", "west-african-cooking", "fresh-pasta"] },
+    { "id": "fundamentals", "name": "Kitchen Fundamentals", "traits": "palate3 improvisation2 dexterity2 chemistry1 discipline1", "hobbies": ["home-cooking", "knife-skills", "meal-prep", "plant-based-cooking", "sous-vide", "molecular-gastronomy", "spice-blending", "bbq", "tofu-making"] },
+    { "id": "preserving", "name": "Preserving & Fermenting", "traits": "chemistry3 patience3 palate2 precision1", "hobbies": ["fermentation", "cheesemaking", "canning", "hot-sauce"] },
+    { "id": "butchery", "name": "Butchery & Charcuterie", "traits": "hand-tools2 chemistry2 patience2 palate2 precision2", "hobbies": ["home-butchery", "meat-curing", "sausage-making"] },
+    { "id": "drinks", "name": "Drinks & Brewing", "traits": "palate3 chemistry2 patience2 precision2", "hobbies": ["mixology", "homebrewing", "coffee-roasting", "mead-making", "winemaking", "cider-making"] }
   ],
   "social": [
-    { "id": "tasting", "name": "Tasting", "traits": "palate3 memory2 analysis2 communication1", "hobbies": ["wine-tasting", "whisky-tasting", "beer-tasting", "sake-tasting", "coffee-cupping", "tea-tasting", "chocolate-tasting" ] },
-    { "id": "hosting", "name": "Hosting & Gatherings", "traits": "communication2 leadership2 empathy2 design1 storytelling1", "hobbies": ["dinner-parties", "murder-mystery", "event-planning", "karaoke", "pub-quiz", "gift-wrapping", "etiquette" ] },
-    { "id": "community", "name": "Community", "traits": "empathy3 communication3 leadership2 teamwork2", "hobbies": ["volunteering", "community-organizing" ] },
-    { "id": "style", "name": "Style & Grooming", "traits": "visual-eye3 dexterity2 color2 design2 empathy1", "hobbies": ["personal-style", "makeup-artistry", "nail-art", "hairstyling", "barbering" ] },
-    { "id": "collecting", "name": "Collecting", "traits": "memory2 patterns2 patience2 analysis2 visual-eye1", "hobbies": ["thrifting", "vinyl-collecting", "coin-collecting", "stamp-collecting", "trading-cards", "comic-collecting", "toy-collecting", "book-collecting", "sneaker-collecting", "fragrance-collecting", "fountain-pens", "art-collecting", "antiques" ] },
-    { "id": "living", "name": "Travel & Living", "traits": "navigation2 discipline2 analysis2 communication1 courage1", "hobbies": ["travel-planning", "solo-travel", "van-life", "minimalism", "personal-finance" ] }
+    { "id": "tasting", "name": "Tasting", "traits": "palate3 memory2 analysis2 communication1", "hobbies": ["wine-tasting", "whisky-tasting", "beer-tasting", "sake-tasting", "coffee-cupping", "tea-tasting", "chocolate-tasting"] },
+    { "id": "hosting", "name": "Hosting & Gatherings", "traits": "communication2 leadership2 empathy2 design1 storytelling1", "hobbies": ["dinner-parties", "murder-mystery", "event-planning", "karaoke", "pub-quiz", "etiquette"] },
+    { "id": "community", "name": "Community", "traits": "empathy3 communication3 leadership2 teamwork2", "hobbies": ["volunteering", "community-organizing"] },
+    { "id": "style", "name": "Style & Grooming", "traits": "visual-eye3 dexterity2 color2 design2 empathy1", "hobbies": ["personal-style", "makeup-artistry", "nail-art", "hairstyling", "barbering"] },
+    { "id": "collecting", "name": "Collecting", "traits": "memory2 patterns2 patience2 analysis2 visual-eye1", "hobbies": ["thrifting", "vinyl-collecting", "coin-collecting", "stamp-collecting", "trading-cards", "comic-collecting", "toy-collecting", "book-collecting", "sneaker-collecting", "fragrance-collecting", "fountain-pens", "art-collecting", "antiques"] },
+    { "id": "living", "name": "Travel & Living", "traits": "navigation2 discipline2 analysis2 communication1 courage1", "hobbies": ["travel-planning", "solo-travel", "van-life", "minimalism", "personal-finance"] }
   ],
   "home": [
-    { "id": "gardening", "name": "Gardening", "traits": "nature3 patience3 discipline1 analysis1", "hobbies": ["gardening", "vegetable-gardening", "container-gardening", "herb-gardening", "flower-gardening", "rose-growing", "native-plants", "fruit-trees", "pruning", "lawn-care", "giant-vegetables", "seed-saving", "composting" ] },
-    { "id": "garden-design", "name": "Garden Design & Floristry", "traits": "design3 visual-eye2 nature2 color2", "hobbies": ["garden-design", "flower-arranging" ] },
-    { "id": "indoor", "name": "Indoor Plants", "traits": "patience3 nature2 design1 precision1", "hobbies": ["houseplants", "succulents", "orchids", "bonsai", "terrariums", "moss-gardening" ] },
-    { "id": "systems", "name": "Growing Systems & Self-Sufficiency", "traits": "nature2 chemistry2 analysis2 mechanical1 discipline1", "hobbies": ["hydroponics", "aquaponics", "permaculture", "mushroom-growing", "homesteading", "diy-solar" ] },
-    { "id": "repair", "name": "Home Repair & Trades", "traits": "hand-tools3 mechanical2 precision2 strength1 analysis1", "hobbies": ["home-repair", "plumbing", "home-electrical", "tiling", "plastering", "painting-decorating", "bricklaying", "tool-restoration" ] },
-    { "id": "interiors", "name": "Interiors & Organising", "traits": "design3 visual-eye2 color2 spatial2", "hobbies": ["interior-design", "home-organizing", "feng-shui", "furniture-upcycling", "holiday-decorating" ] },
-    { "id": "build", "name": "Build Projects", "traits": "hand-tools3 spatial3 strength2 mechanical2 courage1", "hobbies": ["tiny-house-building", "treehouse-building" ] }
+    { "id": "gardening", "name": "Gardening", "traits": "nature3 patience3 discipline1 analysis1", "hobbies": ["gardening", "vegetable-gardening", "container-gardening", "herb-gardening", "flower-gardening", "rose-growing", "native-plants", "fruit-trees", "pruning", "lawn-care", "giant-vegetables", "seed-saving", "composting"] },
+    { "id": "garden-design", "name": "Garden Design & Floristry", "traits": "design3 visual-eye2 nature2 color2", "hobbies": ["garden-design", "flower-arranging"] },
+    { "id": "indoor", "name": "Indoor Plants", "traits": "patience3 nature2 design1 precision1", "hobbies": ["houseplants", "succulents", "orchids", "bonsai", "terrariums", "moss-gardening"] },
+    { "id": "systems", "name": "Growing Systems & Self-Sufficiency", "traits": "nature2 chemistry2 analysis2 mechanical1 discipline1", "hobbies": ["hydroponics", "aquaponics", "permaculture", "mushroom-growing", "homesteading", "diy-solar"] },
+    { "id": "repair", "name": "Home Repair & Trades", "traits": "hand-tools3 mechanical2 precision2 strength1 analysis1", "hobbies": ["home-repair", "plumbing", "home-electrical", "tiling", "plastering", "painting-decorating", "bricklaying", "tool-restoration"] },
+    { "id": "interiors", "name": "Interiors & Organising", "traits": "design3 visual-eye2 color2 spatial2", "hobbies": ["interior-design", "home-organizing", "feng-shui", "furniture-upcycling", "holiday-decorating"] },
+    { "id": "build", "name": "Build Projects", "traits": "hand-tools3 spatial3 strength2 mechanical2 courage1", "hobbies": ["tiny-house-building", "treehouse-building"] }
   ],
   "games": [
-    { "id": "abstract", "name": "Classic Strategy", "traits": "strategy3 patterns3 focus2 memory2 analysis2", "hobbies": ["chess", "go", "shogi", "xiangqi", "checkers", "othello", "backgammon" ] },
-    { "id": "cards", "name": "Card & Tile Games", "traits": "strategy2 numeracy2 memory2 patterns2 empathy1", "hobbies": ["poker", "bridge", "cribbage", "rummy", "mahjong", "dominoes" ] },
-    { "id": "tabletop", "name": "Tabletop & Roleplay", "traits": "strategy2 storytelling2 teamwork1 ideation1 improvisation1", "hobbies": ["board-games", "tabletop-rpg", "tcg-play", "miniature-wargaming", "hex-wargames", "larp", "board-game-design" ] },
-    { "id": "word-logic", "name": "Word & Logic Puzzles", "traits": "logic3 language2 patterns2 memory1", "hobbies": ["crosswords", "logic-puzzles", "scrabble", "riddles", "crossword-construction", "codebreaking", "puzzle-hunts" ] },
-    { "id": "physical-puzzles", "name": "Physical Puzzles", "traits": "spatial3 patterns2 patience2 dexterity1", "hobbies": ["speedcubing", "jigsaw-puzzles", "mechanical-puzzles", "tangrams", "escape-rooms" ] },
-    { "id": "video", "name": "Video Games & Sims", "traits": "reflexes2 strategy2 patterns2 focus2 software1", "hobbies": ["esports", "speedrunning", "retro-gaming", "competitive-tetris", "minecraft-building", "sim-racing", "flight-sim", "geoguessing", "fantasy-sports" ] },
-    { "id": "arcade", "name": "Arcade & Table", "traits": "reflexes3 coordination2 focus2", "hobbies": ["pinball", "foosball" ] }
+    { "id": "abstract", "name": "Classic Strategy", "traits": "strategy3 patterns3 focus2 memory2 analysis2", "hobbies": ["chess", "go", "shogi", "xiangqi", "checkers", "othello", "backgammon"] },
+    { "id": "cards", "name": "Card & Tile Games", "traits": "strategy2 numeracy2 memory2 patterns2 empathy1", "hobbies": ["poker", "bridge", "cribbage", "rummy", "mahjong", "dominoes"] },
+    { "id": "tabletop", "name": "Tabletop & Roleplay", "traits": "strategy2 storytelling2 teamwork1 ideation1 improvisation1", "hobbies": ["board-games", "tabletop-rpg", "tcg-play", "miniature-wargaming", "hex-wargames", "larp", "board-game-design"] },
+    { "id": "word-logic", "name": "Word & Logic Puzzles", "traits": "logic3 language2 patterns2 memory1", "hobbies": ["crosswords", "logic-puzzles", "scrabble", "riddles", "crossword-construction"] },
+    { "id": "physical-puzzles", "name": "Physical Puzzles", "traits": "spatial3 patterns2 patience2 dexterity1", "hobbies": ["speedcubing", "jigsaw-puzzles", "mechanical-puzzles", "tangrams"] },
+    { "id": "hunts", "name": "Escape Rooms & Puzzle Hunts", "traits": "logic3 patterns3 teamwork2 analysis2", "hobbies": ["escape-rooms", "puzzle-hunts", "codebreaking"] },
+    { "id": "video", "name": "Video Games & Sims", "traits": "reflexes2 strategy2 patterns2 focus2 software1", "hobbies": ["esports", "speedrunning", "retro-gaming", "competitive-tetris", "minecraft-building", "sim-racing", "flight-sim", "geoguessing", "fantasy-sports"] },
+    { "id": "arcade", "name": "Arcade & Table", "traits": "reflexes3 coordination2 focus2", "hobbies": ["pinball", "foosball"] }
   ],
   "mind": [
-    { "id": "memory", "name": "Memory Arts", "traits": "memory3 focus2 ideation1 discipline1", "hobbies": ["memory-palace", "memory-sports", "remembering-names", "poetry-memorization" ] },
-    { "id": "maths", "name": "Mathematics & Calculation", "traits": "numeracy3 focus3 memory2 logic1", "hobbies": ["mental-math", "calendar-calculation", "soroban", "recreational-math", "math-self-study" ] },
-    { "id": "learning", "name": "Learning & Productivity", "traits": "focus3 discipline2 analysis2 self-awareness1", "hobbies": ["speed-reading", "meta-learning", "note-taking", "sketchnoting", "mind-mapping", "deep-work", "time-management" ] },
-    { "id": "thinking", "name": "Thinking Tools", "traits": "logic3 analysis3 numeracy1 ideation1", "hobbies": ["critical-thinking", "formal-logic", "decision-making", "mental-models", "probability", "systems-thinking", "creativity-techniques" ] },
-    { "id": "knowledge", "name": "Knowledge & Study", "traits": "memory2 analysis2 storytelling1 logic1", "hobbies": ["philosophy", "psychology", "history", "economics", "mythology", "geography", "quizzing" ] }
+    { "id": "memory", "name": "Memory Arts", "traits": "memory3 focus2 ideation1 discipline1", "hobbies": ["memory-palace", "memory-sports", "remembering-names", "poetry-memorization"] },
+    { "id": "maths", "name": "Mathematics & Calculation", "traits": "numeracy3 focus3 memory2 logic1", "hobbies": ["mental-math", "calendar-calculation", "soroban", "recreational-math", "math-self-study"] },
+    { "id": "learning", "name": "Learning & Productivity", "traits": "focus3 discipline2 analysis2 self-awareness1", "hobbies": ["speed-reading", "meta-learning", "note-taking", "sketchnoting", "mind-mapping", "deep-work", "time-management"] },
+    { "id": "thinking", "name": "Thinking Tools", "traits": "logic3 analysis3 numeracy1 ideation1", "hobbies": ["critical-thinking", "formal-logic", "decision-making", "mental-models", "probability", "systems-thinking", "creativity-techniques"] },
+    { "id": "knowledge", "name": "Knowledge & Study", "traits": "memory2 analysis2 storytelling1 logic1", "hobbies": ["philosophy", "psychology", "history", "economics", "mythology", "geography", "quizzing"] }
   ],
   "language": [
-    { "id": "european", "name": "European Languages", "traits": "language3 memory2 discipline2 communication2", "hobbies": ["spanish", "french", "german", "italian", "portuguese", "dutch", "russian", "irish-gaelic" ] },
-    { "id": "asian", "name": "Asian Languages", "traits": "language3 memory3 discipline2 communication2 patterns1", "hobbies": ["japanese", "mandarin", "korean", "vietnamese", "thai", "indonesian", "hindi" ] },
-    { "id": "mena-africa", "name": "Middle Eastern & African Languages", "traits": "language3 memory2 discipline2 communication2 patterns1", "hobbies": ["arabic", "persian", "turkish", "hebrew", "swahili" ] },
-    { "id": "classical", "name": "Classical & Constructed", "traits": "language3 analysis2 memory2 patterns2", "hobbies": ["latin", "ancient-greek", "esperanto", "conlanging" ] },
-    { "id": "speaking", "name": "Speaking & Persuasion", "traits": "communication3 persuasion3 presence2 composure2 empathy1", "hobbies": ["public-speaking", "debate", "conversation", "negotiation", "body-language", "pitching" ] },
-    { "id": "study", "name": "Language Study & Codes", "traits": "language3 analysis2 patterns2 memory2", "hobbies": ["language-learning", "accents", "phonetics", "linguistics", "etymology", "translation", "morse-code", "braille", "shorthand", "lip-reading", "sign-language" ] }
+    { "id": "european", "name": "European Languages", "traits": "language3 memory2 discipline2 communication2", "hobbies": ["spanish", "french", "german", "italian", "portuguese", "dutch", "russian", "irish-gaelic"] },
+    { "id": "asian", "name": "Asian Languages", "traits": "language3 memory3 discipline2 communication2 patterns1", "hobbies": ["japanese", "mandarin", "korean", "vietnamese", "thai", "indonesian", "hindi"] },
+    { "id": "mena-africa", "name": "Middle Eastern & African Languages", "traits": "language3 memory2 discipline2 communication2 patterns1", "hobbies": ["arabic", "persian", "turkish", "hebrew", "swahili"] },
+    { "id": "classical", "name": "Classical & Constructed", "traits": "language3 analysis2 memory2 patterns2", "hobbies": ["latin", "ancient-greek", "esperanto", "conlanging"] },
+    { "id": "speaking", "name": "Speaking & Persuasion", "traits": "communication3 persuasion3 presence2 composure2 empathy1", "hobbies": ["public-speaking", "debate", "conversation", "negotiation", "body-language", "pitching"] },
+    { "id": "study", "name": "Language Study & Codes", "traits": "language3 analysis2 patterns2 memory2", "hobbies": ["language-learning", "accents", "phonetics", "linguistics", "etymology", "translation", "morse-code", "braille", "shorthand", "lip-reading", "sign-language"] }
   ],
   "writing": [
-    { "id": "fiction", "name": "Fiction & Reading", "traits": "writing3 storytelling3 ideation2 discipline2", "hobbies": ["reading", "creative-writing", "novel-writing", "short-stories", "flash-fiction", "fan-fiction", "interactive-fiction", "childrens-books", "worldbuilding" ] },
-    { "id": "poetry", "name": "Poetry", "traits": "writing3 expression3 language2 rhythm1", "hobbies": ["poetry", "haiku" ] },
-    { "id": "scripts", "name": "Scripts & Speech", "traits": "writing3 storytelling3 communication2 visual-eye1", "hobbies": ["screenwriting", "playwriting", "comedy-writing", "speechwriting", "storyboarding" ] },
-    { "id": "nonfiction", "name": "Nonfiction & Media", "traits": "writing3 communication3 analysis2 discipline1", "hobbies": ["memoir", "personal-essays", "travel-writing", "journalism", "blogging", "copywriting", "technical-writing", "editing", "self-publishing", "book-reviewing", "zines", "letter-writing" ] },
-    { "id": "lettering", "name": "Lettering & Journaling", "traits": "dexterity3 visual-eye2 design2 patience2", "hobbies": ["calligraphy", "hand-lettering", "illumination", "bullet-journaling", "fantasy-cartography" ] }
+    { "id": "reading", "name": "Reading & Reviewing", "traits": "storytelling2 focus2 analysis2 language2 empathy1", "hobbies": ["reading", "book-reviewing"] },
+    { "id": "fiction", "name": "Fiction & Reading", "traits": "writing3 storytelling3 ideation2 discipline2", "hobbies": ["creative-writing", "novel-writing", "short-stories", "flash-fiction", "fan-fiction", "interactive-fiction", "childrens-books", "worldbuilding"] },
+    { "id": "poetry", "name": "Poetry", "traits": "writing3 expression3 language2 rhythm1", "hobbies": ["poetry", "haiku"] },
+    { "id": "scripts", "name": "Scripts & Speech", "traits": "writing3 storytelling3 communication2 visual-eye1", "hobbies": ["screenwriting", "playwriting", "comedy-writing", "speechwriting", "storyboarding"] },
+    { "id": "nonfiction", "name": "Nonfiction & Media", "traits": "writing3 communication3 analysis2 discipline1", "hobbies": ["memoir", "personal-essays", "travel-writing", "journalism", "blogging", "copywriting", "technical-writing", "editing", "self-publishing", "zines", "letter-writing"] },
+    { "id": "lettering", "name": "Lettering & Journaling", "traits": "dexterity3 visual-eye2 design2 patience2", "hobbies": ["calligraphy", "hand-lettering", "illumination", "bullet-journaling"] }
   ],
   "science": [
-    { "id": "astronomy", "name": "Astronomy & Sky", "traits": "patience3 nature2 analysis2 navigation2 numeracy1", "hobbies": ["stargazing", "telescope-making", "satellite-tracking", "aurora-hunting", "eclipse-chasing", "solar-observing", "radio-astronomy" ] },
-    { "id": "wildlife", "name": "Wildlife Watching", "traits": "nature3 patience3 patterns2 memory2", "hobbies": ["birdwatching", "entomology", "bat-detecting", "whale-watching", "herping", "moth-trapping", "tidepooling" ] },
-    { "id": "plants-fungi", "name": "Plants & Fungi", "traits": "nature3 patterns2 memory2 analysis2", "hobbies": ["botany", "tree-identification", "mycology", "plant-breeding" ] },
-    { "id": "earth", "name": "Weather & Earth", "traits": "nature3 analysis2 patience2 courage1", "hobbies": ["meteorology", "cloud-spotting", "storm-chasing", "geology", "fossil-hunting" ] },
-    { "id": "hands-on", "name": "Hands-on Science", "traits": "chemistry3 analysis2 precision2 hand-tools1", "hobbies": ["microscopy", "kitchen-chemistry", "crystal-growing", "model-rocketry" ] },
-    { "id": "outreach", "name": "History, Records & Outreach", "traits": "analysis2 patience2 storytelling2 communication1 nature1", "hobbies": ["archaeology", "genealogy", "science-communication", "citizen-science", "nature-journaling", "field-recording" ] }
+    { "id": "astronomy", "name": "Astronomy & Sky", "traits": "patience3 nature2 analysis2 navigation2 numeracy1", "hobbies": ["stargazing", "telescope-making", "satellite-tracking", "aurora-hunting", "eclipse-chasing", "solar-observing", "radio-astronomy"] },
+    { "id": "wildlife", "name": "Wildlife Watching", "traits": "nature3 patience3 patterns2 memory2", "hobbies": ["birdwatching", "entomology", "bat-detecting", "whale-watching", "herping", "moth-trapping", "tidepooling"] },
+    { "id": "plants-fungi", "name": "Plants & Fungi", "traits": "nature3 patterns2 memory2 analysis2", "hobbies": ["botany", "tree-identification", "mycology", "plant-breeding"] },
+    { "id": "earth", "name": "Weather & Earth", "traits": "nature3 analysis2 patience2 courage1", "hobbies": ["meteorology", "cloud-spotting", "storm-chasing", "geology", "fossil-hunting"] },
+    { "id": "hands-on", "name": "Hands-on Science", "traits": "chemistry3 analysis2 precision2 hand-tools1", "hobbies": ["microscopy", "kitchen-chemistry", "crystal-growing", "model-rocketry"] },
+    { "id": "history", "name": "History & Records", "traits": "analysis3 patience3 storytelling2 memory2", "hobbies": ["archaeology", "genealogy"] },
+    { "id": "outreach", "name": "Citizen Science & Outreach", "traits": "analysis2 patience2 storytelling2 communication1 nature1", "hobbies": ["science-communication", "citizen-science", "nature-journaling"] }
   ],
   "digital": [
-    { "id": "design", "name": "Graphic & UI Design", "traits": "design3 visual-eye3 software2 composition2 communication1", "hobbies": ["graphic-design", "ui-design", "web-design", "typography", "font-design", "data-visualization" ] },
-    { "id": "digital-art", "name": "Digital Art", "traits": "visual-eye3 ideation2 software2 color2", "hobbies": ["digital-art", "pixel-art", "concept-art", "character-design", "digital-collage", "generative-art" ] },
-    { "id": "3d", "name": "3D & Spatial", "traits": "spatial3 software3 patience2 visual-eye2", "hobbies": ["3d-modeling", "digital-sculpting", "3d-animation", "photogrammetry", "vr-creation", "ar-filters", "cad-design", "archviz", "virtual-photography" ] },
-    { "id": "animation", "name": "Animation & Motion", "traits": "patience3 visual-eye2 storytelling2 software2 rhythm1", "hobbies": ["2d-animation", "motion-graphics", "stop-motion" ] },
-    { "id": "video", "name": "Video & Streaming", "traits": "software3 storytelling2 visual-eye2 composition2 presence1", "hobbies": ["filmmaking", "video-editing", "color-grading", "vfx", "video-creation", "live-streaming", "vtubing", "drone-videography", "photo-editing" ] },
-    { "id": "audio", "name": "Audio & Podcasting", "traits": "software2 communication2 storytelling1 musicality1", "hobbies": ["podcasting", "sound-design" ] },
-    { "id": "game-making", "name": "Game Making", "traits": "design3 coding2 ideation2 software2 logic1", "hobbies": ["game-development", "level-design", "game-modding" ] }
+    { "id": "design", "name": "Graphic & UI Design", "traits": "design3 visual-eye3 software2 composition2 communication1", "hobbies": ["graphic-design", "ui-design", "web-design", "typography", "font-design", "data-visualization"] },
+    { "id": "digital-art", "name": "Digital Art", "traits": "visual-eye3 ideation2 software2 color2", "hobbies": ["digital-art", "pixel-art", "concept-art", "character-design", "digital-collage", "generative-art"] },
+    { "id": "3d", "name": "3D & Spatial", "traits": "spatial3 software3 patience2 visual-eye2", "hobbies": ["3d-modeling", "digital-sculpting", "3d-animation", "photogrammetry", "vr-creation", "ar-filters", "cad-design", "archviz", "virtual-photography"] },
+    { "id": "animation", "name": "Animation & Motion", "traits": "patience3 visual-eye2 storytelling2 software2 rhythm1", "hobbies": ["2d-animation", "motion-graphics", "stop-motion"] },
+    { "id": "video", "name": "Video & Streaming", "traits": "software3 storytelling2 visual-eye2 composition2 presence1", "hobbies": ["filmmaking", "video-editing", "color-grading", "vfx", "video-creation", "live-streaming", "vtubing", "drone-videography", "photo-editing"] },
+    { "id": "audio", "name": "Audio, Podcasting & Recording", "traits": "software2 communication2 storytelling1 musicality1", "hobbies": ["podcasting", "sound-design", "field-recording"] },
+    { "id": "game-making", "name": "Game Making", "traits": "design3 coding2 ideation2 software2 logic1", "hobbies": ["game-development", "level-design", "game-modding"] }
   ],
   "tech": [
-    { "id": "programming", "name": "Programming", "traits": "coding3 logic3 analysis2 patience1", "hobbies": ["programming", "python", "web-development", "app-development", "competitive-programming", "open-source", "hackathons", "bot-building", "shader-programming" ] },
-    { "id": "data-ai", "name": "Data & AI", "traits": "numeracy3 analysis3 coding2 logic2", "hobbies": ["data-science", "machine-learning", "ai-building", "quantum-computing" ] },
-    { "id": "systems", "name": "Systems & Security", "traits": "analysis3 coding2 logic2 patience2 software2", "hobbies": ["linux", "home-lab", "cybersecurity", "ctf", "reverse-engineering" ] },
-    { "id": "electronics", "name": "Electronics & Microcontrollers", "traits": "electronics3 dexterity2 logic2 precision2 coding1", "hobbies": ["electronics", "soldering", "arduino", "raspberry-pi", "pcb-design", "robotics", "home-automation", "wearable-tech", "circuit-bending", "synth-diy", "pedal-building", "electronics-repair" ] },
-    { "id": "fabrication", "name": "Digital Fabrication", "traits": "design2 spatial2 mechanical2 software2 precision2", "hobbies": ["3d-printing", "laser-cutting", "cnc", "keyboard-building", "pc-building" ] },
-    { "id": "radio-retro", "name": "Radio, Drones & Retro", "traits": "electronics2 analysis2 communication1 reflexes1", "hobbies": ["ham-radio", "sdr", "retro-computing", "fpv-drones" ] },
-    { "id": "computer-skills", "name": "Computer Skills", "traits": "software2 focus2 dexterity1 numeracy1", "hobbies": ["spreadsheets", "touch-typing" ] }
+    { "id": "programming", "name": "Programming", "traits": "coding3 logic3 analysis2 patience1", "hobbies": ["programming", "python", "web-development", "app-development", "competitive-programming", "open-source", "hackathons", "bot-building", "shader-programming"] },
+    { "id": "data-ai", "name": "Data & AI", "traits": "numeracy3 analysis3 coding2 logic2", "hobbies": ["data-science", "machine-learning", "ai-building", "quantum-computing"] },
+    { "id": "systems", "name": "Systems & Security", "traits": "analysis3 coding2 logic2 patience2 software2", "hobbies": ["linux", "home-lab", "cybersecurity", "ctf", "reverse-engineering"] },
+    { "id": "electronics", "name": "Electronics & Microcontrollers", "traits": "electronics3 dexterity2 logic2 precision2 coding1", "hobbies": ["electronics", "soldering", "arduino", "raspberry-pi", "pcb-design", "robotics", "home-automation", "wearable-tech", "circuit-bending", "synth-diy", "pedal-building", "electronics-repair"] },
+    { "id": "fabrication", "name": "Digital Fabrication", "traits": "design2 spatial2 mechanical2 software2 precision2", "hobbies": ["3d-printing", "laser-cutting", "cnc"] },
+    { "id": "hardware", "name": "PC & Hardware Builds", "traits": "hand-tools2 electronics2 precision2 design1 analysis1", "hobbies": ["pc-building", "keyboard-building"] },
+    { "id": "radio-retro", "name": "Radio, Drones & Retro", "traits": "electronics2 analysis2 communication1 reflexes1", "hobbies": ["ham-radio", "sdr", "retro-computing"] },
+    { "id": "computer-skills", "name": "Computer Skills", "traits": "software2 focus2 dexterity1 numeracy1", "hobbies": ["spreadsheets", "touch-typing"] }
   ],
   "vehicles": [
-    { "id": "cars", "name": "Cars & Engines", "traits": "mechanical3 hand-tools2 analysis2 patience1", "hobbies": ["car-maintenance", "car-restoration", "auto-detailing", "car-tuning", "kit-cars", "ev-conversion", "engine-rebuilding" ] },
-    { "id": "driving", "name": "Driving & Motorsport", "traits": "reflexes3 composure2 coordination2 courage2 analysis1", "hobbies": ["manual-driving", "advanced-driving", "track-days", "autocross", "karting", "drifting", "off-roading" ] },
-    { "id": "two-wheels", "name": "Two Wheels", "traits": "balance2 mechanical2 courage2 reflexes2 endurance1", "hobbies": ["motorcycling", "motorcycle-maintenance", "motocross", "electric-unicycles", "bicycle-maintenance", "frame-building", "bikepacking" ] },
-    { "id": "rc", "name": "Radio Control", "traits": "electronics2 reflexes2 mechanical2", "hobbies": ["rc-cars", "rc-planes" ] },
-    { "id": "air-water", "name": "Flying & Boating", "traits": "navigation3 composure2 analysis2 nature1 mechanical1", "hobbies": ["flying", "gliding", "boating", "narrowboating", "boat-building" ] },
-    { "id": "workshop", "name": "Workshop & Precision", "traits": "mechanical3 precision3 hand-tools3 patience2", "hobbies": ["small-engine-repair", "machining", "watch-repair" ] },
-    { "id": "spotting", "name": "Spotting", "traits": "patience2 memory2 patterns2", "hobbies": ["trainspotting", "plane-spotting" ] }
+    { "id": "cars", "name": "Cars & Engines", "traits": "mechanical3 hand-tools2 analysis2 patience1", "hobbies": ["car-maintenance", "car-restoration", "auto-detailing", "car-tuning", "kit-cars", "ev-conversion", "engine-rebuilding"] },
+    { "id": "driving", "name": "Driving & Motorsport", "traits": "reflexes3 composure2 coordination2 courage2 analysis1", "hobbies": ["manual-driving", "advanced-driving", "track-days", "autocross", "karting", "drifting", "off-roading"] },
+    { "id": "two-wheels", "name": "Two Wheels", "traits": "balance2 mechanical2 courage2 reflexes2 endurance1", "hobbies": ["motorcycling", "motorcycle-maintenance", "motocross", "electric-unicycles", "bicycle-maintenance", "frame-building", "bikepacking"] },
+    { "id": "rc", "name": "Radio Control & Drones", "traits": "electronics2 reflexes2 mechanical2", "hobbies": ["rc-cars", "rc-planes", "fpv-drones"] },
+    { "id": "air-water", "name": "Flying & Boating", "traits": "navigation3 composure2 analysis2 nature1 mechanical1", "hobbies": ["flying", "gliding", "boating", "narrowboating", "boat-building"] },
+    { "id": "workshop", "name": "Workshop & Precision", "traits": "mechanical3 precision3 hand-tools3 patience2", "hobbies": ["small-engine-repair", "machining", "watch-repair"] },
+    { "id": "spotting", "name": "Spotting", "traits": "patience2 memory2 patterns2", "hobbies": ["trainspotting", "plane-spotting"] }
   ]
 }

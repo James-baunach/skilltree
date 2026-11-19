@@ -152,5 +152,10 @@
   { "id": "plane-spotting", "name": "Plane Spotting", "pop": 2, "traits": "memory3 patterns3 patience2 visual-eye2 electronics1 navigation1",
     "summary": "Identify aircraft types and airlines, track flights live and photograph landings at airport viewpoints.",
     "stats": { "difficulty": 1, "hours": 10, "cost": 1, "gear": ["Binoculars", "Flight-tracking app", "Camera"], "social": "either", "setting": "outdoor", "focus": ["mental"] },
-    "tags": ["aviation", "photography"], "synergies": ["trainspotting", "flight-sim", "sdr", "photography"] }
+    "tags": ["aviation", "photography"], "synergies": ["trainspotting", "flight-sim", "sdr", "photography"] },
+  { "id": "fpv-drones", "name": "FPV Drones", "pop": 2, "traits": "reflexes3 coordination3 composure3 electronics2 spatial2 mechanical1",
+    "summary": "Fly acrobatic drones through goggles at 100 km/h: freestyle, racing and cinematic dives.",
+    "stats": { "difficulty": 4, "hours": 100, "cost": 3, "gear": ["FPV drone", "Goggles", "Radio controller", "Simulator"], "social": "either", "setting": "outdoor", "focus": ["physical", "mental"] },
+    "tags": ["drones", "racing"], "synergies": ["drone-videography", "rc-planes", "soldering", "flight-sim"],
+    "safety": "Train in a simulator first. FPV flying is regulated in most countries, so learn the registration, licence and spotter rules, and fly away from people." }
 ]

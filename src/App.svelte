@@ -11,7 +11,7 @@
 
 <main class="page">
   {#if router.route.view === 'tree'}
-    <TreeView hobby={router.route.hobby} node={router.route.node} />
+    <TreeView hobby={router.route.hobby} node={router.route.node} group={router.route.group} />
   {:else if router.route.view === 'map'}
     <HeatMap a={router.route.a} b={router.route.b} />
   {:else if router.route.view === 'traits'}

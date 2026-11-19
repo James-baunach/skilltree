@@ -152,5 +152,9 @@
   { "id": "virtual-photography", "name": "Virtual Photography", "pop": 1, "traits": "composition3 visual-eye3 patience2 software2 color2 spatial1",
     "summary": "Treat game worlds as locations, composing and shooting striking images in photo mode.",
     "stats": { "difficulty": 1, "hours": 15, "cost": 1, "gear": ["Games with photo mode"], "social": "solo", "setting": "indoor", "focus": ["creative"] },
-    "tags": ["games", "screenshots"], "synergies": ["photography", "photo-editing", "flight-sim"] }
+    "tags": ["games", "screenshots"], "synergies": ["photography", "photo-editing", "flight-sim"] },
+  { "id": "field-recording", "name": "Field Recording", "pop": 1, "traits": "nature2 patience3 electronics2 musicality2 focus2",
+    "summary": "Capture dawn choruses, city ambience and hidden sounds with portable recorders and hydrophones.",
+    "stats": { "difficulty": 2, "hours": 20, "cost": 2, "gear": ["Portable recorder", "Headphones"], "social": "solo", "setting": "outdoor", "focus": ["creative"] },
+    "tags": ["sound", "nature"], "synergies": ["sound-design", "birdwatching", "music-production"] }
 ]

@@ -169,10 +169,5 @@
   { "id": "pedal-building", "name": "Guitar Pedal Building", "pop": 1, "traits": "electronics3 dexterity3 precision2 musicality2 hand-tools2",
     "summary": "Build fuzz, overdrive and delay pedals from kits, then mod them and design your own tone.",
     "stats": { "difficulty": 2, "hours": 30, "cost": 2, "gear": ["Pedal kits", "Soldering iron", "Drill"], "social": "solo", "setting": "indoor", "focus": ["creative"] },
-    "tags": ["guitar", "effects"], "synergies": ["electric-guitar", "soldering", "pcb-design"] },
-  { "id": "fpv-drones", "name": "FPV Drones", "pop": 2, "traits": "reflexes3 coordination3 composure3 electronics2 spatial2 mechanical1",
-    "summary": "Fly acrobatic drones through goggles at 100 km/h: freestyle, racing and cinematic dives.",
-    "stats": { "difficulty": 4, "hours": 100, "cost": 3, "gear": ["FPV drone", "Goggles", "Radio controller", "Simulator"], "social": "either", "setting": "outdoor", "focus": ["physical", "mental"] },
-    "tags": ["drones", "racing"], "synergies": ["drone-videography", "rc-planes", "soldering", "flight-sim"],
-    "safety": "Train in a simulator first. FPV flying is regulated in most countries, so learn the registration, licence and spotter rules, and fly away from people." }
+    "tags": ["guitar", "effects"], "synergies": ["electric-guitar", "soldering", "pcb-design"] }
 ]

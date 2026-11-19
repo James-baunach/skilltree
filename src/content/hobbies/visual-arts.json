@@ -203,5 +203,9 @@
   { "id": "art-history", "name": "Art History", "pop": 2, "traits": "memory3 analysis3 visual-eye2 storytelling2 language1", "traits": "memory3 analysis3 visual-eye2 storytelling2 language1",
     "summary": "Learn movements, masterpieces and how to really look at a painting in a gallery.",
     "stats": { "difficulty": 2, "hours": 40, "cost": 0, "gear": ["Museum visits", "A good survey book"], "social": "either", "setting": "indoor", "focus": ["mental"] },
-    "tags": ["museums", "appreciation"], "synergies": ["history", "oil-painting", "sculpture"] }
+    "tags": ["museums", "appreciation"], "synergies": ["history", "oil-painting", "sculpture"] },
+  { "id": "fantasy-cartography", "name": "Fantasy Map Making", "pop": 2, "traits": "visual-eye3 spatial2 dexterity2 ideation2 design2 composition2 storytelling1",
+    "summary": "Draw coastlines, mountains and kingdoms in the classic hand-inked style of fantasy books.",
+    "stats": { "difficulty": 2, "hours": 30, "cost": 1, "gear": ["Fineliners", "Paper or a drawing tablet"], "social": "solo", "setting": "indoor", "focus": ["creative"] },
+    "tags": ["maps", "illustration"], "synergies": ["worldbuilding", "illustration", "tabletop-rpg"] }
 ]

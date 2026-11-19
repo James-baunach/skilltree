@@ -152,10 +152,5 @@
   { "id": "personal-finance", "name": "Personal Finance", "pop": 4, "traits": "numeracy3 discipline3 analysis3 strategy2 logic1 self-awareness1",
     "summary": "Budgeting, saving, avoiding debt and understanding the basics of how money grows.",
     "stats": { "difficulty": 2, "hours": 15, "cost": 0, "gear": ["Spreadsheet or budgeting app"], "social": "solo", "setting": "indoor", "focus": ["mental"] },
-    "tags": ["money", "budgeting"], "synergies": ["spreadsheets", "economics", "minimalism"] },
-  { "id": "gift-wrapping", "name": "Gift Wrapping", "pop": 2, "traits": "precision3 dexterity3 design2 spatial2 visual-eye1 color1",
-    "summary": "Crisp corners, hidden tape, ribbon bows and Japanese furoshiki cloth wraps.",
-    "stats": { "difficulty": 1, "hours": 3, "cost": 1, "gear": ["Paper", "Double-sided tape", "Ribbon"], "social": "either", "setting": "indoor", "focus": ["creative"] },
-    "tags": ["presents", "folding"], "synergies": ["origami", "napkin-folding", "hand-lettering"],
-    "partyTrick": true }
+    "tags": ["money", "budgeting"], "synergies": ["spreadsheets", "economics", "minimalism"] }
 ]
