@@ -1,0 +1,28 @@
+[
+  { "id": "wellness", "name": "Wellness & Spirit", "color": "#9ef0ff", "blurb": "Meditation, breathwork and the quiet skills of a calm, resilient mind." },
+  { "id": "movement", "name": "Movement & Body", "color": "#5cf0d8", "blurb": "Calisthenics, yoga, parkour and everything that makes a body capable." },
+  { "id": "dance", "name": "Dance", "color": "#ff6fb5", "blurb": "From salsa to breaking: rhythm, partnering and expression through motion." },
+  { "id": "martial-arts", "name": "Martial Arts", "color": "#ff5c5c", "blurb": "Striking, grappling, weapons and the discipline behind them." },
+  { "id": "sports", "name": "Sports", "color": "#6fe0b0", "blurb": "Ball, racket, board and team sports, from the backyard to the league." },
+  { "id": "adventure", "name": "Adventure & Extreme", "color": "#4fc3ff", "blurb": "Climbing, diving, flying and riding: skills with a little danger in them." },
+  { "id": "outdoors", "name": "Outdoors & Survival", "color": "#8fd18a", "blurb": "Camping, foraging, navigation and the old craft of living outside." },
+  { "id": "animals", "name": "Animals", "color": "#e6c08a", "blurb": "Training, keeping and working alongside creatures great and small." },
+
+  { "id": "tricks", "name": "Tricks & Dexterity", "color": "#ffe14d", "blurb": "Juggling, sleight of hand, flourishes and the best party tricks in the galaxy." },
+  { "id": "performance", "name": "Performance", "color": "#ffb35c", "blurb": "Stage magic, comedy, acting and holding an audience in your hand." },
+  { "id": "music", "name": "Music", "color": "#ff9ec7", "blurb": "Instruments, voice, production and the theory that ties them together." },
+  { "id": "visual-arts", "name": "Visual Arts", "color": "#ff7a6b", "blurb": "Drawing, painting, photography and every way of making images." },
+  { "id": "crafts", "name": "Crafts & Making", "color": "#e0a370", "blurb": "Wood, metal, leather, fibre and clay: making real things by hand." },
+  { "id": "culinary", "name": "Culinary", "color": "#ffcf6b", "blurb": "Cooking, baking, fermenting and pouring: skills you can taste." },
+  { "id": "social", "name": "Social & Lifestyle", "color": "#ff8fe0", "blurb": "Hosting, style, tasting and the arts of a well-lived life." },
+  { "id": "home", "name": "Home & Garden", "color": "#b4e06b", "blurb": "Growing, fixing and building the place you live." },
+
+  { "id": "games", "name": "Games & Puzzles", "color": "#a98bff", "blurb": "Chess, cards, cubes and puzzles: strategy for its own sake." },
+  { "id": "mind", "name": "Mind & Memory", "color": "#c48bff", "blurb": "Memory palaces, speed reading, mental math and thinking tools." },
+  { "id": "language", "name": "Language & Communication", "color": "#7fa8ff", "blurb": "New languages, sign, speaking and the craft of being understood." },
+  { "id": "writing", "name": "Writing & Storytelling", "color": "#f5d27a", "blurb": "Fiction, poetry, calligraphy and the shape of a good story." },
+  { "id": "science", "name": "Science & Nature", "color": "#6ad1ff", "blurb": "Stargazing, birding, botany and hands-on curiosity about the world." },
+  { "id": "digital", "name": "Digital Creation", "color": "#5c8bff", "blurb": "3D, video, game dev and art made with pixels." },
+  { "id": "tech", "name": "Tech & Electronics", "color": "#3df0ff", "blurb": "Code, circuits, robots and taking machines apart." },
+  { "id": "vehicles", "name": "Vehicles & Mechanics", "color": "#c0c8d8", "blurb": "Engines, bikes, boats and the craft of keeping them running." }
+]

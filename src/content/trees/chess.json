@@ -1,0 +1,187 @@
+{
+  "hobby": "chess",
+  "nodes": [
+    {
+      "id": "rules", "name": "Rules & Piece Movement", "tier": 1, "requires": [], "hours": 2,
+      "summary": "How every piece moves, plus the special rules: castling, en passant, promotion, check, checkmate and stalemate.",
+      "steps": ["Learn how each piece moves and captures.", "Learn castling (both sides), en passant and pawn promotion.", "Understand check, checkmate and stalemate, and why stalemate is a draw.", "Play a few slow games against a friend or an easy computer."],
+      "drills": ["Play ten games against the easiest computer level.", "Explain en passant to someone else."],
+      "mastery": "You can play a full game with no illegal moves and recognise checkmate and stalemate."
+    },
+    {
+      "id": "notation", "name": "Algebraic Notation", "tier": 1, "requires": ["rules"], "hours": 1,
+      "summary": "Read and write moves like e4, Nf3 and O-O, the language of every chess book and video.",
+      "steps": ["Learn the board coordinates a to h and 1 to 8.", "Learn the piece letters K, Q, R, B and N, and that pawns have no letter.", "Learn the symbols for capture, check, mate and castling.", "Write down a whole game as you play it."],
+      "drills": ["Replay a famous short game from its notation.", "Notate three of your own games."],
+      "mastery": "You can follow a game in a book without a board in front of you for the first few moves."
+    },
+    {
+      "id": "basic-mates", "name": "Basic Checkmates", "tier": 1, "requires": ["rules"], "hours": 3,
+      "summary": "Force checkmate with king and queen, king and rook, and two rooks against a lone king.",
+      "steps": ["Learn the two-rook 'ladder' mate.", "Learn king and queen against king, without stalemating.", "Learn king and rook against king using the box method.", "Practise against a computer that defends perfectly."],
+      "drills": ["Mate with king and rook from random positions in under 30 moves.", "Repeat each mate until you never stalemate by accident."],
+      "mastery": "You can deliver all three basic mates against perfect defence without stalemating."
+    },
+    {
+      "id": "opening-principles", "name": "Opening Principles", "tier": 1, "requires": ["rules"], "hours": 2,
+      "summary": "Control the centre, develop your pieces, castle early and don't move the same piece twice without reason.",
+      "steps": ["Open with a central pawn: e4 or d4.", "Bring knights and bishops out before moving the queen.", "Castle within the first ten moves.", "Connect your rooks and fight for the centre."],
+      "drills": ["Play games where you only check the principles for the first ten moves.", "Review your openings and mark any principle you broke."],
+      "mastery": "In most of your games all minor pieces are developed and you have castled by move 10."
+    },
+    {
+      "id": "scholars-mate", "name": "Scholar's Mate & Defence", "tier": 1, "requires": ["rules"], "hours": 0.5, "partyTrick": 15,
+      "summary": "The four-move checkmate that catches beginners, and how to stop it happening to you.",
+      "steps": ["Learn the sequence: e4, Bc4, Qh5 and Qxf7 checkmate.", "Learn why f7 is weak: only the king defends it.", "Learn the defences: g6, Qe7 or Nf6 at the right moment.", "Learn how to punish the early queen attack once you've defended."],
+      "drills": ["Try it on a friend who's just learned the rules (then show them the defence).", "Defend against it ten times against the computer."],
+      "mastery": "You can show the trap, explain it, and never fall for it yourself."
+    },
+    {
+      "id": "forks-pins", "name": "Forks & Pins", "tier": 1, "requires": ["rules"], "hours": 5,
+      "summary": "Your first tactics: attack two things at once, or freeze a piece in front of a more valuable one.",
+      "steps": ["Learn the knight fork, the classic double attack.", "Learn absolute pins (against the king) and relative pins.", "Spot forks and pins in puzzles.", "Look for them in every one of your games."],
+      "drills": ["Twenty fork and pin puzzles a day for a week.", "Review your games for missed forks."],
+      "mastery": "You spot simple forks and pins in your own games, for both sides."
+    },
+    {
+      "id": "tactics", "name": "Tactical Patterns", "tier": 2, "requires": ["forks-pins"], "hours": 20,
+      "summary": "Skewers, discovered attacks, deflection, decoys and removing the defender: the patterns that win most games below master level.",
+      "steps": ["Study one motif per week, with examples.", "Solve themed puzzle sets, then mixed sets.", "Learn the common mating patterns, such as back-rank, smothered and Arabian mates.", "Prefer accuracy to speed when solving."],
+      "drills": ["Fifteen minutes of puzzles daily.", "Re-solve the puzzles you failed a week later."],
+      "mastery": "You solve most intermediate puzzles in under a minute and recognise motifs by name."
+    },
+    {
+      "id": "blunder-check", "name": "The Blunder Check", "tier": 2, "requires": ["forks-pins"], "hours": 5,
+      "summary": "Before every move, check all checks, captures and threats, for both sides.",
+      "steps": ["Before moving, ask: what does my opponent's last move threaten?", "List every check and capture available to both sides.", "Check that your chosen move doesn't hang a piece.", "Make it a habit at slower time controls."],
+      "drills": ["Play five slow games saying the checklist out loud.", "Count the pieces you hang per game and drive the number to zero."],
+      "mastery": "You go ten games without hanging a piece in one move."
+    },
+    {
+      "id": "repertoire", "name": "A First Opening Repertoire", "tier": 2, "requires": ["opening-principles", "notation"], "hours": 10,
+      "summary": "One opening as White, one answer to 1.e4 and one to 1.d4 as Black. Learn the ideas, not just the moves.",
+      "steps": ["Pick solid, principled openings such as the Italian, or the Queen's Gambit Declined.", "Learn the first six to eight moves and the main ideas behind them.", "Learn the typical pawn structures and piece placements.", "Review your games against your repertoire after each session."],
+      "drills": ["Play only your repertoire for a month.", "Keep notes on lines where you got surprised."],
+      "mastery": "You reach a familiar, comfortable middlegame in most of your games."
+    },
+    {
+      "id": "pawn-endgames", "name": "King & Pawn Endgames", "tier": 2, "requires": ["basic-mates"], "hours": 8,
+      "summary": "Opposition, the rule of the square and key squares: the base of all endgame knowledge.",
+      "steps": ["Learn the rule of the square for racing pawns.", "Learn direct opposition and why it decides king and pawn endings.", "Learn key squares for a pawn's promotion.", "Practise against a computer from standard positions."],
+      "drills": ["Win and draw the standard positions from both sides.", "Solve ten pawn-ending studies."],
+      "mastery": "You can win or hold basic king and pawn endings against an engine."
+    },
+    {
+      "id": "rated-games", "name": "Playing Rated Games", "tier": 2, "requires": ["notation"], "hours": 30,
+      "summary": "Play regular rated games at longer time controls online, and track your rating over time.",
+      "steps": ["Create an account on a major chess site.", "Play rapid games of 15 minutes or more so you have time to think.", "Play regularly but rest after two losses in a row.", "Track your rating trend monthly rather than daily."],
+      "drills": ["Three rapid games a week.", "Keep a log of results and key mistakes."],
+      "mastery": "You've played 100 rated rapid games and your rating has stabilised."
+    },
+    {
+      "id": "game-analysis", "name": "Analysing Your Games", "tier": 2, "requires": ["rated-games"], "hours": 10,
+      "summary": "Review your games yourself first, then with an engine, to find the mistakes that actually cost points.",
+      "steps": ["After each game, write down your thoughts at critical moments.", "Analyse without an engine first to train your own judgement.", "Then check with an engine and compare.", "Write down one lesson per game."],
+      "drills": ["Analyse every loss before playing again.", "Keep a mistakes notebook organised by theme."],
+      "mastery": "You can say why you lost most games, beyond just 'I blundered'."
+    },
+    {
+      "id": "calculation", "name": "Calculation & Visualisation", "tier": 3, "requires": ["tactics"], "hours": 40,
+      "summary": "List candidate moves, calculate forcing lines several moves deep and see the resulting position clearly.",
+      "steps": ["Always list candidate moves before calculating.", "Calculate forcing moves first: checks, captures and threats.", "Visualise the final position and check it for counter-tactics.", "Practise with harder puzzles where you can't move the pieces."],
+      "drills": ["Solve hard puzzles fully in your head before moving.", "Set up a position, look for 30 seconds, then set it up from memory."],
+      "mastery": "You can accurately calculate a five-move forcing line in your head."
+    },
+    {
+      "id": "positional", "name": "Positional Play", "tier": 3, "requires": ["game-analysis"], "hours": 40,
+      "summary": "Pawn structure, weak squares, outposts, open files and good versus bad bishops: playing well when there are no tactics.",
+      "steps": ["Learn to evaluate pawn structures: isolated, doubled, backward and passed pawns.", "Find outposts for your knights and open files for your rooks.", "Learn the difference between a good and a bad bishop.", "Make plans that improve your worst piece."],
+      "drills": ["For each of your games, write a one-line evaluation at move 20.", "Study one annotated positional game a week."],
+      "mastery": "You can explain who stands better in a quiet position and why."
+    },
+    {
+      "id": "rook-endgames", "name": "Rook Endgames", "tier": 3, "requires": ["pawn-endgames"], "hours": 15,
+      "summary": "The most common endgames in practice: Lucena, Philidor and active rook play.",
+      "steps": ["Learn the Lucena position and the 'bridge' technique.", "Learn the Philidor defence.", "Learn why rooks belong behind passed pawns.", "Practise rook endings against an engine."],
+      "drills": ["Win Lucena and hold Philidor ten times each against an engine.", "Play out rook endings from your own games."],
+      "mastery": "You can win Lucena and draw Philidor positions reliably."
+    },
+    {
+      "id": "middlegame-plans", "name": "Middlegame Plans", "tier": 3, "requires": ["positional", "repertoire"], "hours": 30,
+      "summary": "Typical plans for typical pawn structures, such as the isolated queen's pawn, the Carlsbad structure and the minority attack.",
+      "steps": ["Identify the main pawn structures that come from your openings.", "Study the standard plans for each one.", "Learn model games for each structure.", "Apply the plans in your games and review them."],
+      "drills": ["Study three model games per structure.", "Play training games from typical structures."],
+      "mastery": "You know what to do in the middlegames that arise from your repertoire."
+    },
+    {
+      "id": "time-management", "name": "Clock Management", "tier": 3, "requires": ["rated-games"], "hours": 10,
+      "summary": "Spend your time where it matters and avoid time trouble.",
+      "steps": ["Play known opening moves quickly.", "Spend real time at critical moments: captures, pawn breaks and tactical tension.", "Set a time budget at move 20 and move 30.", "Practise playing simple moves quickly when short of time."],
+      "drills": ["Record your clock time after each move for five games.", "Play increment games to practise endgames under time pressure."],
+      "mastery": "You rarely lose on time or blunder because of time pressure."
+    },
+    {
+      "id": "classics", "name": "Studying the Classics", "tier": 3, "requires": ["game-analysis"], "hours": 20,
+      "summary": "Learn from annotated games by Capablanca, Fischer, Tal, Karpov and Carlsen.",
+      "steps": ["Pick an annotated games collection of a classic player.", "Play through each game on a real board.", "Guess the move before revealing it.", "Write down the key idea of each game."],
+      "drills": ["One annotated classic per week.", "Score your 'guess the move' accuracy."],
+      "mastery": "You can explain the key ideas of ten classic games from memory."
+    },
+    {
+      "id": "deep-prep", "name": "Deep Opening Preparation", "tier": 4, "requires": ["middlegame-plans"], "hours": 80,
+      "summary": "Build a full repertoire file with engine-checked lines, model games and prepared surprises.",
+      "steps": ["Build a repertoire file in an opening tool.", "Check critical lines with an engine and understand why the moves are good.", "Collect model games for every main line.", "Prepare for specific opponents before tournaments."],
+      "drills": ["Review your repertoire with spaced repetition.", "Update your lines after every tournament."],
+      "mastery": "You regularly reach positions you've studied, and opponents rarely surprise you."
+    },
+    {
+      "id": "endgame-technique", "name": "Advanced Endgame Technique", "tier": 4, "requires": ["rook-endgames", "calculation"], "hours": 60,
+      "summary": "Convert advantages, build fortresses and master minor piece and multi-piece endings.",
+      "steps": ["Study a serious endgame manual, such as Dvoretsky's.", "Learn bishop versus knight and opposite-coloured bishop endings.", "Learn fortress ideas and when to use them.", "Practise converting winning positions against strong engines."],
+      "drills": ["Play endgame positions against an engine weekly.", "Solve endgame studies."],
+      "mastery": "You convert winning endgames and hold difficult ones in your tournament games."
+    },
+    {
+      "id": "prophylaxis", "name": "Prophylactic Thinking", "tier": 4, "requires": ["positional", "calculation"], "hours": 40,
+      "summary": "Ask 'what does my opponent want?' and stop it before it happens.",
+      "steps": ["Before every move, identify your opponent's plan.", "Look for moves that prevent their plan while improving yours.", "Study players known for prophylaxis, such as Petrosian and Karpov.", "Review your games for missed prophylactic moves."],
+      "drills": ["Write your opponent's plan before each move in five slow games.", "Solve 'what's the threat?' exercises."],
+      "mastery": "Your opponents often feel they have nothing to do against you."
+    },
+    {
+      "id": "otb-tournaments", "name": "Over-the-Board Tournaments", "tier": 4, "requires": ["time-management"], "hours": 50,
+      "summary": "Play classical tournaments over the board: write moves by hand, follow etiquette, and earn an official rating.",
+      "steps": ["Join a chess club and your national federation.", "Learn tournament etiquette and the touch-move rule.", "Play in a weekend tournament.", "Earn an official FIDE or national rating."],
+      "drills": ["Play one tournament a quarter.", "Analyse all tournament games with a stronger player."],
+      "mastery": "You have an official rating and play tournaments confidently."
+    },
+    {
+      "id": "blindfold", "name": "Blindfold Chess", "tier": 4, "requires": ["calculation", "notation"], "hours": 40,
+      "summary": "Play a full game without seeing the board, keeping the whole position in your head.",
+      "steps": ["Learn the colour of every square by name.", "Practise visualising the pieces' movement from coordinates.", "Play blindfold against an easy engine.", "Gradually increase opponent strength."],
+      "drills": ["Daily square-colour drills.", "One blindfold game per week."],
+      "mastery": "You can play a full blindfold game without losing track of the position."
+    },
+    {
+      "id": "simul", "name": "Simultaneous Exhibition", "tier": 5, "requires": ["otb-tournaments", "endgame-technique"], "hours": 30,
+      "summary": "Play ten or more opponents at once, walking from board to board.",
+      "steps": ["Start with three or four boards against club players.", "Choose simple, solid openings that are easy to play quickly.", "Make quick decisions and keep moving between boards.", "Increase the number of boards over time."],
+      "drills": ["Do a small simul at your club.", "Track your score in each simul."],
+      "mastery": "You can play a ten-board simul against club players and score over 70%."
+    },
+    {
+      "id": "title", "name": "Earning a Title", "tier": 5, "requires": ["deep-prep", "endgame-technique", "prophylaxis", "otb-tournaments"], "hours": 2000,
+      "summary": "Reach 2200+ and earn FIDE titles such as Candidate Master, FIDE Master or International Master.",
+      "steps": ["Learn the rating and norm requirements for each title.", "Play strong international tournaments.", "Work with a coach on your weakest area.", "Maintain fitness and sleep for long events."],
+      "drills": ["A structured weekly training plan.", "A detailed review after every tournament."],
+      "mastery": "You hold a FIDE title."
+    },
+    {
+      "id": "coaching", "name": "Coaching & Teaching", "tier": 5, "requires": ["prophylaxis", "classics"], "hours": 100,
+      "summary": "Teach chess to others, from kids' clubs to private students.",
+      "steps": ["Learn how to explain ideas at different levels.", "Build lesson plans around themes.", "Run a beginners' club or coach students.", "Track your students' progress."],
+      "drills": ["Teach one lesson a week.", "Get feedback from students."],
+      "mastery": "Your students improve measurably and recommend you."
+    }
+  ]
+}

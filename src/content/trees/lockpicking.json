@@ -1,0 +1,159 @@
+{
+  "hobby": "lockpicking",
+  "nodes": [
+    {
+      "id": "ethics", "name": "The Two Rules of Locksport", "tier": 1, "requires": [], "hours": 0.25,
+      "summary": "Only pick locks you own or have permission to pick, and never pick a lock that is in use. Every locksport community is built on these two rules.",
+      "steps": ["Commit to picking only locks you own, or locks whose owner has given you permission.", "Never pick a lock that is protecting something, such as a door, bike or locker, even your own, in case you damage it.", "Look up the laws on owning lock picks where you live.", "Keep your practice locks and picks separate from everyday keys and locks."],
+      "drills": ["Read your local club's or TOOOL's code of ethics.", "Label your practice locks so they never end up in real use."],
+      "mastery": "You can explain the two rules and why they matter to anyone who asks about your hobby."
+    },
+    {
+      "id": "anatomy", "name": "How Pin-Tumbler Locks Work", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Plug, housing, key pins, driver pins, springs and the shear line: understand the mechanism before you try to beat it.",
+      "steps": ["Learn the parts: the plug turns inside the housing, and pin stacks block it.", "Understand the shear line: the key lifts every pin stack so the gap lines up with the edge of the plug.", "Learn why manufacturing tolerances mean pins bind one at a time.", "Watch a cutaway or clear-lock animation of a key being inserted."],
+      "drills": ["Sketch a pin stack at rest and with the correct key.", "Explain the shear line to a friend in under a minute."],
+      "mastery": "You can draw a pin-tumbler lock from memory and explain why picking is possible."
+    },
+    {
+      "id": "tension", "name": "Tension Control", "tier": 1, "requires": ["anatomy"], "hours": 2,
+      "summary": "The light, steady turning pressure on the plug: the most important skill in lock picking.",
+      "steps": ["Insert a tension wrench at the bottom of the keyway.", "Apply very light turning pressure, about the weight of a few coins.", "Learn to vary the pressure without letting go.", "Notice how heavy tension jams the pins and light tension lets them drop."],
+      "drills": ["Hold steady light tension for one minute without wobbling.", "Practise switching between light and medium tension on purpose."],
+      "mastery": "You can hold consistent light tension while your other hand works the pick."
+    },
+    {
+      "id": "first-pick", "name": "Your First Clear Lock", "tier": 1, "requires": ["tension", "ethics"], "hours": 2,
+      "summary": "Open a transparent practice lock pin by pin while watching what happens inside.",
+      "steps": ["Apply light tension to a clear acrylic practice lock.", "Push up each pin with a hook pick until you find the one that resists most: the binding pin.", "Lift the binding pin until it sets at the shear line with a tiny click.", "Repeat for each pin until the plug turns, then try with your eyes closed."],
+      "drills": ["Open the clear lock ten times while watching.", "Open it five times without looking."],
+      "mastery": "You can open the clear lock reliably with your eyes closed."
+    },
+    {
+      "id": "raking", "name": "Raking", "tier": 1, "requires": ["tension"], "hours": 1, "partyTrick": 30,
+      "summary": "Scrub a rake pick in and out to set several pins at once. Fast, if unrefined, on cheap locks.",
+      "steps": ["Insert a city or snake rake fully into the keyway.", "Apply light tension and rock the rake in and out and up and down.", "Vary your tension until the plug gives.", "Note which of your own locks open to raking and which resist."],
+      "drills": ["Rake open a cheap padlock you own ten times.", "Time yourself and try to beat your best."],
+      "mastery": "You can rake open a basic padlock you own in under a minute."
+    },
+    {
+      "id": "spp", "name": "Single Pin Picking", "tier": 2, "requires": ["first-pick"], "hours": 10,
+      "summary": "Find and set each binding pin one at a time on opaque locks: the real core of the craft.",
+      "steps": ["Use a short hook and light tension on a standard 4 or 5 pin lock.", "Probe each pin, find the binder and lift it until it sets.", "Listen and feel for the small rotation of the plug when a pin sets.", "Keep track of which pins are set and which are still springy."],
+      "drills": ["Pick the same lock until you can do it ten times in a row.", "Move on to a new brand of lock every week."],
+      "mastery": "You can single-pin pick a basic 5-pin lock you've never seen before."
+    },
+    {
+      "id": "feedback", "name": "Reading Feedback", "tier": 2, "requires": ["spp"], "hours": 8,
+      "summary": "Tell set, binding, overset and loose pins apart by feel alone.",
+      "steps": ["Learn the feel of a springy, unset pin compared to a set one.", "Recognise an overset pin, pushed too far, and how to recover by easing tension.", "Track the binding order and notice when it changes.", "Use a progressive lock to feel each pin added one at a time."],
+      "drills": ["Narrate each pin's state aloud as you pick.", "Deliberately overset a pin, then recover without starting over."],
+      "mastery": "You can say the state of every pin in a lock without opening it."
+    },
+    {
+      "id": "padlocks", "name": "Padlocks", "tier": 2, "requires": ["spp"], "hours": 6,
+      "summary": "Hold and pick padlocks comfortably, with their awkward grip, short keyways and odd tension.",
+      "steps": ["Find a comfortable grip so the padlock doesn't wobble.", "Try both top and bottom of keyway tension.", "Work through a range of cheap to mid-range padlocks you own.", "Take one apart to see how the shackle locks."],
+      "drills": ["Pick five different padlocks you own.", "Pick a padlock with your non-dominant hand holding it."],
+      "mastery": "You can pick any common entry-level padlock you own."
+    },
+    {
+      "id": "wafer-locks", "name": "Wafer Locks", "tier": 2, "requires": ["raking"], "hours": 3,
+      "summary": "Flat wafers instead of pins, found in desk drawers, filing cabinets and mailboxes you own.",
+      "steps": ["Learn how wafers differ from pin stacks.", "Practise raking and rocking on wafer locks.", "Try picking individual wafers with a hook.", "Compare single-sided and double-sided wafer locks."],
+      "drills": ["Pick three different wafer locks you own.", "Pick a wafer lock with each method."],
+      "mastery": "You can open common wafer locks you own by raking or by picking wafers individually."
+    },
+    {
+      "id": "community", "name": "Locksport Community & Belts", "tier": 2, "requires": ["spp"], "hours": 4,
+      "summary": "Join a club or online community, learn the belt ranking system, and start working through progressively harder locks.",
+      "steps": ["Find a local locksport club or chapter, or a reputable online community.", "Learn the belt ranking system and the lock lists for each colour.", "Post picking videos to earn your first belts.", "Swap or borrow locks with other members."],
+      "drills": ["Earn your first two belts.", "Attend one meetup or online picking night."],
+      "mastery": "You hold an entry-level belt and know where to find help and harder locks."
+    },
+    {
+      "id": "security-pins", "name": "Security Pins", "tier": 3, "requires": ["feedback"], "hours": 20,
+      "summary": "Spool and serrated pins create false sets and counter-rotation, the first real challenge.",
+      "steps": ["Recognise a false set: the plug turns noticeably but doesn't open.", "Learn counter-rotation: ease tension and let the plug turn back as you lift a spool.", "Set serrated pins one tiny click at a time.", "Gut a lock to feel each security pin individually."],
+      "drills": ["Pick a lock with a single spool pin until it's easy.", "Work up to locks with mixed spools and serrated pins."],
+      "mastery": "You can open locks with several spool and serrated pins using controlled counter-rotation."
+    },
+    {
+      "id": "tok-tension", "name": "Top-of-Keyway Tension", "tier": 3, "requires": ["spp"], "hours": 6,
+      "summary": "Tension from the top of the keyway with flat bars, giving more control and more room for your pick.",
+      "steps": ["Get a set of flat top-of-keyway tension bars in several thicknesses.", "Find the bar that fits snugly without wobbling.", "Re-learn your favourite locks with top-of-keyway tension.", "Compare the feedback with bottom-of-keyway tension."],
+      "drills": ["Pick every lock you own with top-of-keyway tension.", "Fit-test bars on narrow keyways."],
+      "mastery": "You prefer top-of-keyway tension on most locks and choose the right bar by eye."
+    },
+    {
+      "id": "repinning", "name": "Disassembly & Repinning", "tier": 3, "requires": ["spp"], "hours": 8,
+      "summary": "Take locks apart with a plug follower, rebuild them with different pins, and make your own training locks.",
+      "steps": ["Get a plug follower, tweezers and a pinning tray.", "Remove the plug without spilling the pins.", "Repin with different pin combinations or security pins.", "Build a progressive training lock that you can make harder step by step."],
+      "drills": ["Disassemble and reassemble the same lock five times.", "Build a progressive lock from 1 to 6 pins."],
+      "mastery": "You can gut, repin and reassemble a lock without losing a spring."
+    },
+    {
+      "id": "tool-making", "name": "Making Your Own Picks", "tier": 3, "requires": ["spp"], "hours": 6,
+      "summary": "File custom picks and tension tools from wiper blade inserts or spring steel.",
+      "steps": ["Source flat spring steel, such as wiper blade inserts.", "Draw a hook profile and grind or file it out.", "Smooth and polish the tip so it doesn't snag.", "Make tension bars in custom thicknesses."],
+      "drills": ["Make three hooks with different reaches.", "Pick a lock with a tool you made."],
+      "mastery": "Your favourite pick is one you made yourself."
+    },
+    {
+      "id": "paracentric", "name": "Paracentric Keyways", "tier": 4, "requires": ["security-pins", "tok-tension"], "hours": 30,
+      "summary": "Navigate narrow, warded, zig-zag keyways where the pick barely fits.",
+      "steps": ["Learn to read a keyway's profile and choose a pick to match.", "Use thin, short-reach hooks and controlled angles.", "Avoid levering on the wards, which hides feedback.", "Work through locks with increasingly restrictive keyways."],
+      "drills": ["Pick one paracentric lock until it's routine.", "Practise threading the pick without tension first."],
+      "mastery": "You can open locks with tight paracentric keyways and security pins."
+    },
+    {
+      "id": "dimple-locks", "name": "Dimple Locks", "tier": 4, "requires": ["security-pins"], "hours": 25,
+      "summary": "Pins pressing in from the side of the keyway, picked with flag picks.",
+      "steps": ["Learn how dimple keys and pin positions work.", "Use a flag pick and suitable tension tool.", "Map the pin positions in the lock.", "Pick a dimple lock with standard pins, then with security pins."],
+      "drills": ["Open a basic dimple lock ten times.", "Repin a dimple lock to vary the challenge."],
+      "mastery": "You can reliably open dimple locks with security pins."
+    },
+    {
+      "id": "disc-detainers", "name": "Disc Detainer Locks", "tier": 4, "requires": ["security-pins"], "hours": 30,
+      "summary": "Rotating discs instead of pins, requiring specialised tension and picking tools.",
+      "steps": ["Learn how rotating discs, gates and the sidebar interact.", "Get a disc detainer pick that fits your lock.", "Find the binding disc and rotate it to its gate.", "Work disc by disc, tracking which are set."],
+      "drills": ["Open a basic disc detainer padlock you own.", "Disassemble one to study the discs."],
+      "mastery": "You can open disc detainer locks with a dedicated tool."
+    },
+    {
+      "id": "impressioning", "name": "Impressioning", "tier": 4, "requires": ["repinning"], "hours": 60,
+      "summary": "Make a working key for your own lock from a blank by reading the tiny marks the pins leave on it.",
+      "steps": ["Get matching key blanks, files and good lighting or magnification.", "Insert the blank, apply turning force and wiggle to leave marks.", "File down where the marks appear, a little at a time.", "Repeat until the key turns the lock."],
+      "drills": ["Impression a simple 4-pin lock.", "Time yourself and keep a log."],
+      "mastery": "You can impression a working key for a standard 5-pin lock."
+    },
+    {
+      "id": "lever-locks", "name": "Lever Locks", "tier": 4, "requires": ["security-pins"], "hours": 25,
+      "summary": "Lever-based mechanisms, common on European doors and old safes, picked with curtain picks.",
+      "steps": ["Learn how levers, gates and the bolt stump interact.", "Use a two-in-one or curtain pick on a practice lever lock.", "Lift levers one at a time to align the gates.", "Study a cutaway lever lock."],
+      "drills": ["Open a 3-lever practice lock.", "Progress to a 5-lever practice lock."],
+      "mastery": "You can open a 5-lever practice lock."
+    },
+    {
+      "id": "high-security", "name": "High-Security Locks", "tier": 5, "requires": ["paracentric", "dimple-locks"], "hours": 300,
+      "summary": "Sidebars, rotating pins, magnetic and interactive elements: the black-belt locks.",
+      "steps": ["Study how each high-security feature defeats normal picking.", "Learn specialised manipulation methods for each type you own.", "Pick progressively harder locks on the top belt lists.", "Document your process in videos for the community."],
+      "drills": ["Spend a month on a single high-security lock.", "Write up what finally worked."],
+      "mastery": "You've opened locks from the highest belt lists and can explain how."
+    },
+    {
+      "id": "competition", "name": "Competition Picking", "tier": 5, "requires": ["impressioning", "paracentric"], "hours": 100,
+      "summary": "Speed picking, impressioning and challenge-lock events at locksport gatherings.",
+      "steps": ["Find locksport competitions and their rules.", "Train against the clock on competition-style locks.", "Practise under pressure, with people watching.", "Compete, then review what slowed you down."],
+      "drills": ["Weekly timed runs with a log.", "Mock competitions with friends."],
+      "mastery": "You place in a locksport competition."
+    },
+    {
+      "id": "security-research", "name": "Research & Responsible Disclosure", "tier": 5, "requires": ["high-security"], "hours": 150,
+      "summary": "Analyse lock designs, find weaknesses, and report them responsibly so manufacturers can improve them.",
+      "steps": ["Learn how responsible disclosure works and why it matters.", "Study a lock in depth: its design, tolerances and failure modes.", "Document findings clearly and contact the manufacturer first.", "Share lessons with the community once a fix is available."],
+      "drills": ["Write a detailed teardown of a lock you own.", "Present a talk at a club or conference."],
+      "mastery": "Your research has helped a manufacturer improve a product, or helped the community understand one."
+    }
+  ]
+}

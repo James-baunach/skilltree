@@ -1,0 +1,166 @@
+{
+  "hobby": "card-magic",
+  "nodes": [
+    {
+      "id": "card-handling", "name": "Deck Handling Basics", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Hold, square, spread and deal a deck like you've done it for years: the foundation every sleight sits on.",
+      "steps": ["Learn mechanic's grip: deck in the left palm, thumb on top, three fingers along the side, index finger at the front.", "Learn dealer's grip and a clean, flat deal onto the table.", "Practise a ribbon spread on a soft surface and a fan in the hands.", "Keep the deck squared at all times. Neatness reads as competence."],
+      "drills": ["Deal four poker hands smoothly while talking.", "Ten clean ribbon spreads and fans in a row."],
+      "mastery": "Your handling looks relaxed and natural, and nobody notices your hands."
+    },
+    {
+      "id": "key-card", "name": "The Key Card Principle", "tier": 1, "requires": [], "hours": 0.5, "partyTrick": 15,
+      "summary": "Secretly note one card and you can find any selected card that lands next to it. No sleight of hand needed.",
+      "steps": ["Shuffle, then secretly glimpse the bottom card: this is your key card.", "Have a spectator take a card, remember it and put it on top of the deck.", "Let them cut the deck and complete the cut. Your key now sits directly above their card.", "Spread the cards face up, find your key, and the next card is theirs. Build the reveal with some drama."],
+      "drills": ["Perform it five times for yourself with different reveals.", "Practise glimpsing the bottom card during a casual shuffle."],
+      "mastery": "You can perform it for a friend with a confident reveal and they cannot explain it."
+    },
+    {
+      "id": "self-working", "name": "Self-Working Classics", "tier": 1, "requires": ["key-card"], "hours": 2, "partyTrick": 30,
+      "summary": "Mathematical tricks that work themselves, such as the 21-card trick and spelling tricks, leaving you free to focus on performance.",
+      "steps": ["Learn the 21-card trick: three columns of seven cards, gathered and redealt three times.", "Learn a spelling trick where the chosen card turns up on the last letter of its name.", "Write a short story or patter for each one.", "Perform them for family before trying strangers."],
+      "drills": ["Run each trick five times without a mistake.", "Perform one for someone new every day for a week."],
+      "mastery": "You have three self-working tricks you can do anywhere, with patter that gets a reaction."
+    },
+    {
+      "id": "overhand-control", "name": "Overhand Shuffle Control", "tier": 1, "requires": ["card-handling"], "hours": 4,
+      "summary": "Keep a chosen card at the top or bottom while appearing to shuffle the deck thoroughly.",
+      "steps": ["Learn a relaxed overhand shuffle, running cards one at a time with your thumb.", "Practise the injog: step one card slightly out of line to mark a position.", "Shuffle off to the jogged card and cut there to bring the chosen card back to the top.", "Make the controlled shuffle look identical to an honest one."],
+      "drills": ["Control a card to the top ten times while watching yourself in a mirror.", "Alternate honest and controlled shuffles until you can't see the difference."],
+      "mastery": "A chosen card returned to the middle ends up on top, and onlookers believe the deck was mixed."
+    },
+    {
+      "id": "double-lift", "name": "The Double Lift", "tier": 2, "requires": ["card-handling"], "hours": 10,
+      "summary": "Turn over two cards as if they were one: the single most useful sleight in card magic.",
+      "steps": ["Get a break under the top two cards by lifting slightly with your right thumb at the back.", "Turn the two cards over as one, keeping their edges perfectly aligned.", "Show the face, then turn them back face down.", "Practise a relaxed rhythm so the move matches how you turn a single card."],
+      "drills": ["Fifty double lifts a day for two weeks.", "Mix single and double turnovers on camera until they look identical."],
+      "mastery": "On video, your double lift is indistinguishable from turning over a single card."
+    },
+    {
+      "id": "glimpse", "name": "The Glimpse", "tier": 2, "requires": ["card-handling"], "hours": 3,
+      "summary": "Secretly sight a card while handling the deck, giving you information the audience doesn't know you have.",
+      "steps": ["Learn the bottom-card glimpse as you square the deck.", "Learn a spread glimpse to sight a card as you close a spread.", "Use natural pauses so the look feels motivated.", "Combine a glimpse with the key card principle."],
+      "drills": ["Glimpse the bottom card during ten casual squarings.", "Have a friend watch your eyes and tell you when they notice."],
+      "mastery": "You can glimpse a card mid-conversation without anyone noticing your eyes."
+    },
+    {
+      "id": "cross-cut-force", "name": "The Cross-Cut Force", "tier": 2, "requires": ["card-handling"], "hours": 0.5, "partyTrick": 15,
+      "summary": "Make a spectator 'freely' cut to a card you chose in advance, using nothing but time misdirection.",
+      "steps": ["Secretly know the top card of the deck.", "Ask the spectator to cut off half and place the bottom half crosswise on top.", "Talk for a moment to create time misdirection.", "Lift off the top portion and have them take the card where they 'cut'. It is your known top card."],
+      "drills": ["Practise the patter that fills the pause.", "Combine it with a prediction written in advance."],
+      "mastery": "You can force a card and reveal it as a prediction, and the spectator swears they chose freely."
+    },
+    {
+      "id": "false-cut", "name": "False Cuts", "tier": 2, "requires": ["card-handling"], "hours": 6,
+      "summary": "Cuts that look fair but leave the deck in exactly the same order.",
+      "steps": ["Learn a swing cut and a simple table false cut.", "Learn a multiple-packet false cut on the table.", "Match the speed and rhythm of your real cuts.", "Use a false cut after every control to 'prove' the deck is mixed."],
+      "drills": ["Ten false cuts followed by checking that the top card is unchanged.", "Alternate real and false cuts on camera."],
+      "mastery": "You can false cut on a table at normal speed and the deck order is always preserved."
+    },
+    {
+      "id": "misdirection", "name": "Misdirection & Patter", "tier": 2, "requires": ["self-working"], "hours": 8,
+      "summary": "Direct attention where you want it with your eyes, words and timing. Magic happens in the mind, not the hands.",
+      "steps": ["Learn the rule: the audience looks where you look.", "Use questions and jokes to create natural off-beats for secret moves.", "Script your patter for each trick, then make it sound unscripted.", "Study a classic text on performance, such as Fitzkee or Tamariz."],
+      "drills": ["Perform one trick while deliberately moving your gaze at key moments.", "Record a performance and mark every moment of tension and relaxation."],
+      "mastery": "You can do a secret move during a laugh or a question and nobody is watching your hands."
+    },
+    {
+      "id": "ambitious-card", "name": "The Ambitious Card", "tier": 3, "requires": ["double-lift", "overhand-control"], "hours": 10,
+      "summary": "A signed card keeps rising to the top of the deck no matter where it's put: the essential routine of close-up card magic.",
+      "steps": ["Learn three ways to make the card 'rise' using the double lift and controls.", "Have the card signed so it's clearly the same one.", "Build from simple phases to an impossible climax.", "Finish with a strong final phase, such as the card appearing in your mouth or under a glass."],
+      "drills": ["Run the full routine ten times without fumbling.", "Perform it for three different people and note the strongest moment."],
+      "mastery": "You can perform a five-phase ambitious card routine that ends with a genuine gasp."
+    },
+    {
+      "id": "elmsley-count", "name": "The Elmsley Count", "tier": 3, "requires": ["double-lift"], "hours": 8,
+      "summary": "Count four cards so they all appear identical while one is secretly hidden: the engine of countless packet tricks.",
+      "steps": ["Hold four cards in left-hand dealer's grip.", "Learn the count's switching action at the second card.", "Match the rhythm of an honest four-card count exactly.", "Learn a classic packet trick built on it, such as Twisting the Aces."],
+      "drills": ["Alternate honest and Elmsley counts in a mirror.", "Fifty counts a day for a week."],
+      "mastery": "You can perform Twisting the Aces with a smooth, invisible count."
+    },
+    {
+      "id": "top-palm", "name": "The Top Palm", "tier": 3, "requires": ["double-lift"], "hours": 15,
+      "summary": "Secretly hold a card in your palm while your hand looks natural and empty.",
+      "steps": ["Learn the classic palm position for a single card.", "Practise taking the top card into the palm as you square the deck.", "Train your hand to look relaxed with a card palmed.", "Learn to replace the card on the deck invisibly."],
+      "drills": ["Hold a palmed card while chatting for two minutes.", "Mirror practice from every audience angle."],
+      "mastery": "You can palm a card off the deck mid-routine and gesture naturally with that hand."
+    },
+    {
+      "id": "color-change", "name": "Colour Changes", "tier": 3, "requires": ["double-lift"], "hours": 10,
+      "summary": "One card visibly transforms into another under the spectator's eyes.",
+      "steps": ["Learn the shake change, a beginner-friendly visual change.", "Learn a classic palm-based colour change.", "Practise the angles: colour changes are very angle-sensitive.", "Use one as the climax of a routine."],
+      "drills": ["Twenty clean changes on camera from the front.", "Combine a double lift with a change in one sequence."],
+      "mastery": "You can change one card into another at eye level, in good light, cleanly."
+    },
+    {
+      "id": "riffle-control", "name": "Riffle Shuffle Controls", "tier": 3, "requires": ["overhand-control"], "hours": 10,
+      "summary": "Keep cards in place during a table riffle shuffle, the most convincing-looking shuffle there is.",
+      "steps": ["Learn a clean table riffle shuffle and bridge.", "Practise holding back the top block of cards so they fall last.", "Retain the bottom stock by letting those cards fall first.", "Combine with false cuts to retain the full deck order."],
+      "drills": ["Retain the top five cards through three riffles.", "Film from the spectator's seat at table height."],
+      "mastery": "You can riffle shuffle and keep a stacked block intact, and it looks completely fair."
+    },
+    {
+      "id": "classic-pass", "name": "The Classic Pass", "tier": 4, "requires": ["false-cut", "overhand-control"], "hours": 40,
+      "summary": "Invisibly cut the deck to bring a card to the top. Famously difficult and endlessly practised.",
+      "steps": ["Learn the hand positions with the two halves held separately.", "Practise the exchange of halves slowly and silently.", "Add cover: a turn of the body, a gesture, or a question.", "Gradually reduce the cover needed as the move gets smoother."],
+      "drills": ["A hundred slow passes a day, focusing on silence.", "Practise on camera with and without cover."],
+      "mastery": "You can do the pass with light cover and the audience sees no movement at all."
+    },
+    {
+      "id": "classic-force", "name": "The Classic Force", "tier": 4, "requires": ["cross-cut-force"], "hours": 25,
+      "summary": "As you spread the deck, the spectator 'freely' takes exactly the card you want them to.",
+      "steps": ["Control the target card to a position you can track in the spread.", "Spread the cards at the right pace so the target arrives as their hand reaches out.", "Read the spectator's hand and adjust the spread speed.", "Always have an outs plan if they take a different card."],
+      "drills": ["Try it on everyone you can and log your hit rate.", "Practise with a target card marked in pencil."],
+      "mastery": "Your classic force succeeds at least eight times out of ten, and you recover gracefully when it misses."
+    },
+    {
+      "id": "faro-shuffle", "name": "The Faro Shuffle", "tier": 4, "requires": ["riffle-control"], "hours": 30,
+      "summary": "A perfect in-the-hands weave of two halves. Eight perfect out-faros return a deck to its original order.",
+      "steps": ["Cut the deck exactly at 26 cards.", "Butt the halves together corner to corner and let them interlace one by one.", "Learn in-faros and out-faros and what each does to the top card.", "Explore the maths of faro stacks."],
+      "drills": ["Ten perfect faros in a row.", "Do eight out-faros and check the deck is back in new-deck order."],
+      "mastery": "You can do eight consecutive perfect out-faros and restore the deck."
+    },
+    {
+      "id": "card-to-pocket", "name": "Card to Impossible Location", "tier": 4, "requires": ["top-palm", "misdirection"], "hours": 15,
+      "summary": "A signed card vanishes from the deck and turns up in your wallet, a sealed envelope or the spectator's pocket.",
+      "steps": ["Palm the signed card off the deck during a moment of misdirection.", "Load it into the impossible location while attention is elsewhere.", "Build the reveal: make the location seem as impossible as it can be.", "Script exactly when the audience's attention is on the deck."],
+      "drills": ["Rehearse the load timing with a friend watching only the deck.", "Perform it ten times and refine the strongest moment."],
+      "mastery": "You can make a signed card appear in a spectator's own pocket and they have no idea when it got there."
+    },
+    {
+      "id": "memorized-deck", "name": "The Memorized Deck", "tier": 4, "requires": ["false-cut"], "hours": 40,
+      "summary": "Memorise a full 52-card stack, such as Mnemonica or Aronson, so you always know where every card is.",
+      "steps": ["Choose a published stack and learn it with a mnemonic system.", "Drill card to number and number to card until both directions are instant.", "Learn a few classic memorized-deck effects, such as 'any card at any number'.", "Learn to maintain the stack with false shuffles and cuts."],
+      "drills": ["Daily flashcard drills of random cards and numbers.", "Recite the stack from any starting point."],
+      "mastery": "You can name any card's position, or any position's card, in under two seconds."
+    },
+    {
+      "id": "close-up-set", "name": "A Ten-Minute Close-Up Set", "tier": 4, "requires": ["ambitious-card", "misdirection"], "hours": 25,
+      "summary": "Put your best tricks into a structured set with an opener, a build and a closer.",
+      "steps": ["Pick a quick, visual opener that establishes who you are.", "Order the tricks so each one escalates the previous one.", "Make sure resets and transitions are clean, with no dead time.", "Finish with your strongest effect and a clear ending."],
+      "drills": ["Run the full set daily for two weeks.", "Perform it for at least five groups of strangers."],
+      "mastery": "You can perform the set for any group at a table and get applause at the end."
+    },
+    {
+      "id": "false-deals", "name": "Second & Bottom Deals", "tier": 5, "requires": ["classic-pass"], "hours": 120,
+      "summary": "Deal the second card or the bottom card while appearing to deal the top: the core skill of gambling demonstrations.",
+      "steps": ["Learn the strike second deal grip and thumb action.", "Make the sound and rhythm match an honest deal.", "Learn a bottom deal with a mechanic's grip.", "Build a gambling demonstration where you deal yourself the winning hand."],
+      "drills": ["Deal seconds while watching TV until it's automatic.", "Film yourself at full dealing speed and slow it down."],
+      "mastery": "You can deal yourself four aces in a poker deal at full speed and it looks completely honest."
+    },
+    {
+      "id": "original-effect", "name": "Create an Original Effect", "tier": 5, "requires": ["close-up-set", "elmsley-count"], "hours": 60,
+      "summary": "Invent a trick or method of your own and publish, perform or share it with other magicians.",
+      "steps": ["Start from an effect you want the audience to experience, not a method.", "Combine principles you know in a new way.", "Test it on magicians as well as laypeople.", "Write it up clearly and credit the ideas you built on."],
+      "drills": ["Keep an ideas notebook and add one idea a week.", "Show drafts at a magic club or online community for feedback."],
+      "mastery": "Other magicians perform or ask about a trick you created."
+    },
+    {
+      "id": "professional-act", "name": "Paid Close-Up Performer", "tier": 5, "requires": ["close-up-set", "card-to-pocket", "classic-force"], "hours": 200,
+      "summary": "Perform walk-around or table magic at events, weddings and restaurants for money.",
+      "steps": ["Develop two strong sets that reset instantly.", "Learn to approach strangers and leave groups gracefully.", "Build a website, promo video and reviews.", "Price, book and deliver paid gigs reliably."],
+      "drills": ["Do free gigs at local venues to build reels and reviews.", "Debrief every gig: what landed and what didn't."],
+      "mastery": "You are booked and paid for magic regularly, and clients recommend you."
+    }
+  ]
+}

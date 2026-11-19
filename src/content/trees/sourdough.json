@@ -1,0 +1,194 @@
+{
+  "hobby": "sourdough",
+  "nodes": [
+    {
+      "id": "starter", "name": "Make a Starter", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Capture wild yeast and bacteria with nothing but flour and water, fed daily until it reliably doubles.",
+      "steps": ["Mix equal weights of wholemeal or rye flour and water in a clean jar.", "Every 24 hours, discard most of it and feed it equal weights of flour and water.", "Expect a burst of activity on day 2 or 3, then a quiet spell. Keep feeding.", "It's ready when it doubles within 4 to 8 hours of feeding, several days in a row."],
+      "drills": ["Mark the jar with a rubber band after each feed to track the rise.", "Keep a log of times, temperatures and rise."],
+      "mastery": "Your starter doubles predictably after feeding and smells pleasantly sour, not like nail polish."
+    },
+    {
+      "id": "bakers-percentages", "name": "Baker's Percentages", "tier": 1, "requires": [], "hours": 1,
+      "summary": "The baker's maths: everything is a percentage of the flour weight, so you can read, scale and compare any recipe.",
+      "steps": ["Flour is always 100%; other ingredients are measured relative to it.", "Hydration is water divided by flour. A 75% dough has 750 g water per 1 kg flour.", "Salt is usually about 2%, and levain usually 15 to 25%.", "Learn to account for the flour and water inside the levain."],
+      "drills": ["Convert three online recipes into baker's percentages.", "Scale a recipe from one loaf to three."],
+      "mastery": "You can read a formula in percentages and turn it into gram weights for any batch size."
+    },
+    {
+      "id": "mixing", "name": "Mixing & Building Strength", "tier": 1, "requires": ["bakers-percentages"], "hours": 2,
+      "summary": "Autolyse, stretch-and-folds and coil folds: build gluten strength gently, without heavy kneading.",
+      "steps": ["Mix flour and water and rest it for 30 to 60 minutes (autolyse).", "Add levain and salt, squeezing them in thoroughly.", "Do sets of stretch-and-folds every 30 minutes for the first two hours.", "Notice the dough changing from shaggy to smooth and elastic."],
+      "drills": ["Make a dough and photograph it after each set of folds.", "Try coil folds instead of stretch-and-folds."],
+      "mastery": "You can feel when a dough has built enough strength to hold its shape."
+    },
+    {
+      "id": "first-loaf", "name": "Your First Loaf", "tier": 1, "requires": ["starter", "mixing"], "hours": 4,
+      "summary": "Follow a simple, moderate-hydration recipe from start to finish and bake a real sourdough loaf.",
+      "steps": ["Choose a beginner recipe at about 70% hydration.", "Use your starter at its peak, a few hours after feeding.", "Follow the timings, but watch the dough as well as the clock.", "Let the loaf cool for at least an hour before cutting it."],
+      "drills": ["Bake the same recipe three times in a row.", "Photograph the crust and crumb of every loaf."],
+      "mastery": "You've baked a loaf that rose, has a crisp crust, and that you'd happily eat."
+    },
+    {
+      "id": "starter-care", "name": "Starter Maintenance", "tier": 1, "requires": ["starter"], "hours": 2,
+      "summary": "Keep your starter healthy on your own schedule, using the fridge, feeding ratios and peak timing.",
+      "steps": ["Learn feeding ratios such as 1:1:1 and 1:5:5 and how they change timing.", "Store your starter in the fridge between bakes and feed it once a week.", "Revive a cold starter with one or two feeds before baking.", "Recognise the peak: domed top, lots of bubbles and a pleasant tang."],
+      "drills": ["Keep a starter alive for a month with weekly fridge feeds.", "Time the peak at two different ratios."],
+      "mastery": "You can have your starter at peak at whatever time you choose."
+    },
+    {
+      "id": "bulk-fermentation", "name": "Reading Bulk Fermentation", "tier": 2, "requires": ["first-loaf"], "hours": 10,
+      "summary": "Judge the first rise by the dough, not the clock: volume, bubbles, dome and jiggle.",
+      "steps": ["Ferment in a straight-sided container marked at the starting level.", "Look for a 50 to 75% rise, a domed surface, and bubbles on the sides.", "Learn how temperature changes timing: warmer is faster.", "Use a dough thermometer to know your dough temperature."],
+      "drills": ["Bake two loaves from one dough, ending bulk at different times.", "Log temperature and rise for every bake."],
+      "mastery": "You end bulk fermentation at the right moment without a timer."
+    },
+    {
+      "id": "shaping", "name": "Shaping Boules & Bâtards", "tier": 2, "requires": ["first-loaf"], "hours": 8,
+      "summary": "Pre-shape, rest and final shape to build a tight surface that holds the loaf up in the oven.",
+      "steps": ["Pre-shape the dough into a loose round and rest it for 20 to 30 minutes.", "Shape a round boule by dragging it against the bench to tighten the surface.", "Learn the bâtard (oval) fold-and-roll method.", "Place the shaped dough seam-up in a floured proofing basket."],
+      "drills": ["Shape a ball of dough ten times, then bake just one of them.", "Film your hands and compare with a professional shaping video."],
+      "mastery": "Your loaves hold a tall shape in the oven and don't spread flat."
+    },
+    {
+      "id": "dutch-oven", "name": "Baking in a Dutch Oven", "tier": 2, "requires": ["first-loaf"], "hours": 3,
+      "summary": "Trap steam with a lid for a big rise and a glossy, blistered crust.",
+      "steps": ["Preheat the Dutch oven in the oven at about 250°C (480°F) for 45 minutes.", "Bake with the lid on for 20 minutes to trap steam.", "Remove the lid and bake for another 20 to 25 minutes until deeply browned.", "Check that the inside has reached about 96 to 98°C (205 to 208°F)."],
+      "drills": ["Bake two loaves with different lid-off times and compare the crusts.", "Try a lower final temperature for a thinner crust."],
+      "mastery": "You consistently get a deep brown, crackly crust without burning the base."
+    },
+    {
+      "id": "scoring", "name": "Scoring", "tier": 2, "requires": ["shaping"], "hours": 4,
+      "summary": "Cut the dough with a blade so it opens where you want it and forms a dramatic 'ear'.",
+      "steps": ["Use a razor blade or lame, held at a shallow 30 to 45 degree angle.", "Make one confident, quick cut about 1 cm deep along the length of the loaf.", "Score cold dough straight from the fridge for cleaner cuts.", "Try decorative patterns on top of the main expansion cut."],
+      "drills": ["Practise the motion on a shaped dough without cutting.", "Photograph each loaf's ear and compare angles."],
+      "mastery": "Your loaves open along the score with a raised, crisp ear."
+    },
+    {
+      "id": "cold-retard", "name": "Cold Retarding & Scheduling", "tier": 2, "requires": ["bulk-fermentation"], "hours": 4,
+      "summary": "Proof shaped loaves overnight in the fridge for better flavour and a baking schedule that fits your life.",
+      "steps": ["After shaping, cover the basket and refrigerate it for 8 to 16 hours.", "Bake straight from the fridge, which also makes scoring easier.", "Plan backwards from when you want to bake.", "Learn the poke test to check proof."],
+      "drills": ["Write out three baking schedules: weekday, weekend and overnight.", "Bake the same dough after 10 hours and after 16 hours in the fridge."],
+      "mastery": "You can bake fresh bread at any time you choose without being tied to the kitchen."
+    },
+    {
+      "id": "crumb-reading", "name": "Reading Your Crumb", "tier": 2, "requires": ["bulk-fermentation", "dutch-oven"], "hours": 3,
+      "summary": "Diagnose under- and over-proofing from the inside of the loaf.",
+      "steps": ["Cut the loaf in half when it is fully cool.", "Dense crumb with a few large holes under the crust usually means underproofed.", "Flat, sour loaves with a uniform crumb usually mean overproofed.", "Compare against crumb-shot guides and adjust your next bake."],
+      "drills": ["Take a crumb photo of every loaf and label it.", "Deliberately under- and over-proof one loaf each to learn the difference."],
+      "mastery": "You can look at a crumb shot and say what to change next time."
+    },
+    {
+      "id": "discard-bakes", "name": "Discard Bakes", "tier": 2, "requires": ["starter-care"], "hours": 2,
+      "summary": "Turn surplus starter into crackers, pancakes and flatbreads instead of throwing it away.",
+      "steps": ["Collect discard in a jar in the fridge.", "Make sourdough crackers with discard, oil, salt and herbs.", "Make sourdough pancakes or flatbreads.", "Experiment with discard in other recipes."],
+      "drills": ["Make three different discard recipes.", "Find the one you'd make every week."],
+      "mastery": "You never throw away starter and have a favourite discard recipe."
+    },
+    {
+      "id": "focaccia", "name": "Sourdough Focaccia", "tier": 2, "requires": ["mixing"], "hours": 3,
+      "summary": "A forgiving, high-hydration bread baked in a tray: dimpled, oily and always a crowd-pleaser.",
+      "steps": ["Mix a high-hydration dough and do folds in the bowl.", "Bulk ferment, then move it into a well-oiled tray.", "Let it relax and spread, then dimple deeply with oiled fingers.", "Top with salt, rosemary or tomatoes and bake hot."],
+      "drills": ["Bake three focaccias with different toppings.", "Try an overnight cold version."],
+      "mastery": "Your focaccia is airy, crisp-bottomed and disappears at gatherings."
+    },
+    {
+      "id": "high-hydration", "name": "High-Hydration Doughs", "tier": 3, "requires": ["shaping", "bulk-fermentation"], "hours": 15,
+      "summary": "Handle wet doughs of 80% hydration and above for lighter, more open loaves.",
+      "steps": ["Increase hydration in 2 to 3% steps from your base recipe.", "Use wet hands and a bench scraper, and avoid adding extra flour.", "Try lamination: stretch the dough thin on the bench and fold it.", "Build more strength with additional sets of folds."],
+      "drills": ["Bake the same recipe at 75%, 78% and 82% hydration.", "Practise shaping wet dough with minimal flour."],
+      "mastery": "You can shape an 80% hydration dough into a loaf that holds its shape."
+    },
+    {
+      "id": "whole-grains", "name": "Whole Grain & Rye", "tier": 3, "requires": ["bulk-fermentation"], "hours": 10,
+      "summary": "Bake with wholemeal, spelt and rye, which absorb more water and ferment faster.",
+      "steps": ["Start with 20 to 30% wholemeal flour and raise it over time.", "Add more water: whole grains are thirstier.", "Expect faster fermentation from the extra nutrients.", "Bake a 100% rye loaf in a tin with a rye starter."],
+      "drills": ["Bake 30%, 50% and 100% wholemeal versions of a loaf.", "Bake a dense, dark rye and let it rest for a day before slicing."],
+      "mastery": "You can bake a well-risen 50% wholemeal loaf and a proper rye bread."
+    },
+    {
+      "id": "inclusions", "name": "Inclusions & Flavour", "tier": 3, "requires": ["shaping"], "hours": 4,
+      "summary": "Add seeds, olives, cheese, nuts or fruit without wrecking the dough's structure.",
+      "steps": ["Add inclusions during lamination or the first set of folds.", "Soak seeds and dried fruit first so they don't steal water.", "Keep inclusions to about 20 to 30% of flour weight.", "Try classic pairings such as olive and rosemary, or walnut and cranberry."],
+      "drills": ["Bake three inclusion loaves.", "Try a seeded crust by rolling the shaped dough in seeds."],
+      "mastery": "You can add generous inclusions and still get good rise and crumb."
+    },
+    {
+      "id": "levain-builds", "name": "Levain Builds & Tuning", "tier": 3, "requires": ["starter-care", "bulk-fermentation"], "hours": 6,
+      "summary": "Build a separate levain for each bake and control sourness, timing and strength.",
+      "steps": ["Build a levain from a little starter the night before baking.", "Try stiff (50 to 60%) versus liquid (100%) levains and taste the difference.", "Make bread more sour with cooler temperatures and longer retards.", "Make it milder with younger levain and warmer fermentation."],
+      "drills": ["Bake a mild loaf and a sour loaf from the same flour.", "Time a levain to peak at exactly the moment you need it."],
+      "mastery": "You can make a loaf more or less sour on purpose."
+    },
+    {
+      "id": "oven-steam", "name": "Open Baking with Steam", "tier": 3, "requires": ["dutch-oven", "scoring"], "hours": 6,
+      "summary": "Bake on a stone or steel with your own steam setup, the gateway to baguettes and multiple loaves at once.",
+      "steps": ["Preheat a baking stone or steel for an hour.", "Create steam with a tray of lava rocks and boiling water, or towels.", "Load the dough with a peel and vent the steam after 15 to 20 minutes.", "Compare the results with your Dutch oven loaves."],
+      "drills": ["Bake two loaves at once on a stone.", "Try different steam methods and compare the crusts."],
+      "mastery": "You can get Dutch-oven-quality crust and rise without a Dutch oven."
+    },
+    {
+      "id": "open-crumb", "name": "Open Crumb", "tier": 4, "requires": ["high-hydration", "crumb-reading"], "hours": 20,
+      "summary": "Large, irregular, glossy holes: the result of strength, fermentation and shaping all being just right.",
+      "steps": ["Use strong flour and high hydration with good strength-building.", "Ferment fully without overproofing.", "Shape gently so you keep the gas in the dough.", "Bake hot with plenty of steam."],
+      "drills": ["Bake a series of loaves, changing one variable at a time.", "Keep a crumb-shot archive with notes."],
+      "mastery": "You can produce an open, glossy crumb on demand rather than by luck."
+    },
+    {
+      "id": "baguettes", "name": "Sourdough Baguettes", "tier": 4, "requires": ["high-hydration", "oven-steam"], "hours": 25,
+      "summary": "Long, thin, crackling loaves with overlapping scores: one of the hardest breads to shape and bake.",
+      "steps": ["Divide and pre-shape into small cylinders.", "Shape long baguettes with even pressure and taper the ends.", "Proof them in a floured couche.", "Score with several overlapping, nearly parallel cuts and bake with lots of steam."],
+      "drills": ["Shape six baguettes per session.", "Practise baguette scoring on paper with a pen first."],
+      "mastery": "Your baguettes have an even shape, open scores and a crisp, thin crust."
+    },
+    {
+      "id": "enriched", "name": "Enriched Sourdough", "tier": 4, "requires": ["levain-builds"], "hours": 15,
+      "summary": "Sourdough brioche, cinnamon rolls and soft sandwich loaves made with butter, eggs, milk and sugar.",
+      "steps": ["Understand that fat and sugar slow fermentation: expect longer rises.", "Develop the gluten well before adding butter.", "Use a young, mild levain to keep the sourness low.", "Bake at lower temperatures to avoid burning the sugars."],
+      "drills": ["Bake a sourdough brioche.", "Bake cinnamon rolls from an overnight dough."],
+      "mastery": "You can make soft, rich, well-risen enriched breads with a mild flavour."
+    },
+    {
+      "id": "formula-design", "name": "Designing Your Own Formulas", "tier": 4, "requires": ["whole-grains", "inclusions", "levain-builds"], "hours": 20,
+      "summary": "Write recipes from scratch: choose flours, hydration, levain and process to hit a target loaf.",
+      "steps": ["Define the loaf you want: crumb, crust, flavour and shape.", "Pick flours and hydration based on what you've learned.", "Write the formula in baker's percentages and a schedule.", "Bake, taste, adjust and bake again."],
+      "drills": ["Create one original loaf per month.", "Share a formula with another baker and get their feedback."],
+      "mastery": "You have a signature loaf of your own design that you can bake consistently."
+    },
+    {
+      "id": "consistency", "name": "Batch Baking & Consistency", "tier": 4, "requires": ["open-crumb", "levain-builds"], "hours": 30,
+      "summary": "Bake several loaves at once and make them all identical, week after week.",
+      "steps": ["Standardise everything: flour, temperatures and timings.", "Use a desired dough temperature calculation to set water temperature.", "Mix, divide and shape multiple loaves at once.", "Track results in a bake log."],
+      "drills": ["Bake four identical loaves at once.", "Bake the same loaf every week for a month and compare."],
+      "mastery": "Four loaves from one batch look and taste like they came from a bakery."
+    },
+    {
+      "id": "panettone", "name": "Sourdough Panettone", "tier": 5, "requires": ["enriched", "levain-builds"], "hours": 60,
+      "summary": "The Everest of baking: a multi-day, hugely enriched Italian festive bread raised by a stiff starter.",
+      "steps": ["Maintain a stiff lievito madre starter with frequent feeds for several days.", "Make the first dough and ferment it overnight until it triples.", "Make the second dough with yolks, butter, sugar and candied fruit, building huge strength.", "Bake in paper moulds and hang the loaves upside down to cool."],
+      "drills": ["Strengthen your lievito madre over two weeks.", "Make a half batch first."],
+      "mastery": "Your panettone is tall, feathery and shreds into soft strands."
+    },
+    {
+      "id": "laminated", "name": "Sourdough Croissants", "tier": 5, "requires": ["enriched"], "hours": 40,
+      "summary": "Laminate a naturally leavened dough with butter for flaky, honeycombed croissants.",
+      "steps": ["Make a mild, enriched sourdough dough.", "Lock in a butter block and do three folds, keeping everything cold.", "Cut and roll croissants with even tension.", "Proof warm but below the butter's melting point, then bake."],
+      "drills": ["Practise lamination with a yeasted dough first.", "Cut a croissant in half to check the honeycomb."],
+      "mastery": "Your croissants have distinct layers and an open honeycomb inside."
+    },
+    {
+      "id": "wood-fired", "name": "Wood-Fired Oven Baking", "tier": 5, "requires": ["consistency"], "hours": 50,
+      "summary": "Bake in a live-fire oven, reading the heat from the fire and the masonry.",
+      "steps": ["Learn to fire an oven and let the heat soak into the masonry.", "Read temperature by eye, thermometer and the 'flour test'.", "Plan bakes from hottest (pizza and flatbreads) to coolest (loaves, then enriched breads).", "Manage steam in a wood-fired oven."],
+      "drills": ["Bake a full schedule from one firing.", "Keep a firing log."],
+      "mastery": "You can bake a full batch in a wood-fired oven with consistent results."
+    },
+    {
+      "id": "micro-bakery", "name": "Running a Micro-Bakery", "tier": 5, "requires": ["consistency", "formula-design"], "hours": 200,
+      "summary": "Sell your bread: home-bakery regulations, pre-orders, scaling and building local customers.",
+      "steps": ["Check your local cottage food or home-bakery laws and food hygiene requirements.", "Scale your formulas and schedule for 20 or more loaves.", "Set up pre-orders and pickup or delivery.", "Price for ingredients, time and energy."],
+      "drills": ["Run a trial week for friends at cost price.", "Track costs and time per loaf."],
+      "mastery": "People pay for your bread every week and come back for more."
+    }
+  ]
+}

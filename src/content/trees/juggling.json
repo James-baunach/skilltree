@@ -1,0 +1,201 @@
+{
+  "hobby": "juggling",
+  "nodes": [
+    {
+      "id": "scarves", "name": "Scarf Cascade", "tier": 1, "requires": [], "hours": 0.5, "partyTrick": 30,
+      "summary": "Slow-motion juggling with chiffon scarves: the gentlest way to learn the crossing rhythm.",
+      "steps": ["Hold a scarf by its centre between thumb and fingertips.", "Throw it across your body with a clawing motion, palm down, and catch it from above.", "Add a second scarf, throwing it as the first one peaks.", "With three scarves, keep alternating hands: right, left, right."],
+      "drills": ["Ten full cycles of three scarves without a drop.", "Say 'right, left, right' out loud until it becomes automatic."],
+      "mastery": "You can keep three scarves floating for 30 seconds while chatting to someone."
+    },
+    {
+      "id": "one-ball", "name": "One-Ball Arc", "tier": 1, "requires": [], "hours": 0.5,
+      "summary": "The throw every pattern is built on: a consistent arc from hand to hand peaking just above eye level.",
+      "steps": ["Stand relaxed with elbows by your sides and forearms level.", "Toss a beanbag from one hand to the other so it peaks just above eye height.", "Throw from slightly inside your body line and catch on the outside, a gentle scoop.", "Watch the peak of the arc, never your hands."],
+      "drills": ["Fifty throws in a row without moving your feet.", "Practise facing a wall so you can't drift forward."],
+      "mastery": "You can throw 50 identical arcs without looking at your hands or stepping forward."
+    },
+    {
+      "id": "exchange", "name": "The Two-Ball Exchange", "tier": 1, "requires": ["one-ball"], "hours": 1,
+      "summary": "Throw, then throw again as the first ball peaks: the core rhythm of the cascade.",
+      "steps": ["Hold one ball in each hand.", "Throw the right ball; when it peaks, throw the left ball under it.", "Catch both, then stop. That is one exchange.", "Alternate which hand starts."],
+      "drills": ["Ten clean exchanges starting with each hand.", "Say 'throw, throw, catch, catch' aloud to lock in the timing."],
+      "mastery": "Both balls land in the opposite hands at the same height every time, starting with either hand."
+    },
+    {
+      "id": "cascade", "name": "Three-Ball Cascade", "tier": 1, "requires": ["exchange"], "hours": 6,
+      "summary": "The foundational three-ball pattern: a figure-eight of crossing throws that almost everything else builds on.",
+      "steps": ["Hold two balls in your dominant hand and one in the other.", "Throw three times and stop, catching all three. This is a 'flash'.", "Extend to four, five and six throws, then just keep going.", "When you drop, restart straight away. Drops are information, not failure."],
+      "drills": ["Log your best run every session.", "Practise in front of a bed or sofa to save your back from picking up drops."],
+      "mastery": "You can sustain 20 catches (a 'qualify') consistently, and 100 or more on a good day."
+    },
+    {
+      "id": "over-the-top", "name": "Over the Top", "tier": 2, "requires": ["cascade"], "hours": 2,
+      "summary": "Send one ball from the outside of the pattern, over the top of the others, then fall straight back into the cascade.",
+      "steps": ["Run a steady cascade.", "Choose one throw and make it from outside your body line, arcing over the incoming ball.", "Return to normal throws immediately after.", "Learn it from both hands."],
+      "drills": ["Cascade, one over-the-top, cascade, and repeat ten times each side.", "Alternate sides every few throws."],
+      "mastery": "You can drop an over-the-top throw into the cascade on demand from either hand."
+    },
+    {
+      "id": "tennis", "name": "Tennis", "tier": 2, "requires": ["over-the-top"], "hours": 2,
+      "summary": "One ball travels back and forth over the top of the pattern, like a tennis ball over a net.",
+      "steps": ["Pick one 'tennis ball', ideally a different colour.", "Every time it reaches a hand, throw it over the top.", "Keep the other two balls in a normal cascade.", "Keep the over-the-top throw the same height as the others."],
+      "drills": ["Twenty consecutive tennis throws.", "Switch between cascade and tennis every five throws."],
+      "mastery": "The tennis ball crosses back and forth 20 times without the pattern breaking."
+    },
+    {
+      "id": "reverse-cascade", "name": "Reverse Cascade", "tier": 2, "requires": ["cascade"], "hours": 3,
+      "summary": "Every throw goes over the top of the pattern: the cascade turned inside out, and the gateway to Mills' Mess.",
+      "steps": ["Throw each ball from the outside of your hand, arcing over the incoming ball.", "Catch on the inside, then carry the ball outward before the next throw.", "Start with flashes of three throws, then build up.", "Keep the arcs slightly wider than in the cascade."],
+      "drills": ["Alternate ten cascade throws with ten reverse throws.", "Practise slowly with higher throws to give yourself time."],
+      "mastery": "You can run 50 catches of reverse cascade and switch into and out of it smoothly."
+    },
+    {
+      "id": "columns", "name": "One Up, Two Up", "tier": 2, "requires": ["cascade"], "hours": 3,
+      "summary": "Balls rise in vertical columns: the middle one alone, then the two outer ones together.",
+      "steps": ["Hold two balls in your right hand and one in your left.", "Throw the middle ball straight up.", "As it peaks, throw the two outer balls up together, one from each hand.", "Keep alternating: one, then two."],
+      "drills": ["Twenty cycles without the columns drifting.", "Try 'fake' versions where your empty hand mirrors the middle ball."],
+      "mastery": "The three columns stay parallel and vertical for 20 cycles."
+    },
+    {
+      "id": "two-in-one", "name": "Two in One Hand", "tier": 2, "requires": ["cascade"], "hours": 5,
+      "summary": "Juggle two balls in a single hand in small circles: the building block for four and more balls.",
+      "steps": ["Throw two balls in one hand in an inward circle: throw on the inside, catch on the outside.", "Keep the throws the same height and in a flat plane.", "Learn outward circles and side-by-side columns too.", "Train your weak hand twice as much."],
+      "drills": ["Thirty catches in each hand, each direction.", "Juggle two in one hand while walking slowly."],
+      "mastery": "Both hands can run 30 catches of two-in-one, in either direction."
+    },
+    {
+      "id": "under-the-leg", "name": "Under the Leg", "tier": 2, "requires": ["cascade"], "hours": 3, "partyTrick": 60,
+      "summary": "Lift a knee and send one throw beneath it without breaking the cascade. Looks far harder than it is.",
+      "steps": ["Practise the throw alone: lift your right knee and throw a ball under it to your left hand.", "Throw it slightly higher than a normal cascade throw to buy time.", "Drop it into a running cascade once, then catch everything.", "Learn it with both legs."],
+      "drills": ["Cascade, under the leg, cascade, and repeat ten times.", "Do consecutive under-the-leg throws, alternating legs."],
+      "mastery": "You can hit five under-the-leg throws in a row on demand without breaking the pattern."
+    },
+    {
+      "id": "half-shower", "name": "Half Shower", "tier": 2, "requires": ["cascade"], "hours": 3,
+      "summary": "One hand always throws high over the top while the other throws low underneath.",
+      "steps": ["Your right hand throws every ball high, over the pattern.", "Your left hand throws low, crossing underneath.", "Keep the rhythm even even though the heights differ.", "Swap roles so both hands learn both throws."],
+      "drills": ["Fifty catches with each hand as the high hand.", "Switch between cascade and half shower every ten throws."],
+      "mastery": "You can switch smoothly between cascade, half shower and back."
+    },
+    {
+      "id": "claws", "name": "Claw Catches", "tier": 2, "requires": ["cascade"], "hours": 3,
+      "summary": "Catch every ball palm-down, snatching it from above for an aggressive, rapid-fire look.",
+      "steps": ["Start with one ball, snatching it from the air with your palm facing down.", "Throw from the clawed position with a flick of the wrist.", "Do a cascade where only one hand claws, then both hands.", "Keep the throws a little lower and quicker."],
+      "drills": ["Twenty consecutive claw catches with each hand.", "Alternate five normal and five claw throws."],
+      "mastery": "You can run a full claw cascade for 30 catches."
+    },
+    {
+      "id": "apple-eater", "name": "The Apple Eater", "tier": 2, "requires": ["cascade"], "hours": 1, "partyTrick": 45,
+      "summary": "Juggle two balls and an apple, taking bites out of the apple mid-pattern. The classic crowd-pleaser.",
+      "steps": ["Cascade two balls and an apple of similar weight.", "When the apple lands in your dominant hand, bring it to your mouth and bite, then carry it back out.", "Throw the next ball slightly higher to buy time for the bite.", "Build up to a bite every time the apple comes round."],
+      "drills": ["Practise the 'carry to mouth' with a ball first.", "Five bites in a row without stopping."],
+      "mastery": "You can eat half an apple without a drop while keeping eye contact with your audience."
+    },
+    {
+      "id": "mills-mess", "name": "Mills' Mess", "tier": 3, "requires": ["reverse-cascade"], "hours": 15,
+      "summary": "Arms cross and uncross while balls weave through the gaps: one of juggling's most hypnotic patterns.",
+      "steps": ["Learn the arm movement alone: hands circle and cross over each other in a wave.", "Add one ball, then two, following the throw sequence.", "Use slow, high reverse-cascade throws while you learn.", "Bring the three-ball version together a few throws at a time."],
+      "drills": ["Practise the empty-hand motion to music for five minutes.", "Two-ball Mills' Mess flashes until they feel automatic."],
+      "mastery": "You can run Mills' Mess for 30 catches and enter and exit it from a cascade."
+    },
+    {
+      "id": "shower", "name": "Three-Ball Shower", "tier": 3, "requires": ["half-shower"], "hours": 10,
+      "summary": "Balls chase each other in a circle: one hand throws high while the other passes across directly.",
+      "steps": ["The high hand throws every ball in a high arc to the other hand.", "The low hand passes each ball straight back across, almost a handoff.", "Throw high and fast, and keep the circle tight.", "Learn it in both directions."],
+      "drills": ["Two-ball shower flashes for timing.", "Thirty catches each direction."],
+      "mastery": "You can sustain a three-ball shower for 30 catches in each direction."
+    },
+    {
+      "id": "box", "name": "The Box", "tier": 3, "requires": ["columns"], "hours": 10,
+      "summary": "Two balls rise in outer columns while the third is passed horizontally between your hands.",
+      "steps": ["The two outer balls are thrown straight up, one from each hand, alternating.", "The middle ball is passed sideways from hand to hand.", "Each hand throws up, then catches the passed ball, then passes it back.", "Keep the vertical throws high and the passes flat."],
+      "drills": ["Slow-motion box with high vertical throws.", "Twenty cycles without the columns wandering."],
+      "mastery": "You can hold a clean box pattern for 20 full cycles."
+    },
+    {
+      "id": "siteswap", "name": "Siteswap Notation", "tier": 3, "requires": ["two-in-one"], "hours": 8,
+      "summary": "Juggling's mathematical notation. Learn to read it and you can learn patterns like 441, 531 and 423 from a string of numbers.",
+      "steps": ["Learn the basics: each number is how many beats a throw stays in the air (3 = cascade).", "Learn 423 ('two in one hand with a crossing throw').", "Learn 441 and 531, which are three-ball patterns with height changes.", "Use a siteswap animator to visualise new patterns before trying them."],
+      "drills": ["Juggle 423, 441 and 531 for 20 catches each.", "Pick a random valid siteswap each session and learn it."],
+      "mastery": "You can read an unfamiliar three-ball siteswap and juggle it within a session."
+    },
+    {
+      "id": "behind-back", "name": "Behind the Back", "tier": 3, "requires": ["under-the-leg"], "hours": 8,
+      "summary": "Throw a ball from behind your back over the opposite shoulder and slot it back into the pattern.",
+      "steps": ["Practise the throw alone: reach behind your back and throw over your opposite shoulder.", "Make it higher than a normal throw to give yourself time.", "Insert one into a cascade, then catch everything.", "Build up to consecutive behind-the-back throws."],
+      "drills": ["Ten single behind-the-back throws each side.", "Alternate under-the-leg and behind-the-back throws."],
+      "mastery": "You can throw three behind-the-back throws in a row without breaking the cascade."
+    },
+    {
+      "id": "three-clubs", "name": "Three-Club Cascade", "tier": 3, "requires": ["cascade"], "hours": 15,
+      "summary": "Graduate to juggling clubs with single spins: bigger, louder and much more visual.",
+      "steps": ["Hold a club by the handle and throw a single spin to the other hand, catching it by the handle.", "Do the two-club exchange, just like with balls.", "Learn the three-club start, holding two clubs in one hand.", "Keep the spins slow and the throws slightly higher than with balls."],
+      "drills": ["Fifty single spins each hand.", "Three-club flashes, building to 20 catches."],
+      "mastery": "You can run 50 catches of a three-club cascade with clean single spins."
+    },
+    {
+      "id": "four-ball", "name": "Four-Ball Fountain", "tier": 3, "requires": ["two-in-one"], "hours": 25,
+      "summary": "Two balls in each hand, juggled independently: your first step beyond three.",
+      "steps": ["Run two-in-one in each hand separately until both are solid.", "Combine them out of sync: right, left, right, left.", "Keep the throws vertical so balls never cross.", "Also learn the synchronous version, with both hands throwing together."],
+      "drills": ["Four-ball flashes, building to 20 catches.", "Five-minute sessions of weak-hand two-in-one first."],
+      "mastery": "You can sustain a four-ball fountain for 40 catches."
+    },
+    {
+      "id": "burkes-barrage", "name": "Burke's Barrage", "tier": 3, "requires": ["mills-mess", "claws"], "hours": 12,
+      "summary": "A flashy combination of carries, claws and slaps that looks wildly chaotic but follows a strict rhythm.",
+      "steps": ["Learn the 'carry': one ball is held and moved around another ball's path.", "Practise the slap-down claw catch that defines the pattern.", "Assemble the trick slowly from the two-ball version.", "Speed it up only when the rhythm is automatic."],
+      "drills": ["Two-ball Burke's Barrage for 20 cycles.", "Film yourself and compare against a reference video."],
+      "mastery": "You can run Burke's Barrage for ten cycles and exit back into a cascade."
+    },
+    {
+      "id": "five-ball", "name": "Five-Ball Cascade", "tier": 4, "requires": ["four-ball", "siteswap"], "hours": 200,
+      "summary": "The great milestone: five balls in a high, fast cascade. Months of practice for most people.",
+      "steps": ["Train high three-ball cascades at five-ball height.", "Learn the stepping-stone patterns 744 and 645.", "Work on five-ball flashes (55500) until they are consistent.", "Stretch flashes to 7, 10 and 15 catches."],
+      "drills": ["Twenty five-ball flashes every session.", "Keep a log of your best run; progress comes in jumps."],
+      "mastery": "You can qualify five balls: ten catches, consistently."
+    },
+    {
+      "id": "club-passing", "name": "Club Passing", "tier": 4, "requires": ["three-clubs"], "hours": 20,
+      "summary": "Juggle clubs between two or more people. The social heart of every juggling convention.",
+      "steps": ["Face a partner about two metres apart, each with three clubs.", "Learn 'every others': every second right-hand throw is a pass.", "Progress to 'every' passes (ultimates) when the timing is solid.", "Try simple feeds and triangles with three people."],
+      "drills": ["Five minutes of every-others without a drop.", "Swap partners often to adapt to different throws."],
+      "mastery": "You can pass every-others for two minutes and switch to ultimates on a call."
+    },
+    {
+      "id": "club-tricks", "name": "Club Doubles & Tricks", "tier": 4, "requires": ["three-clubs", "under-the-leg"], "hours": 30,
+      "summary": "Double spins, flats, under-the-leg throws and back-crosses with clubs.",
+      "steps": ["Learn single doubles inside a three-club cascade.", "Learn the flat throw, with no spin, for a sharp visual change.", "Port your ball tricks over to clubs: under the leg, then behind the back.", "String three tricks into a mini-sequence."],
+      "drills": ["Ten doubles in a row each hand.", "One new trick per week, filmed once a week."],
+      "mastery": "You can run doubles, flats and under-the-leg throws with clubs in one unbroken sequence."
+    },
+    {
+      "id": "routine", "name": "A Three-Minute Routine", "tier": 4, "requires": ["mills-mess", "behind-back"], "hours": 20,
+      "summary": "Choreograph your tricks to music for an audience: beginning, build, climax and bow.",
+      "steps": ["Choose a three-minute track and map its sections.", "Place your strongest trick at the musical climax.", "Practise transitions until there are no awkward pauses.", "Perform it at an open stage or for friends."],
+      "drills": ["Run the full routine three times per session.", "Record it and cut anything that drops more than one time in five."],
+      "mastery": "You can perform the routine for strangers with at most one drop and recover with style."
+    },
+    {
+      "id": "five-clubs", "name": "Five-Club Cascade", "tier": 5, "requires": ["five-ball", "club-tricks"], "hours": 400,
+      "summary": "Five clubs spinning in doubles: one of juggling's hardest standard milestones.",
+      "steps": ["Get very consistent three-club triples and four-club doubles.", "Build up five-club flashes with double spins.", "Keep a strong, wide stance and throw high.", "Work in short, focused sessions to avoid fatigue injuries."],
+      "drills": ["Daily five-club flashes.", "Four-club fountain warm-ups in doubles."],
+      "mastery": "You can qualify five clubs: ten catches, cleanly."
+    },
+    {
+      "id": "seven-balls", "name": "Seven-Ball Cascade", "tier": 5, "requires": ["five-ball"], "hours": 1500,
+      "summary": "The elite number. Years of training for a few seconds of seven balls in the air.",
+      "steps": ["Make five balls effortless: 100+ catches and tricks.", "Learn six-ball fountain and high five-ball cascades.", "Drill seven-ball flashes with perfect throw accuracy.", "Extend the flashes by a catch at a time."],
+      "drills": ["Seven-ball flashes in every session.", "High-precision throw drills at seven-ball height."],
+      "mastery": "You can qualify seven balls: fourteen catches."
+    },
+    {
+      "id": "signature-act", "name": "Your Signature Act", "tier": 5, "requires": ["routine", "club-tricks"], "hours": 80,
+      "summary": "An original five-to-seven-minute act with your own style, props and character, built to stage standard.",
+      "steps": ["Find your angle: comedy, flow, technical or theatrical.", "Invent at least one trick or sequence that is uniquely yours.", "Build a character and costume that suit the act.", "Perform it at festivals, cabarets or conventions and refine it after every show."],
+      "drills": ["Perform it ten times for live audiences.", "Ask a director or another performer for honest notes."],
+      "mastery": "You are booked or invited to perform the act, and people remember it afterwards."
+    }
+  ]
+}

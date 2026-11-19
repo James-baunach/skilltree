@@ -1,0 +1,504 @@
+:root {
+  --bg: #03040a;
+  --ink: #d8ecff;
+  --ink-dim: #8a9bbb;
+  --ink-faint: #56647f;
+  --cyan: #2ee6ff;
+  --cyan-soft: rgba(46, 230, 255, 0.14);
+  --cyan-line: rgba(46, 230, 255, 0.3);
+  --magenta: #ff3fd8;
+  --magenta-soft: rgba(255, 63, 216, 0.14);
+  --gold: #ffc65c;
+  --gold-soft: rgba(255, 198, 92, 0.14);
+  --steel: #6a7ca3;
+  --glass: rgba(5, 9, 20, 0.8);
+  --glass-strong: rgba(5, 9, 20, 0.92);
+  --panel-w: 420px; /* read by Engine.ts to keep the 3D view centred beside the panel */
+  --gutter: 16px;
+  --font-ui: 'Chakra Petch', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  color-scheme: dark;
+}
+
+@media (max-width: 1099.98px) {
+  :root {
+    --panel-w: 360px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 1px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--magenta-soft);
+}
+
+/* ------------------------------------------------------------------ map labels */
+
+.labels {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.lbl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+  text-align: center;
+  transform-origin: 0 0;
+  will-change: transform, opacity;
+}
+
+.lbl__t {
+  /* A tight dark halo keeps text legible over tiles and traces */
+  text-shadow: 0 0 2px #000, 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.lbl__s {
+  margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8ea0bf;
+  text-shadow: 0 0 2px #000, 0 0 5px #000;
+}
+
+/* District name, zoomed out; long names wrap so neighbouring districts fit side by side */
+.lbl--domain {
+  max-width: 150px;
+  white-space: normal;
+}
+
+.lbl--domain .lbl__t {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--c) 75%, #fff);
+}
+
+.lbl--domain.is-hover .lbl__t,
+.lbl--district.is-hover .lbl__t {
+  color: #fff;
+}
+
+/* District header above its honeycomb, zoomed in */
+.lbl--district {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  padding: 3px 10px 3px 8px;
+  border-left: 2px solid var(--c);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--c) 16%, transparent), transparent);
+}
+
+.lbl--district .lbl__t {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--c) 80%, #fff);
+}
+
+.lbl--district .lbl__s {
+  margin: 0;
+  color: color-mix(in srgb, var(--c) 55%, #7a8bab);
+}
+
+.lbl--core .lbl__t {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.45em;
+  padding-left: 0.45em;
+  color: #fff4dc;
+}
+
+.lbl--core .lbl__s {
+  color: var(--gold);
+}
+
+.lbl--core.is-hover .lbl__t {
+  color: #fff;
+}
+
+/* Hobby name in the middle of its tile */
+.lbl--hobby {
+  max-width: 150px;
+  white-space: normal;
+}
+
+.lbl--hobby .lbl__t {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #e6f2ff;
+}
+
+.lbl--hobby.is-uncharted .lbl__t {
+  color: #9aa9c4;
+  font-weight: 400;
+}
+
+.lbl--hobby.is-charted .lbl__s {
+  color: color-mix(in srgb, var(--c) 70%, #fff);
+}
+
+.lbl--hobby.is-hover .lbl__t,
+.lbl--hobby.is-selected .lbl__t {
+  color: #fff;
+}
+
+/* Hobby title on the top edge of its tile once the skill tree is showing */
+.lbl--tile-head .lbl__t {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--c) 80%, #fff);
+}
+
+.lbl--tile-head.is-selected .lbl__t,
+.lbl--tile-head.is-hover .lbl__t {
+  color: #fff;
+}
+
+/* Summary inside an uncharted tile when zoomed right in */
+.lbl--summary {
+  max-width: 240px;
+  white-space: normal;
+}
+
+.lbl--summary .lbl__t {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #b8c4da;
+}
+
+.lbl--summary .lbl__s {
+  margin-top: 8px;
+  color: var(--ink-faint);
+}
+
+.lbl--node {
+  max-width: 96px;
+  white-space: normal;
+}
+
+.lbl--node .lbl__t {
+  font-size: 11.5px;
+  line-height: 1.2;
+  padding: 1px 4px;
+  color: var(--ink);
+}
+
+.lbl--node.is-locked .lbl__t {
+  color: #a3b0cb;
+}
+
+.lbl--node.is-available .lbl__t {
+  color: #bff6ff;
+}
+
+.lbl--node.is-learning .lbl__t {
+  color: #ffb8f1;
+}
+
+.lbl--node.is-learned .lbl__t {
+  color: var(--gold);
+}
+
+.lbl--node.is-party .lbl__t {
+  color: #fff;
+}
+
+.lbl--node.is-hover .lbl__t {
+  color: #fff;
+}
+
+.lbl--node.is-selected .lbl__t {
+  color: #fff;
+  font-weight: 600;
+  background: rgba(5, 9, 20, 0.75);
+  box-shadow: inset 0 0 0 1px var(--cyan-line);
+}
+
+.lbl--tier .lbl__t {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------ HUD primitives */
+
+.glass {
+  position: relative;
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.014) 0 1px, transparent 1px 3px),
+    var(--glass);
+  border: 1px solid var(--cyan-line);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Corner brackets */
+.glass::before,
+.glass::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+}
+
+.glass::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid var(--cyan);
+  border-left: 2px solid var(--cyan);
+}
+
+.glass::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid var(--cyan);
+  border-right: 2px solid var(--cyan);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid var(--cyan-line);
+  background: var(--cyan-soft);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.btn:hover {
+  border-color: var(--cyan);
+  background: rgba(46, 230, 255, 0.24);
+  color: #fff;
+}
+
+.btn.is-magenta {
+  border-color: rgba(255, 63, 216, 0.4);
+  background: var(--magenta-soft);
+}
+
+.btn.is-magenta:hover,
+.btn.is-magenta.is-on {
+  border-color: var(--magenta);
+  background: rgba(255, 63, 216, 0.26);
+}
+
+.btn.is-gold {
+  border-color: rgba(255, 198, 92, 0.45);
+  background: var(--gold-soft);
+}
+
+.btn.is-gold:hover,
+.btn.is-gold.is-on {
+  border-color: var(--gold);
+  background: rgba(255, 198, 92, 0.26);
+}
+
+.btn.is-on {
+  border-color: var(--cyan);
+  background: rgba(46, 230, 255, 0.24);
+  color: #fff;
+}
+
+.btn.is-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--ink-dim);
+}
+
+.btn.is-ghost:hover {
+  color: #fff;
+  border-color: var(--cyan-line);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border: 1px solid rgba(138, 155, 187, 0.3);
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--ink-dim);
+  background: rgba(138, 155, 187, 0.06);
+}
+
+button.chip {
+  cursor: pointer;
+}
+
+button.chip:hover {
+  color: #fff;
+  border-color: var(--cyan);
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex: none;
+  background: var(--steel);
+}
+
+.dot.is-available {
+  background: var(--cyan);
+  box-shadow: 0 0 6px var(--cyan);
+}
+
+.dot.is-learning {
+  background: var(--magenta);
+  box-shadow: 0 0 6px var(--magenta);
+}
+
+.dot.is-learned {
+  background: var(--gold);
+  box-shadow: 0 0 6px var(--gold);
+}
+
+.badge {
+  min-width: 16px;
+  padding: 1px 4px;
+  background: var(--cyan);
+  color: #000;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Popover menus anchored under header buttons */
+.menu-wrap {
+  position: relative;
+  pointer-events: auto;
+}
+
+.menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 300px;
+  max-height: calc(100vh - 110px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cyan-line) transparent;
+  padding: 14px;
+  z-index: 5;
+  background: var(--glass-strong);
+  animation: menu-in 0.18s ease-out;
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.opt {
+  padding: 5px 10px;
+  border: 1px solid rgba(138, 155, 187, 0.3);
+  background: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-dim);
+  cursor: pointer;
+}
+
+.opt:hover {
+  color: #fff;
+  border-color: var(--cyan-line);
+}
+
+.opt.is-on {
+  color: #fff;
+  border-color: var(--cyan);
+  background: var(--cyan-soft);
+}
+
+@media (max-width: 759.98px) {
+  .menu {
+    position: fixed;
+    top: 128px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-height: calc(100vh - 150px);
+  }
+}
+
+.scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cyan-line) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
