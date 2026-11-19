@@ -1,0 +1,212 @@
+{
+  "hobby": "programming",
+  "nodes": [
+    {
+      "id": "first-program", "name": "Run Your First Program", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Install a language, write a script, run it and see the output. Everything in programming starts with this loop.",
+      "steps": ["Install Python from python.org and a code editor such as VS Code.", "Create hello.py containing print('Hello') and run it with python hello.py.", "Learn variables and the basic types: int, float, str and bool, and use input() to read from the user.", "Do arithmetic and string formatting with f-strings, for example f'{name} is {age}'."],
+      "drills": ["Write a script that asks for your name and age and prints the year you turn 100.", "Write a tip calculator that takes a bill and a percentage."],
+      "mastery": "You can write, from a blank file and without looking anything up, a script that reads two numbers from the user and prints their sum, difference and product with a clear message.",
+      "mistakes": ["Typing code in the interactive prompt and losing it instead of saving a file.", "Mixing up = (assign) and == (compare).", "Forgetting that input() returns a string, so '2' + '3' is '23'."],
+      "resources": [{ "title": "Automate the Boring Stuff with Python", "kind": "book", "by": "Al Sweigart" }]
+    },
+    {
+      "id": "control-flow", "name": "Decisions and Loops", "tier": 1, "requires": ["first-program"], "hours": 6,
+      "summary": "Use if, else, for and while to make a program choose and repeat. It is what makes code more than a calculator.",
+      "steps": ["Write if, elif and else blocks with comparisons and the logical operators and, or, not.", "Use for i in range(n) to loop a set number of times and while for loops with a condition.", "Use break and continue, and avoid infinite loops by changing something inside the loop.", "Trace a loop on paper, writing the value of each variable per iteration."],
+      "drills": ["Write FizzBuzz for 1 to 100 from memory.", "Write a number-guessing game that gives higher and lower hints."],
+      "mastery": "You can write FizzBuzz and a working guess-the-number game from scratch, and explain line by line what each loop does.",
+      "mistakes": ["Off-by-one errors with range, which stops before its end value.", "Wrong indentation, which changes the meaning in Python.", "Forgetting to update the variable in a while loop and freezing the program."]
+    },
+    {
+      "id": "functions", "name": "Functions", "tier": 1, "requires": ["control-flow"], "hours": 6,
+      "summary": "Package code into named, reusable pieces with inputs and outputs. Functions are the basic unit of structure.",
+      "steps": ["Define a function with def, parameters and a return value.", "Know the difference between printing a value and returning it.", "Use default and keyword arguments.", "Understand local scope: variables made inside a function are not visible outside it."],
+      "drills": ["Write is_prime(n), reverse_string(s) and celsius_to_fahrenheit(c), each tested with five values.", "Refactor a 20-line script into three small functions."],
+      "mastery": "You can show a script of at least five small functions, each doing one thing, with a short main section that calls them.",
+      "mistakes": ["Using print instead of return, so the result cannot be reused.", "Using global variables rather than passing arguments.", "Making one function do everything."]
+    },
+    {
+      "id": "collections", "name": "Lists, Dictionaries and Sets", "tier": 1, "requires": ["control-flow"], "hours": 8,
+      "summary": "Store and organise many values. Choosing between lists, dictionaries and sets is the first data-structure decision.",
+      "steps": ["Create lists, add, remove and slice them, and loop through them.", "Use dictionaries for key-value lookups and learn .get() and .items().", "Use sets for uniqueness and fast membership tests.", "Write list comprehensions, for example [x * x for x in nums if x % 2 == 0]."],
+      "drills": ["Count word frequencies in a paragraph using a dictionary.", "Remove duplicates from a list while keeping order."],
+      "mastery": "You can write a script that reads a paragraph and prints its ten most common words with counts, using no libraries.",
+      "mistakes": ["Modifying a list while looping over it.", "Using a list for lookups when a set or dict would be much faster.", "Confusing a shallow copy with a real copy."]
+    },
+    {
+      "id": "read-errors", "name": "Read Error Messages and Debug with Print", "tier": 1, "requires": ["first-program"], "hours": 4,
+      "summary": "Learn to read a traceback bottom to top and to find bugs by looking at what the program actually does.",
+      "steps": ["Read the last line of a traceback first: it names the error and the message.", "Find the line number in your own file, not in a library.", "Add print statements to show variable values before the failing line.", "Search the exact error message, and try to reproduce it in the smallest possible example."],
+      "drills": ["Deliberately cause a NameError, TypeError, IndexError and KeyError and describe each.", "Fix three broken scripts given to you by a friend."],
+      "mastery": "Given an unfamiliar script with a bug, you can find and fix it and explain in a sentence what the traceback said and what caused it.",
+      "mistakes": ["Panicking at a long traceback instead of reading its last line.", "Changing random things until it works.", "Never reproducing the bug in a smaller example."]
+    },
+    {
+      "id": "terminal-basics", "name": "The Command Line", "tier": 1, "requires": [], "hours": 4,
+      "summary": "Navigate and manage files in a terminal. Almost every developer tool is driven from here.",
+      "steps": ["Learn cd, ls (or dir), pwd, mkdir, cp, mv and rm and what each does.", "Run scripts and tools from the terminal with arguments.", "Use tab completion and the up arrow for history.", "Understand paths: absolute versus relative, and your home directory."],
+      "drills": ["Create a project folder structure of five directories and files from the terminal only.", "Use grep or findstr to find a word in a folder of text files."],
+      "mastery": "You can create a project directory, populate it and run a script in it using only the terminal, in under two minutes, and explain each command.",
+      "mistakes": ["Running rm -rf with the wrong path.", "Copy-pasting commands from the web without understanding them."]
+    },
+    {
+      "id": "git-basics", "name": "Git Basics", "tier": 2, "requires": ["terminal-basics", "functions"], "hours": 6,
+      "summary": "Track your changes and go back to any earlier version. Git is the basic safety net for all code.",
+      "steps": ["Run git init, then git add and git commit -m 'message' to save a snapshot.", "Use git status, git diff and git log to see what changed.", "Create a .gitignore file for things you do not want to track.", "Push to a remote repository on GitHub or GitLab."],
+      "drills": ["Make ten meaningful commits to a small project, each with a clear message.", "Undo a bad change using git restore and git revert."],
+      "mastery": "You can show a public repository with a clear history of at least ten commits with meaningful messages and a .gitignore.",
+      "mistakes": ["Committing secrets such as passwords or API keys.", "Writing messages like 'stuff' and 'fix'.", "Making one giant commit at the end of the week."],
+      "resources": [{ "title": "Pro Git", "kind": "book", "by": "Scott Chacon and Ben Straub", "url": "https://git-scm.com/book" }]
+    },
+    {
+      "id": "files-modules", "name": "Files, Modules and Packages", "tier": 2, "requires": ["functions", "collections"], "hours": 8,
+      "summary": "Read and write files, split code across modules and install third-party libraries in an isolated environment.",
+      "steps": ["Open files with a with statement and read and write text, CSV and JSON.", "Split code into modules and import functions from them.", "Create a virtual environment with python -m venv and install packages with pip.", "Record dependencies in a requirements.txt."],
+      "drills": ["Write a script that reads a CSV file, computes a summary and writes JSON.", "Split a 100-line script into three modules."],
+      "mastery": "You can show a project with its own virtual environment, a requirements file and at least two modules, which another person can run after following your README.",
+      "mistakes": ["Installing packages globally and breaking other projects.", "Hard-coding file paths that only work on your machine.", "Forgetting to close files; use with."]
+    },
+    {
+      "id": "decomposition", "name": "Problem Decomposition", "tier": 2, "requires": ["functions", "collections"], "hours": 10,
+      "summary": "Break a vague problem into small steps you can implement and test one by one. It is the core skill of programming.",
+      "steps": ["Restate the problem in your own words and write sample inputs and expected outputs.", "Solve a tiny version by hand and note each step.", "Write the steps as comments or function names, then fill them in one at a time.", "Test each piece before connecting them."],
+      "drills": ["Build a text-based to-do list with add, remove, list and save in under 2 hours.", "Solve five easy problems on a site like Exercism or LeetCode, planning on paper first."],
+      "mastery": "You can take a one-paragraph spec and deliver a working command-line program in small tested functions, and show your planning notes.",
+      "mistakes": ["Starting to type before understanding the problem.", "Writing 200 lines and then running them for the first time.", "Not testing with an empty or odd input."]
+    },
+    {
+      "id": "oop-basics", "name": "Classes and Objects", "tier": 2, "requires": ["functions", "collections"], "hours": 10,
+      "summary": "Bundle data and behaviour into classes to model things like accounts, users or game characters.",
+      "steps": ["Define a class with __init__ and methods, and create instances.", "Use attributes to hold state and methods to change it.", "Add __str__ or __repr__ so objects print clearly.", "Learn inheritance, but prefer composition (an object containing other objects) when in doubt."],
+      "drills": ["Model a BankAccount with deposit, withdraw and a balance check that raises an error on overdraft.", "Build a deck of cards with Card and Deck classes."],
+      "mastery": "You can show a small program with at least two cooperating classes, with methods that protect their own rules, and a short explanation of why you chose them.",
+      "mistakes": ["Creating classes for things that need only a function.", "Deep inheritance chains.", "Mutable default arguments such as def f(x=[])."]
+    },
+    {
+      "id": "testing-basics", "name": "Automated Testing Basics", "tier": 2, "requires": ["functions", "files-modules"], "hours": 8,
+      "summary": "Write tests that check your code automatically, so you can change it without fear.",
+      "steps": ["Install pytest and write functions named test_something with assert statements.", "Test normal cases, edge cases (empty, zero, negative) and error cases.", "Run the whole suite after every change.", "Write a failing test for a bug first, then fix it."],
+      "drills": ["Write 10 tests for a string utility module.", "Find and fix a bug by first writing a test that reproduces it."],
+      "mastery": "You can show a project with at least 10 passing tests covering normal, edge and error cases, run with a single command.",
+      "mistakes": ["Testing only the happy path.", "Tests that depend on each other or on the current date.", "Skipping tests because they feel slow to write."],
+      "resources": [{ "title": "pytest", "kind": "tool", "url": "https://docs.pytest.org" }]
+    },
+    {
+      "id": "debugger", "name": "Using a Debugger", "tier": 2, "requires": ["read-errors", "functions"], "hours": 5,
+      "summary": "Pause a running program, inspect its variables and step through it line by line, instead of guessing.",
+      "steps": ["Set a breakpoint in your editor and run in debug mode.", "Step over, step into and step out, and watch the call stack.", "Inspect and change variable values in the debugger.", "Use conditional breakpoints to stop only on the failing case."],
+      "drills": ["Debug a function with a hidden bug without adding any print statements.", "Step into a library function to see how it works."],
+      "mastery": "You can take a program with a seeded bug, use breakpoints and watches to locate it, and describe your path to it in three or four steps.",
+      "mistakes": ["Stepping through everything instead of setting a breakpoint near the problem.", "Assuming where the bug is rather than checking."]
+    },
+    {
+      "id": "algorithms-bigo", "name": "Sorting, Searching and Big-O", "tier": 3, "requires": ["decomposition", "testing-basics"], "hours": 25,
+      "summary": "Know the standard algorithms and how cost grows with input size, so you can pick or write the faster approach.",
+      "steps": ["Implement linear and binary search, and understand why binary search needs sorted input.", "Implement bubble, merge and quick sort and compare their speed on 100,000 numbers.", "Learn Big-O: O(1), O(log n), O(n), O(n log n) and O(n squared).", "Time your code with time.perf_counter and check it matches your prediction."],
+      "drills": ["Write binary search without looking at a reference, and test it on 20 inputs.", "Plot runtime against n for three algorithms."],
+      "mastery": "You can show timing graphs of at least three algorithms and explain which Big-O class each belongs to and why.",
+      "mistakes": ["Optimising before measuring.", "Using a list for membership checks inside a loop, making the code O(n squared).", "Binary search off-by-one bugs."],
+      "resources": [{ "title": "Introduction to Algorithms", "kind": "book", "by": "Cormen, Leiserson, Rivest and Stein" }]
+    },
+    {
+      "id": "stacks-queues-recursion", "name": "Stacks, Queues and Recursion", "tier": 3, "requires": ["collections", "oop-basics"], "hours": 15,
+      "summary": "Learn the structures behind undo, task queues and nested problems, and how a function can call itself safely.",
+      "steps": ["Implement a stack (last in, first out) and a queue (first in, first out) using list and collections.deque.", "Write recursive functions with a base case and a smaller recursive step, for example factorial and Fibonacci.", "Convert a recursion into a loop with an explicit stack.", "Solve a bracket-matching problem with a stack."],
+      "drills": ["Check whether brackets in a string are balanced.", "Walk a nested folder structure recursively and total the file sizes."],
+      "mastery": "You can show a solution to the balanced-brackets and directory-size problems, and explain the base case and recursive step for each.",
+      "mistakes": ["No base case, giving infinite recursion.", "Naive recursive Fibonacci for large n, which is exponential.", "Using a list's pop(0) as a queue, which is slow."]
+    },
+    {
+      "id": "git-collaboration", "name": "Branches, Pull Requests and Merge Conflicts", "tier": 3, "requires": ["git-basics"], "hours": 10,
+      "summary": "Work with others by using branches, review changes in pull requests and resolve conflicts without panic.",
+      "steps": ["Create a branch per feature with git switch -c and merge it back.", "Open a pull request on GitHub with a description of what and why.", "Resolve a merge conflict by hand and finish the merge.", "Use git rebase carefully on your own branches and never rewrite shared history."],
+      "drills": ["Create a conflict deliberately on two branches and resolve it.", "Review a friend's pull request and leave three useful comments."],
+      "mastery": "You can show a repository with at least three merged pull requests from branches, including one with a resolved merge conflict.",
+      "mistakes": ["Working directly on main.", "Force-pushing to a shared branch.", "Huge pull requests nobody can review."]
+    },
+    {
+      "id": "apis-http", "name": "HTTP and APIs", "tier": 3, "requires": ["files-modules", "decomposition"], "hours": 20,
+      "summary": "Call web APIs and build a small one of your own. Almost all modern software talks over HTTP.",
+      "steps": ["Learn requests and responses, methods (GET, POST), status codes and JSON.", "Call a public API with the requests library and handle errors and timeouts.", "Build a small API with Flask or FastAPI offering a few endpoints.", "Test your endpoints with curl or a test client."],
+      "drills": ["Write a script that fetches weather for a city and prints a summary.", "Build a to-do API with create, list and delete endpoints."],
+      "mastery": "You can show a running API with at least three endpoints, with tests, and a client script that uses it.",
+      "mistakes": ["Not handling failed requests and timeouts.", "Putting API keys directly in the code.", "Returning HTML errors from a JSON API."]
+    },
+    {
+      "id": "sql-databases", "name": "Databases and SQL", "tier": 3, "requires": ["files-modules", "collections"], "hours": 20,
+      "summary": "Store data reliably and query it with SQL, from SQLite to production databases.",
+      "steps": ["Create tables with a primary key and appropriate column types in SQLite.", "Write SELECT queries with WHERE, ORDER BY, GROUP BY and JOIN.", "Insert, update and delete safely with parameterised queries.", "Design two related tables and use a foreign key."],
+      "drills": ["Model a library with books, members and loans, and answer five questions in SQL.", "Add an index and measure the speed difference on 100,000 rows."],
+      "mastery": "You can show a database schema of at least three related tables and queries answering five non-trivial questions, using parameterised queries only.",
+      "mistakes": ["Building SQL strings with user input, which allows SQL injection.", "Storing lists in a single text column.", "Missing indexes on columns you search."]
+    },
+    {
+      "id": "clean-code", "name": "Refactoring and Clean Code", "tier": 3, "requires": ["testing-basics", "oop-basics"], "hours": 20,
+      "summary": "Improve code structure without changing behaviour, so it stays readable and changeable.",
+      "steps": ["Choose clear names, and keep functions short and doing one thing.", "Remove duplication by extracting functions.", "Refactor only when tests pass, in small steps, and re-run tests after each.", "Use a linter and a formatter such as ruff and black."],
+      "drills": ["Take a messy 200-line script and refactor it under test.", "Review your own code from six months ago and list five improvements."],
+      "mastery": "You can show a before and after of a refactored module with unchanged passing tests and a linter with zero warnings.",
+      "mistakes": ["Refactoring with no tests.", "Over-engineering with abstractions before you need them.", "Comments that repeat the code instead of explaining why."],
+      "resources": [{ "title": "Refactoring", "kind": "book", "by": "Martin Fowler" }]
+    },
+    {
+      "id": "trees-graphs-dp", "name": "Trees, Graphs and Dynamic Programming", "tier": 4, "requires": ["algorithms-bigo", "stacks-queues-recursion"], "hours": 80,
+      "summary": "Handle hierarchical and networked data and solve overlapping sub-problems efficiently.",
+      "steps": ["Implement binary search trees, hash maps and heaps from scratch.", "Run breadth-first and depth-first search on a graph and implement Dijkstra's shortest path.", "Solve problems with memoisation and bottom-up dynamic programming, for example knapsack.", "Practise by pattern, not by memorising solutions."],
+      "drills": ["Solve 40 medium problems on trees, graphs and DP over two months.", "Implement a hash map from scratch with collision handling."],
+      "mastery": "You can solve a medium-difficulty graph problem and a DP problem you have not seen in under 45 minutes each, and explain the time complexity.",
+      "mistakes": ["Memorising answers rather than patterns.", "Recursing on graphs with cycles without a visited set."]
+    },
+    {
+      "id": "software-design", "name": "Software Design and Architecture", "tier": 4, "requires": ["clean-code", "git-collaboration", "apis-http"], "hours": 80,
+      "summary": "Structure a larger program into modules and layers with clear responsibilities and boundaries.",
+      "steps": ["Separate concerns: input and output, business rules and data storage.", "Learn a few core patterns, such as dependency injection, strategy and factory, and when not to use them.", "Write a short design note before building any large feature.", "Review a codebase you did not write and sketch its structure."],
+      "drills": ["Redesign a script into a layered application with tests at each layer.", "Write a one-page design doc and have someone critique it."],
+      "mastery": "You can show a medium project (1,000+ lines) with clear module boundaries, a design note and tests, which another developer could extend.",
+      "mistakes": ["Design patterns for their own sake.", "Tight coupling between modules.", "Designing the whole system up front without feedback."],
+      "resources": [{ "title": "The Pragmatic Programmer", "kind": "book", "by": "David Thomas and Andrew Hunt" }]
+    },
+    {
+      "id": "deploy-ci", "name": "Deployment, Containers and CI", "tier": 4, "requires": ["git-collaboration", "apis-http", "testing-basics"], "hours": 40,
+      "summary": "Automate tests on every push, package software in a container and get it running on a server others can reach.",
+      "steps": ["Write a Dockerfile that builds and runs your app.", "Set up a CI workflow (for example GitHub Actions) that runs tests and linting on every push.", "Deploy to a cloud host and keep secrets in environment variables.", "Add logging and a health-check endpoint."],
+      "drills": ["Deploy a small API and give a friend the URL.", "Break a test on purpose and watch CI fail the build."],
+      "mastery": "You can show a public URL for an app deployed automatically from a push to main, with a passing CI badge in the repository.",
+      "mistakes": ["Secrets in the repository.", "Deploying by hand with undocumented steps.", "No logs, so you cannot tell why it failed."]
+    },
+    {
+      "id": "concurrency-performance", "name": "Concurrency and Performance", "tier": 4, "requires": ["algorithms-bigo", "apis-http"], "hours": 60,
+      "summary": "Make programs faster and handle many tasks at once, guided by measurement rather than guesses.",
+      "steps": ["Profile with cProfile or a similar tool to find the real hotspot.", "Learn threads, processes and async: use async for waiting on the network, processes for CPU-heavy work.", "Understand race conditions and use locks or message passing safely.", "Cache results where the same work repeats."],
+      "drills": ["Speed up a slow script by 5x and record the profile before and after.", "Fetch 100 URLs concurrently with async and compare with sequential."],
+      "mastery": "You can show profiling output and a before and after benchmark where a measured bottleneck was fixed for at least a 3x speed-up.",
+      "mistakes": ["Optimising code that is not the bottleneck.", "Sharing mutable state between threads without protection."]
+    },
+    {
+      "id": "ship-product", "name": "Ship and Maintain a Real Product", "tier": 5, "requires": ["software-design", "deploy-ci", "sql-databases"], "hours": 300,
+      "summary": "Build something real people use, keep it running for months and fix what breaks.",
+      "steps": ["Pick a real problem for real users and ship a first version in four weeks.", "Add monitoring, backups and an error-tracking tool.", "Talk to users and prioritise fixes over new features.", "Keep it running for at least six months, including upgrades and incidents."],
+      "drills": ["Write a post-incident review for each outage.", "Track a simple metric such as weekly active users."],
+      "mastery": "You have a live product with real users (at least 20 outside your friends), a repository, uptime history over six months, and a written account of what you changed because of user feedback.",
+      "mistakes": ["Building for months without showing anyone.", "No backups for user data."]
+    },
+    {
+      "id": "open-source", "name": "Open-Source Contribution", "tier": 5, "requires": ["software-design", "git-collaboration"], "hours": 150,
+      "summary": "Get meaningful changes accepted into a project you did not start, working with maintainers' standards.",
+      "steps": ["Pick an active project with a contributing guide and look at issues labelled 'good first issue'.", "Read the code, reproduce the issue and discuss your plan before coding.", "Submit a pull request with tests and documentation, and respond to review.", "Progress to larger features or help triage issues."],
+      "drills": ["Get five pull requests merged across at least two projects.", "Review someone else's pull request."],
+      "mastery": "You can show at least five merged pull requests in projects you did not create, including one that adds a feature or fixes a non-trivial bug.",
+      "mistakes": ["Opening a large pull request without discussing it first.", "Taking review comments personally."]
+    },
+    {
+      "id": "system-design", "name": "Design a Scalable System", "tier": 5, "requires": ["concurrency-performance", "deploy-ci", "trees-graphs-dp"], "hours": 250,
+      "summary": "Design and build a service that handles load, failure and growth, and explain every trade-off.",
+      "steps": ["Specify requirements: users, requests per second, data size and availability goals.", "Choose storage, caching, queues and load balancing, and justify each.", "Build a prototype and load test it until it breaks; fix the first bottleneck.", "Write down failure modes and how the system recovers."],
+      "drills": ["Run a load test at 10x expected traffic.", "Present your design to experienced engineers and defend it."],
+      "mastery": "You can show a working service with load-test results at a stated scale, a design document with trade-offs, and a failure-recovery test.",
+      "mistakes": ["Adding complexity like microservices before there is a need.", "Not measuring before scaling.", "Ignoring data consistency."],
+      "resources": [{ "title": "Designing Data-Intensive Applications", "kind": "book", "by": "Martin Kleppmann" }]
+    }
+  ]
+}

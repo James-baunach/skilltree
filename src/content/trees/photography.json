@@ -1,0 +1,216 @@
+{
+  "hobby": "photography",
+  "nodes": [
+    {
+      "id": "hold-and-modes", "name": "Hold the Camera and Know Its Modes", "tier": 1, "requires": [], "hours": 1,
+      "summary": "A steady grip and knowing what the mode dial does are the basis of sharp, intentional pictures.",
+      "steps": ["Hold the camera with your right hand on the grip and left hand under the lens, elbows tucked into your body.", "Press the shutter gently while breathing out to avoid shake.", "Learn the modes: Auto, Program, Aperture priority (A or Av), Shutter priority (S or Tv) and Manual (M).", "Find where the menu, playback and exposure compensation controls are on your camera or phone app."],
+      "drills": ["Take 20 handheld shots of a still object and check how many are sharp.", "Find and set each mode without looking at the manual."],
+      "mastery": "You can switch between all main shooting modes without looking, and 18 of 20 handheld shots of a still subject are sharp at 100% zoom.",
+      "mistakes": ["Stabbing the shutter button instead of squeezing it.", "Leaving the camera on Auto and never learning what the modes control.", "Holding the camera at arm's length instead of braced against the body."]
+    },
+    {
+      "id": "exposure-triangle", "name": "The Exposure Triangle", "tier": 1, "requires": ["hold-and-modes"], "hours": 4,
+      "summary": "Aperture, shutter speed and ISO together set how bright a picture is. Understanding how they trade off is the central idea of photography.",
+      "steps": ["Learn that aperture controls the lens opening, shutter speed controls time, and ISO controls sensor sensitivity.", "Shoot the same scene changing one setting at a time and compare.", "Learn the stops: each doubling or halving of light is one stop.", "Note what each setting does to the look: aperture to depth of field, shutter to motion blur, ISO to noise."],
+      "drills": ["Shoot one scene at five apertures, five shutter speeds and five ISOs, and label each.", "Make three exposures that look identical in brightness using different combinations."],
+      "mastery": "You can show three photos of the same scene with equal brightness but different aperture, shutter and ISO, and explain what changed in each.",
+      "mistakes": ["Changing several settings at once so you cannot see what each did.", "Raising ISO as the first resort rather than the last.", "Thinking the camera's meter is always right."],
+      "resources": [{ "title": "Understanding Exposure", "kind": "book", "by": "Bryan Peterson" }]
+    },
+    {
+      "id": "autofocus-basics", "name": "Autofocus Basics", "tier": 1, "requires": ["hold-and-modes"], "hours": 2,
+      "summary": "Place the focus where you want it. A beautiful composition with the wrong thing sharp is wasted.",
+      "steps": ["Choose a single focus point and move it onto your subject, preferably an eye for portraits.", "Half-press the shutter to focus, recompose carefully, then press fully.", "Tap to focus on a phone, then drag exposure if needed.", "Check sharpness by zooming in on playback."],
+      "drills": ["Take 20 portraits of a friend or pet with the focus point on the eye.", "Practise focus on subjects at different distances."],
+      "mastery": "Fifteen out of twenty portraits have the eye tack-sharp at 100% zoom.",
+      "mistakes": ["Leaving autofocus on a wide area so it picks the wrong thing.", "Recomposing a lot at wide apertures and shifting the focus plane.", "Not checking sharpness until you are home."]
+    },
+    {
+      "id": "thirds-framing", "name": "Rule of Thirds and Framing", "tier": 1, "requires": ["hold-and-modes"], "hours": 2,
+      "summary": "Put your subject off-centre along third lines and keep the frame uncluttered. The simplest improvement to most snapshots.",
+      "steps": ["Switch on the grid overlay in your camera.", "Place the subject or horizon on a third line rather than the centre.", "Check all four edges of the frame before you shoot.", "Step closer to remove distractions."],
+      "drills": ["Take 10 photos of the same subject, each with a different placement, and choose the best.", "Take ten pictures with a clean edge-to-edge frame."],
+      "mastery": "You can show a set of 10 images where the subject placement is deliberate and no distracting objects touch the frame edges.",
+      "mistakes": ["Treating thirds as law; centring can be right for symmetry.", "Cutting off feet or hands at joints.", "Ignoring clutter behind the subject."]
+    },
+    {
+      "id": "see-the-light", "name": "See the Light", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Light decides the mood of a picture more than gear does. Learn to notice its direction, quality and colour.",
+      "steps": ["Note whether the light is hard (clear sun, sharp shadows) or soft (overcast, window).", "Look at where the shadows fall to find the light direction: front, side, back.", "Photograph the same subject at different times of day.", "Notice how colour changes between dawn, midday and dusk."],
+      "drills": ["Photograph a single object by a window at four times of day.", "Move a subject around you to try front, side and backlight."],
+      "mastery": "You can show four photos of one subject in distinct lighting and describe the direction and hardness of the light in each.",
+      "mistakes": ["Shooting midday sun on faces, causing harsh shadows under the eyes.", "Not turning around; the best light is often behind you."]
+    },
+    {
+      "id": "review-and-cull", "name": "Review, Cull and Back Up", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Good photographers delete more than they keep and never lose a file. Build the habit early.",
+      "steps": ["Import every shoot to a dated folder on your computer.", "Make a second backup, ideally on a separate drive or cloud.", "Go through the pictures and give each a star rating, rejecting soft or duplicate shots.", "Pick your best three from each outing."],
+      "drills": ["Cull a 100-shot session down to the best 10.", "Set up an automatic backup."],
+      "mastery": "You can show a folder structure with a backed-up shoot and a culled selection of the best frames with reasons for each rejection.",
+      "mistakes": ["Keeping every shot, which hides your best work.", "Having only one copy of your files."]
+    },
+    {
+      "id": "manual-exposure", "name": "Manual Exposure and Metering", "tier": 2, "requires": ["exposure-triangle"], "hours": 10,
+      "summary": "Choose all three settings yourself, guided by the meter, so the result is what you intend rather than what the camera guesses.",
+      "steps": ["Switch to Manual and set ISO first, then aperture for depth, then shutter to centre the meter.", "Use exposure compensation in Aperture priority as an intermediate step.", "Learn the sunny 16 rule: on a sunny day at f/16, shutter is 1 over ISO.", "Check the histogram after each shot."],
+      "drills": ["Shoot 50 pictures in Manual with exposures within a stop of ideal.", "Use sunny 16 to guess settings, then check against the meter."],
+      "mastery": "You can walk into a new scene, set Manual exposure and get a well-exposed frame first time on 8 of 10 attempts.",
+      "mistakes": ["Trusting the preview screen rather than the histogram.", "Fighting the meter in tricky light without compensation."]
+    },
+    {
+      "id": "shutter-motion", "name": "Shutter Speed and Motion", "tier": 2, "requires": ["exposure-triangle"], "hours": 8,
+      "summary": "Freeze action or blur it on purpose by choosing the right shutter speed.",
+      "steps": ["As a handheld guide, use a shutter speed of at least 1 over the focal length (for example 1/50 s at 50 mm).", "Use 1/500 s or faster to freeze people running and 1/1000 s or faster for sports.", "Try 1/15 s to 1/4 s with panning to blur backgrounds behind a moving subject.", "Use a tripod and slower speeds for flowing water."],
+      "drills": ["Take 10 frozen-action and 10 panning shots of passing cyclists or cars.", "Photograph water at 1/500 s and 1 s side by side."],
+      "mastery": "You can show a panned shot with a sharp subject and streaked background, and a frozen-action shot with no motion blur.",
+      "mistakes": ["Using shutter speeds too slow for handheld and blaming the lens.", "Panning with your wrists instead of rotating your body."]
+    },
+    {
+      "id": "aperture-dof", "name": "Aperture and Depth of Field", "tier": 2, "requires": ["exposure-triangle", "autofocus-basics"], "hours": 8,
+      "summary": "Control how much is sharp. Wide apertures isolate a subject; narrow ones keep a whole landscape in focus.",
+      "steps": ["Shoot a subject at the widest aperture (for example f/1.8) and at f/11 and compare the background.", "Learn that depth of field grows with smaller aperture, greater distance and wider lenses.", "For landscapes, focus about one third into the scene at f/8 to f/11.", "Check for lens diffraction softness at very small apertures like f/22."],
+      "drills": ["Make a portrait with a blurred background and a landscape sharp throughout.", "Take the same subject at five apertures from a tripod."],
+      "mastery": "You can show a subject sharply isolated from a creamy background, and a landscape sharp from foreground to horizon, and say the settings used.",
+      "mistakes": ["Shooting everything wide open, with razor-thin focus missing the eyes.", "Stopping down to f/22 and losing sharpness to diffraction."]
+    },
+    {
+      "id": "lines-layers", "name": "Lines, Layers and Foreground", "tier": 2, "requires": ["thirds-framing"], "hours": 8,
+      "summary": "Use leading lines, a strong foreground, midground and background to give depth and guide the viewer's eye.",
+      "steps": ["Look for roads, fences, rivers and shadows that lead toward the subject.", "Put an interesting object in the foreground to create depth.", "Check how the lines travel through the frame to a destination.", "Move your feet to alter how lines meet."],
+      "drills": ["Shoot 10 images that each use a different leading line.", "Take a landscape with foreground, midground and background layers."],
+      "mastery": "You can show three photos where a clear line or layer leads the eye to the main subject, and explain each.",
+      "mistakes": ["Lines that lead out of the frame.", "Foregrounds that are boring or distracting."],
+      "resources": [{ "title": "The Photographer's Eye", "kind": "book", "by": "Michael Freeman" }]
+    },
+    {
+      "id": "golden-hour", "name": "Golden Hour and Natural Light", "tier": 2, "requires": ["see-the-light"], "hours": 8,
+      "summary": "Shoot in the soft, warm light near sunrise and sunset, and use shade, windows and reflectors to shape light at any hour.",
+      "steps": ["Plan shoots for the first and last hour of sun, using an app to check times.", "Try side and back lighting at golden hour to get glow and rim light.", "Use open shade or a window for soft portrait light at midday.", "Bounce light with a white card or reflector to fill shadows."],
+      "drills": ["Photograph the same location at golden hour and at midday and compare.", "Take a portrait by a window with and without a reflector."],
+      "mastery": "You can show a golden-hour photo with warm side light and a window-light portrait with soft shadows, with a short note on how you placed the subject.",
+      "mistakes": ["Shooting midday and blaming the camera.", "Leaving 15 minutes after sunset when the best colour is about to arrive."]
+    },
+    {
+      "id": "white-balance", "name": "White Balance and Colour", "tier": 2, "requires": ["see-the-light"], "hours": 5,
+      "summary": "Make colours look right or deliberately warm or cool them. Learn how light colour affects mood.",
+      "steps": ["Understand colour temperature in Kelvin: candlelight is about 2000 K, daylight about 5500 K, shade about 7000 K.", "Shoot a grey card or white sheet to set a custom white balance.", "Compare Auto, Daylight and Tungsten settings on the same scene.", "Learn complementary colours and their effect on a picture."],
+      "drills": ["Shoot the same scene with five white balance settings.", "Capture an image dominated by one colour palette."],
+      "mastery": "You can show a scene corrected to neutral using a grey card, and the same scene deliberately warmed for mood.",
+      "mistakes": ["Relying on Auto WB under mixed lighting.", "Fixing colour by saturation alone."]
+    },
+    {
+      "id": "raw-develop", "name": "Shooting RAW and Basic Development", "tier": 2, "requires": ["review-and-cull", "manual-exposure"], "hours": 10,
+      "summary": "RAW files keep far more data than JPEGs. Learn to develop them in Lightroom or free software like darktable.",
+      "steps": ["Set your camera to RAW (or RAW+JPEG at first).", "Open files in a RAW developer and learn the basic sliders: exposure, contrast, highlights, shadows, whites, blacks.", "Crop and straighten to fix the horizon.", "Export a full-size JPEG and a small version for the web."],
+      "drills": ["Develop 20 photos with the same basic workflow.", "Take a deliberately underexposed shot and recover it."],
+      "mastery": "You can show before and after versions of five RAW files with natural-looking corrections and level horizons.",
+      "mistakes": ["Over-saturating and over-sharpening.", "Overwriting your original files."],
+      "resources": [{ "title": "darktable", "kind": "tool", "url": "https://www.darktable.org" }]
+    },
+    {
+      "id": "histogram-metering", "name": "Histogram, Metering Modes and Exposure Compensation", "tier": 3, "requires": ["manual-exposure"], "hours": 12,
+      "summary": "Read the histogram and choose the metering mode so tricky scenes like snow, backlit portraits and night streets come out right.",
+      "steps": ["Learn matrix/evaluative, centre-weighted and spot metering.", "Read the histogram: a pile at the right edge means clipped highlights.", "Expose to the right without clipping for the best RAW data.", "Use exposure compensation for snow (plus 1) or dark subjects (minus 1)."],
+      "drills": ["Shoot a white wall and a black wall in Auto and see how the camera greys them.", "Shoot a backlit scene using spot metering on the face."],
+      "mastery": "You can get correct exposure on a snow scene and a backlit portrait using histogram and compensation, shown with the histograms.",
+      "mistakes": ["Letting highlights clip on a bright sky.", "Trusting the camera's idea of mid-grey for white or black subjects."]
+    },
+    {
+      "id": "focus-tracking", "name": "Advanced Focus and Tracking", "tier": 3, "requires": ["aperture-dof", "shutter-motion"], "hours": 12,
+      "summary": "Keep moving subjects sharp with continuous AF, back-button focus and eye detection.",
+      "steps": ["Move autofocus to a rear button so shutter and focus are independent.", "Use continuous AF (AF-C or AI Servo) with a tracking mode for moving subjects.", "Turn on eye or animal detection if your camera has it.", "Shoot in bursts and keep the subject in the focus area."],
+      "drills": ["Shoot 100 frames of a running dog or cyclist and count sharp ones.", "Follow a bird in flight for 10 bursts."],
+      "mastery": "At least 60% of a 50-frame burst of a moving subject is sharp on the eye or face.",
+      "mistakes": ["Using single AF on moving subjects.", "Not holding the burst long enough, losing the peak moment."]
+    },
+    {
+      "id": "advanced-composition", "name": "Balance, Negative Space and Visual Weight", "tier": 3, "requires": ["lines-layers"], "hours": 15,
+      "summary": "Go beyond thirds: balance weight, use empty space, frame within the frame and simplify.",
+      "steps": ["Weigh the frame: bright, large and sharp areas draw the eye more.", "Counterbalance a strong element with something smaller on the other side.", "Use negative space to give a subject room.", "Cut anything that does not help the picture."],
+      "drills": ["Take a minimalist series of 10 images with one clear subject.", "Recompose a failed image three ways."],
+      "mastery": "You can show a set of five images with clear visual balance and explain in a sentence for each what carries weight and why.",
+      "mistakes": ["Too many competing subjects.", "Ignoring the corners."]
+    },
+    {
+      "id": "lenses-perspective", "name": "Lenses and Perspective", "tier": 3, "requires": ["aperture-dof", "advanced-composition"], "hours": 12,
+      "summary": "Focal length changes perspective, not just zoom. Learn what wide, normal and telephoto do to your pictures.",
+      "steps": ["Shoot the same subject at 24 mm, 50 mm and 135 mm, moving to keep it the same size.", "See how backgrounds compress at long focal lengths and stretch at wide ones.", "Use a prime lens for a month to learn to zoom with your feet.", "Learn which focal lengths flatter faces (typically 85 mm and up)."],
+      "drills": ["Do a one-prime challenge for a week.", "Take portraits at 35 mm and 85 mm of the same person."],
+      "mastery": "You can show a three-focal-length comparison of the same subject and explain how perspective changed.",
+      "mistakes": ["Using wide angle up close on faces.", "Thinking longer lenses are always better."]
+    },
+    {
+      "id": "flash-basics", "name": "Flash and Fill Light", "tier": 3, "requires": ["histogram-metering", "golden-hour"], "hours": 12,
+      "summary": "Use on-camera and off-camera flash to fill shadows or add light that is not there.",
+      "steps": ["Use fill flash outside to lift shadows on a face in sunlight.", "Bounce the flash off a ceiling or wall for soft light.", "Learn the sync speed limit (typically 1/200 s) and use high-speed sync when needed.", "Take the flash off the camera with a cable or trigger and place it at 45 degrees."],
+      "drills": ["Take a backlit portrait with and without fill flash.", "Light an indoor subject with bounce flash only."],
+      "mastery": "You can show a portrait made with flash that looks natural and balanced with the ambient light.",
+      "mistakes": ["Pointing direct flash at the subject for flat, harsh light.", "Forgetting the shutter sync speed."]
+    },
+    {
+      "id": "local-editing", "name": "Masks, Curves and Local Editing", "tier": 3, "requires": ["raw-develop"], "hours": 15,
+      "summary": "Edit parts of an image separately: darken skies, brighten faces and guide the eye through tone.",
+      "steps": ["Learn the tone curve and how an S-curve adds contrast.", "Use gradient and radial masks to adjust skies and subjects separately.", "Dodge and burn subtly to shape light.", "Compare to the original and back off if it looks processed."],
+      "drills": ["Edit 10 photos with at least two local adjustments each.", "Do the same edit twice, once subtle and once heavy, and compare."],
+      "mastery": "You can show 5 before and after images where local edits improve the image without visible halos or an overcooked look.",
+      "mistakes": ["Halo edges around masks.", "Heavy HDR looks with crunchy detail."]
+    },
+    {
+      "id": "studio-lighting", "name": "Studio and Portrait Lighting", "tier": 4, "requires": ["flash-basics", "lenses-perspective"], "hours": 40,
+      "summary": "Build classic lighting set-ups with one to three lights: Rembrandt, loop, butterfly and rim, and control the ratio between them.",
+      "steps": ["Start with one light and a reflector. Move the light around a model until you can predict the shadows.", "Learn the inverse square law: halving the distance quadruples the light.", "Add a second light as a fill or background light.", "Use a light meter or the histogram to set ratios between lights."],
+      "drills": ["Produce five distinct lighting patterns with the same model.", "Light a portrait using one light only."],
+      "mastery": "You can show a portrait set of at least four lighting patterns, with a diagram for each of where the lights were placed.",
+      "mistakes": ["Adding lights before understanding one.", "Placing the main light too close to the lens axis, flattening the face."]
+    },
+    {
+      "id": "long-exposure-night", "name": "Long Exposure and Night Photography", "tier": 4, "requires": ["histogram-metering", "shutter-motion"], "hours": 25,
+      "summary": "Shoot star trails, silky water, light trails and city nights with a tripod and careful technique.",
+      "steps": ["Use a sturdy tripod, a remote release or timer, and turn off image stabilisation on the tripod.", "Use ND filters for daytime long exposures and bulb mode for several-minute shots.", "For the Milky Way, use a wide fast lens, ISO 1600 to 6400 and about 500 divided by focal length seconds.", "Stack multiple frames to reduce noise."],
+      "drills": ["Take a 30-second night sky photo and a 2-minute daytime waterfall.", "Make a star trail by stacking 60 images."],
+      "mastery": "You can show a sharp night-sky photo with visible stars without trails and a long-exposure daytime shot, with settings listed.",
+      "mistakes": ["Touching the camera during exposure.", "Focusing wrongly at night; use live view on a bright star."]
+    },
+    {
+      "id": "colour-grading-style", "name": "Colour Grading and Consistent Style", "tier": 4, "requires": ["local-editing", "white-balance"], "hours": 30,
+      "summary": "Grade colour and tone deliberately so a series of images feels like one body of work.",
+      "steps": ["Study the grades in photographers you admire and name what they do to shadows, mids and highlights.", "Use split toning or the colour grading wheels to tint shadows and highlights.", "Create a preset and apply it to a series, adjusting each for exposure.", "Check skin tones stay natural."],
+      "drills": ["Grade a set of 10 images to a single palette.", "Make a version in two moods of the same scene."],
+      "mastery": "You can show a set of 10 images that are clearly cohesive in colour and tone yet individually well exposed.",
+      "mistakes": ["Pushing a style so hard that skin looks orange or green.", "Copying a preset without adjusting for each image."]
+    },
+    {
+      "id": "series-storytelling", "name": "Photo Series and Storytelling", "tier": 4, "requires": ["advanced-composition", "review-and-cull"], "hours": 40,
+      "summary": "Move from single images to a sequence that tells a story or explores a theme.",
+      "steps": ["Pick a subject or theme you can photograph repeatedly.", "Shoot widely: establishing, medium, close-up and detail frames.", "Edit down ruthlessly to 8 to 12 images, sequenced for rhythm.", "Write a short statement of what the series is about."],
+      "drills": ["Complete a series about one place in one week.", "Reorder the same images three ways and see which reads best."],
+      "mastery": "You can show a series of 8 to 12 images with a one-paragraph statement, where each image adds something new.",
+      "mistakes": ["Including similar frames because you like them.", "Having no clear theme."]
+    },
+    {
+      "id": "signature-portfolio", "name": "Signature Portfolio", "tier": 5, "requires": ["colour-grading-style", "series-storytelling", "studio-lighting"], "hours": 200,
+      "summary": "Build a body of 20 to 30 images with a recognisable voice, technically flawless and curated to a high standard.",
+      "steps": ["Collect your best work from the last year and identify what recurs.", "Fill the gaps with new shoots to strengthen the voice.", "Get critique from experienced photographers and iterate.", "Present it on a personal site or in a printed book."],
+      "drills": ["Receive and apply critiques from three experienced photographers.", "Cut the portfolio to the strongest 20."],
+      "mastery": "You have a published portfolio of 20 to 30 images that experienced photographers recognise as cohesive and technically excellent.",
+      "mistakes": ["Showing too many images.", "Including a weak image because it was hard to take."]
+    },
+    {
+      "id": "print-exhibit", "name": "Printing and Exhibiting", "tier": 5, "requires": ["colour-grading-style", "series-storytelling"], "hours": 80,
+      "summary": "Calibrate, print and present your work at gallery quality, then show it in public.",
+      "steps": ["Calibrate your monitor with a hardware calibrator and soft-proof for the paper.", "Print test strips on fine art paper and adjust.", "Mount and frame to a consistent standard.", "Show the work in a local exhibition, competition or print sale."],
+      "drills": ["Print the same image on two papers and compare.", "Submit work to a juried show."],
+      "mastery": "You have shown a set of your own prints in a public exhibition, with photos of the installation.",
+      "mistakes": ["Editing on an uncalibrated screen.", "Printing without a test."]
+    },
+    {
+      "id": "pro-assignment", "name": "Full Professional Assignment", "tier": 5, "requires": ["studio-lighting", "long-exposure-night", "focus-tracking"], "hours": 150,
+      "summary": "Deliver a complete paid-standard job: brief, planning, shoot under pressure, edit, and delivery on time.",
+      "steps": ["Agree a written brief with a client covering the deliverables, usage rights and schedule.", "Scout, plan the shot list and test your gear and backups.", "Shoot with two cameras or cards and verify the images on site.", "Edit, deliver on time and ask for feedback."],
+      "drills": ["Run three unpaid practice assignments for friends or local groups.", "Time yourself editing 100 images to a final set."],
+      "mastery": "You have delivered at least one client assignment with a written brief, on time and to the client's satisfaction, and can show the final set.",
+      "mistakes": ["Not agreeing usage rights up front.", "Having no backup for camera or cards."]
+    }
+  ]
+}

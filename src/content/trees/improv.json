@@ -1,0 +1,207 @@
+{
+  "hobby": "improv",
+  "nodes": [
+    {
+      "id": "warm-up-games", "name": "Warm-Up Games", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Quick group games that get you out of your head and comfortable being silly with others.",
+      "steps": ["Join a drop-in class or a jam and play name games, Zip Zap Zop and word association.", "Respond quickly and do not judge your first idea.", "Make eye contact and use clear voice and gesture.", "Celebrate mistakes with a group cheer."],
+      "drills": ["Play 3 different warm-up games each practice.", "Rapid-fire word association with a partner for 3 minutes."],
+      "mastery": "You play a full round of Zip Zap Zop or similar with no hesitation and make others laugh.",
+      "mistakes": ["Over-thinking responses.", "Apologising for mistakes.", "Standing at the edge of the group."]
+    },
+    {
+      "id": "yes-and", "name": "Yes, And", "tier": 1, "requires": ["warm-up-games"], "hours": 4,
+      "summary": "Accept what your partner says and add something new. It is the foundation of every scene.",
+      "steps": ["Say 'yes' to your partner's idea, meaning you accept it as true.", "Add a new detail with 'and'.", "Play a game like 'Yes, let's' or build a story one sentence at a time.", "Notice when you want to block and accept instead."],
+      "drills": ["Plan a party with a partner for 3 minutes, starting each line with 'Yes, and'.", "Alternate sentences to tell a story."],
+      "mastery": "In a 3-minute scene you accept and add to every offer with no blocking, as seen by an observer.",
+      "mistakes": ["Saying 'yes, but'.", "Agreeing but adding nothing.", "Asking questions rather than making statements."]
+    },
+    {
+      "id": "active-listening", "name": "Listening & Staying Present", "tier": 1, "requires": ["warm-up-games"], "hours": 4,
+      "summary": "Listen to your partner's words and body language and respond to what is actually said.",
+      "steps": ["Focus on your partner rather than planning your next line.", "Repeat their last word or phrase to anchor in the moment.", "Use their name and details later in the scene.", "Let silence happen."],
+      "drills": ["Play 'last word' games where each line starts with the last word of the previous.", "Retell your partner's scene from memory afterward."],
+      "mastery": "You can recall three specific details from a scene your partner played and use them later in a new scene.",
+      "mistakes": ["Thinking of a joke while your partner talks.", "Ignoring non-verbal cues.", "Talking over others."]
+    },
+    {
+      "id": "object-work", "name": "Object Work", "tier": 1, "requires": ["warm-up-games"], "hours": 4,
+      "summary": "Mime objects consistently so the audience can see them.",
+      "steps": ["Define the shape, weight and size of an object.", "Keep it the same through the scene.", "Make space for it: open doors, sit on chairs.", "Let the object affect your body."],
+      "drills": ["Mime making a sandwich in 60 seconds with at least 5 distinct objects.", "Open a door, then a box, then a window, each differently."],
+      "mastery": "In a 2-minute solo mime, observers can name every object you use and they stay consistent.",
+      "mistakes": ["Letting objects change size.", "Walking through them.", "Skipping the details."]
+    },
+    {
+      "id": "commit", "name": "Commitment & Failing Gracefully", "tier": 1, "requires": ["yes-and"], "hours": 4,
+      "summary": "Commit completely to your choices, even when they feel silly, so your partner can trust you.",
+      "steps": ["Pick a strong choice and keep it.", "Use your full voice, body and emotion.", "When you make a mistake, treat it as a gift and use it.", "Practise being bad on purpose."],
+      "drills": ["Do a scene where you commit to an absurd choice for a full minute.", "Play 'Fail Bow' where you celebrate mistakes."],
+      "mastery": "You play a 3-minute scene with an extreme choice and never break character, with your partner reporting they felt supported.",
+      "mistakes": ["Winking at the audience.", "Hedging the choice.", "Breaking character."]
+    },
+    {
+      "id": "support-partner", "name": "Making Your Partner Look Good", "tier": 1, "requires": ["yes-and", "active-listening"], "hours": 4,
+      "summary": "Your job is to support your partner, not to be the funniest person in the scene.",
+      "steps": ["Accept and justify your partner's offers.", "Give them strong, specific information.", "Hand over the focus when they have a good idea.", "Thank your scene partners afterward."],
+      "drills": ["Play a scene where your only goal is to make your partner's ideas succeed.", "Ask your partner what helped most."],
+      "mastery": "After a scene, your partner can name three of your moves that helped them.",
+      "mistakes": ["Competing for laughs.", "Overriding partner ideas.", "Leaving them stranded with a hard offer."]
+    },
+    {
+      "id": "who-what-where", "name": "Who, What, Where", "tier": 2, "requires": ["support-partner", "object-work"], "hours": 8,
+      "summary": "Establish who the characters are, what they are doing and where they are in the first lines of a scene.",
+      "steps": ["Give at least one detail of each in your first few lines.", "Name your partner and your relationship.", "Mention the place through action and objects.", "Make sure the audience knows it by the end of the first minute."],
+      "drills": ["Do 10 short scenes with the single aim of establishing who, what, where.", "Replay with different relationships."],
+      "mastery": "In a one-minute scene, an observer can correctly state who, what and where.",
+      "mistakes": ["Starting with talking about a place instead of being in it.", "Leaving relationships vague.", "Using questions to avoid commitment."]
+    },
+    {
+      "id": "strong-initiations", "name": "Strong Initiations", "tier": 2, "requires": ["support-partner"], "hours": 8,
+      "summary": "Start scenes with a clear action or statement that gives your partner something to work with.",
+      "steps": ["Start with an emotion, an action or a want.", "Avoid asking questions at the start.", "Include a specific detail.", "Let your body begin the scene."],
+      "drills": ["Do 20 scene starts with a different type of initiation each time.", "Peers rate each start."],
+      "mastery": "In 10 initiations, an observer rates 8 as clear and easy to build on.",
+      "mistakes": ["Starting with 'Hi, how are you?'.", "Starting with a joke.", "Planning the whole scene beforehand."]
+    },
+    {
+      "id": "character-physicality", "name": "Character Voice & Body", "tier": 2, "requires": ["commit"], "hours": 10,
+      "summary": "Make distinct characters through posture, walk, voice and a clear point of view.",
+      "steps": ["Choose a body centre such as chest, hips or head.", "Pick a voice with a different pitch or pace.", "Add a clear want and attitude.", "Keep it consistent, then change to a new character."],
+      "drills": ["Create 5 characters in 5 minutes.", "Switch between characters mid-scene."],
+      "mastery": "You present three characters in a row that observers can tell apart by body and voice alone.",
+      "mistakes": ["Relying on an accent.", "Making a caricature with no point of view.", "Losing the character mid-scene."]
+    },
+    {
+      "id": "emotional-reality", "name": "Emotion & Reactions", "tier": 2, "requires": ["commit", "active-listening"], "hours": 8,
+      "summary": "React honestly and emotionally to what happens, which raises the stakes and the laughs.",
+      "steps": ["Let offers affect you.", "Show reactions clearly with face and voice.", "Play from a real feeling.", "Build and change emotion over the scene."],
+      "drills": ["Do a scene where your emotion changes three times.", "React to each line before replying."],
+      "mastery": "Observers can say how your character felt at each beat of a two-minute scene.",
+      "mistakes": ["Reacting flatly.", "Laughing instead of playing the emotion.", "Ignoring your partner's emotion."]
+    },
+    {
+      "id": "endowments", "name": "Endowments & Shared Reality", "tier": 2, "requires": ["support-partner"], "hours": 6,
+      "summary": "Give your partner a name, history or quality that adds to the scene, and accept those you are given.",
+      "steps": ["Offer a strong detail about your partner, such as 'Grandma, your cookies are famous'.", "Accept endowments without questioning them.", "Use them later in the scene.", "Make the endowment positive and fun to play."],
+      "drills": ["Do a scene where every line endows your partner with something.", "Practise accepting a very odd endowment."],
+      "mastery": "You give and accept five endowments in a two-minute scene and use at least two later.",
+      "mistakes": ["Giving a negative label that blocks.", "Ignoring the endowment.", "Contradicting it."]
+    },
+    {
+      "id": "environment-space-work", "name": "Environment & Space Work", "tier": 2, "requires": ["object-work", "who-what-where"], "hours": 6,
+      "summary": "Fill the stage with a believable world through detailed mime and consistent space.",
+      "steps": ["Define the room: doors, windows, furniture.", "Interact with items throughout the scene.", "Let the environment be part of the story.", "Return to details to keep them consistent."],
+      "drills": ["Play a scene in a kitchen without speaking for 2 minutes.", "Add a new object every 30 seconds."],
+      "mastery": "An observer can draw the layout of the room you created and it matches your scene.",
+      "mistakes": ["Forgetting where doors are.", "Using the environment as filler.", "Moving through objects."]
+    },
+    {
+      "id": "short-form-games", "name": "Short-Form Games", "tier": 2, "requires": ["strong-initiations", "support-partner"], "hours": 10,
+      "summary": "Play structured games like Freeze Tag, Questions Only and Alphabet to practise skills under rules.",
+      "steps": ["Learn the rules before playing.", "Play with a coach or group in a class.", "Focus on listening and support, not winning.", "Debrief what worked."],
+      "drills": ["Play five different games in a session.", "Take notes on what each one trains."],
+      "mastery": "You play three different short-form games in a public jam or show with no rule mistakes.",
+      "mistakes": ["Ignoring the rules.", "Trying to be clever instead of connected.", "Blaming partners."]
+    },
+    {
+      "id": "find-the-game", "name": "Finding the Game of the Scene", "tier": 3, "requires": ["who-what-where", "emotional-reality"], "hours": 15,
+      "summary": "Spot the first unusual thing in a scene and make it the repeated pattern the scene explores.",
+      "steps": ["Listen for the first unusual or funny thing.", "Name it quietly: 'This person is always late'.", "Repeat it with variations.", "Do not move on to other plots."],
+      "drills": ["Do 10 two-minute scenes, naming the game afterward.", "Replay the same scene with a different game."],
+      "mastery": "After a scene, observers and your partner agree on the same game and you repeated it at least three times.",
+      "mistakes": ["Introducing new ideas instead of repeating the first.", "Finding the game too late.", "Explaining the joke."]
+    },
+    {
+      "id": "heighten-explore", "name": "Heightening & Exploring", "tier": 3, "requires": ["find-the-game"], "hours": 15,
+      "summary": "Raise the stakes of the game step by step, using logical, increasing escalation.",
+      "steps": ["Take the game and ask 'If this is true, what else is true?'.", "Increase intensity or scale a bit at a time.", "Keep each step logical.", "Know when to end."],
+      "drills": ["Heighten a game through 5 beats.", "Play the same game in three different settings."],
+      "mastery": "In a 4-minute scene you heighten the game at least four times and every step follows logically.",
+      "mistakes": ["Jumping to the biggest idea too fast.", "Random silliness.", "Dragging past the peak."]
+    },
+    {
+      "id": "status-play", "name": "Status Play", "tier": 3, "requires": ["character-physicality", "emotional-reality"], "hours": 12,
+      "summary": "Use high and low status behaviours to create tension and comedy, as developed by Keith Johnstone.",
+      "steps": ["Learn status markers: posture, eye contact, speech speed.", "Play high, low and shifting status.", "Make status transactions with your partner.", "Use status changes to create comedy."],
+      "drills": ["Play a scene at status 1 to 10 levels.", "Change status when a line is spoken."],
+      "mastery": "Observers correctly rank your status level and shifts in a scene on a 1-10 scale.",
+      "mistakes": ["Playing only high status.", "Confusing status with volume.", "Not changing it."],
+      "resources": [{ "title": "Impro: Improvisation and the Theatre", "kind": "book", "by": "Keith Johnstone" }]
+    },
+    {
+      "id": "edits-sweeps", "name": "Edits, Tags & Sweeps", "tier": 3, "requires": ["short-form-games", "find-the-game"], "hours": 10,
+      "summary": "Clean scene endings and transitions, which keep a show moving and drive a long-form set.",
+      "steps": ["Edit by walking in front of the scene at a funny moment.", "Tag out by tapping a performer to replace them.", "Sweep by crossing the stage to end the scene.", "Start the next scene quickly."],
+      "drills": ["Practise edits on a count of 5 scenes in a row.", "Edit on the first laugh."],
+      "mastery": "In a 20-minute set, your edits land at natural peaks in at least 80% of cases per coach review.",
+      "mistakes": ["Editing too late.", "Editing in the middle of a build.", "Hesitating on the edit."]
+    },
+    {
+      "id": "agreement-relationship", "name": "Grounded Relationships", "tier": 3, "requires": ["endowments", "emotional-reality"], "hours": 15,
+      "summary": "Play specific, truthful relationships that give scenes stakes and heart.",
+      "steps": ["Define the relationship early.", "Give each character a want.", "Let the relationship change through the scene.", "Play for the truth."],
+      "drills": ["Do scenes on family, work and friend relationships.", "Let a relationship change at the end."],
+      "mastery": "In a 3-minute scene, your characters have a clear relationship and want, and it changes by the end.",
+      "mistakes": ["Playing strangers.", "Making cheap jokes at the cost of the relationship.", "Skipping emotions."]
+    },
+    {
+      "id": "harold", "name": "The Harold", "tier": 4, "requires": ["heighten-explore", "edits-sweeps", "agreement-relationship"], "hours": 60,
+      "summary": "A long-form structure of an opening, three beats of scenes, group games and a return, developed by Del Close.",
+      "steps": ["Learn the structure: opening, first beats, group game, second beats, third beats.", "Practise in a team under a coach.", "Find connections between scenes.", "Support each other in the back line."],
+      "drills": ["Rehearse a Harold weekly.", "Review videos for connections."],
+      "mastery": "Your team performs a 25-minute Harold with callbacks that connect the scenes, as judged by a coach.",
+      "mistakes": ["Forcing connections.", "Ignoring the group game.", "Not supporting from the back line."],
+      "resources": [{ "title": "Truth in Comedy", "kind": "book", "by": "Charna Halpern, Del Close and Kim Howard Johnson" }]
+    },
+    {
+      "id": "group-mind-patterns", "name": "Group Mind & Pattern Games", "tier": 4, "requires": ["edits-sweeps", "find-the-game"], "hours": 50,
+      "summary": "Move as an ensemble: see patterns, build on them and move as one.",
+      "steps": ["Practise listening to the whole group.", "Find patterns in characters and themes.", "Use callbacks and call-backs to earlier lines.", "Let ideas land across the team."],
+      "drills": ["Play pattern games for 10 minutes.", "Debrief what the group saw."],
+      "mastery": "Your team performs a set in which a coach counts at least five organic callbacks.",
+      "mistakes": ["Planning callbacks.", "Everyone talking at once.", "Over-using an idea."]
+    },
+    {
+      "id": "monoscene-long-form", "name": "Monologue-Driven Long Form", "tier": 4, "requires": ["agreement-relationship", "heighten-explore"], "hours": 60,
+      "summary": "Use a real-life monologue as inspiration for scenes, as in the Armando format.",
+      "steps": ["Listen to a monologue for themes.", "Play scenes inspired by it.", "Keep the scenes grounded.", "Let a monologue return later."],
+      "drills": ["Practise with a partner telling a true story.", "Run a full 20-minute format."],
+      "mastery": "You perform a 20-minute monologue-driven set and the monologist confirms the scenes were inspired by their story.",
+      "mistakes": ["Copying the story literally.", "Ignoring the theme.", "Forgetting the monologist."]
+    },
+    {
+      "id": "genre-musical", "name": "Genre & Improvised Musical", "tier": 4, "requires": ["status-play", "group-mind-patterns"], "hours": 80,
+      "summary": "Play a convincing genre such as noir or a full improvised musical.",
+      "steps": ["Learn the conventions of a genre.", "Practise songs with simple structure.", "Rehearse with a pianist if possible.", "Keep the story moving."],
+      "drills": ["Make up 10 short songs.", "Play a scene in 3 genres."],
+      "mastery": "You perform in an improvised musical or genre show where the story and songs are clear and fully improvised.",
+      "mistakes": ["Stopping the story for a song.", "Not listening to the music.", "Using only clichés."]
+    },
+    {
+      "id": "improv-teacher", "name": "Teaching & Coaching", "tier": 5, "requires": ["harold", "group-mind-patterns"], "hours": 300,
+      "summary": "Teach classes and coach teams, passing on the craft.",
+      "steps": ["Assist a teacher for several terms.", "Design a lesson using clear goals.", "Give constructive notes.", "Reflect on student progress."],
+      "drills": ["Teach a short workshop.", "Collect feedback."],
+      "mastery": "You teach a full multi-week course and students report measurable growth in skill and confidence.",
+      "mistakes": ["Giving too many notes.", "Teaching what you were taught without understanding why.", "Not adjusting to the students."]
+    },
+    {
+      "id": "director-house-team", "name": "Directing & Running a Show", "tier": 5, "requires": ["harold", "monoscene-long-form"], "hours": 400,
+      "summary": "Direct a team or produce a regular show, taking responsibility for quality.",
+      "steps": ["Join a theatre as a coach or director.", "Plan rehearsals with a clear focus.", "Produce a monthly show.", "Gather audience and performer feedback."],
+      "drills": ["Run a six-week team rehearsal series.", "Review each show."],
+      "mastery": "You direct a team that performs a regular show for at least six months to positive audience reviews.",
+      "mistakes": ["Directing all the choices.", "Poor communication.", "Not caring for the team."]
+    },
+    {
+      "id": "festival-original-format", "name": "Festival Performer & Original Format", "tier": 5, "requires": ["harold", "genre-musical"], "hours": 400,
+      "summary": "Perform at improv festivals and create an original format that others adopt.",
+      "steps": ["Apply to festivals with a strong video.", "Perform and tour.", "Develop an original format and test it.", "Share it so others can perform it."],
+      "drills": ["Apply to three festivals per year.", "Run test shows of your format."],
+      "mastery": "You perform at a recognised improv festival and your original format is played by another group.",
+      "mistakes": ["Applying with a weak video.", "Not testing the format.", "Ignoring feedback."]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "hobby": "drawing",
+  "nodes": [
+    {
+      "id": "marks-grip", "name": "Pencil Grip & Mark-Making", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Control the pencil from the shoulder and elbow as well as the fingers, so your lines are confident rather than hairy.",
+      "steps": ["Hold the pencil further back from the tip than for writing, with a relaxed tripod grip.", "Draw straight lines, curves and ellipses from the elbow and shoulder rather than the wrist.", "Make a mark chart with an HB, 2B and 4B pencil: light to dark pressure, from faint to full black.", "Fill a page with long confident lines in one stroke each rather than scratchy repeated ones."],
+      "drills": ["Draw 20 straight lines from dot to dot, 15 cm apart, in a single stroke each.", "Draw 20 ellipses in a row, 3 cm wide, each in one fluid motion."],
+      "mastery": "On a photo of one page, you show 20 dot-to-dot lines that stay within about 2 mm of the straight path and 10 smooth ellipses with no overlapping stray lines.",
+      "mistakes": ["Drawing short, scratchy sketch lines from the wrist.", "Pressing so hard the line cannot be erased.", "Using one pencil grade for everything."]
+    },
+    {
+      "id": "blind-contour", "name": "Blind Contour Drawing", "tier": 1, "requires": ["marks-grip"], "hours": 3, "partyTrick": 15,
+      "summary": "Draw an outline while looking only at the subject, never the paper. It trains your eye to see the edge as it really is.",
+      "steps": ["Pick a simple subject, such as your non-drawing hand.", "Place the pencil on the paper and slowly trace the edge with your eyes, moving the pencil at the same slow speed.", "Do not look at the paper and do not lift the pencil.", "Afterwards, compare your drawing to the subject and notice what you missed."],
+      "drills": ["Do five 2-minute blind contour drawings of your hand, from different angles.", "Do one 5-minute blind contour of a houseplant."],
+      "mastery": "You produce a blind contour of your hand in which the number of fingers, knuckle creases and nails are all present and in the right order, shown in a photo.",
+      "mistakes": ["Peeking at the paper.", "Moving the pencil faster than the eye.", "Judging the result as a failure; it is meant to look odd."],
+      "resources": [{ "title": "Keys to Drawing", "kind": "book", "by": "Bert Dodson" }]
+    },
+    {
+      "id": "basic-forms", "name": "Basic Shapes & 3D Forms", "tier": 1, "requires": ["marks-grip"], "hours": 6,
+      "summary": "See every object as a combination of boxes, cylinders, spheres and cones, and draw them so they look solid.",
+      "steps": ["Draw a box with parallel edges, then add a hidden back edge to check it feels solid.", "Draw cylinders by constructing two ellipses around a central axis.", "Draw spheres with a circle and a curved cross-section ellipse to show the form.", "Look around the room and describe every object as one of these forms."],
+      "drills": ["Draw 10 boxes, 10 cylinders and 10 spheres on a single page, each at a different angle.", "Sketch five household objects as a combination of simple forms before adding detail."],
+      "mastery": "You draw a set of five different household objects reduced to basic forms, with the ellipses of cylinders consistently placed and visible hidden edges, shown in a photo of the page.",
+      "mistakes": ["Drawing flat outlines that look like symbols.", "Using ellipses with pointed ends.", "Ignoring the back of the form."]
+    },
+    {
+      "id": "negative-space", "name": "Negative Space & Upside-Down Drawing", "tier": 1, "requires": ["blind-contour"], "hours": 5,
+      "summary": "Draw the shapes between and around objects instead of the objects themselves, to bypass your brain's symbol-making habit.",
+      "steps": ["Pick a chair or other object with gaps, such as the space between the legs and back.", "Draw only the shapes of the gaps, as if they were solid.", "Try copying an upside-down photograph of a line drawing; you draw what you see rather than what you think it is.", "Check by turning your drawing around and comparing to the subject."],
+      "drills": ["Draw a chair as negative space in 10 minutes.", "Copy an upside-down line drawing (such as the Stravinsky portrait by Picasso) in 20 minutes."],
+      "mastery": "You draw a chair using only negative space and, when compared by overlaying a photograph, the major shapes match closely, shown in a photo of the page and photo of the chair.",
+      "mistakes": ["Drawing the chair outline from memory instead of the actual shapes.", "Turning the drawing right way up too soon."],
+      "resources": [{ "title": "Drawing on the Right Side of the Brain", "kind": "book", "by": "Betty Edwards" }]
+    },
+    {
+      "id": "value-scale", "name": "Value Scale & Light", "tier": 1, "requires": ["marks-grip"], "hours": 4,
+      "summary": "Value (light to dark) matters more than line for making things look three-dimensional.",
+      "steps": ["Draw a row of 9 boxes and fill them from white to black in even steps using pencil pressure and layering.", "Squint at a photo in greyscale to see only 3 to 5 big value shapes.", "Identify the light direction in a scene: highlight, midtone, core shadow, reflected light, cast shadow.", "Practise smooth blending with a tortillon or soft layering, never smudging with a finger."],
+      "drills": ["Make three 9-step value scales, the last one on toned paper.", "Draw a 4-value study of a simple photo (white, light grey, dark grey, black)."],
+      "mastery": "You produce a 9-step value scale where each step is visibly different and evenly spaced, with the extremes at paper white and as dark as your pencil allows, shown in a photo.",
+      "mistakes": ["Compressing all values into mid-grey.", "Making the darkest dark too timid.", "Smudging with fingers."]
+    },
+    {
+      "id": "sighting-measuring", "name": "Sighting & Measuring", "tier": 1, "requires": ["negative-space"], "hours": 4,
+      "summary": "Use a pencil held at arm's length to measure proportions and angles accurately from life.",
+      "steps": ["Hold the pencil at arm's length with a locked elbow, close one eye, and slide your thumb to mark a length on the subject.", "Compare that unit to other parts of the subject: how many 'heads' tall, how many wide.", "Check angles by holding the pencil along an edge and transferring the angle to the paper.", "Plot key points lightly on the page before drawing any lines."],
+      "drills": ["Measure and plot a bottle, mug and book in a still life with sighting only, in 20 minutes.", "Take five angle readings (e.g. table edge, chair back) and plot them correctly."],
+      "mastery": "You draw a three-object still life where the relative heights and widths of objects match the real arrangement to within about 5%, verified by comparison with a photo overlay.",
+      "mistakes": ["Bending the elbow so the measurement drifts.", "Drawing the details first without placing the main points."]
+    },
+    {
+      "id": "hatching", "name": "Hatching, Cross-Hatching & Blending", "tier": 2, "requires": ["value-scale"], "hours": 6,
+      "summary": "Build tone with controlled layers of lines or smooth blends to suit different subjects.",
+      "steps": ["Hatch with parallel lines of even spacing, varying spacing and pressure to alter value.", "Add layers of cross-hatching at different angles for darker values.", "Practise smooth blending with a stump on a graphite base.", "Use contour hatching to follow the direction of a surface and emphasise form."],
+      "drills": ["Fill four 5 cm squares: hatching, cross-hatching, blended and stippled, each going from light to dark.", "Shade a flat piece of cloth with contour hatching."],
+      "mastery": "You show four technique swatches, each with a smooth, even gradient from light to dark with no visible gaps or blotches, in one photo.",
+      "mistakes": ["Uneven line spacing.", "Scribbling instead of building layers.", "Using hatching direction that fights the form."]
+    },
+    {
+      "id": "form-shading", "name": "Shading Forms: Sphere to Egg", "tier": 2, "requires": ["basic-forms", "value-scale"], "hours": 6,
+      "summary": "Make a flat circle look like a ball, using the five parts of light and shadow.",
+      "steps": ["Pick a light direction and draw a sphere outline.", "Place the highlight, midtone, core shadow, reflected light and cast shadow.", "Build values gradually, darkest accents last.", "Repeat on a cylinder, a cube and an egg."],
+      "drills": ["Shade a sphere from observation (an orange or ball with a lamp) in 30 minutes.", "Draw a cube, cylinder, sphere and cone in a single scene with consistent lighting."],
+      "mastery": "You draw a real sphere under one lamp with all five light zones present and the shadow in the correct direction, shown in a photo of your drawing beside the real object.",
+      "mistakes": ["Putting the darkest value at the edge instead of the core shadow, so the sphere looks flat.", "Forgetting the cast shadow.", "Adding reflected light so bright that it equals the highlight."]
+    },
+    {
+      "id": "one-point", "name": "One-Point Perspective", "tier": 2, "requires": ["basic-forms"], "hours": 6,
+      "summary": "Draw rooms, streets and boxes that recede to a single vanishing point on the horizon.",
+      "steps": ["Draw a horizon line at eye level and mark a vanishing point.", "Draw a front-facing square and connect its corners to the vanishing point.", "Cut the receding edges to set depth and add boxes, doors and windows.", "Use a ruler for these edges until you can eyeball them reliably."],
+      "drills": ["Draw 10 boxes at different heights relative to the horizon.", "Draw a corridor with a row of equally spaced doors, using the diagonal-to-midpoint trick."],
+      "mastery": "You draw a one-point perspective room or street with at least 6 objects, in which all receding edges converge on a single point, and you can show the construction lines on the page.",
+      "mistakes": ["Placing the horizon in the middle of the page every time.", "Edges that miss the vanishing point.", "Making things too small as they recede."]
+    },
+    {
+      "id": "gesture", "name": "Gesture Drawing", "tier": 2, "requires": ["sighting-measuring"], "hours": 8,
+      "summary": "Capture the movement and rhythm of a pose in 30 to 120 seconds, before details.",
+      "steps": ["Use photo references or a timed online pose generator with 30-second and 1-minute poses.", "Draw one flowing line for the spine, then lines for the limbs and rib cage.", "Exaggerate the action and weight rather than the outline.", "Use the whole arm and loose lines; do not erase."],
+      "drills": ["Complete 30 gestures at 30 seconds each, then 10 at 2 minutes.", "Fill one page with 12 gesture drawings of people walking in a photo."],
+      "mastery": "In a 10-minute session, you produce 20 gesture drawings of different poses, each clearly showing direction of movement and weight distribution, shown on a photo of the page.",
+      "mistakes": ["Starting with the head and details.", "Drawing stiff outlines instead of the line of action."]
+    },
+    {
+      "id": "still-life", "name": "Still Life from Observation", "tier": 2, "requires": ["sighting-measuring", "form-shading"], "hours": 10,
+      "summary": "Combine measuring, form and tone into a complete drawing of a small arrangement.",
+      "steps": ["Arrange 3 objects (such as a mug, an apple and a bottle) with a single lamp.", "Sight and plot proportions, then draw light construction forms.", "Block in the major shadow shapes, then build values from light to dark.", "Finish with the darkest accents and the cast shadows."],
+      "drills": ["Draw the same arrangement twice: once in line only, once in tone only.", "Do a 20-minute value-only study of a white object on a white surface."],
+      "mastery": "You complete a 3-object tonal still life with correct proportions and a consistent light source, shown in a photo of the drawing beside the real arrangement.",
+      "mistakes": ["Drawing from a photo only.", "Changing the light halfway through.", "Outlining everything with a hard black line."]
+    },
+    {
+      "id": "face-proportions", "name": "Face Proportions & Features", "tier": 2, "requires": ["sighting-measuring", "basic-forms"], "hours": 8,
+      "summary": "Use the Loomis head method to place eyes, nose and mouth correctly, then draw each feature as a form.",
+      "steps": ["Draw a sphere, cut off the sides and add a jaw to build the skull.", "Mark the eye line halfway down the head, the nose base halfway to the chin, and the mouth a third below that.", "Draw eyes, nose and mouth as simple 3D shapes, not symbols.", "Practise in front, three-quarter and profile views."],
+      "drills": ["Draw 10 Loomis heads, 5 in profile and 5 in three-quarter view.", "Draw a pair of eyes, one nose and one mouth from reference each day for a week."],
+      "mastery": "You draw a front-view face from a reference photo with eyes on the halfway line, a one-eye-width gap between eyes, and a mouth and nose in the correct proportion, shown on video as you measure.",
+      "mistakes": ["Placing the eyes too high on the head.", "Forgetting the skull depth behind the face.", "Drawing eyes as almonds with no eyelid thickness."]
+    },
+    {
+      "id": "two-point", "name": "Two-Point Perspective", "tier": 3, "requires": ["one-point"], "hours": 10,
+      "summary": "Draw buildings and objects at an angle, with two vanishing points on the horizon.",
+      "steps": ["Place two vanishing points on a wide horizon line at the edge of the page.", "Draw a vertical edge for the nearest corner, then connect its ends to both vanishing points.", "Add the far vertical edges and finish the box.", "Add windows, doors, roofs and objects with repeated measures."],
+      "drills": ["Draw 20 boxes at different heights and distances.", "Draw a street corner with three buildings, a lamp post and a car."],
+      "mastery": "You draw a city street corner with 3 buildings using two vanishing points, and all construction lines trace to the correct vanishing points when checked with a ruler, shown in a photo.",
+      "mistakes": ["Placing vanishing points too close together, causing distortion.", "Verticals that tilt."],
+      "resources": [{ "title": "Drawabox", "kind": "site", "url": "https://drawabox.com" }]
+    },
+    {
+      "id": "composition-thumbnails", "name": "Composition & Thumbnails", "tier": 3, "requires": ["still-life", "gesture"], "hours": 8,
+      "summary": "Plan the layout with small, quick sketches before committing to a final drawing.",
+      "steps": ["Draw six small frames (5 x 7 cm) for the same subject.", "Try different layouts: rule of thirds, centred, diagonal, strong foreground, high and low horizon.", "Use three values only to plan the big shapes.", "Choose the best thumbnail and enlarge it."],
+      "drills": ["Create six thumbnails each for three scenes.", "Redraw a master painting's composition as a simple three-value thumbnail."],
+      "mastery": "For one scene you produce six distinct thumbnails with different compositions and a short note on why you chose the final one, shown in a photo.",
+      "mistakes": ["Starting the final drawing without planning.", "Making all thumbnails identical."]
+    },
+    {
+      "id": "figure-structure", "name": "Figure Structure & Proportion", "tier": 3, "requires": ["gesture", "face-proportions"], "hours": 20,
+      "summary": "Build the human figure from the ribcage, pelvis and limbs, with correct proportions of about seven and a half heads.",
+      "steps": ["Divide the body into 7.5 head heights for an average adult.", "Draw the ribcage and pelvis as boxes or egg shapes with their tilt and counter-tilt.", "Add limbs as cylinders joined at the shoulder, elbow, hip and knee.", "Draw 'balance' lines to check that the weight sits over the supporting foot."],
+      "drills": ["Draw 20 mannequin figures from photos in different poses, 3 minutes each.", "Draw 10 hands and 10 feet as simple boxes and wedges."],
+      "mastery": "From a reference photo you draw a standing figure with correct head-height proportions, shoulder-hip tilt and a believable weight line, with the construction visible, shown in a photo.",
+      "mistakes": ["Making the legs too short.", "Drawing the torso as one stiff rectangle.", "Hiding hands and feet."]
+    },
+    {
+      "id": "portrait-tone", "name": "Portrait in Tone", "tier": 3, "requires": ["face-proportions", "form-shading", "hatching"], "hours": 20,
+      "summary": "Render a convincing likeness with accurate value shapes rather than outlines.",
+      "steps": ["Block in proportions and the shadow shapes lightly.", "Squint to find the big value masses on the face, then place them.", "Work from the whole head to details, not one feature at a time.", "Soften edges where the form turns away and keep sharp edges where light hits."],
+      "drills": ["Do three 30-minute portrait studies from photos.", "Draw one portrait with only a big soft brush-like graphite tone, no lines."],
+      "mastery": "You draw a portrait from a photo in graphite, and an overlay or side-by-side comparison with the photo shows the main proportions and shadow shapes closely matched, shown in a photo.",
+      "mistakes": ["Starting with the eyes and drifting off proportion.", "Outlining features with dark lines.", "Over-blending so the face looks plastic."]
+    },
+    {
+      "id": "life-figure", "name": "Figure from Life", "tier": 4, "requires": ["figure-structure", "composition-thumbnails"], "hours": 60,
+      "summary": "Draw a live model in poses from 1 to 20 minutes, building gesture, structure, anatomy and tone.",
+      "steps": ["Attend a life drawing session, in person or a recorded one with a real model.", "Start with 1 to 5 minute gestures, then 10 to 20 minute structure studies.", "Learn key anatomy landmarks: collarbone, rib cage, pelvis, major muscle groups.", "Add tone for a final long pose."],
+      "drills": ["Do 12 weekly sessions with at least 10 gestures and one 20-minute study each.", "Study one muscle group per week from an anatomy book and draw it from the model."],
+      "mastery": "You show a sheet from a single life session with 10 gestures plus a 20-minute study where the proportions, weight and anatomy are credible, with a photo of the model pose or session set up.",
+      "mistakes": ["Skipping the gesture warm-up.", "Obsessing over faces and hands too early.", "Copying a photo instead of the live pose."]
+    },
+    {
+      "id": "complex-perspective", "name": "Complex Perspective Scenes", "tier": 4, "requires": ["two-point", "composition-thumbnails"], "hours": 40,
+      "summary": "Draw three-point perspective, curved forms in perspective and interiors with a convincing sense of space.",
+      "steps": ["Add a third vanishing point above or below for tall buildings and tilted views.", "Draw circles and cylinders as ellipses in perspective.", "Plan a full interior scene with a horizon line, furniture and a window.", "Use atmospheric perspective: lighter, less detailed distant objects."],
+      "drills": ["Draw a skyscraper from a worm's-eye view in three-point perspective.", "Draw a room interior from a real corner with at least 8 objects."],
+      "mastery": "You draw a convincing room or city scene with at least 12 objects in correct perspective, with construction lines visible, shown in a photo beside the real room or reference.",
+      "mistakes": ["Ellipses drawn as flat circles.", "Inconsistent eye level across objects."]
+    },
+    {
+      "id": "portrait-life", "name": "Portrait from Life", "tier": 4, "requires": ["portrait-tone", "life-figure"], "hours": 60,
+      "summary": "Capture a living sitter's likeness, expression and light in one or two sessions.",
+      "steps": ["Set up a single light source and have the sitter hold a comfortable pose for 20 minute blocks.", "Plot the head with sight-size measurement, then build values.", "Capture the sitter's character, not only features.", "Finish with controlled edges and a clean background."],
+      "drills": ["Draw a friend for 2 hours total across sessions.", "Do 5 self-portraits in a mirror over 5 days."],
+      "mastery": "You draw a portrait of a live sitter in 2 to 3 hours; the sitter or an independent viewer recognises them, and a photo of the sitter beside the drawing shows close proportional match.",
+      "mistakes": ["Letting the sitter move so the drawing drifts.", "Changing light conditions between sessions."]
+    },
+    {
+      "id": "urban-sketch", "name": "Location Sketching", "tier": 4, "requires": ["complex-perspective", "gesture"], "hours": 40,
+      "summary": "Draw scenes on location quickly and expressively, with people, buildings and light changing around you.",
+      "steps": ["Pick a spot and spend 5 minutes on a thumbnail before starting.", "Block in the big shapes and horizon with pen or pencil, then add the details that matter.", "Add people as simple gestures and scale references.", "Time-limit each sketch to 20 to 40 minutes."],
+      "drills": ["Do 10 location sketches in 10 different places.", "Do 5 two-minute 'people in action' sketches in a cafe or station."],
+      "mastery": "You complete 10 location sketches with credible perspective, people and light, each with a photo of the place beside the sketch, within time limits.",
+      "mistakes": ["Trying to draw every brick.", "Starting with details before the big shapes."]
+    },
+    {
+      "id": "master-figure-work", "name": "Finished Figure or Portrait Drawing", "tier": 5, "requires": ["life-figure", "portrait-life"], "hours": 150,
+      "summary": "A polished, gallery-level drawing from life that unites accurate structure, light, edges and design.",
+      "steps": ["Plan with thumbnails, a tonal study and a construction drawing.", "Work on a larger sheet (A2 or bigger) with deliberate edge control.", "Spend multiple sessions to push likeness, subtle value transitions and the surface finish.", "Photograph and critique with a mentor or peer group, then refine."],
+      "drills": ["Complete one 20+ hour drawing a quarter.", "Redraw a master drawing (such as one by Ingres or Sargent) as a study to learn the edge handling."],
+      "mastery": "You produce a large finished life drawing of a figure or portrait, with time-lapse video or process photos proving it was done from life, and a peer or teacher confirms professional-quality likeness, anatomy and tonal range.",
+      "mistakes": ["Over-working and losing the highlights.", "Skipping the planning stage."]
+    },
+    {
+      "id": "imagination-drawing", "name": "Draw From Imagination", "tier": 5, "requires": ["complex-perspective", "life-figure", "urban-sketch"], "hours": 200,
+      "summary": "Draw believable figures, objects and environments from your head, using your knowledge of structure, light and perspective.",
+      "steps": ["Build a mental library of forms by studying from life and photos, then drawing them from memory.", "Create a scene with a figure in a perspective environment, with a consistent light source.", "Compare against references afterwards to find gaps.", "Design a series of three connected images with consistent style."],
+      "drills": ["Draw 5 objects from memory each day and check against reference.", "Complete a weekly imaginary scene with figure, props and setting."],
+      "mastery": "You produce a finished imaginary scene with a figure, an environment in correct perspective and consistent lighting; you show a time-lapse video of it being drawn without any reference, with the perspective construction lines visible.",
+      "mistakes": ["Skipping life study and relying on invention only.", "Inconsistent light sources."]
+    }
+  ]
+}

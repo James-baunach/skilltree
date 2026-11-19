@@ -1,0 +1,189 @@
+{
+  "hobby": "running",
+  "nodes": [
+    {
+      "id": "shoes-and-kit", "name": "Shoes and Basic Kit", "tier": 1, "requires": [], "hours": 1,
+      "summary": "The right pair of running shoes and breathable clothing remove the most common early barriers and injury causes.",
+      "steps": ["Visit a specialist running shop and try several pairs; choose comfort over brand or looks.", "Leave about a thumb's width of space in front of your longest toe.", "Wear moisture-wicking socks and clothing, not cotton.", "Replace shoes roughly every 500 to 800 km, or when they feel flat or cause new aches."],
+      "drills": ["Do a 10-minute test jog in new shoes before committing.", "Write the date and starting mileage of each shoe pair in a notebook or app."],
+      "mastery": "You own shoes that fit properly with no blisters or toe pain on a 30-minute run, and can say how many km are on them.",
+      "mistakes": ["Buying shoes a size too small for style or because they were on sale.", "Running in worn-out old shoes.", "Wearing cotton socks that cause blisters."]
+    },
+    {
+      "id": "conversational-pace", "name": "Conversational Pace", "tier": 1, "requires": ["shoes-and-kit"], "hours": 2,
+      "summary": "Most of your running should be slow enough to talk in full sentences. Running easy builds your aerobic base without breaking you down.",
+      "steps": ["Run at a pace where you could say a full sentence without gasping.", "Slow down further (even to a shuffle) rather than walking if you must catch your breath.", "Use the talk test at the start, middle and end of each run.", "Ignore pace on your watch for the first few weeks."],
+      "drills": ["Run 20 minutes while reciting a poem or chatting with a friend.", "After each run, rate effort from 1 to 10 and aim for 4 to 5."],
+      "mastery": "You can run 20 minutes continuously while speaking in full sentences throughout.",
+      "mistakes": ["Starting too fast and being forced to walk after a few minutes.", "Comparing your pace to other runners.", "Treating every run as a race."]
+    },
+    {
+      "id": "run-walk-intervals", "name": "Run-Walk Intervals", "tier": 1, "requires": ["conversational-pace"], "hours": 8,
+      "summary": "Alternate short running and walking segments, gradually lengthening the runs. This is the safest way to go from the couch to continuous running.",
+      "steps": ["Start with 1 minute of running and 2 minutes of walking, for 20 to 25 minutes total.", "Add running time every week, such as 2 min run / 1 min walk, then 5 / 1, then 8 / 1.", "Train three days a week with rest days between.", "Repeat a week if it felt too hard; never add more than one step at a time."],
+      "drills": ["Follow a structured Couch-to-5K style plan for 6 to 8 weeks.", "Mark each completed session on a calendar."],
+      "mastery": "You can complete a 5-minute run / 1-minute walk interval session for 30 minutes at an easy effort.",
+      "mistakes": ["Skipping the walk breaks to prove something.", "Running on consecutive days from week one.", "Adding time and speed in the same week."]
+    },
+    {
+      "id": "warmup-routine", "name": "Warm-Up and Cool-Down", "tier": 1, "requires": ["conversational-pace"], "hours": 2,
+      "summary": "A few minutes of brisk walking and dynamic movement prepares muscles and joints, and an easy cool-down helps recovery.",
+      "steps": ["Walk briskly for 5 minutes before running.", "Do leg swings, walking lunges, ankle circles and high knees for 3 to 5 minutes.", "Start the run at an easier pace than planned for the first 5 minutes.", "End with 5 minutes of walking, then gentle stretching if you like."],
+      "drills": ["Do the full routine before every run for two weeks.", "Time the routine so it takes 8 to 10 minutes."],
+      "mastery": "You can perform a consistent 8 to 10 minute dynamic warm-up and do it before every run for 2 weeks.",
+      "mistakes": ["Static stretching cold muscles before the run.", "Skipping the warm-up on short runs.", "Starting the first kilometre at the fastest pace of the day."]
+    },
+    {
+      "id": "thirty-minute-run", "name": "30 Minutes Non-Stop", "tier": 1, "requires": ["run-walk-intervals", "warmup-routine"], "hours": 10,
+      "summary": "Running half an hour without stopping is the first real milestone, and it makes a 5K achievable.",
+      "steps": ["Extend run segments until you can do 20 minutes continuous, then 25, then 30.", "Keep a very easy pace, even if it is slower than walking-pace comparisons suggest.", "Hydrate and eat lightly before runs.", "Add one run per week of the longest duration and keep two shorter ones."],
+      "drills": ["Run 3 times per week: two 20-minute runs and one run building towards 30.", "Log each run's duration and perceived effort."],
+      "mastery": "You can run 30 minutes continuously at an easy pace without stopping, with a logged GPS or watch record.",
+      "mistakes": ["Increasing the long run by more than about 10% per week.", "Ignoring sharp or persistent pain.", "Running every day without rest."]
+    },
+    {
+      "id": "weekly-structure", "name": "Weekly Structure and Rest", "tier": 1, "requires": ["run-walk-intervals"], "hours": 3,
+      "summary": "Adaptation happens during rest. A simple weekly pattern of run days, rest days and sleep keeps you healthy and consistent.",
+      "steps": ["Plan 3 run days a week with at least one rest day between them.", "Do not raise weekly volume by more than about 10% a week, and take an easier week every fourth week.", "Sleep 7 or more hours when possible.", "Take extra rest days when you feel unusual fatigue or soreness."],
+      "drills": ["Write a four-week schedule and follow it.", "Rate soreness 1 to 5 each morning for a week."],
+      "mastery": "You have followed a written 4-week plan with planned rest days and have an unbroken log of the runs.",
+      "mistakes": ["Doing everything on the weekend.", "Treating rest days as laziness.", "Doubling the week's mileage after a missed week."]
+    },
+    {
+      "id": "first-5k", "name": "Your First 5K", "tier": 2, "requires": ["thirty-minute-run", "weekly-structure"], "hours": 12,
+      "summary": "Cover 5 kilometres non-stop, in training or at a parkrun-style event. It proves your base and gives you a benchmark to improve.",
+      "steps": ["Build the longest run to 4 to 5 km at easy pace over a few weeks.", "Choose a flat course, in training or a local event.", "Start slowly and aim for even pacing.", "Record your time as a baseline."],
+      "drills": ["One 5K time trial or event every 4 to 6 weeks.", "Run 3 times a week with one longer easy run."],
+      "mastery": "You have run 5 km continuously and have a timed result from GPS or an event to prove it.",
+      "mistakes": ["Going out too fast in the first kilometre.", "Trying a new shoe or breakfast on race day.", "Skipping the warm-up before a hard effort."]
+    },
+    {
+      "id": "posture-and-cadence", "name": "Posture and Cadence", "tier": 2, "requires": ["thirty-minute-run"], "hours": 6,
+      "summary": "A tall posture, relaxed arms and a quicker, lighter stride reduce braking and impact without a radical change of style.",
+      "steps": ["Run tall with a slight forward lean from the ankles, not the waist.", "Keep elbows at roughly 90 degrees, hands relaxed, swinging forward and back, not across the body.", "Land with the foot close to under your body rather than reaching in front.", "Raise cadence by 5% if you are below about 160 steps per minute, using a metronome app."],
+      "drills": ["Run 5 x 1 minute focusing on cadence at easy effort.", "Film yourself from the side and check foot landing and posture."],
+      "mastery": "A side-on video shows a foot landing near under your hips, upright posture and relaxed arms, and your cadence is steady for a 20-minute run.",
+      "mistakes": ["Overstriding with a heel strike far in front of the body.", "Clenching fists and hunching shoulders.", "Making a huge form change overnight."]
+    },
+    {
+      "id": "strides", "name": "Strides", "tier": 2, "requires": ["posture-and-cadence", "warmup-routine"], "hours": 4,
+      "summary": "Short, relaxed accelerations of about 20 seconds build speed, coordination and running economy with little fatigue.",
+      "steps": ["After an easy run, find a flat 80 to 100 m stretch.", "Accelerate smoothly over 5 seconds to about 90% effort, hold for 10, then ease off.", "Walk back to full recovery, about 60 to 90 seconds.", "Do 4 to 6 repetitions, twice a week."],
+      "drills": ["6 x 20-second strides after two easy runs per week.", "Focus on tall posture and relaxed face and hands."],
+      "mastery": "You can run six smooth, relaxed strides with consistent form and a controlled finish, shown on video.",
+      "mistakes": ["Sprinting flat out and tensing up.", "Skipping recovery between reps.", "Doing them while very tired."]
+    },
+    {
+      "id": "hill-running", "name": "Hill Running", "tier": 2, "requires": ["first-5k"], "hours": 6,
+      "summary": "Hills build strength and power in a low-impact way and teach effort-based pacing.",
+      "steps": ["Find a moderate hill of 4 to 6 percent grade.", "Run up with short quick steps, a slight forward lean and driving arms.", "Keep effort steady rather than speed.", "Descend relaxed with quick, controlled steps, avoiding braking too hard."],
+      "drills": ["6 x 30-second hill reps at hard effort, jogging back down.", "Include a hilly route once a week."],
+      "mastery": "You can complete 6 x 30 seconds uphill at consistent effort and form, then recover by jogging down.",
+      "mistakes": ["Leaning from the waist and hunching.", "Charging the first rep too fast.", "Slamming heels on downhills."]
+    },
+    {
+      "id": "runner-strength", "name": "Strength for Runners", "tier": 2, "requires": ["thirty-minute-run"], "hours": 10,
+      "summary": "Simple strength work for calves, glutes, hips and core makes running more resilient to injury.",
+      "steps": ["Do two 20-minute sessions a week on non-hard-run days.", "Include single-leg squats or step-ups, calf raises, glute bridges, planks and side planks.", "Use slow, controlled reps with 2 to 3 sets of 8 to 12.", "Progress with load or tempo when reps feel easy."],
+      "drills": ["Calf raises: 3 x 15 on each leg, slow lowering.", "Single-leg glute bridge: 3 x 10 each side."],
+      "mastery": "You can do 20 single-leg calf raises and 10 slow single-leg squats to a bench per side with controlled form.",
+      "mistakes": ["Skipping strength because running feels like enough.", "Using heavy weights with poor form.", "Training legs hard the day before a key run."]
+    },
+    {
+      "id": "fuel-and-hydration", "name": "Fuel and Hydration", "tier": 2, "requires": ["first-5k"], "hours": 4,
+      "summary": "Eating and drinking well before and after training boosts energy and recovery. Runs beyond about an hour usually need fuel on the go.",
+      "steps": ["Eat a light carbohydrate meal 2 to 3 hours before runs, or a small snack 30 to 60 minutes before.", "Drink to thirst during runs; don't force large volumes.", "Eat carbohydrate plus protein within an hour or two afterwards.", "Test any new gel or drink in training, never first on race day."],
+      "drills": ["Try three different pre-run snacks over a few weeks and note how you feel.", "Weigh yourself before and after a long run to see sweat loss."],
+      "mastery": "You have a tested pre-run and post-run routine that gets you through a 60-minute run without stomach trouble or low energy.",
+      "mistakes": ["Running on an empty stomach and bonking.", "Overdrinking water.", "Trying new foods on race day."]
+    },
+    {
+      "id": "tempo-run", "name": "Tempo Runs", "tier": 3, "requires": ["first-5k", "posture-and-cadence"], "hours": 12,
+      "summary": "Sustained efforts at 'comfortably hard' pace raise your lactate threshold, the speed you can hold for a long time.",
+      "steps": ["Warm up for 10 to 15 minutes easy.", "Run 15 to 30 minutes at an effort you could hold for about an hour, speaking only in short phrases.", "Build the tempo duration over several weeks.", "Cool down for 10 minutes."],
+      "drills": ["20-minute tempo run once a week for 6 weeks.", "Run 3 x 8 minutes tempo with 2 minutes jog recovery."],
+      "mastery": "You can run 20 minutes at steady threshold pace with less than 5% variation in pace per kilometre, from a watch file.",
+      "mistakes": ["Running tempo as an all-out race.", "Starting too fast and fading.", "Doing hard tempo runs back to back with other hard sessions."]
+    },
+    {
+      "id": "interval-training", "name": "Interval Training", "tier": 3, "requires": ["strides", "first-5k"], "hours": 15,
+      "summary": "Repeated hard efforts of 2 to 5 minutes with recovery jogs improve aerobic power (VO2max) and race speed.",
+      "steps": ["Warm up for 15 minutes with strides.", "Run 4 to 6 repetitions of 3 minutes at 5K race effort with 2 minutes easy jog.", "Keep pacing even across all reps.", "Do one session a week and leave at least 48 hours before the next hard day."],
+      "drills": ["5 x 3 minutes at 5K effort, 2 minutes jog.", "8 x 400 m on a track with 90 seconds jog recovery."],
+      "mastery": "You can complete 5 x 3 minutes with every rep within about 3% of the same pace.",
+      "mistakes": ["Running the first rep too fast.", "Skipping warm-up.", "Doing intervals every day."]
+    },
+    {
+      "id": "10k-and-pacing", "name": "10K Race and Even Pacing", "tier": 3, "requires": ["tempo-run"], "hours": 25,
+      "summary": "Race 10 kilometres with controlled, even or negative-split pacing. It tests everything you have built.",
+      "steps": ["Build to a longest run of 10 to 12 km over 8 to 10 weeks.", "Pick a goal time and calculate target pace per km.", "Run the first 2 km slightly easier than target, settle, then hold.", "Finish the last 2 km faster if you can."],
+      "drills": ["Weekly long run progressing towards 12 km.", "Practise race pace in a 5 km segment of a long run."],
+      "mastery": "You have raced 10 km with the second half within 3% of the first (or faster), shown by official timing or a watch file.",
+      "mistakes": ["Starting at the pace of a 5K.", "Changing your routine the week before.", "Ignoring pacing data until the end."]
+    },
+    {
+      "id": "half-marathon", "name": "Half Marathon", "tier": 3, "requires": ["10k-and-pacing", "fuel-and-hydration"], "hours": 60,
+      "summary": "21.1 km needs a patient build-up, long runs and a fuelling plan. It is a step to the marathon.",
+      "steps": ["Follow a 12 to 16 week plan with three or four runs per week and a long run building to 16 to 19 km.", "Practise fuelling every 30 to 40 minutes on long runs.", "Taper the last 10 days, cutting volume by about 40%.", "Plan the first half of the race slightly easier than goal pace."],
+      "drills": ["Weekly long run with the last 20 minutes at slightly faster pace.", "Test your race shoes, kit and fuel on a 15 km run."],
+      "mastery": "You have finished a half marathon in an official timed event or a verifiable GPS-recorded 21.1 km run.",
+      "mistakes": ["Adding mileage too quickly.", "Skipping the taper.", "Not practising fuel."]
+    },
+    {
+      "id": "injury-prevention", "name": "Reading and Handling Niggles", "tier": 3, "requires": ["runner-strength", "weekly-structure"], "hours": 10,
+      "summary": "Most running injuries come from sudden load increases. Knowing the difference between normal soreness and warning signs keeps you running.",
+      "steps": ["Distinguish muscle soreness (both sides, eases when warm) from sharp or one-sided pain (stop).", "Cut or swap running for cycling or swimming at the first pain that changes your stride.", "Reduce load for several days before returning gradually.", "See a physiotherapist or doctor if pain persists beyond about a week or is severe."],
+      "drills": ["Keep a training diary noting any pain and what changed the week before.", "Practise a weekly 10-minute self-check of calves, shins and hips."],
+      "mastery": "You can explain your own rules for when to run, reduce or stop, and have successfully managed at least one niggle without a long layoff.",
+      "mistakes": ["Running through sharp pain.", "Self-diagnosing from the internet and ignoring professional advice.", "Returning to full mileage on the first pain-free day."]
+    },
+    {
+      "id": "marathon", "name": "Marathon", "tier": 4, "requires": ["half-marathon"], "hours": 150,
+      "summary": "42.2 km demands months of progressive training, serious fuelling and mental pacing discipline.",
+      "steps": ["Follow a 16 to 20 week plan peaking at 50 to 70 km a week, with 2 to 3 long runs of 30 to 35 km.", "Practise carbohydrate intake of roughly 30 to 60 g per hour in training.", "Taper for 2 to 3 weeks.", "Start slower than goal pace, hold the middle, and use the last 10 km to push."],
+      "drills": ["Long run with marathon-pace blocks, such as 3 x 5 km.", "A dress rehearsal run in the exact race kit and fuel."],
+      "mastery": "You have completed a marathon in an official timed event, with a published result.",
+      "mistakes": ["Going out at goal pace feeling fresh and fading.", "Skipping long-run fuelling practice.", "Training through injury in the last weeks."]
+    },
+    {
+      "id": "periodised-plan", "name": "Periodised Training", "tier": 4, "requires": ["interval-training", "tempo-run", "injury-prevention"], "hours": 80,
+      "summary": "Structure your year into base, build, peak and recovery phases so you arrive at a goal race fit and fresh.",
+      "steps": ["Pick a goal race and count back 16 to 24 weeks.", "Base phase: easy mileage and strides. Build: add tempo and intervals. Peak: race-specific sessions. Taper.", "Use hard/easy alternation and an easier week every 3 to 4 weeks.", "Review each block and adjust."],
+      "drills": ["Write a full training plan and follow it for 12 weeks.", "Test fitness with a time trial at the end of each block."],
+      "mastery": "You have written your own plan, followed at least 80% of it, and improved a race or time-trial result as a result.",
+      "mistakes": ["Training hard all year round.", "Copying an elite plan wholesale.", "Not scheduling recovery."]
+    },
+    {
+      "id": "fast-5k", "name": "Sub-20 5K", "tier": 4, "requires": ["interval-training", "10k-and-pacing"], "hours": 150,
+      "summary": "Running 5 km in under 20 minutes (4:00 per km) is a recognised club-runner benchmark.",
+      "steps": ["Build to 40 to 50 km a week with one interval and one tempo session.", "Practise 5K pace in repeats such as 5 x 1000 m with 90 seconds jog.", "Include strides and strength work twice a week.", "Race on a flat, certified course in good conditions."],
+      "drills": ["6 x 800 m at goal pace (3:12) with 400 m jog.", "5 km time trial every 6 weeks."],
+      "mastery": "You have a 5K result under 20:00 from an official timed event or verified GPS file on a measured course.",
+      "mistakes": ["Overtraining with too many hard days.", "Neglecting easy runs.", "Going out in 3:50 per km and fading."]
+    },
+    {
+      "id": "ultra-or-trail", "name": "Trail and Ultra Distance", "tier": 4, "requires": ["marathon"], "hours": 200,
+      "summary": "Running beyond marathon length on trails adds navigation, power-hiking, gear and fuelling for many hours.",
+      "steps": ["Add back-to-back long runs on trails to build time on feet.", "Learn to power-hike steep climbs and run flats and descents.", "Carry required safety gear, water, and food; practise navigation.", "Run to effort, not pace, and eat on a schedule."],
+      "drills": ["Back-to-back long runs of 3 hours Saturday and 2 hours Sunday.", "Practice a full aid-station routine in training."],
+      "mastery": "You have finished a trail race of 50 km or more with a published result.",
+      "mistakes": ["Starting too fast on fresh legs.", "Underestimating food and water needs.", "Ignoring weather and safety gear."]
+    },
+    {
+      "id": "qualifying-marathon", "name": "Elite Age-Group Marathon", "tier": 5, "requires": ["marathon", "periodised-plan"], "hours": 600,
+      "summary": "Hit a demanding marathon standard for your age and sex, such as a Boston Marathon qualifying time. It needs years of consistency.",
+      "steps": ["Build to 70 to 100 km a week for several months with structured workouts.", "Include long runs with extended marathon-pace segments.", "Optimise sleep, nutrition and recovery.", "Choose a fast, flat course and a pacing strategy."],
+      "drills": ["Long run with 20 to 25 km at marathon pace.", "Weekly threshold session of 8 to 12 km at tempo."],
+      "mastery": "You have run an official marathon at or under the qualifying standard for your age and sex group, with a verified result.",
+      "mistakes": ["Chasing the standard before building the base.", "Ignoring injury warnings.", "Racing too often."]
+    },
+    {
+      "id": "coach-a-runner", "name": "Coach Another Runner", "tier": 5, "requires": ["periodised-plan", "injury-prevention", "half-marathon"], "hours": 300,
+      "summary": "Guide a beginner from zero to a race finish. Teaching tests whether you understand training principles.",
+      "steps": ["Assess the runner's history, goals and schedule.", "Write a progressive plan with flexibility for life and setbacks.", "Review logs weekly and adjust.", "Know when to refer them to a doctor or physiotherapist."],
+      "drills": ["Coach one beginner through a 12-week plan to a 5K or 10K.", "Reflect on what worked and what you would change."],
+      "mastery": "A runner you coached has completed a goal race, with their training log and result to confirm.",
+      "mistakes": ["Applying your own training to everyone.", "Pushing too hard too soon.", "Overlooking health history."]
+    }
+  ]
+}

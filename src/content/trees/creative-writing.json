@@ -1,0 +1,201 @@
+{
+  "hobby": "creative-writing",
+  "nodes": [
+    {
+      "id": "daily-habit", "name": "A Daily Writing Habit", "tier": 1, "requires": [], "hours": 10,
+      "summary": "Writing improves by doing it often. Build a small, fixed daily practice before anything else.",
+      "steps": ["Pick a fixed time and place, and a small target such as 15 minutes or 200 words.", "Write first and edit later: do not fix sentences during the first draft.", "Track each day on a calendar and do not break the chain twice in a row.", "Keep a notebook or phone note for ideas.", "Raise the target slowly once the habit is easy."],
+      "drills": ["Write 200 words a day for 30 days.", "Keep a one-line idea list with at least 20 entries."],
+      "mastery": "You have written at least 200 words on 25 of 30 consecutive days, shown by a dated log or word count record.",
+      "mistakes": ["Setting a huge target and quitting.", "Editing every sentence as you write.", "Waiting for inspiration."]
+    },
+    {
+      "id": "free-writing", "name": "Free Writing and Prompts", "tier": 1, "requires": [], "hours": 5,
+      "summary": "Write without stopping or judging to get past the blank page and find ideas.",
+      "steps": ["Set a timer for 10 minutes.", "Write continuously from a prompt, without crossing out or stopping.", "If you are stuck, write 'I don't know what to write' until something comes.", "Circle the best line afterwards and use it for the next prompt.", "Repeat with different kinds of prompt: an object, a first line, a memory."],
+      "drills": ["Do 10 timed free-writes from different prompts.", "Turn the best line from each into a new free-write."],
+      "mastery": "You can write non-stop for 10 minutes on any prompt 7 times out of 10, and have at least three pieces worth developing.",
+      "mistakes": ["Stopping to fix mistakes.", "Throwing away everything afterwards.", "Only using prompts that feel easy."]
+    },
+    {
+      "id": "sensory-detail", "name": "Sensory Detail", "tier": 1, "requires": ["free-writing"], "hours": 6,
+      "summary": "Specific details drawn from the five senses make writing feel real. Replace general words with concrete ones.",
+      "steps": ["Describe a place using sight, sound, smell, touch and taste.", "Replace 'a nice flower' with 'a wilting yellow tulip'.", "Pick the one or two telling details rather than listing everything.", "Use strong nouns and verbs instead of piles of adjectives and adverbs.", "Read your piece and highlight every vague word."],
+      "drills": ["Write 150 words about a room with at least one detail from each sense.", "Rewrite a paragraph replacing all vague words."],
+      "mastery": "A reader can describe the place you wrote about in detail after reading 150 words, and you have used at least four senses.",
+      "mistakes": ["Piling on adjectives.", "Using only sight.", "Listing details with no purpose."]
+    },
+    {
+      "id": "read-like-writer", "name": "Reading as a Writer", "tier": 1, "requires": [], "hours": 20,
+      "summary": "Read widely and take apart how the pages you love are made.",
+      "steps": ["Read a book or short story in the genre you write.", "Mark passages that work and note why.", "Copy out a page by hand to feel the rhythm.", "Notice how scenes start, end and how dialogue is used.", "Read outside your genre too."],
+      "drills": ["Analyse one short story a week for a month in half a page.", "Copy out one page of a favourite author weekly."],
+      "mastery": "You can explain in a half page what a published short story does with structure, voice and point of view, using quoted examples.",
+      "mistakes": ["Reading only for plot.", "Reading only one genre.", "Imitating without understanding."],
+      "resources": [
+        { "title": "On Writing: A Memoir of the Craft", "kind": "book", "by": "Stephen King" }
+      ]
+    },
+    {
+      "id": "first-scene", "name": "Your First Scene", "tier": 1, "requires": ["daily-habit", "sensory-detail"], "hours": 8,
+      "summary": "Write one complete scene with a person, a setting, something they want and something that changes.",
+      "steps": ["Choose a character who wants something small and immediate.", "Place them in a specific setting.", "Put one obstacle in their way.", "End the scene when something has changed, however small.", "Write it in 500 to 800 words."],
+      "drills": ["Write five different scenes of 500 words.", "For each, finish the sentence: 'At the start X, by the end Y.'"],
+      "mastery": "You have written a 600-word scene where a reader can name what the character wanted, what stopped them and what changed.",
+      "mistakes": ["Scenes where nothing changes.", "Starting too early with waking up and getting dressed.", "Summarising instead of dramatising."]
+    },
+    {
+      "id": "dialogue-basics", "name": "Dialogue Basics", "tier": 1, "requires": ["read-like-writer"], "hours": 6,
+      "summary": "Dialogue should sound like speech, move the story and reveal character.",
+      "steps": ["Use 'said' as the default tag and keep tags short.", "Start a new paragraph for each speaker.", "Listen to real conversations: people interrupt, trail off and avoid direct answers.", "Cut greetings and small talk unless they matter.", "Read aloud to hear what sounds fake."],
+      "drills": ["Write a 300-word dialogue only, with no tags, where speakers are still clear.", "Eavesdrop and write down five real exchanges."],
+      "mastery": "A reader can tell who is speaking in a 300-word dialogue with minimal tags, and it reads naturally aloud.",
+      "mistakes": ["Fancy dialogue tags instead of 'said'.", "Characters explaining facts both know.", "All characters sounding alike."]
+    },
+    {
+      "id": "character-want", "name": "Character Want and Need", "tier": 1, "requires": ["read-like-writer"], "hours": 6,
+      "summary": "Interesting characters want something concrete and are blocked by something real.",
+      "steps": ["Write one sentence: 'X wants Y, but Z stands in the way.'", "Decide what they say they want and what they need underneath.", "Give them one distinctive habit, speech pattern or object.", "Show want through action and choice.", "Write a one-page profile for a character."],
+      "drills": ["Write want, obstacle and need for five characters from books you know.", "Create three original characters in this format."],
+      "mastery": "You can give want, obstacle and underlying need for a character you invented in three sentences, and a reader confirms they see it in your scene.",
+      "mistakes": ["Characters with no wants.", "Lists of traits instead of choices.", "Perfect characters with no flaws."]
+    },
+    {
+      "id": "revision-first-pass", "name": "Revising Your First Draft", "tier": 2, "requires": ["daily-habit", "first-scene"], "hours": 10,
+      "summary": "Rewriting is where most of the quality comes from. Let a draft rest, then revise in passes.",
+      "steps": ["Let the draft rest for at least 3 days.", "Read it aloud on paper or screen and mark what drags.", "Revise in passes: first structure, then scenes, then lines.", "Cut 10 percent: repeated words, filler and weak openings.", "Save each version so you can go back."],
+      "drills": ["Take one scene and rewrite it in three passes.", "Cut a 1,000-word piece to 900 without losing meaning."],
+      "mastery": "You can show a before-and-after of a 1,000-word piece cut by at least 10 percent that a reader agrees is clearer and stronger.",
+      "mistakes": ["Revising immediately while attached to the words.", "Only fixing typos.", "Overwriting your only copy."]
+    },
+    {
+      "id": "scene-structure", "name": "Scene Structure", "tier": 2, "requires": ["first-scene"], "hours": 10,
+      "summary": "Build scenes with a goal, conflict and outcome, entering late and leaving early.",
+      "steps": ["State the character's goal for the scene.", "Add conflict: an opponent, an obstacle or a hidden agenda.", "End with an outcome that shifts the situation, often making things worse.", "Start as close to the action as possible.", "Leave before the scene goes slack."],
+      "drills": ["Outline 10 scenes from a favourite book in goal, conflict, outcome.", "Rewrite an old scene with a later start and an earlier end."],
+      "mastery": "You have a scene where goal, conflict and outcome can each be pointed to, and a reader says nothing could be cut from the start or end.",
+      "mistakes": ["Starting with backstory.", "No conflict, only chat.", "Resolving every scene neatly."]
+    },
+    {
+      "id": "pov-tense", "name": "Point of View and Tense", "tier": 2, "requires": ["first-scene", "read-like-writer"], "hours": 8,
+      "summary": "Choose who is telling the story and when. Consistent point of view keeps readers inside the story.",
+      "steps": ["Understand first person, close third person and omniscient narration.", "Write the same scene in first and close third person and compare.", "Stay in one character's head per scene.", "Choose past or present tense and keep it consistent.", "Filter the world through the viewpoint character's voice and knowledge."],
+      "drills": ["Rewrite a 300-word scene in three different points of view.", "Proofread a draft for slips in tense or point of view."],
+      "mastery": "You can write a 500-word scene in close third without leaving the character's head or shifting tense, confirmed by a reader.",
+      "mistakes": ["Head-hopping within a scene.", "Switching tense midway.", "The narrator knowing things the character can't."]
+    },
+    {
+      "id": "character-arc", "name": "Character Flaws and Arcs", "tier": 2, "requires": ["character-want"], "hours": 10,
+      "summary": "A character who changes over a story is more satisfying than one who does not. Flaws drive the change.",
+      "steps": ["Give your character a flaw or false belief that costs them.", "Plan a starting state, a turning point and an end state.", "Test the character with choices that force the flaw into the open.", "Decide if the arc is positive, negative or flat.", "Let change come from choices, not from the narrator."],
+      "drills": ["Outline arcs for three characters in three sentences each.", "Write a scene that forces your character to choose between want and need."],
+      "mastery": "You can summarise your character's arc as belief, test and change in three sentences, and a reader can point to the scenes where it happens.",
+      "mistakes": ["Change that happens suddenly and without cause.", "Flaws that are only cute quirks.", "Characters who never pay for their choices."]
+    },
+    {
+      "id": "dialogue-subtext", "name": "Subtext in Dialogue", "tier": 2, "requires": ["dialogue-basics", "character-want"], "hours": 10,
+      "summary": "People rarely say what they mean. Let what is unsaid carry the emotion.",
+      "steps": ["Give each speaker a hidden want in the scene.", "Have them talk about something else: dishes, weather, a task.", "Use silence, interruptions and avoidance.", "Use gestures and objects to show feelings.", "Cut lines where characters say exactly how they feel."],
+      "drills": ["Write a breakup or an apology where nobody mentions the issue.", "Rewrite an on-the-nose dialogue with subtext."],
+      "mastery": "A cold reader can say what each character really wants in a dialogue scene where neither says it outright.",
+      "mistakes": ["Characters announcing their feelings.", "Subtext so hidden no one can see it.", "Everyone speaking in perfect sentences."]
+    },
+    {
+      "id": "setting-world", "name": "Setting and Place", "tier": 2, "requires": ["sensory-detail"], "hours": 8,
+      "summary": "Setting shapes mood and story. Choose the right details so a place becomes a character.",
+      "steps": ["Choose three or four details that capture a place.", "Show setting through a character's eyes and attitude.", "Use weather, time and season for mood.", "Weave description into action rather than stopping the story.", "Research real places you have not visited."],
+      "drills": ["Write the same street twice, once through a happy and once a grieving character.", "Describe a place in 100 words with action."],
+      "mastery": "Two versions of the same place in your writing give clearly different moods because of the details chosen, judged by a reader.",
+      "mistakes": ["Long description at the start of a story.", "Lists of items.", "Setting that could be anywhere."]
+    },
+    {
+      "id": "plot-structure", "name": "Plot and Story Structure", "tier": 3, "requires": ["scene-structure", "character-arc"], "hours": 25,
+      "summary": "A story has a beginning, middle and end linked by cause and effect: a character wants something, faces rising trouble and reaches a climax.",
+      "steps": ["Learn a basic shape such as three acts: setup, confrontation, resolution.", "Find the inciting incident, midpoint, crisis and climax.", "Make each scene cause the next with 'therefore' or 'but', not 'and then'.", "Plan stakes that increase.", "Outline a story before you write it, and compare with published ones."],
+      "drills": ["Break down three films or novels into beats.", "Outline an original story in 12 beats."],
+      "mastery": "You can present a one-page outline of an original story with inciting incident, midpoint, crisis and climax, and each scene linked by cause and effect.",
+      "mistakes": ["Episodic stories where things just happen.", "Weak stakes.", "An ending that doesn't answer the opening question."],
+      "resources": [
+        { "title": "Save the Cat! Writes a Novel", "kind": "book", "by": "Jessica Brody" }
+      ]
+    },
+    {
+      "id": "pacing-tension", "name": "Pacing and Tension", "tier": 3, "requires": ["scene-structure", "pov-tense"], "hours": 20,
+      "summary": "Control how fast the story moves and keep readers wanting to turn the page.",
+      "steps": ["Use short sentences and scenes in action; longer for reflection.", "Raise a question, delay the answer.", "End chapters with a turn or hook.", "Vary scene types: fast and slow.", "Cut slack at the start and the end of scenes."],
+      "drills": ["Rewrite a slow scene as a fast one and vice versa.", "Mark chapter endings in a thriller and note the hooks."],
+      "mastery": "Beta readers can point to the moments they most wanted to read on in your story and none report boredom in a 3,000-word piece.",
+      "mistakes": ["Same speed throughout.", "Explaining before the action.", "Hooks that don't pay off."]
+    },
+    {
+      "id": "voice-style", "name": "Voice and Style", "tier": 3, "requires": ["pov-tense", "dialogue-subtext", "setting-world"], "hours": 30,
+      "summary": "Voice is the personality on the page: word choice, rhythm, attitude. It comes from many pages written honestly.",
+      "steps": ["Imitate three authors for a paragraph each to feel their rhythm.", "Vary sentence length on purpose.", "Choose precise words and cut cliches.", "Write the same scene with different narrator attitudes.", "Find what only you notice and say it."],
+      "drills": ["Write the same paragraph in three voices.", "Remove every cliche from a 500-word piece."],
+      "mastery": "Readers can pick out your pages from other writers' unnamed pages in a blind test of three samples, and describe your voice in their own words.",
+      "mistakes": ["Imitating a favourite author permanently.", "Overwriting with purple prose.", "Writing the way you think you are supposed to."],
+      "resources": [
+        { "title": "Steering the Craft", "kind": "book", "by": "Ursula K. Le Guin" }
+      ]
+    },
+    {
+      "id": "feedback-workshop", "name": "Giving and Taking Feedback", "tier": 3, "requires": ["revision-first-pass"], "hours": 20,
+      "summary": "Share work with other writers, listen without defending, and judge which advice to use.",
+      "steps": ["Join a critique group or find a writing partner.", "When receiving feedback, stay quiet and take notes.", "Look for patterns: if three readers stumble at one place, fix it.", "When giving feedback, describe the reading experience, not what you would write.", "Revise after feedback and share again."],
+      "drills": ["Critique five stories from other writers in detail.", "Revise one piece with feedback from three readers."],
+      "mastery": "You have given written critiques of at least five other writers' pieces and revised one of your own using feedback from three readers, with a before-and-after.",
+      "mistakes": ["Defending your work.", "Following every suggestion.", "Feedback that is only praise."]
+    },
+    {
+      "id": "complete-short-story", "name": "A Finished Short Story", "tier": 3, "requires": ["plot-structure", "feedback-workshop"], "hours": 30,
+      "summary": "Write, revise and finish a complete short story of 2,000 to 5,000 words.",
+      "steps": ["Outline or discover the story, with a clear character want.", "Write the full draft in one to three weeks.", "Rest, then revise in three passes.", "Get feedback from at least two readers.", "Polish and proofread for a final version."],
+      "drills": ["Write three complete stories in three months.", "Read each aloud once before finishing."],
+      "mastery": "You have a finished, revised short story of at least 2,000 words that two outside readers confirm has a clear beginning, middle and end.",
+      "mistakes": ["Abandoning stories halfway.", "Endless polishing of the first page.", "Skipping the proofread."]
+    },
+    {
+      "id": "submissions", "name": "Submitting Your Work", "tier": 4, "requires": ["complete-short-story"], "hours": 40,
+      "summary": "Send finished stories to magazines, anthologies and contests, and handle rejection professionally.",
+      "steps": ["Research markets and read what they publish.", "Follow each submission guideline exactly.", "Write a short, professional cover letter.", "Track submissions in a spreadsheet.", "Send stories out again promptly after a rejection."],
+      "drills": ["Submit three stories to ten markets over six months.", "Keep a submission tracker."],
+      "mastery": "Your tracker shows at least 15 submissions across at least five stories, and you have received at least one personal rejection or acceptance.",
+      "mistakes": ["Ignoring guidelines.", "Giving up after a few rejections.", "Sending unrevised work."]
+    },
+    {
+      "id": "long-form-draft", "name": "Long-Form Draft (50,000 Words)", "tier": 4, "requires": ["plot-structure", "daily-habit", "pacing-tension"], "hours": 150,
+      "summary": "Finish a first draft of a novel or a long work with at least 50,000 words.",
+      "steps": ["Outline the main beats and characters.", "Set a daily or weekly word target, such as 500 to 1,000 words.", "Do not go back to revise until the draft is done.", "Track words per day.", "Finish the full story even if the middle is messy."],
+      "drills": ["Write 1,000 words per day for 50 days, or equivalent weekly.", "Keep a running outline."],
+      "mastery": "You have a complete draft of at least 50,000 words with a beginning, middle and end, shown by a word count and the full manuscript.",
+      "mistakes": ["Endlessly rewriting chapter one.", "No outline, then stalling in the middle.", "Quitting at 20,000 words."]
+    },
+    {
+      "id": "line-edit", "name": "Line Editing and Polish", "tier": 4, "requires": ["voice-style", "feedback-workshop"], "hours": 40,
+      "summary": "Polish at sentence level: rhythm, precision, repetition and flow.",
+      "steps": ["Read your work aloud and mark every stumble.", "Remove filter words, adverbs and repetition.", "Check verbs for strength and variety.", "Vary the openings and lengths of sentences.", "Proofread last, on paper or in a different font."],
+      "drills": ["Line edit a 2,000-word piece in three sessions.", "Compare word counts before and after."],
+      "mastery": "A line-edited 2,000-word piece shows a visible reduction in filler (at least 10 percent) and an editor or experienced reader finds no errors on a close read.",
+      "mistakes": ["Editing too early.", "Removing voice along with errors.", "Missing typos by reading too fast."]
+    },
+    {
+      "id": "novel-manuscript", "name": "A Revised Novel Manuscript", "tier": 5, "requires": ["long-form-draft", "line-edit"], "hours": 400,
+      "summary": "Turn a first draft into a polished, complete manuscript through several structural and line-level revisions and outside feedback.",
+      "steps": ["Revise structure and character arcs first.", "Get feedback from several beta readers.", "Do a second revision on pacing and theme.", "Line edit and proofread the entire book.", "Prepare a synopsis and query letter if you want to pursue publication."],
+      "drills": ["Keep a revision log of each pass.", "Collect feedback from at least four readers."],
+      "mastery": "You have a complete manuscript of 60,000 words or more, revised through at least three drafts, with feedback from at least four outside readers.",
+      "mistakes": ["Skipping structural revision and only fixing lines.", "Querying before the book is ready.", "Ignoring consistent feedback."],
+      "resources": [
+        { "title": "Bird by Bird", "kind": "book", "by": "Anne Lamott" }
+      ]
+    },
+    {
+      "id": "published-work", "name": "Published Body of Work", "tier": 5, "requires": ["submissions", "novel-manuscript"], "hours": 600,
+      "summary": "Reach publication in recognised venues and sustain output over time.",
+      "steps": ["Submit regularly to magazines, anthologies and agents or small presses.", "Keep writing new work while submissions are out.", "Build a portfolio of published pieces.", "Learn the business basics: contracts, rights, deadlines.", "Share your work through readings, a newsletter or a site."],
+      "drills": ["Submit new work every month.", "Give a public reading of your work."],
+      "mastery": "You have work accepted by at least three recognised publications or a publisher, verifiable by links or contracts, over at least a year of sustained writing.",
+      "mistakes": ["Stopping writing while waiting for responses.", "Signing contracts without understanding them.", "Paying predatory publishers."]
+    }
+  ]
+}

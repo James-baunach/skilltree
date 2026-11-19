@@ -1,0 +1,183 @@
+{
+  "hobby": "knitting",
+  "nodes": [
+    {
+      "id": "yarn-needles", "name": "Choose Yarn & Needles", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Pick a forgiving first yarn and matching needles so your first stitches are easy to see and fix.",
+      "steps": ["Choose a smooth, light-coloured worsted-weight (medium) wool or cotton yarn; avoid fuzzy, dark or splitty yarns at first.", "Read the yarn label: weight, yardage and recommended needle size (often 4.5 to 5.5 mm for worsted).", "Pick bamboo or wooden straight needles, 25 to 35 cm long, which grip the yarn better than slick metal.", "Learn to find the working yarn, the tail and the skein centre-pull end."],
+      "drills": ["Read the labels of five yarns and write down weight, yardage, needle size and gauge for each.", "Wind a centre-pull ball by hand or with a ball winder."],
+      "mastery": "You show a yarn label and needles that match (stated needle range includes your size), plus a ball wound without tangles.",
+      "mistakes": ["Starting with black or fuzzy mohair that hides stitches.", "Using needles far too small or large for the yarn.", "Choosing a very cheap, splitty acrylic."]
+    },
+    {
+      "id": "long-tail-cast-on", "name": "Long-Tail Cast On", "tier": 1, "requires": ["yarn-needles"], "hours": 2,
+      "summary": "The standard way to start a piece of knitting, with a neat, stretchy edge.",
+      "steps": ["Estimate the tail: about 2.5 cm per stitch plus a little extra, or wrap the yarn around the needle once per stitch.", "Make a slip knot and place it on the needle at that measurement.", "Make a 'slingshot' with thumb and index finger, and work the needle under the thumb loop, over the index yarn, and back through.", "Pull each stitch snug but not tight, aiming for an even, loose edge."],
+      "drills": ["Cast on 20 stitches ten times, aiming to keep the tail length correct.", "Count your stitches after each cast on; 20 should be exactly 20."],
+      "mastery": "You cast on 30 stitches with even tension, an exact count and a tail that doesn't run out, shown in a photo of the needle.",
+      "mistakes": ["Casting on too tightly so the first row is hard.", "Miscounting stitches.", "Leaving too short a tail and having to start again."]
+    },
+    {
+      "id": "knit-stitch", "name": "The Knit Stitch", "tier": 1, "requires": ["long-tail-cast-on"], "hours": 4,
+      "summary": "The basic stitch from which most knitting is made. Knitting every row creates garter stitch with ridges.",
+      "steps": ["Hold the needle with stitches in your left hand, the empty one in your right, yarn at the back.", "Insert the right needle into the front of the first stitch from left to right.", "Wrap the yarn counter-clockwise around the right needle, pull the new loop through, and slide the old stitch off.", "Work to the end of the row, turn and repeat."],
+      "drills": ["Knit 10 rows of 20 stitches (a garter stitch swatch).", "Count your stitches at the end of every row."],
+      "mastery": "You produce a garter stitch square at least 10 x 10 cm with straight edges, even tension and no accidental holes or extra stitches, shown in a photo.",
+      "mistakes": ["Accidentally adding stitches by wrapping the yarn over the needle between stitches.", "Knitting too tightly so that needles are hard to insert.", "Twisting the stitches."]
+    },
+    {
+      "id": "purl-stitch", "name": "The Purl Stitch", "tier": 1, "requires": ["knit-stitch"], "hours": 4,
+      "summary": "The mirror image of knit, and with knit it creates stockinette stitch, the smooth V-pattern fabric of most sweaters.",
+      "steps": ["Hold the yarn at the front of the work.", "Insert the right needle into the front of the first stitch from right to left.", "Wrap the yarn counter-clockwise and push the new loop through, sliding the old stitch off.", "Knit one row, purl one row to make stockinette; recognise the knit side (Vs) and the purl side (bumps)."],
+      "drills": ["Work 20 rows of stockinette on 20 stitches.", "Work a 2x2 rib (k2, p2 across) for 10 rows."],
+      "mastery": "You show a stockinette swatch of at least 10 x 10 cm with Vs on one face and no accidental ridges, plus 5 cm of knit-and-purl rib, in a photo.",
+      "mistakes": ["Forgetting to move the yarn to the front or back between knits and purls.", "Splitting the yarn.", "Accidentally knitting both rows, making garter stitch."]
+    },
+    {
+      "id": "bind-off", "name": "Bind Off", "tier": 1, "requires": ["knit-stitch"], "hours": 1,
+      "summary": "Finish your work so the stitches cannot unravel, with an edge that stretches enough.",
+      "steps": ["Knit two stitches, then pass the first stitch over the second and off the needle.", "Knit one more and repeat until one stitch remains.", "Cut the yarn at least 15 cm long and pull it through the last loop.", "Keep the tension loose; if the edge puckers use a needle one or two sizes larger."],
+      "drills": ["Bind off three swatches, each time checking whether the edge is as stretchy as the cast-on edge.", "Practise binding off in pattern (knit the knits, purl the purls) on a rib."],
+      "mastery": "You bind off a swatch so the finished top edge is the same width as the cast-on edge and doesn't pucker, shown in a photo with a ruler.",
+      "mistakes": ["Binding off too tightly, which pulls the edge in.", "Dropping the last stitch.", "Cutting the tail too short to weave in."]
+    },
+    {
+      "id": "fix-mistakes", "name": "Fix Mistakes", "tier": 1, "requires": ["purl-stitch"], "hours": 3,
+      "summary": "Recover from dropped stitches, twisted stitches and wrong stitches without ripping out hours of work.",
+      "steps": ["Learn to 'tink' (knit backwards) to undo one stitch at a time.", "Pick up a dropped stitch with a crochet hook, working it up through the ladder of bars.", "Recognise twisted stitches and correct them.", "Use a lifeline (a thread run through a row) before tricky sections."],
+      "drills": ["Deliberately drop a stitch four rows down in stockinette and repair it.", "Tink back a full row of 20 stitches."],
+      "mastery": "You deliberately drop a stitch down at least four rows and repair it so the fabric looks identical to the stitches around it, shown in before and after photos.",
+      "mistakes": ["Ripping out whole rows when a dropped stitch could be picked up.", "Not noticing mistakes until much later."]
+    },
+    {
+      "id": "gauge-swatch", "name": "Gauge Swatch", "tier": 2, "requires": ["purl-stitch", "bind-off"], "hours": 3,
+      "summary": "Measure your stitches per 10 cm so a garment will fit; gauge is the most important number in any pattern.",
+      "steps": ["Knit a swatch at least 15 x 15 cm in the pattern stitch, with the yarn and needles you plan to use.", "Wash and block it the way you will treat the finished item, and let it dry.", "Lay it flat and count stitches and rows across 10 cm, using a ruler or gauge tool.", "Adjust needle size up if you have too many stitches per 10 cm, down if too few."],
+      "drills": ["Make three swatches using needles 0.5 mm different in size and compare the stitch counts.", "Measure your gauge before and after washing for one yarn."],
+      "mastery": "You produce a washed swatch and photograph it beside a ruler showing the stitch and row count per 10 cm matching the pattern gauge (within half a stitch).",
+      "mistakes": ["Skipping the swatch.", "Measuring before washing.", "Measuring a swatch that is too small or only the centre counted on a curled edge."]
+    },
+    {
+      "id": "read-patterns", "name": "Read a Pattern", "tier": 2, "requires": ["purl-stitch"], "hours": 3,
+      "summary": "Decode abbreviations, repeats and sizing so any written pattern becomes doable.",
+      "steps": ["Learn standard abbreviations: k, p, yo, k2tog, ssk, sl, st(s), rep, RS, WS.", "Read the repeats in asterisks and brackets, such as '*k2, p2; rep from * to end'.", "Check the sizing, finished measurements and materials list, and highlight your size.", "Keep a row counter or tally marks and tick off each row."],
+      "drills": ["Translate five lines of pattern into plain English.", "Knit a 6-row textured pattern from a written chart or instructions."],
+      "mastery": "You knit a simple hat flat or a dishcloth from a published pattern with no errors in the stitch pattern, shown in a photo next to the pattern page.",
+      "mistakes": ["Skipping the instruction to read the whole pattern first.", "Losing your place without a row counter.", "Mixing up RS and WS."],
+      "resources": [{ "title": "Ravelry", "kind": "site", "url": "https://www.ravelry.com" }]
+    },
+    {
+      "id": "inc-dec", "name": "Increases & Decreases", "tier": 2, "requires": ["purl-stitch", "read-patterns"], "hours": 5,
+      "summary": "Change the stitch count with neat increases and decreases to shape fabric.",
+      "steps": ["Learn the knit front and back (kfb) and make one (M1L, M1R) for increases.", "Learn knit two together (k2tog) which leans right, and slip-slip-knit (ssk) which leans left.", "Place increases and decreases symmetrically, at least 1 stitch from the edge.", "Practise on a swatch shaped like a triangle or diamond."],
+      "drills": ["Knit a triangle by increasing 1 stitch at each edge every other row, then decreasing back.", "Do 10 pairs of k2tog and ssk, and check the lean."],
+      "mastery": "You knit a mitred square or diamond swatch with mirror-image decreases that lean in the correct directions, shown in a photo.",
+      "mistakes": ["Using the wrong decrease direction.", "Decreasing at the very edge, making a ragged seam.", "Losing count of the stitch total."]
+    },
+    {
+      "id": "knit-in-round", "name": "Knitting in the Round", "tier": 2, "requires": ["purl-stitch", "gauge-swatch"], "hours": 6,
+      "summary": "Knit seamless tubes on circular or double-pointed needles: hats, cowls, sleeves and socks.",
+      "steps": ["Cast on with a circular needle and check the cast-on isn't twisted before joining.", "Place a stitch marker and knit the first stitch to join the round.", "Knit every round for stockinette (no purling) and use the marker to count rounds.", "Switch to double-pointed needles or magic loop for small circumferences."],
+      "drills": ["Knit a 5 cm tube in the round on 60 stitches.", "Knit a simple hat with ribbing and crown decreases."],
+      "mastery": "You knit a hat that fits (measured around the head) with a seamless join, even gauge and a closed crown, shown on your head or a head form.",
+      "mistakes": ["Twisting the cast-on when joining.", "Forgetting the marker.", "Pulling the first stitch of each round too tight, causing a ladder on the join."]
+    },
+    {
+      "id": "finishing-blocking", "name": "Weaving In, Blocking & Seaming", "tier": 2, "requires": ["bind-off", "inc-dec"], "hours": 4,
+      "summary": "Professional finishing separates handmade-looking work from home-made-looking work.",
+      "steps": ["Weave in ends on the wrong side, following the stitch path for at least 5 cm, then trim.", "Wet block by soaking in lukewarm water with wool wash, rolling in a towel, and pinning to dimension.", "Join pieces with mattress stitch for an invisible vertical seam.", "Pick up stitches along an edge for borders and bands."],
+      "drills": ["Block a swatch and compare dimensions before and after.", "Seam two stockinette swatches with mattress stitch and check it's invisible from the right side."],
+      "mastery": "You show a pair of seamed pieces joined with mattress stitch where the seam is hard to see from the right side, plus a before-and-after photo of a blocked piece.",
+      "mistakes": ["Not blocking at all.", "Weaving ends in a straight line so they work out.", "Ironing acrylic or wool directly, which flattens or damages stitches."]
+    },
+    {
+      "id": "cables", "name": "Cables", "tier": 3, "requires": ["inc-dec", "gauge-swatch"], "hours": 10,
+      "summary": "Cross groups of stitches using a cable needle to create twisted ropes in the fabric.",
+      "steps": ["Slip the next 2 stitches onto a cable needle held in front (C4F) or back (C4B), knit the next 2, then knit the 2 from the cable needle.", "Follow a cable chart: read it right to left on RS rows and left to right on WS rows.", "Work cables on a purl background so they stand out.", "Try cabling without a cable needle once you are confident."],
+      "drills": ["Knit a 20 cm swatch with a 6-stitch cable crossing every 8 rows.", "Work a braid cable and a rope cable."],
+      "mastery": "You knit a cable swatch from a chart, with cables crossing at the right rows, consistent direction, and no stray stitches, shown in a photo.",
+      "mistakes": ["Crossing the wrong way, giving the opposite lean.", "Losing stitches off the cable needle.", "Cabling every row, causing a tight fabric."]
+    },
+    {
+      "id": "lace", "name": "Lace & Yarn Overs", "tier": 3, "requires": ["inc-dec", "read-patterns"], "hours": 10,
+      "summary": "Create openwork fabric by pairing yarn overs with decreases, using charts.",
+      "steps": ["Make a yarn over (yo) by bringing the yarn forward over the needle to create a hole and a new stitch.", "Pair each yo with a decrease (k2tog or ssk) so the stitch count stays the same.", "Read a lace chart, noticing which rows are plain.", "Use lifelines and stitch markers between repeats."],
+      "drills": ["Knit an eyelet swatch of 6 rows repeated 4 times.", "Knit a simple lace scarf with a 12-row repeat."],
+      "mastery": "You knit a lace swatch or scarf that matches a chart with the correct number of holes per repeat and the stitch count intact, shown in a photo after blocking.",
+      "mistakes": ["Missing a yo and ending up off by a stitch.", "Not blocking, so lace looks like crumpled fabric.", "Working without stitch markers."]
+    },
+    {
+      "id": "stranded-colourwork", "name": "Stranded Colourwork", "tier": 3, "requires": ["knit-in-round", "read-patterns"], "hours": 12,
+      "summary": "Knit with two colours in one round, carrying the unused yarn behind, to make Fair Isle patterns.",
+      "steps": ["Hold one colour in each hand (or both in one) and knit from a chart, one stitch per square.", "Carry the yarn loosely across the back, catching floats longer than 5 stitches.", "Keep a consistent dominant colour, and stretch stitches on the needle after each colour change.", "Block firmly to even out stitches."],
+      "drills": ["Knit a 10 cm tube with a repeating 8-stitch motif.", "Knit a Fair Isle hat with a two-colour band."],
+      "mastery": "You knit a stranded colourwork piece (hat or cowl) in which the floats are loose and even, the pattern is crisp and the inside doesn't pucker, shown in photos of both sides.",
+      "mistakes": ["Pulling floats too tight so the fabric puckers.", "Swapping which colour is dominant halfway.", "Long floats that catch on fingers."]
+    },
+    {
+      "id": "socks", "name": "Top-Down Socks", "tier": 3, "requires": ["knit-in-round", "inc-dec", "finishing-blocking"], "hours": 20,
+      "summary": "Knit a pair of socks: ribbed cuff, leg, heel flap, gusset and a Kitchener-grafted toe.",
+      "steps": ["Cast on and knit a cuff in 2x2 rib, then the leg.", "Work the heel flap and turn the heel with short rows.", "Pick up stitches along the flap and decrease the gusset down to the instep count.", "Knit the foot, decrease for the toe and graft with Kitchener stitch."],
+      "drills": ["Knit one sock in worsted weight as a practice.", "Practise Kitchener stitch on a swatch until you can recite it."],
+      "mastery": "You knit a pair of socks that match in size and length, fit your foot, and have no holes at the gusset or the toe join, shown in a photo on your feet.",
+      "mistakes": ["Holes at the gusset corners.", "Making the foot too long or short.", "Kitchener stitch tension that is too tight or loose."]
+    },
+    {
+      "id": "short-rows", "name": "Short Rows", "tier": 3, "requires": ["inc-dec", "knit-in-round"], "hours": 6,
+      "summary": "Add shaping in the fabric by working partial rows, used for heels, shoulders and bust darts.",
+      "steps": ["Learn wrap-and-turn (w&t), German short rows and shadow wraps.", "Work a partial row, turn the work, and continue back, leaving some stitches unworked.", "Close wraps or double stitches on the return to avoid holes.", "Practise on a swatch that bends into a curve."],
+      "drills": ["Knit a swatch with 6 short-row wedges and compare the three methods.", "Add short-row shaping to a shoulder or hat brim."],
+      "mastery": "You knit a swatch with wedges in which the short-row turns are invisible (no holes), using a method of your choice, shown in a close-up photo.",
+      "mistakes": ["Not picking up the wraps.", "Leaving too-tight turns that make holes.", "Not marking the row where you turn."]
+    },
+    {
+      "id": "raglan-sweater", "name": "Seamless Top-Down Sweater", "tier": 4, "requires": ["short-rows", "knit-in-round", "gauge-swatch"], "hours": 60,
+      "summary": "Knit a sweater from the neck down in one piece with a raglan yoke, body and sleeves with no sewing.",
+      "steps": ["Swatch, wash and measure gauge, then pick a size using the chest measurement plus ease.", "Cast on the neck, work short rows at the back of the neck, and increase at four raglan lines.", "Divide for the body and sleeves, and knit the body to length, trying it on as you go.", "Knit sleeves in the round with decreases and finish with ribbed hems; block the whole sweater."],
+      "drills": ["Try on the sweater every 5 cm of the body.", "Knit a sleeve to match the first with the same number of decreases."],
+      "mastery": "You wear a finished sweater you knitted, which fits the chest measurement you planned (shown with a tape measure) and has a smooth neckline and matching sleeves, in a photo.",
+      "mistakes": ["Skipping the gauge swatch.", "Choosing size by chest measurement without ease.", "Not trying it on during knitting."],
+      "resources": [{ "title": "Knitting Without Tears", "kind": "book", "by": "Elizabeth Zimmermann" }]
+    },
+    {
+      "id": "pattern-modification", "name": "Modify Patterns to Fit", "tier": 4, "requires": ["raglan-sweater"], "hours": 30,
+      "summary": "Alter length, width, sleeves and shaping so a garment fits your body, not just the pattern's model.",
+      "steps": ["Measure your body and compare it to the pattern's schematic.", "Adjust length by adding or removing rows and keeping the shaping spacing.", "Add waist shaping, bust short rows or wider sleeves based on measurements.", "Do the maths in stitches: multiply desired measurements by gauge."],
+      "drills": ["Recalculate a sweater pattern for a different gauge and size.", "Write down the changes and expected stitch counts before you knit."],
+      "mastery": "You show a garment modified from the pattern (e.g. longer body, waist shaping) with written calculations and a photo of the finished piece with a tape measure showing the intended dimensions.",
+      "mistakes": ["Changing the stitch count without adjusting the pattern repeat.", "Ignoring ease."]
+    },
+    {
+      "id": "lace-shawl", "name": "Charted Lace Shawl", "tier": 4, "requires": ["lace", "finishing-blocking"], "hours": 40,
+      "summary": "Knit a large lace shawl with a charted border and lace edging, using fine yarn and wire blocking.",
+      "steps": ["Choose a fingering or lace-weight yarn and a pattern with a chart and written instructions.", "Use stitch markers between repeats and lifelines every pattern repeat.", "Knit the edging lace and bind off with a stretchy bind off.", "Wet-block with blocking wires and pins until the points open."],
+      "drills": ["Knit a lace swatch in the shawl yarn before starting.", "Place a lifeline after each repeat."],
+      "mastery": "You show a finished lace shawl, blocked flat with clear and symmetrical lace motifs and points, photographed spread on blocking mats with a tape measure for size.",
+      "mistakes": ["Skipping lifelines.", "Under-blocking so the lace stays closed.", "Choosing a hard-to-see yarn."]
+    },
+    {
+      "id": "steeking", "name": "Steeking & Cutting Knitting", "tier": 4, "requires": ["stranded-colourwork", "finishing-blocking"], "hours": 20,
+      "summary": "Cut your knitting open on purpose, to turn a colourwork tube into a cardigan or neckline.",
+      "steps": ["Knit extra steek stitches (e.g. 7 to 9) into the tube, in a sticky wool like Shetland.", "Reinforce with crochet or machine stitching on either side of the cut line.", "Cut between the reinforced lines.", "Pick up stitches along the cut edge and add a facing or band to cover the raw edges."],
+      "drills": ["Steek a swatch tube, cut it and look at the edge after washing.", "Practise crocheted reinforcement on scrap swatches."],
+      "mastery": "You steek and cut a colourwork swatch or garment and the cut edge stays secure and covered after washing, shown in photos before cutting, after cutting and after finishing.",
+      "mistakes": ["Using superwash yarn that doesn't grip.", "Cutting before reinforcing.", "Skipping the facing to cover the cut."]
+    },
+    {
+      "id": "design-garment", "name": "Design & Write Your Own Pattern", "tier": 5, "requires": ["pattern-modification", "lace-shawl"], "hours": 120,
+      "summary": "Create an original garment pattern with correct maths, schematic, multiple sizes and clear instructions.",
+      "steps": ["Sketch a design, choose a stitch pattern and yarn, and swatch repeatedly.", "Calculate stitch counts for at least three sizes with grading.", "Write instructions, add a schematic and charts, and get it tested by others.", "Knit samples in at least two sizes to prove the maths."],
+      "drills": ["Write and test-knit one small pattern (hat, mitts) before a garment.", "Have two knitters follow your pattern and report errors."],
+      "mastery": "You publish a complete written pattern (schematic, sizing, gauge, instructions) that two independent knitters have followed to produce garments matching your photos and measurements.",
+      "mistakes": ["Skipping test knitters.", "Not grading shaping for each size."]
+    },
+    {
+      "id": "master-colourwork", "name": "Steeked Fair Isle Yoke Cardigan", "tier": 5, "requires": ["steeking", "raglan-sweater", "pattern-modification"], "hours": 150,
+      "summary": "An elite garment that combines multi-colour charted yoke, steeked front, perfectly even tension and flawless finishing.",
+      "steps": ["Plan the colour palette on swatches and chart the yoke with shaping in the pattern.", "Knit body and sleeves in the round and join for the yoke, with steek stitches at the front.", "Maintain even float tension across 2 to 4 colours.", "Steek, cut and finish with button bands, then block."],
+      "drills": ["Swatch multiple colourways and photograph them in daylight.", "Knit a practice yoke on a hat."],
+      "mastery": "You wear a finished steeked Fair Isle cardigan with a crisp multi-colour yoke, even tension, neat button bands and a good fit, shown in photos of the front and inside.",
+      "mistakes": ["Too many colours with poor contrast.", "Pulling floats unevenly across the yoke."]
+    }
+  ]
+}

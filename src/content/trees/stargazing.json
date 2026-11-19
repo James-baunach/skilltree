@@ -1,0 +1,211 @@
+{
+  "hobby": "stargazing",
+  "nodes": [
+    {
+      "id": "dark-adaptation", "name": "Night Vision and Dark Adaptation", "tier": 1, "requires": [], "hours": 1, "partyTrick": 20,
+      "summary": "Your eyes need 20 to 30 minutes in the dark to reach full sensitivity. Everything else in stargazing depends on protecting that.",
+      "steps": ["Pick a spot away from direct lights and let your eyes adjust for at least 20 minutes without looking at a phone or torch.", "Cover a torch or phone screen with red cellophane or use a red-light mode, and turn the brightness right down.", "Notice how many more stars appear after 5, 15 and 30 minutes.", "Use averted vision: look slightly to the side of a faint star and it brightens."],
+      "drills": ["Count the stars you can see in the bowl of the Little Dipper at 0, 10 and 30 minutes and write the numbers down.", "Find one faint star using only averted vision."],
+      "mastery": "You can show a written log of star counts in one patch of sky rising over 30 minutes, and you have a working red light.",
+      "mistakes": ["Checking a bright phone screen mid-session and resetting your night vision.", "Using a white or blue torch, or a red one that is too bright.", "Staring directly at faint objects, where the eye is least sensitive."]
+    },
+    {
+      "id": "find-north", "name": "Find North and Polaris", "tier": 1, "requires": [], "hours": 1, "partyTrick": 15,
+      "summary": "Use the Plough or Big Dipper (or the Southern Cross in the south) to find true north or south. It is your anchor for the whole sky.",
+      "steps": ["In the northern hemisphere find the Big Dipper and follow the two stars at the end of its bowl (the pointers) about five times their separation.", "The moderately bright star you land on is Polaris, within about 1 degree of true north.", "Check against the compass app on your phone, remembering magnetic north differs from true north.", "In the southern hemisphere extend the long axis of the Southern Cross about 4.5 times its length to find the south celestial pole."],
+      "drills": ["Find north without any aid on three different nights.", "Point out north to a friend, then confirm with a compass."],
+      "mastery": "From a dark site you can point to true north within 5 degrees using only stars, and explain how you did it.",
+      "mistakes": ["Assuming Polaris is the brightest star in the sky; it is only moderately bright.", "Forgetting that the Big Dipper's position changes with season and hour, so the pointers can be anywhere around the pole."]
+    },
+    {
+      "id": "moon-phases", "name": "Moon Watching", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Follow the Moon through a full cycle and learn why its phases happen. It is the easiest object to observe and a gateway to binocular work.",
+      "steps": ["Look at the Moon at the same time each evening for a month and sketch or photograph its shape.", "Learn the phase names and that the Moon rises about 50 minutes later each day.", "Pick out the dark maria (seas) and the bright rayed crater Tycho.", "Look along the terminator, the day-night line, where shadows make craters stand out."],
+      "drills": ["Make a 29-day phase log with one sketch or photo per clear night.", "Identify five named features by eye, then with binoculars."],
+      "mastery": "You can show a photo or sketch series covering a full lunar cycle and explain in two sentences why the Moon shows phases.",
+      "mistakes": ["Observing at full Moon, when sunlight comes straight down and there is no shadow detail.", "Believing the phases are caused by Earth's shadow; that is only a lunar eclipse."]
+    },
+    {
+      "id": "first-constellations", "name": "Learn Ten Constellations", "tier": 1, "requires": ["find-north"], "hours": 4,
+      "summary": "Learn the shapes of ten constellations for your current season and how to find each from the one before.",
+      "steps": ["Choose a season-appropriate starter set, such as Ursa Major, Cassiopeia, Orion, Taurus, Gemini, Leo, Cygnus, Lyra, Aquila and Pegasus.", "Learn each by hopping from a known pattern, for example Orion's Belt points to Sirius one way and Aldebaran the other.", "Note the brightest star in each and its name.", "Go out and find all ten without help, then check with an app."],
+      "drills": ["Draw each pattern from memory on paper, then compare with a chart.", "Teach three of them to someone else under the real sky."],
+      "mastery": "On a clear night you can find and name ten constellations and their brightest stars without any app.",
+      "mistakes": ["Trying to memorise charts rather than learning by hopping between neighbours.", "Learning all 88 at once instead of a few per season."]
+    },
+    {
+      "id": "sky-apps", "name": "Planisphere and Sky Apps", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Learn to use a rotating planisphere and a planetarium app such as Stellarium so you always know what is up tonight.",
+      "steps": ["Set your location and the current time in a planetarium app such as Stellarium (free) and look at tonight's sky.", "Set a paper planisphere to your date and time and compare with the app.", "Use the app's night/red mode and switch off the screen between lookups.", "Check the app's rise and set times, and moonrise, before heading out."],
+      "drills": ["Plan a 20-minute session on paper: five targets with times and directions.", "Predict where a bright planet will be at 9 pm, then check."],
+      "mastery": "You can use a planisphere to say which constellations are rising, setting and overhead at any date and time you are given.",
+      "mistakes": ["Letting the screen replace actually looking at the sky.", "Forgetting daylight saving time when setting the planisphere.", "Not setting the app's location, which shifts the whole sky."],
+      "resources": [{ "title": "Stellarium", "kind": "tool", "url": "https://stellarium.org" }]
+    },
+    {
+      "id": "planet-spotting", "name": "Spot the Naked-Eye Planets", "tier": 1, "requires": ["sky-apps"], "hours": 3, "partyTrick": 20,
+      "summary": "Venus, Mars, Jupiter and Saturn are visible without optics. Learn to tell them from stars.",
+      "steps": ["Check which planets are up tonight in an app or almanac.", "Find the bright, steady, non-twinkling points near the ecliptic path of the Sun and Moon.", "Tell them apart: Venus is brilliant white near the horizon at dusk or dawn, Jupiter bright cream, Mars orange, Saturn dim yellow.", "Watch one planet over a month to see it move against the stars."],
+      "drills": ["Point out each visible naked-eye planet over a few weeks.", "Note the position of one planet relative to a bright star every five nights."],
+      "mastery": "You can look up and point out every planet visible tonight and say how you know it is not a star.",
+      "mistakes": ["Mistaking aircraft, satellites or Sirius low on the horizon for planets.", "Looking in the wrong part of the sky; planets always lie near the ecliptic."]
+    },
+    {
+      "id": "naked-eye-hopping", "name": "Naked-Eye Star-Hopping", "tier": 2, "requires": ["first-constellations"], "hours": 8,
+      "summary": "Use known stars as stepping stones to find fainter ones. It is the core skill for finding everything else.",
+      "steps": ["Use your hand at arm's length as a ruler: fist is about 10 degrees, three fingers about 5, little finger about 1.", "Build chains from bright stars: for example Arcturus by following the Dipper handle's curve, then Spica by driving a spike on.", "Find a faint target, such as the Andromeda Galaxy, by hopping from Cassiopeia or Pegasus.", "Verify each hop against a chart before moving on."],
+      "drills": ["Find five faint objects by hopping from a bright start, with no app.", "Measure separations with your hand and then check them in software."],
+      "mastery": "You can find the Andromeda Galaxy by eye from a reasonably dark site using only constellation hops, and describe your route.",
+      "mistakes": ["Hopping in big jumps and losing your place.", "Using the wrong angle for your fist because of arm length differences; calibrate with a known pair of stars."]
+    },
+    {
+      "id": "binocular-basics", "name": "Binocular Basics", "tier": 2, "requires": ["moon-phases"], "hours": 4,
+      "summary": "Choose and steady a pair of 7x50 or 10x50 binoculars. They show far more than the eye and are the best first instrument.",
+      "steps": ["Set the interpupillary distance until you see one circle, then focus the right eyepiece diopter separately.", "Brace elbows on a wall, car roof or reclining chair to cut shake.", "Scan slowly in strips across a star-rich area such as the Milky Way in Cygnus.", "Aim for 7x to 10x magnification; bigger needs a tripod."],
+      "drills": ["Sweep the Milky Way for 10 minutes and count the star clusters you see.", "Look at the Moon and find six craters or maria details."],
+      "mastery": "You can see the four Galilean moons of Jupiter and describe their arrangement in a sketch.",
+      "mistakes": ["Buying a high-power pair that shakes too much to use hand-held.", "Skipping the diopter adjustment, so one eye is out of focus.", "Pointing binoculars at the Sun, which can cause permanent blindness."],
+      "resources": [{ "title": "Binocular Highlights", "kind": "book", "by": "Gary Seronik" }]
+    },
+    {
+      "id": "binocular-clusters", "name": "Binocular Clusters and Nebulae", "tier": 2, "requires": ["binocular-basics", "naked-eye-hopping"], "hours": 8,
+      "summary": "Target star clusters, the Orion Nebula and the Andromeda Galaxy with binoculars to learn what deep-sky objects look like.",
+      "steps": ["Start with bright targets such as the Pleiades, Beehive Cluster, Double Cluster and Orion Nebula.", "Use averted vision and a gentle tapping of the binoculars to reveal faint haze.", "Compare what you see with a photograph so you know what to expect.", "Make a quick sketch of each target and note the date and sky conditions."],
+      "drills": ["Find 10 clusters or nebulae in a single night.", "Spot the Andromeda Galaxy's core and one side of its disc."],
+      "mastery": "You have a log of at least 15 deep-sky objects seen in binoculars, each with a sketch and description.",
+      "mistakes": ["Expecting colourful photographs; to the eye, most are grey smudges.", "Observing under a bright Moon or city lights where faint objects disappear."]
+    },
+    {
+      "id": "season-sky", "name": "The Four-Season Sky", "tier": 2, "requires": ["naked-eye-hopping"], "hours": 10,
+      "summary": "Learn the main constellations and bright stars for every season and why the sky changes through the year.",
+      "steps": ["Learn the winter hexagon, spring Leo and Virgo region, summer triangle and autumn Square of Pegasus.", "Understand that Earth's orbit shifts which part of the sky is visible at night.", "Observe the same constellation at the same hour in different months.", "Learn the circumpolar constellations which never set for your latitude."],
+      "drills": ["Photograph or sketch the sky at 10 pm across four seasons.", "Name 25 bright stars and their parent constellations."],
+      "mastery": "In any season you can name the main constellations and bright stars overhead, and say which will be visible in three months.",
+      "mistakes": ["Assuming the sky looks the same all year.", "Not accounting for latitude; what you can see changes as you travel."]
+    },
+    {
+      "id": "ecliptic-planets", "name": "The Ecliptic and Planet Tracking", "tier": 2, "requires": ["planet-spotting"], "hours": 8,
+      "summary": "Understand the ecliptic and how planets move along it. It lets you predict where planets will be and spot conjunctions.",
+      "steps": ["Draw the line from the Sun's setting point through the Moon and planets; that line is the ecliptic.", "Learn terms: conjunction, opposition, elongation, retrograde.", "Plot the position of a planet against background stars every week for two months.", "Use an almanac or app to predict the next conjunction or opposition."],
+      "drills": ["Track Mars or Jupiter over eight weeks and draw its path.", "Predict a Moon-planet conjunction and photograph it."],
+      "mastery": "You can show a hand-plotted path of one planet against the stars over at least a month, and correctly explain what retrograde motion is.",
+      "mistakes": ["Thinking retrograde means a planet really reverses direction.", "Forgetting inner planets only appear near the Sun, in twilight."]
+    },
+    {
+      "id": "meteor-showers", "name": "Meteor Showers", "tier": 2, "requires": ["dark-adaptation"], "hours": 6, "partyTrick": 60,
+      "summary": "Watch and count meteors in the major annual showers. Needs no equipment, only a dark site and patience.",
+      "steps": ["Pick a major shower such as the Perseids (mid August), Geminids (mid December) or Quadrantids (early January) and check the peak date and Moon phase.", "Lie back on a reclining chair or mat with a warm layer; look about 45 degrees up and away from the Moon.", "Count meteors in blocks of 30 minutes and note the time and sky limiting magnitude.", "Trace each back to see if it radiates from the shower's radiant point."],
+      "drills": ["Do a one-hour count at peak and report your hourly rate.", "Log which meteors are shower members and which are sporadic."],
+      "mastery": "You can show a logged meteor count from a full hour at a shower's peak, with the radiant and conditions noted.",
+      "mistakes": ["Going out before the pre-dawn hours, when the rate is usually lowest.", "Looking right at the radiant, where meteor trails are shortest.", "Not dressing warmly enough to stay for an hour."]
+    },
+    {
+      "id": "satellite-spotting", "name": "ISS and Satellite Spotting", "tier": 2, "requires": ["sky-apps"], "hours": 4, "partyTrick": 20,
+      "summary": "Predict and watch the International Space Station and bright satellites crossing the twilight sky.",
+      "steps": ["Use a pass-prediction site or app such as Heavens-Above with your location.", "Check the pass time, direction, maximum altitude and brightness.", "Go out five minutes early, face the starting direction and watch it glide without blinking.", "Note when it fades as it enters Earth's shadow."],
+      "drills": ["Catch three ISS passes of different maximum altitudes.", "Distinguish a satellite from an aircraft by the lack of blinking lights."],
+      "mastery": "You can predict and point out an ISS pass to others, at the right time and direction, on three separate occasions.",
+      "mistakes": ["Confusing a plane with a satellite.", "Using times from a different time zone or location.", "Looking at the wrong horizon."],
+      "resources": [{ "title": "Heavens-Above", "kind": "site", "url": "https://heavens-above.com" }]
+    },
+    {
+      "id": "telescope-setup", "name": "Telescope Setup and Collimation", "tier": 3, "requires": ["binocular-basics"], "hours": 12,
+      "summary": "Learn to set up a telescope, align the finder, choose eyepieces and keep optics collimated. A well-set-up small scope beats a neglected large one.",
+      "steps": ["Learn the key numbers: aperture, focal length, focal ratio, and magnification as scope focal length divided by eyepiece focal length.", "Set up on firm ground, level the mount and let the scope cool to outside temperature for 30 minutes.", "Align the finder or red-dot unit on a distant object in daytime.", "If you have a reflector, learn to collimate it with a collimation cap or laser, checking every session."],
+      "drills": ["Set up, align and be observing in under 10 minutes.", "Collimate a Newtonian and check it with a defocused star test."],
+      "mastery": "You can set up and align a telescope and show a defocused star that looks round with concentric rings, indicating good collimation.",
+      "mistakes": ["Using too high a magnification; the useful maximum is about 50x per inch of aperture, and less in bad seeing.", "Observing before the scope has cooled, causing tube currents and blur.", "Pointing the scope at the Sun without a certified solar filter, which can blind instantly."],
+      "resources": [{ "title": "Turn Left at Orion", "kind": "book", "by": "Guy Consolmagno and Dan M. Davis" }]
+    },
+    {
+      "id": "planetary-scope", "name": "Planetary Observing", "tier": 3, "requires": ["telescope-setup", "ecliptic-planets"], "hours": 15,
+      "summary": "Resolve the rings of Saturn, the cloud belts of Jupiter and the phases of Venus. Seeing and patience matter more than aperture.",
+      "steps": ["Use 100x to 200x on steady nights and let your eye settle at the eyepiece for several minutes.", "Look for the Great Red Spot, the Cassini Division and Martian polar caps at opposition.", "Make a sketch with times and the magnification used.", "Use colour filters to raise contrast on certain features."],
+      "drills": ["Sketch Jupiter's cloud belts and moons on five nights.", "Sketch Saturn and mark the Cassini Division."],
+      "mastery": "You have a set of dated planetary sketches showing details such as Jupiter's belts and Saturn's Cassini Division.",
+      "mistakes": ["Giving up after a few seconds; fine detail pops out in moments of steady air.", "Observing planets when they are low and the air is turbulent."]
+    },
+    {
+      "id": "star-charts", "name": "Charts and Celestial Coordinates", "tier": 3, "requires": ["season-sky", "binocular-clusters"], "hours": 8,
+      "summary": "Understand right ascension, declination and magnitude, and read a detailed star atlas to plan observing nights.",
+      "steps": ["Learn right ascension (hours) and declination (degrees) as the sky's longitude and latitude.", "Read a printed atlas or app chart and learn the legend for object types and magnitudes.", "Match a chart's field of view to a finder or eyepiece field.", "Plan a session of 10 objects with chart pages ready."],
+      "drills": ["Convert coordinates to a position on the chart for 10 objects.", "Draw your eyepiece field of view on a chart."],
+      "mastery": "Given a set of coordinates you can locate the object on a chart and describe the nearest bright star to start hopping from.",
+      "mistakes": ["Mixing up the orientation of a chart; many telescopes flip or mirror the view.", "Not matching chart limiting magnitude to your sky."],
+      "resources": [{ "title": "Sky Atlas 2000.0", "kind": "book", "by": "Wil Tirion and Roger Sinnott" }]
+    },
+    {
+      "id": "deep-sky-scope", "name": "Deep-Sky Observing", "tier": 3, "requires": ["telescope-setup", "star-charts"], "hours": 25,
+      "summary": "Find galaxies, nebulae and globular clusters with a telescope using averted vision and dark skies.",
+      "steps": ["Observe from the darkest site you can reach, with an observing plan and a dim red light.", "Use low power wide-field eyepieces to find the target then step up magnification.", "Use averted vision and tap the tube to reveal faint detail.", "Compare brightness across different nights and sites."],
+      "drills": ["Find 25 galaxies, nebulae or clusters in a season.", "Write a short description for each, covering shape, brightness and structure."],
+      "mastery": "You have an observing log of at least 25 deep-sky objects found with the telescope, each with notes on what you saw.",
+      "mistakes": ["Observing from a bright suburb and expecting detail.", "Looking only at the brightest showpieces and never learning to see faint detail.", "Failing to use averted vision."]
+    },
+    {
+      "id": "observing-log", "name": "Observing Log and Sketching", "tier": 3, "requires": ["binocular-clusters"], "hours": 10,
+      "summary": "Record what you see with notes and pencil sketches. Drawing trains the eye to catch much more detail.",
+      "steps": ["Log date, time, location, seeing, transparency, instrument, eyepiece and object each time.", "Sketch with a soft pencil on white paper; draw the stars first, then the faint structure.", "Spend at least 10 minutes on a single object.", "Review your log monthly to see your improvement."],
+      "drills": ["Make 15 sketches of different objects.", "Compare a sketch to a professional photograph and note what you missed."],
+      "mastery": "You can show a log with at least 20 entries including dated sketches of a variety of object types.",
+      "mistakes": ["Skipping conditions, which makes the log useless later.", "Drawing from memory after leaving the eyepiece."]
+    },
+    {
+      "id": "messier-all", "name": "The Messier Catalogue", "tier": 4, "requires": ["deep-sky-scope"], "hours": 60,
+      "summary": "Find all 110 objects in Charles Messier's catalogue, a classic achievement spanning every type of deep-sky target.",
+      "steps": ["Work through the list by season, using a chart and a checklist.", "Observe each one properly rather than just locating it, and log it.", "Find tricky ones such as M74 and M76 under dark skies.", "Join a club or the Astronomical League's Messier program to have your list certified."],
+      "drills": ["Add 10 new Messier objects per observing session in peak season.", "Find three of the difficult low-surface-brightness objects."],
+      "mastery": "You have a signed or certified log showing all 110 Messier objects observed, with date and instrument for each.",
+      "mistakes": ["Rushing through the list without really observing each object.", "Leaving the hard ones to the end without planning for the right season."]
+    },
+    {
+      "id": "double-variable", "name": "Double and Variable Stars", "tier": 4, "requires": ["deep-sky-scope", "observing-log"], "hours": 40,
+      "summary": "Split tight double stars and estimate the brightness of variable stars. Both train precision and produce real science.",
+      "steps": ["Learn to measure separation and position angle, and check your telescope's resolving limit (about 116 divided by the aperture in mm, in arc seconds).", "Split a series of increasingly tight doubles such as Albireo, Mizar and Epsilon Lyrae.", "Estimate variable star brightness against comparison stars on charts from the AAVSO.", "Submit your estimates."],
+      "drills": ["Split 20 doubles of decreasing separation.", "Make 30 variable star estimates over a few months."],
+      "mastery": "You have split at least 20 doubles and submitted variable star estimates to a recognised database such as AAVSO.",
+      "mistakes": ["Trying to split doubles in poor seeing, where the air smears them together.", "Using non-standard comparison stars for brightness estimates."],
+      "resources": [{ "title": "AAVSO", "kind": "site", "url": "https://www.aavso.org" }]
+    },
+    {
+      "id": "safe-solar", "name": "Safe Solar Observing", "tier": 4, "requires": ["telescope-setup", "ecliptic-planets"], "hours": 15,
+      "summary": "View sunspots and prominences safely, and watch eclipses without eye damage. Never look at the Sun without a certified filter.",
+      "steps": ["Never look at the Sun directly, through binoculars, or through a telescope without a certified solar filter fitted over the front aperture.", "Use a purpose-made white-light solar filter (ISO 12312-2 for eclipse glasses, or a certified film or glass filter on the front of the scope), and check it for pinholes every time.", "Or use solar projection or a dedicated hydrogen-alpha solar scope.", "Sketch sunspot groups and track them over several days as the Sun rotates."],
+      "drills": ["Check filters for damage before every session.", "Sketch the sunspots daily for a week."],
+      "mastery": "You can show a dated series of sunspot sketches taken with a certified front-aperture filter and explain the safety checks you made.",
+      "mistakes": ["Using sunglasses, smoked glass or an eyepiece-end filter, which can shatter and blind.", "Leaving the telescope unattended so a bystander looks through an unfiltered scope.", "Pointing a finder scope at the Sun while it is uncapped."]
+    },
+    {
+      "id": "faint-hopping", "name": "Advanced Star-Hopping to Faint Objects", "tier": 4, "requires": ["messier-all"], "hours": 40,
+      "summary": "Find faint galaxies and nebulae from NGC and similar catalogues using only charts and a finder, with no go-to.",
+      "steps": ["Plan the path in advance with a chart and the field of view of your finder.", "Build a chain of three to five hops from a known bright star.", "Confirm each hop with an eyepiece check.", "Use a larger-scale chart when you reach the final field."],
+      "drills": ["Find 10 NGC objects fainter than magnitude 11 in a night.", "Plan and execute a route without an app."],
+      "mastery": "You have found at least 30 fainter NGC objects by hand star-hopping and logged each with its route.",
+      "mistakes": ["Relying on go-to and never learning the skill.", "Chasing faint objects under a bright Moon."]
+    },
+    {
+      "id": "herschel-400", "name": "Herschel 400", "tier": 5, "requires": ["messier-all", "faint-hopping"], "hours": 150,
+      "summary": "Observe the 400 NGC objects chosen from William Herschel's catalogue. It tests every skill: dark sites, fine technique and persistence.",
+      "steps": ["Join the Astronomical League's Herschel 400 program to get the official list.", "Plan observing runs by season and by sky region.", "Log each object with a sketch or notes on its appearance.", "Submit your records for certification."],
+      "drills": ["Log 20 Herschel objects every dark-moon week.", "Re-observe any object you are not sure you really saw."],
+      "mastery": "You have received certification for the Herschel 400 or have a complete log of all 400 with dated notes.",
+      "mistakes": ["Counting objects you only detected after looking up a photograph.", "Not tracking progress, which makes the last few dozen objects very difficult to find."]
+    },
+    {
+      "id": "messier-marathon", "name": "Messier Marathon", "tier": 5, "requires": ["messier-all"], "hours": 60,
+      "summary": "Find all, or nearly all, 110 Messier objects in a single night, a challenge possible only around a new Moon in March or April.",
+      "steps": ["Choose the date in March or April closest to the new Moon and clear weather at a latitude with open horizons.", "Plan the whole order of targets, starting with the western ones in evening twilight and ending with the morning ones.", "Practise by finding the clusters in under two minutes each.", "Have food, warm clothes and a helper to log."],
+      "drills": ["Practise a short marathon of 40 objects in autumn.", "Time yourself on each find."],
+      "mastery": "You have a timed log showing at least 100 Messier objects seen in a single night, preferably witnessed by another observer.",
+      "mistakes": ["Choosing a date with the Moon in the sky, which washes out the faintest targets.", "Spending too long on the early objects and running out of night."]
+    },
+    {
+      "id": "star-party-leader", "name": "Public Outreach and Star Party Leader", "tier": 5, "requires": ["safe-solar", "double-variable", "faint-hopping"], "hours": 60,
+      "summary": "Be able to guide a crowd around the whole sky: laser-pointer tours, telescope views and safe solar sessions, with accurate answers to hard questions.",
+      "steps": ["Learn 30 stories and facts for the sky's best objects.", "Run a public night with a club and set up several telescopes with safe eyepieces.", "Give a naked-eye tour of the constellations using a green laser pointer where permitted, always pointed upwards and never near aircraft.", "Run a safe solar session with certified filters."],
+      "drills": ["Give three public tours to different groups.", "Answer ten common questions without notes."],
+      "mastery": "You have led a public observing event for 20 or more people, with video or photos, covering naked-eye, telescope and solar views safely.",
+      "mistakes": ["Overloading beginners with jargon.", "Letting the queue block the eyepiece so people cannot ask questions."]
+    }
+  ]
+}

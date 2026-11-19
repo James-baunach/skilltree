@@ -1,0 +1,213 @@
+{
+  "hobby": "dog-training",
+  "nodes": [
+    {
+      "id": "marker-training", "name": "Marker & Reward Timing", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Teach your dog that a click or marker word means a reward is coming. This is the language of reward-based training.",
+      "steps": ["Pick a marker: a clicker or a short word like 'Yes'.", "Mark and then treat, 10-20 times, with no behaviour required yet.", "Treat within 2 seconds of the marker and deliver at your dog's mouth level.", "Test: when the dog looks at you after a marker, you have a conditioned marker."],
+      "drills": ["Three sessions of 20 click-and-treat repetitions.", "Mark and reward eye contact for 2 minutes."],
+      "mastery": "On video, your dog turns toward you and looks for the treat each time you mark, in 9 of 10 repetitions.",
+      "mistakes": ["Marking after the treat appears.", "Using the marker as a call or attention signal.", "Using treats too big, so the dog takes too long to eat."]
+    },
+    {
+      "id": "name-attention", "name": "Name & Eye Contact", "tier": 1, "requires": ["marker-training"], "hours": 3,
+      "summary": "Your dog turns to you when you say their name. Attention is the base for every other skill.",
+      "steps": ["Say the name once in a happy tone.", "Mark and reward when your dog looks at you.", "Practise in a quiet room, then add mild distractions.", "Never use the name for something unpleasant."],
+      "drills": ["20 name responses per session, 3 times a day.", "Practise in three rooms and in the garden."],
+      "mastery": "Your dog turns to look at you within 2 seconds of hearing their name in 9 of 10 trials in a new room.",
+      "mistakes": ["Repeating the name over and over.", "Calling the dog's name to scold.", "Training only in one place."]
+    },
+    {
+      "id": "lure-sit-down", "name": "Sit & Down with a Lure", "tier": 1, "requires": ["marker-training"], "hours": 4,
+      "summary": "Guide your dog into a sit and a down with a treat, then add a cue word.",
+      "steps": ["Hold a treat at the dog's nose and move it up and back to lure the sit.", "Mark and reward as the rear touches the floor.", "For a down, lure from the nose to the floor between the paws.", "When the dog follows easily, add the word just before the lure, then fade the lure."],
+      "drills": ["10 repetitions of each, 3 times a day.", "Practise sit and down with an empty hand."],
+      "mastery": "Your dog sits and downs on the verbal cue alone, with no hand motion, in 8 of 10 tries.",
+      "mistakes": ["Repeating the cue over and over.", "Pushing the dog's rear down.", "Holding the lure too high or too far."]
+    },
+    {
+      "id": "hand-target", "name": "Hand Target (Touch)", "tier": 1, "requires": ["marker-training"], "hours": 2,
+      "summary": "Your dog touches your palm with their nose, a flexible tool for moving the dog with no force.",
+      "steps": ["Present a flat palm near the nose.", "Mark and treat when the nose touches.", "Move the hand further away, up and to the side.", "Add the cue 'Touch' as the dog starts to move."],
+      "drills": ["10 touches at different heights and sides.", "Use touch to move the dog 5 steps."],
+      "mastery": "Your dog runs 2 metres to touch your hand on cue, 9 out of 10 times.",
+      "mistakes": ["Pushing the hand into the dog's face.", "Not rewarding at the touch.", "Moving the hand before the dog's nose arrives."]
+    },
+    {
+      "id": "house-training", "name": "House Training & Crate", "tier": 1, "requires": [], "hours": 20,
+      "summary": "Teach your dog where to toilet and make a crate a positive resting place.",
+      "steps": ["Take the dog out after waking, eating, playing and every 1-2 hours for puppies.", "Reward immediately after toileting in the right place.", "Supervise indoors or use a pen or crate to prevent accidents.", "Introduce the crate with treats and meals, and never use it as punishment."],
+      "drills": ["Keep a log of accidents and toilet times for two weeks.", "Feed a meal in the crate with the door open, then closed for a short time."],
+      "mastery": "Your dog has had no indoor accidents for 14 consecutive days and settles in the crate for 30 minutes.",
+      "mistakes": ["Punishing accidents.", "Giving too much freedom too soon.", "Leaving the dog in the crate too long."]
+    },
+    {
+      "id": "socialisation", "name": "Socialisation & Habituation", "tier": 1, "requires": [], "hours": 20,
+      "summary": "Introduce your dog to the world calmly and with positive associations, especially in the early months.",
+      "steps": ["Make a list of people, surfaces, sounds and places to experience.", "Expose the dog at a distance where they stay relaxed and give treats.", "Let the dog choose to approach and leave.", "Keep sessions short and positive."],
+      "drills": ["Introduce 5 new things per week for 8 weeks.", "Do short outings to different places."],
+      "mastery": "Your dog stays relaxed and takes treats around ten different things (for example traffic, bikes and strangers) at a reasonable distance.",
+      "mistakes": ["Flooding the dog with too much at once.", "Forcing greetings.", "Missing the early socialisation window."]
+    },
+    {
+      "id": "body-language", "name": "Reading Dog Body Language", "tier": 1, "requires": [], "hours": 5,
+      "summary": "Spot signs of stress and comfort so you can respond before problems appear.",
+      "steps": ["Learn common stress signals: lip licking, yawning, turning away, whale eye, tucked tail.", "Learn relaxed signals: soft eyes, loose body, wiggly movement.", "Watch dogs in play and see how they signal.", "Respond by giving space or ending the session when you see stress."],
+      "drills": ["Watch 10 short videos and identify signals.", "Keep a log of stress signals your dog shows."],
+      "mastery": "You identify five stress signals in a video of dogs and can say what you would do about each.",
+      "mistakes": ["Thinking a wagging tail always means happy.", "Ignoring early signals.", "Punishing growling."]
+    },
+    {
+      "id": "loose-lead", "name": "Loose-Lead Walking", "tier": 2, "requires": ["name-attention", "hand-target"], "hours": 15,
+      "summary": "Walk with a slack lead by rewarding position next to you.",
+      "steps": ["Start indoors, rewarding the dog for being at your side.", "Move one step, then mark and reward, and build up.", "If the lead goes tight, stop and wait or turn and reward the dog for coming back.", "Use a well-fitted harness or flat collar and avoid pain-based tools."],
+      "drills": ["Practise 5 minutes of rewarded heel position daily.", "Walk 50 m in the garden without a tight lead."],
+      "mastery": "Your dog walks 100 m on a loose lead past mild distractions with the lead slack for at least 90% of the time, shown on video.",
+      "mistakes": ["Letting the dog pull to the destination.", "Jerking the lead.", "Expecting good walking before training indoors."]
+    },
+    {
+      "id": "recall-basic", "name": "Recall Foundations", "tier": 2, "requires": ["name-attention"], "hours": 15,
+      "summary": "Build a reliable response to a recall cue using high-value rewards.",
+      "steps": ["Choose a unique cue, such as a whistle or 'Here'.", "Say the cue once and run away from the dog, rewarding generously when they arrive.", "Practise at short range indoors, then in the garden.", "Never call the dog for something unpleasant."],
+      "drills": ["10 recalls per session in three places.", "Do a recall game with two people."],
+      "mastery": "In your garden, your dog comes immediately from 10 m away with moderate distractions on 9 of 10 recalls.",
+      "mistakes": ["Calling the dog to end fun without a reward.", "Repeating the cue.", "Punishing the dog on arrival."]
+    },
+    {
+      "id": "stay", "name": "Stay (Duration & Distance)", "tier": 2, "requires": ["lure-sit-down"], "hours": 10,
+      "summary": "Your dog holds a position until released, building from seconds to minutes.",
+      "steps": ["Ask for a sit or down, mark and treat after one second.", "Build duration first, then distance, then distractions, one at a time.", "Use a release word like 'Free'.", "Return to the dog to reward in position at first."],
+      "drills": ["Practise 10 stays at 10 seconds, then 30 seconds.", "Add one step of distance at a time."],
+      "mastery": "Your dog stays in a down for 1 minute while you stand 5 m away, until you give the release word.",
+      "mistakes": ["Increasing duration, distance and distraction at once.", "Calling the dog out of the stay.", "Forgetting a release word."]
+    },
+    {
+      "id": "leave-it", "name": "Leave It & Drop It", "tier": 2, "requires": ["marker-training"], "hours": 8,
+      "summary": "Teach your dog to ignore food or objects on cue and to give things up willingly.",
+      "steps": ["Hold a treat in a closed hand; mark and reward when the dog stops sniffing.", "Progress to a treat on the floor under your foot, then uncovered.", "For drop it, trade a dropped item for a better treat.", "Add the cue words when the behaviour is reliable."],
+      "drills": ["10 leave-it repetitions with progressively harder items.", "Practise trading toys for treats."],
+      "mastery": "Your dog ignores a treat placed on the floor for 10 seconds on cue and drops a toy when asked.",
+      "mistakes": ["Grabbing items from the dog's mouth.", "Not rewarding enough.", "Making it too hard too quickly."]
+    },
+    {
+      "id": "settle-mat", "name": "Settle on a Mat", "tier": 2, "requires": ["lure-sit-down"], "hours": 8,
+      "summary": "A calm, relaxed down on a mat that you can use at home and in cafes.",
+      "steps": ["Reward the dog for stepping on a mat.", "Reward for lying down, then for staying relaxed and for hip roll.", "Reward calm at gradually longer intervals.", "Add the cue and practise in new places."],
+      "drills": ["10-minute settle practice daily.", "Take the mat to a friend's house."],
+      "mastery": "Your dog settles on the mat for 10 minutes in a new location while you sit and read.",
+      "mistakes": ["Rewarding only when the dog is excited.", "Giving up too soon.", "Forcing the dog down."]
+    },
+    {
+      "id": "polite-greeting", "name": "Polite Greetings", "tier": 2, "requires": ["lure-sit-down", "socialisation"], "hours": 8,
+      "summary": "Teach your dog to keep four feet on the floor when meeting people.",
+      "steps": ["Reward the dog for sitting when someone approaches.", "Ask the visitor to ignore the dog if it jumps.", "Practise on lead first, with a helper.", "Gradually allow the greeting after the dog sits."],
+      "drills": ["Practise with 5 different people.", "Use a leash for control."],
+      "mastery": "Your dog sits to greet three different strangers in a row without jumping, with a loose lead.",
+      "mistakes": ["Pushing the dog down or shouting.", "Letting some people reward jumping.", "Not setting up the training."]
+    },
+    {
+      "id": "cooperative-care", "name": "Cooperative Care", "tier": 2, "requires": ["hand-target", "body-language"], "hours": 10,
+      "summary": "Teach your dog to accept handling, nail trims and vet exams calmly.",
+      "steps": ["Pair touch on each body part with a treat.", "Teach a chin rest or station.", "Introduce tools such as nail clippers gradually.", "Let the dog opt out with a clear signal."],
+      "drills": ["Daily 3-minute handling sessions.", "Practise a mock vet exam."],
+      "mastery": "Your dog allows each paw to be handled and a nail clipper to touch the nail while staying relaxed.",
+      "mistakes": ["Holding the dog down.", "Moving too fast.", "Ignoring stress signals."]
+    },
+    {
+      "id": "long-line-recall", "name": "Recall in the Real World", "tier": 3, "requires": ["recall-basic", "leave-it"], "hours": 25,
+      "summary": "Build recall around distractions on a long line in open spaces.",
+      "steps": ["Attach a 10 m long line to a harness.", "Practise in a safe open area, calling when the dog is mildly distracted.", "Reward with jackpots and games.", "Increase distraction level only when 9 of 10 succeed."],
+      "drills": ["20 recalls per outing for two weeks.", "Practise with other dogs far away."],
+      "mastery": "On a long line outside, your dog turns and comes to you from 8 m away past a distraction on 9 of 10 attempts.",
+      "mistakes": ["Letting the dog off lead before ready.", "Calling when the dog is too excited.", "Not carrying treats."]
+    },
+    {
+      "id": "distraction-walking", "name": "Walking Past Distractions", "tier": 3, "requires": ["loose-lead", "leave-it"], "hours": 20,
+      "summary": "Keep your dog's attention near dogs, people and smells.",
+      "steps": ["Practise at a distance where your dog can still respond.", "Reward focus and gradually close the distance.", "Teach 'let's go' to turn away from a distraction.", "Use the environment as a reward."],
+      "drills": ["5 sessions near a park edge.", "Practise passing 10 people."],
+      "mastery": "You walk past another dog at 5 m with your dog looking at you and the lead loose.",
+      "mistakes": ["Starting too close.", "Using corrections.", "Rushing the progress."]
+    },
+    {
+      "id": "stay-proofing", "name": "Proofing Stays", "tier": 3, "requires": ["stay", "settle-mat"], "hours": 15,
+      "summary": "Make stays reliable in real situations and around distractions.",
+      "steps": ["Add movement: hop, walk around the dog, drop treats.", "Practise in new environments.", "Increase duration to several minutes.", "Practise out of sight for short times."],
+      "drills": ["Practise 5 minutes of stays in 3 places.", "Add a distraction like a bouncing ball."],
+      "mastery": "Your dog stays for 3 minutes while you walk out of sight, with a distraction nearby.",
+      "mistakes": ["Skipping steps.", "Not releasing.", "Getting cross if the dog breaks."]
+    },
+    {
+      "id": "shaping", "name": "Shaping New Behaviours", "tier": 3, "requires": ["marker-training", "body-language"], "hours": 20,
+      "summary": "Teach new behaviours by marking small steps toward a goal, building problem-solving.",
+      "steps": ["Pick a simple behaviour like touching an object.", "Mark any movement toward it, then raise criteria.", "Keep sessions to 3 minutes at a high rate of reward.", "Keep a plan with steps."],
+      "drills": ["Shape three new behaviours using a plan.", "Film and review your timing."],
+      "mastery": "You shape a new behaviour such as closing a door with the nose in under 15 minutes of total training.",
+      "mistakes": ["Raising criteria too fast.", "Rewarding too slowly.", "Talking or luring while shaping."]
+    },
+    {
+      "id": "reactivity-basics", "name": "Reactivity: Counter-Conditioning", "tier": 3, "requires": ["body-language", "leave-it", "distraction-walking"], "hours": 30,
+      "summary": "Change your dog's emotional response to triggers such as other dogs with gradual exposure and treats. A qualified behaviour professional should help with serious cases.",
+      "steps": ["Identify the threshold distance where your dog notices but stays calm.", "Show the trigger, then feed treats; trigger leaves, treats stop.", "Reduce distance very slowly.", "Seek help from a certified behaviour consultant if there is aggression."],
+      "drills": ["10 counter-conditioning exposures per week.", "Log distance and reactions."],
+      "mastery": "Your dog sees a trigger at a distance 30% closer than at the start, and looks back at you with a relaxed body.",
+      "mistakes": ["Working over threshold.", "Using punishment.", "Moving too fast."]
+    },
+    {
+      "id": "off-lead-reliability", "name": "Off-Lead Reliability", "tier": 4, "requires": ["long-line-recall", "stay-proofing"], "hours": 60,
+      "summary": "Reliable behaviours in safe open spaces where off-lead is legal.",
+      "steps": ["Confirm local laws and safe, fenced locations first.", "Practise recall, check-ins and stays in increasingly distracting areas.", "Keep rewards high and unpredictable.", "Keep the long line available for challenging areas."],
+      "drills": ["20 check-ins per outing.", "Use a whistle recall in different places."],
+      "mastery": "In an approved open area, your dog recalls 10 of 10 times from over 20 m, including past a distraction.",
+      "mistakes": ["Moving off-lead too soon.", "Using recall to end fun every time.", "Ignoring local rules."]
+    },
+    {
+      "id": "public-manners", "name": "Public Manners (Good Citizen)", "tier": 4, "requires": ["polite-greeting", "distraction-walking", "stay-proofing", "cooperative-care"], "hours": 40,
+      "summary": "A dog who is safe and calm in real public places, as in a Canine Good Citizen-style test.",
+      "steps": ["Practise at pet-friendly shops and cafes.", "Practise a stranger approach, being brushed and walking through a crowd.", "Practise a calm separation from you.", "Take a formal test if available."],
+      "drills": ["Visit a new public place weekly.", "Practise the test items."],
+      "mastery": "Your dog passes a Canine Good Citizen or equivalent evaluation, or you film all the test items in public.",
+      "mistakes": ["Going to places too busy too soon.", "Forgetting to reward in public.", "Expecting too much from a young dog."]
+    },
+    {
+      "id": "behaviour-modification", "name": "Behaviour Modification Plan", "tier": 4, "requires": ["reactivity-basics", "shaping"], "hours": 80,
+      "summary": "Write and run a structured plan for a real problem such as fear or leash reactivity.",
+      "steps": ["Define the problem in measurable terms.", "Set a baseline and goals.", "Choose methods: counter-conditioning, desensitisation, alternative behaviours.", "Track data and adapt."],
+      "drills": ["Keep a daily log.", "Review with a qualified professional."],
+      "mastery": "You show a written plan with data over 8 weeks demonstrating measurable improvement.",
+      "mistakes": ["Not measuring.", "Changing methods too often.", "Using aversives."]
+    },
+    {
+      "id": "chained-behaviours", "name": "Chains & Complex Tricks", "tier": 4, "requires": ["shaping", "stay-proofing"], "hours": 40,
+      "summary": "Combine behaviours into sequences, preparing for sports and advanced tasks.",
+      "steps": ["Train each part separately.", "Link the last behaviour first (backchaining).", "Add cues and reduce rewards between parts.", "Use video to refine."],
+      "drills": ["Train a 4-part chain.", "Perform it in 3 locations."],
+      "mastery": "Your dog performs a chain of at least five behaviours on cue and in a new location.",
+      "mistakes": ["Training the chain as a whole.", "Not rewarding intermediate steps.", "Skipping generalisation."]
+    },
+    {
+      "id": "sport-title", "name": "Obedience or Rally Title", "tier": 5, "requires": ["off-lead-reliability", "chained-behaviours"], "hours": 200,
+      "summary": "Earn a title in a recognised dog sport such as Rally or Obedience.",
+      "steps": ["Pick a sport and read the rules.", "Train in a class or club.", "Enter trials and learn ring procedure.", "Earn qualifying scores."],
+      "drills": ["Run full run-throughs weekly.", "Attend matches before trials."],
+      "mastery": "You and your dog earn a title in an official trial.",
+      "mistakes": ["Entering too early.", "Training only in one place.", "Using harsh methods."]
+    },
+    {
+      "id": "rehab-case", "name": "Rescue / Rehabilitation Case", "tier": 5, "requires": ["behaviour-modification", "public-manners"], "hours": 250,
+      "summary": "Take a dog with serious difficulties to a stable, adoptable state, working with professionals.",
+      "steps": ["Work with a vet and a certified behaviour consultant.", "Start with management and safety.", "Progress through a plan with clear steps.", "Document progress and outcome."],
+      "drills": ["Keep a detailed log.", "Review progress with the consultant monthly."],
+      "mastery": "A dog with a documented problem completes a plan and is re-assessed as ready by a professional.",
+      "mistakes": ["Going without professional help.", "Overlooking medical causes.", "Rushing."]
+    },
+    {
+      "id": "trainer-teacher", "name": "Teaching Others & Certification", "tier": 5, "requires": ["public-manners", "behaviour-modification"], "hours": 300,
+      "summary": "Coach owners and consider a credential such as CPDT-KA.",
+      "steps": ["Learn about learning theory and coaching people.", "Assist a trainer and run beginner classes.", "Log your hours.", "Study for and take a certification exam."],
+      "drills": ["Teach a 6-week class.", "Gather feedback."],
+      "mastery": "You teach a group class where most owners achieve the stated goals, or hold a recognised credential.",
+      "mistakes": ["Focusing on the dog and not on the owner.", "Using outdated methods.", "Giving advice outside your skill."]
+    }
+  ]
+}

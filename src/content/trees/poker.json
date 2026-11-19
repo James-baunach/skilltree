@@ -1,0 +1,193 @@
+{
+  "hobby": "poker",
+  "nodes": [
+    {
+      "id": "hand-rankings", "name": "Hand Rankings", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Know the ten hand categories from high card to royal flush without hesitating. Every other skill depends on it.",
+      "steps": ["Learn the order: high card, pair, two pair, three of a kind, straight, flush, full house, four of a kind, straight flush, royal flush.", "Learn how ties are broken by kickers and by the highest cards in the hand.", "Practise reading the best five-card hand from seven cards.", "Learn that suits never rank against each other in hold'em."],
+      "drills": ["Deal 7 cards from a deck 30 times and name the best hand each time within 5 seconds.", "Deal two hands against the same board and decide who wins, including kicker ties."],
+      "mastery": "You can name the best five-card hand from any seven cards in under 5 seconds and correctly decide kicker battles, 20 in a row.",
+      "mistakes": ["Forgetting that a flush beats a straight.", "Playing the kicker wrong on split and near-split pots.", "Missing a straight or flush on the board."]
+    },
+    {
+      "id": "rules-etiquette", "name": "Rules and Table Etiquette", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Learn how a hold'em hand flows, the betting rules and the manners that keep a home or casino game running.",
+      "steps": ["Learn the streets: preflop, flop, turn, river, showdown.", "Learn actions: fold, check, call, bet, raise, all-in, plus min-raise rules.", "Learn the blinds and the dealer button, which moves clockwise each hand.", "Act in turn, keep chips visible, avoid string bets and never reveal your cards early.", "Play only where it is legal, and only if you are an adult in your jurisdiction."],
+      "drills": ["Play 3 hours of play-money or friendly low-stakes games just to practise procedure.", "Explain the rules to a friend without notes."],
+      "mastery": "You can run a hand of hold'em from deal to showdown with correct betting order, min-raise sizes and no etiquette errors.",
+      "mistakes": ["Acting out of turn, which gives information away.", "Making a verbal raise and then changing it.", "Playing for money where it is not legal or when under the legal age."]
+    },
+    {
+      "id": "positions", "name": "Position", "tier": 1, "requires": ["rules-etiquette"], "hours": 2,
+      "summary": "Acting later gives you more information than your opponents. Position is the cheapest edge in poker.",
+      "steps": ["Learn the seats: small blind, big blind, early position, middle, hijack, cutoff and button.", "Remember that postflop the button acts last and the blinds act first.", "Understand that you should play more hands from late position and fewer from early.", "Note what opponents do before you act and use it."],
+      "drills": ["In a session, say your position out loud before each hand.", "Count the number of players left to act behind you before you decide."],
+      "mastery": "You can name your position and say how many players act after you at any point in a 6-max and a 9-handed game.",
+      "mistakes": ["Playing the same hands from every seat.", "Forgetting that the blinds are the worst postflop positions.", "Calling raises out of the blinds with weak hands just because you've already paid."]
+    },
+    {
+      "id": "starting-hands", "name": "Starting Hand Selection", "tier": 1, "requires": ["hand-rankings", "positions"], "hours": 4,
+      "summary": "Most beginners lose by playing too many hands. Folding most hands preflop is the first habit to build.",
+      "steps": ["Learn a basic chart: raise strong pairs, big aces and broadway cards, fold most weak offsuit hands.", "Play tighter in early position and wider on the button.", "Prefer suited and connected hands over offsuit, but do not overvalue them.", "Raise rather than limp when you enter the pot.", "Review a chart from a reputable training site against your own play."],
+      "drills": ["Fold or play 100 dealt hands in a practice app and compare with the chart.", "Over a 200-hand session, aim to voluntarily play roughly 15 to 25 percent of hands at a full table."],
+      "mastery": "Over a tracked 500-hand sample, you voluntarily put money in preflop between about 15 and 25 percent of hands at full ring, and can justify each category.",
+      "mistakes": ["Calling with any ace or any two suited cards.", "Limping into pots.", "Playing hands because you are bored."]
+    },
+    {
+      "id": "counting-outs", "name": "Counting Outs", "tier": 1, "requires": ["hand-rankings"], "hours": 2,
+      "summary": "Outs are the unseen cards that improve your hand. Counting them is the first step into poker maths.",
+      "steps": ["Learn standard out counts: flush draw 9, open-ended straight draw 8, gutshot 4, two overcards 6.", "Subtract any outs that would also improve your opponent's hand.", "Do not count cards you can see.", "Practise with real board examples."],
+      "drills": ["Count outs on 40 flashcard-style flops in under 10 seconds each.", "Name the outs on your own draws in each session."],
+      "mastery": "You can correctly count outs on 20 random flop draws in a row, including combo draws.",
+      "mistakes": ["Counting outs that give opponent a better hand.", "Double counting cards in combo draws.", "Counting a card already on the board or in your hand."]
+    },
+    {
+      "id": "bet-sizing-basics", "name": "Basic Bet Sizing", "tier": 1, "requires": ["rules-etiquette"], "hours": 2,
+      "summary": "Size bets as fractions of the pot so they make sense to you and give opponents the right price.",
+      "steps": ["Learn to compute a third, half, two-thirds and full pot bet quickly.", "Open preflop for about 2.5 to 3 big blinds, plus one big blind per limper.", "Bet more when you want to charge draws and when you have strong value hands.", "Avoid tiny or random-sized bets that give away your hand strength."],
+      "drills": ["Calculate half-pot and two-thirds-pot bets on 30 random pot sizes.", "Use the same preflop open size every hand for a session."],
+      "mastery": "You can state the exact size of a third, half, two-thirds and full-pot bet for any pot in under 5 seconds, and use consistent opens for 200 hands.",
+      "mistakes": ["Betting a different size for each strength of hand.", "Min-betting, which gives draws a great price.", "Not working out the pot before sizing."]
+    },
+    {
+      "id": "bankroll-basics", "name": "Bankroll and Loss Limits", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Poker involves real risk. Set aside money you can afford to lose, set limits in advance, and never chase losses.",
+      "steps": ["Decide a separate poker budget from money you can truly afford to lose, never rent or bills.", "Set a per-session stop-loss and a monthly limit before you play.", "Choose stakes where a normal losing streak will not touch your limits; a common rule is at least 20 to 30 buy-ins for cash games.", "Stop if you feel upset, tired or are trying to win back losses.", "If poker stops being fun or becomes hard to control, stop and contact a local problem-gambling helpline. Results are never guaranteed."],
+      "drills": ["Write your budget, per-session stop-loss and monthly limit down before your next session.", "After each session, record the result and whether you stuck to the limits."],
+      "mastery": "You have written limits and a record of at least 10 sessions where you kept to them, including stopping at least once when a limit was hit.",
+      "mistakes": ["Playing stakes the bankroll cannot support.", "Chasing losses with a bigger buy-in.", "Having no written limits."]
+    },
+    {
+      "id": "odds-rule-2-4", "name": "Rule of 2 and 4", "tier": 2, "requires": ["counting-outs"], "hours": 2,
+      "summary": "A quick mental shortcut to turn outs into your chance of hitting by the river.",
+      "steps": ["Multiply outs by 2 for one card to come, or by 4 for two cards to come on the flop.", "With more than 8 outs, the x4 shortcut overestimates; subtract (outs - 8) from the result.", "Check against exact values: a flush draw on the flop is about 35 percent by the river.", "Use it only when you will see both cards, so not when facing an all-in on the turn."],
+      "drills": ["Convert 30 out counts to percentages in your head.", "Compare your results with a calculator app."],
+      "mastery": "You can estimate your draw equity on the flop and turn within 2 percentage points on 20 draws in a row.",
+      "mistakes": ["Applying x4 when you only get one card.", "Using it for 14 or more outs without correction.", "Ignoring whether a card gives the opponent a better hand."]
+    },
+    {
+      "id": "pot-odds", "name": "Pot Odds", "tier": 2, "requires": ["counting-outs", "bet-sizing-basics"], "hours": 4,
+      "summary": "Compare the price you are asked to pay to the chance you have to win. If equity is greater than the price, calling is profitable on that decision alone.",
+      "steps": ["Required equity = call / (pot + call).", "For example, calling 50 into a pot of 150 needs 50 / 200 = 25 percent.", "Compare with your draw equity from the rule of 2 and 4.", "Call when equity is higher, fold when lower, unless implied odds change the picture.", "Do the maths before you act, not afterwards."],
+      "drills": ["Work out the required equity for pot-sized, two-thirds, half and third-pot bets until automatic.", "In each session, note 5 spots where you used pot odds and check them afterwards."],
+      "mastery": "You can state the required equity for any bet size and decide correctly between calling and folding on 20 sample spots without a calculator.",
+      "mistakes": ["Dividing by the pot without adding your call.", "Calling because 'I'm already in'.", "Using pot odds with no estimate of equity."]
+    },
+    {
+      "id": "preflop-ranges", "name": "Preflop Ranges", "tier": 2, "requires": ["starting-hands", "positions"], "hours": 8,
+      "summary": "Think in ranges of hands rather than single hands: what you raise from each seat and how you respond to raises.",
+      "steps": ["Learn open-raise ranges for each position at 6-max or full ring from a reputable chart.", "Learn the basic responses: 3-bet, call or fold facing an open.", "Study why ranges tighten when more players are behind.", "Review your hands after each session and compare to the chart.", "Adjust ranges for how loose or tight your table plays."],
+      "drills": ["Memorise the open ranges for UTG, hijack, cutoff and button.", "Use a range trainer app for 100 hands per week."],
+      "mastery": "You can open correctly from each seat 90 percent of the time on a range trainer over 100 hands.",
+      "mistakes": ["Using button ranges from early position.", "Memorising charts without understanding why.", "Never adjusting to the table."]
+    },
+    {
+      "id": "cbet-basics", "name": "Continuation Betting", "tier": 2, "requires": ["bet-sizing-basics", "positions"], "hours": 6,
+      "summary": "Betting the flop after raising preflop. Know when it works and when to give up.",
+      "steps": ["C-bet more on dry boards such as K-7-2 rainbow where you have the range advantage.", "C-bet less on wet boards that favour callers, such as 8-7-6 with two suits.", "Bet smaller on dry boards (about a third of the pot) and bigger on wet boards.", "Check back marginal hands in position for showdown value.", "Give up on the turn when you are called and the board has been unhelpful."],
+      "drills": ["Review 30 flops from your hands and say whether you'd bet and at what size.", "Count how often you c-bet in a session and compare to about 50 to 60 percent."],
+      "mastery": "You can explain your c-bet or check decision and size on 20 flops, and your tracked c-bet rate sits in a sensible range with fewer than 50 percent of bets being blind.",
+      "mistakes": ["C-betting every flop automatically.", "Firing again on the turn with nothing and no plan.", "Using the same size on all textures."]
+    },
+    {
+      "id": "table-observation", "name": "Table Observation and Notes", "tier": 2, "requires": ["rules-etiquette"], "hours": 6,
+      "summary": "Watch opponents when you are not in a hand. The cheapest information in poker is free.",
+      "steps": ["Track who plays many hands (loose) versus few (tight), and who bets and raises versus calls.", "Note showdowns: what did they show and how did they play it?", "Watch bet sizing habits and how they react to pressure.", "Take quick notes after sessions, or in the software if it is allowed.", "Be careful of reading too much into one hand."],
+      "drills": ["For a full session, name the loosest and tightest player at your table after 30 minutes.", "Write 5 specific notes on opponents each session."],
+      "mastery": "After one hour at a table you can describe the playing style of every opponent and your predictions are checked by at least 3 showdowns.",
+      "mistakes": ["Zoning out when folded.", "Relying on one 'tell' from a single hand.", "Assuming everyone plays like you."]
+    },
+    {
+      "id": "session-records", "name": "Session Records", "tier": 2, "requires": ["bankroll-basics"], "hours": 3,
+      "summary": "Track every session so you know your real results and notice leaks. Memory flatters.",
+      "steps": ["Log date, stakes, game, duration, buy-in, cash-out, mood and notes.", "Review monthly: hours, results, biggest mistakes and what to study.", "Avoid reading short-term results as proof of skill; results swing a lot.", "Use a spreadsheet or tracker app."],
+      "drills": ["Keep a log of 20 sessions.", "Write down the three biggest decisions you would change after each session."],
+      "mastery": "You have a complete log of at least 20 sessions with notes and a monthly review.",
+      "mistakes": ["Only recording wins.", "Judging skill from a couple of sessions.", "Not recording the time played."]
+    },
+    {
+      "id": "implied-odds-ev", "name": "Expected Value and Implied Odds", "tier": 3, "requires": ["pot-odds", "odds-rule-2-4"], "hours": 12,
+      "summary": "EV is the average result of a decision over many repeats. Implied odds add the money you might win on later streets.",
+      "steps": ["Compute EV = (win chance x amount won) - (lose chance x amount lost).", "Understand that a call with less than the pot odds may still be fine when a deep-stacked opponent will pay you off when you hit.", "Discount implied odds when the opponent is tight or stacks are shallow.", "Consider reverse implied odds: hitting a second-best hand and losing big.", "Practise EV on real hands from your own sessions."],
+      "drills": ["Calculate EV for 25 sample bet, call and fold decisions.", "Review two big hands per week with EV in mind."],
+      "mastery": "You can calculate EV for a call, a raise and a fold in a given spot, and explain when implied odds justify a call below pot odds, on 10 example hands.",
+      "mistakes": ["Assuming opponents always pay off.", "Ignoring reverse implied odds with dominated hands.", "Confusing a good decision with a good result."]
+    },
+    {
+      "id": "three-bet-defence", "name": "3-Betting and Defending", "tier": 3, "requires": ["preflop-ranges"], "hours": 12,
+      "summary": "Re-raising preflop and defending against raises are the backbone of modern preflop play.",
+      "steps": ["Build a 3-bet range of strong value hands plus some bluffs such as suited aces.", "Prefer position when defending: call more in position, 3-bet or fold more out of position.", "Defend the big blind widely against late-position opens because of the price.", "Adjust to the opener's range: 3-bet a loose opener more.", "Plan your play against 4-bets in advance."],
+      "drills": ["Build a 3-bet chart for button vs cutoff and study it.", "Review every 3-bet pot from your last session."],
+      "mastery": "You have written 3-bet and defence ranges for four seat matchups and play them correctly in 95 percent of hands in a 200-hand review.",
+      "mistakes": ["3-betting only premium hands so you are easy to read.", "Calling 3-bets out of position with weak hands.", "Folding the big blind too often."]
+    },
+    {
+      "id": "board-texture", "name": "Board Texture and Range Advantage", "tier": 3, "requires": ["cbet-basics", "preflop-ranges"], "hours": 14,
+      "summary": "Decide who the board favours by thinking about both players' ranges, not just your own two cards.",
+      "steps": ["Sort boards as dry, wet, paired, monotone or connected.", "Ask: who has more strong hands and nut hands on this board?", "Bet more often and larger when you hold the range or nut advantage.", "Check more when the board favours the caller.", "Study a few key flops in detail with a solver or training site."],
+      "drills": ["Classify 50 random flops and write who the range favours.", "Choose a bet size for each in a trainer."],
+      "mastery": "You correctly pick the range-favoured player and a sensible plan on 20 flops and can defend each choice.",
+      "mistakes": ["Reasoning only from your hand.", "Ignoring how the board connects with the opponent's likely hands.", "Playing every board the same."]
+    },
+    {
+      "id": "hand-reading", "name": "Hand Reading", "tier": 3, "requires": ["table-observation", "board-texture"], "hours": 20,
+      "summary": "Narrow an opponent's possible holdings street by street using position, sizing and behaviour.",
+      "steps": ["Start with a preflop range based on the opponent's position and action.", "Remove hands that would not play the flop that way.", "Narrow again on the turn and river.", "Check your read against what opponents show at showdown.", "Make the final decision using the read, not hope."],
+      "drills": ["After each session, pick 3 hands and write out the opponent's range on every street.", "Compare with the actual showdown and adjust."],
+      "mastery": "You can state a reasoned range for the opponent on each street in your recorded hands, and your hand reads are in the right category in at least 60 percent of showdown cases from 30 hands.",
+      "mistakes": ["Putting opponents on one exact hand.", "Ignoring that the read must fit every action.", "Never checking reads against showdowns."]
+    },
+    {
+      "id": "tilt-management", "name": "Tilt and Emotional Control", "tier": 3, "requires": ["session-records", "bankroll-basics"], "hours": 15,
+      "summary": "Emotion makes more bad decisions than bad cards. Spot the triggers and have a plan.",
+      "steps": ["Identify your triggers: bad beats, losing streaks, being bluffed, tiredness.", "Set quit rules, such as stopping after two buy-ins or two consecutive bad-feeling hands.", "Use breaks, breathing and a short walk to reset.", "Judge decisions by process, not outcome.", "Do not play when drunk, angry, tired or distracted."],
+      "drills": ["Rate your emotional state 1 to 5 at the start and end of every session for a month.", "Practise a 2-minute breathing reset after a bad beat."],
+      "mastery": "In your log, you have left a session early following your own tilt rule at least three times, and your worst-mood sessions do not show more than average mistakes in a review.",
+      "mistakes": ["Playing on to win it back.", "Blaming luck for every loss.", "Playing tired or after drinking."]
+    },
+    {
+      "id": "combinatorics", "name": "Combinatorics and Blockers", "tier": 4, "requires": ["implied-odds-ev", "hand-reading"], "hours": 30,
+      "summary": "Count exactly how many combinations of hands an opponent can have, and how your own cards remove some of them.",
+      "steps": ["Learn that there are 6 combos of each pocket pair, 4 of each suited hand and 12 of each offsuit hand.", "Remove combos blocked by the board and your own hole cards.", "Use blockers: holding the ace of a possible flush reduces the villain's flush combos.", "Count value combos versus bluff combos in a river spot.", "Check numbers against a combo calculator."],
+      "drills": ["Count combos for 30 river ranges by hand.", "Pick 5 river bluff-catch spots per week and count."],
+      "mastery": "You can count the exact value and bluff combos in a river range and decide calls or bluffs with them, matching a combo calculator in 15 of 20 problems.",
+      "mistakes": ["Forgetting pairs have 6 combos but A-K has 16.", "Ignoring board cards that kill combos.", "Bluffing with a hand that unblocks the opponent's folding range."]
+    },
+    {
+      "id": "equilibrium-frequencies", "name": "Equilibrium and Frequencies", "tier": 4, "requires": ["implied-odds-ev", "board-texture", "three-bet-defence"], "hours": 60,
+      "summary": "Use solver-based study to learn balanced strategies: bluff-to-value ratios and minimum defence frequency.",
+      "steps": ["Learn minimum defence frequency: MDF = pot / (pot + bet).", "Learn bluff ratios: a pot-sized bet should be bluffed about 1 to 2 for every value bet; smaller bets need fewer bluffs.", "Study solver outputs for common spots, focusing on patterns, not memorising grids.", "Use study to find your leaks, then apply in play.", "Remember that real opponents are not solvers, so deviate when you have information."],
+      "drills": ["Study 3 solver spots per week and write a one-line takeaway each.", "Compute MDF for all standard bet sizes."],
+      "mastery": "You can explain MDF and bluff ratios for a bet of any size, and show a solver-reviewed analysis of 20 of your own hands with leaks identified.",
+      "mistakes": ["Copying solver mixed strategies without understanding why.", "Using equilibrium play against an obvious weak player.", "Studying with no time away from the table to apply it."]
+    },
+    {
+      "id": "variance-risk", "name": "Variance and Risk of Ruin", "tier": 4, "requires": ["tilt-management", "implied-odds-ev"], "hours": 25,
+      "summary": "Understand how large swings are and how much bankroll protects you, so luck does not end your play.",
+      "steps": ["Learn that even strong players have downswings of many buy-ins.", "Use a variance calculator with realistic win rate and standard deviation.", "Set bankroll rules from the calculator and move down in stakes when below the threshold.", "Understand that a win rate from a small sample is unreliable.", "Keep gambling money separate from living money, always."],
+      "drills": ["Simulate 10 runs of 20,000 hands with a variance tool and note the worst downswing.", "Write your move-down rule."],
+      "mastery": "You can show a bankroll plan with a calculated risk of ruin below your chosen threshold and a written rule for moving down in stakes.",
+      "mistakes": ["Judging skill from 5,000 hands.", "Moving up stakes after a hot streak.", "Believing a good player can't lose for months."]
+    },
+    {
+      "id": "exploitative-play", "name": "Exploitative Adjustment", "tier": 5, "requires": ["equilibrium-frequencies", "hand-reading", "combinatorics"], "hours": 200,
+      "summary": "Blend solid baseline strategy with targeted deviations that exploit the specific tendencies of the opponents you face.",
+      "steps": ["Start from a balanced baseline and identify an opponent's biggest leak.", "Choose a deviation that exploits it, such as value betting thinner against a calling station or bluffing more against a folder.", "Keep the deviation small enough that a clever opponent can't exploit you back.", "Re-check the read as the opponent adapts.", "Review hands to confirm the adjustment actually worked."],
+      "drills": ["Pick one opponent per session and write one planned exploit.", "Review 20 hands a week where you deviated from baseline."],
+      "mastery": "In a reviewed sample of at least 50 hands you can show each deviation, the read behind it and the result, and an experienced player agrees with at least 80 percent of the calls.",
+      "mistakes": ["Over-adjusting to a tiny sample.", "Bluffing a station who never folds.", "Forgetting to go back to baseline."]
+    },
+    {
+      "id": "documented-results", "name": "Documented Long-Term Study and Results", "tier": 5, "requires": ["exploitative-play", "variance-risk", "tilt-management"], "hours": 500,
+      "summary": "Show sustained, reviewed, disciplined play over a large sample. Results are never guaranteed, so this node measures process and honest record-keeping.",
+      "steps": ["Play and track at least 100,000 hands or the equivalent in live hours, within your bankroll limits.", "Review a fixed share of hands every week, with a coach, a study group or solver.", "Report results with confidence intervals so luck is not mistaken for skill.", "Keep to the written bankroll and loss rules throughout.", "Play only legally and as an adult in your jurisdiction."],
+      "drills": ["Do a monthly leak report with three concrete changes.", "Have another strong player review 10 hands a month."],
+      "mastery": "You have a tracked record of 100,000 or more hands with a stated win rate and confidence interval, a log showing you kept to your bankroll and loss limits, and external review of your hands.",
+      "mistakes": ["Reporting only the good stretches.", "Ignoring confidence intervals.", "Breaking bankroll rules once you feel proficient."],
+      "resources": [
+        { "title": "The Mathematics of Poker", "kind": "book", "by": "Bill Chen and Jerrod Ankenman" },
+        { "title": "Applications of No-Limit Hold'em", "kind": "book", "by": "Matthew Janda" }
+      ]
+    }
+  ]
+}

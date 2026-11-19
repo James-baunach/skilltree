@@ -1,0 +1,205 @@
+{
+  "hobby": "yo-yo",
+  "nodes": [
+    {
+      "id": "setup-sleeper", "name": "String Setup & the Sleeper", "tier": 1, "requires": [], "hours": 1.5, "partyTrick": 20,
+      "summary": "Set up your yo-yo properly and learn the throw that makes it spin at the end of the string.",
+      "steps": ["Use a fresh string and tie a slip knot so the loop sits on your middle finger, between the first and second knuckle.", "Adjust the length so the yo-yo hangs at about your belly button.", "Throw down hard with a flick of the wrist, keeping your palm up as the yo-yo hits the end.", "Make the yo-yo spin, then tug up to return it to your hand."],
+      "drills": ["Do 30 throws, sleeping for 3 seconds each time.", "Try to sleep for 10 seconds."],
+      "mastery": "You throw 10 sleepers in a row that each spin for at least 5 seconds and return to your hand.",
+      "mistakes": ["Making the string too long or too short.", "Throwing with the arm and not the wrist.", "Putting the string over the finger tip instead of the knuckle."]
+    },
+    {
+      "id": "gravity-pull", "name": "Gravity Pull", "tier": 1, "requires": ["setup-sleeper"], "hours": 1, "partyTrick": 5,
+      "summary": "Throw the yo-yo down and let it swing up again by gravity, your first real motion.",
+      "steps": ["Hold the yo-yo in your palm and drop it with a flick.", "Let it unwind and wind back up.", "Catch it with your palm.", "Catch it without looking."],
+      "drills": ["20 gravity pulls in a row.", "Do them with your weaker hand."],
+      "mastery": "You perform 20 gravity pulls in a row without a miss.",
+      "mistakes": ["Letting go too early.", "Wrong palm direction.", "Not catching with a flat palm."]
+    },
+    {
+      "id": "forward-pass", "name": "Forward Pass", "tier": 1, "requires": ["setup-sleeper"], "hours": 1,
+      "summary": "Throw the yo-yo forward instead of down, then return.",
+      "steps": ["Throw the yo-yo straight ahead with a flick.", "Let it reach the end of the string and pause.", "Tug back to your hand.", "Keep your palm facing up."],
+      "drills": ["30 forward passes.", "Catch each one without moving your hand."],
+      "mastery": "You do 15 forward passes in a row with a clean catch each time.",
+      "mistakes": ["Letting the throw wander off-line.", "Tugging back early.", "Looking at the yo-yo only."]
+    },
+    {
+      "id": "walk-the-dog", "name": "Walk the Dog", "tier": 1, "requires": ["setup-sleeper"], "hours": 2, "partyTrick": 5,
+      "summary": "A classic trick: set the yo-yo spinning on the floor and let it roll before returning it.",
+      "steps": ["Throw a strong sleeper toward the floor.", "Let the yo-yo touch the floor gently while it spins.", "Walk or let it roll forward a short distance.", "Tug to bring it back up."],
+      "drills": ["10 walks on a smooth floor.", "Try it on a different surface."],
+      "mastery": "You walk the dog for 3 steps and return it to your hand cleanly, 5 times in a row.",
+      "mistakes": ["Throwing weakly so it stops spinning.", "Lowering the hand too fast.", "Tugging too hard."]
+    },
+    {
+      "id": "rock-the-baby", "name": "Rock the Baby", "tier": 1, "requires": ["setup-sleeper"], "hours": 2, "partyTrick": 10,
+      "summary": "Make a cradle with the string and swing the yo-yo through it like rocking a baby.",
+      "steps": ["Throw a strong sleeper.", "With your free hand, grab the string a hand-span above the yo-yo and bring your throwing hand down over it to form a triangular 'cradle' with the yo-yo hanging inside.", "Gently rock the cradle back and forth so the yo-yo swings through the triangle without touching the string.", "Let go with your free hand, drop the cradle and give a tug to return the yo-yo."],
+      "drills": ["10 rock the baby repetitions.", "Practise without watching your hands."],
+      "mastery": "You perform Rock the Baby and return the yo-yo without a tangle, 5 times in a row.",
+      "mistakes": ["Pulling too soon.", "Letting the sleeper die.", "Hooking the wrong string."]
+    },
+    {
+      "id": "brain-twister", "name": "Brain Twister", "tier": 1, "requires": ["setup-sleeper"], "hours": 2, "partyTrick": 10,
+      "summary": "A classic mount-and-swing trick: put the spinning yo-yo onto its own string, then send it looping over the top of your hand in big vertical circles.",
+      "steps": ["Throw a strong sleeper.", "Point your throwing-hand index finger into the string about a third of the way down and swing the yo-yo up so it lands on the string beside that finger (the 'brain twister mount').", "Raise the hand slightly and let the yo-yo roll over the top and fall around the string in a vertical loop; keep it going for two or three loops.", "Pull your finger out of the string and tug to return."],
+      "drills": ["20 flips with a clean catch.", "Do it on both hands."],
+      "mastery": "You perform 10 clean Brain Twisters in a row.",
+      "mistakes": ["Flipping too slowly.", "Not releasing enough string.", "Dropping the yo-yo."]
+    },
+    {
+      "id": "around-the-world", "name": "Around the World", "tier": 1, "requires": ["forward-pass"], "hours": 1.5, "partyTrick": 5,
+      "summary": "A big overhead loop that brings the yo-yo around your body.",
+      "steps": ["Throw a hard forward pass straight out in front of you.", "As the yo-yo reaches the end of the string, swing it up and over in a full vertical circle beside your body.", "After one or two circles, give a tug as it comes forward again so it returns to your palm.", "Practise outdoors or in a clear space with at least 2 m all round, away from people and anything breakable."],
+      "drills": ["15 loops in a row.", "Do it in both directions."],
+      "mastery": "You do 10 clean Around the World loops with no hits to your body.",
+      "mistakes": ["Standing near objects or people.", "Making the loop uneven.", "Letting the string get twisted."]
+    },
+    {
+      "id": "bind-return", "name": "The First Bind", "tier": 2, "requires": ["walk-the-dog", "rock-the-baby"], "hours": 6,
+      "summary": "Wrap the string around the axle, which lets an unresponsive yo-yo come back to your hand. This unlocks all modern tricks.",
+      "steps": ["Throw a sleeper.", "Make a loop of string in the air or on your finger.", "Make the string drop around the axle and stay there.", "Tug to engage the bind and let the yo-yo wind up."],
+      "drills": ["50 attempts per session until you bind 8 of 10 times.", "Throw a bind from a sleeper in one smooth motion."],
+      "mastery": "You bind the yo-yo on 9 of 10 attempts and it returns to your hand.",
+      "mistakes": ["Letting the sleeper die before binding.", "Wrong slack in the string.", "Pulling too early."]
+    },
+    {
+      "id": "trapeze", "name": "Trapeze", "tier": 2, "requires": ["rock-the-baby"], "hours": 3, "partyTrick": 15,
+      "summary": "A slack trick foundation: the string rests on the finger of your free hand while the yo-yo spins below.",
+      "steps": ["Throw a 'breakaway': a sideways sleeper that swings out towards your free-hand side.", "Hold your free-hand index finger out, pointing forward.", "As the yo-yo swings past, let the string catch on that finger so the yo-yo swings round and lands on the string between your two hands.", "Pull your hands apart slightly to pop it off, then tug to return."],
+      "drills": ["20 trapezes without a tangle.", "Mount the trapeze with either hand."],
+      "mastery": "You mount the trapeze and hold it for 5 seconds on 8 of 10 tries.",
+      "mistakes": ["Pulling the string off the finger.", "Letting the spin die.", "Using the wrong finger."]
+    },
+    {
+      "id": "elevator", "name": "Elevator", "tier": 2, "requires": ["trapeze"], "hours": 2, "partyTrick": 10,
+      "summary": "A string trick where a string loop moves up the string like an elevator.",
+      "steps": ["Land a trapeze.", "Raise your free hand straight up and lower your throwing hand, so the string between them becomes a steep slope.", "The spinning yo-yo climbs the string towards your free hand like an elevator.", "At the top, pull your hands apart to pop the yo-yo off and tug to return."],
+      "drills": ["10 elevator movements per throw.", "Keep the yo-yo spinning with no wobble."],
+      "mastery": "You run a full elevator up and down and return the yo-yo without a tangle, 5 times in a row.",
+      "mistakes": ["Moving too fast.", "Slack in the string.", "Letting the yo-yo wobble."]
+    },
+    {
+      "id": "eli-hops", "name": "Eli Hops", "tier": 2, "requires": ["trapeze"], "hours": 4, "partyTrick": 30,
+      "summary": "The yo-yo hops across the string at your finger and back; a common beginner favourite.",
+      "steps": ["Land a trapeze.", "Snap your hands apart so the string goes tight and flicks the yo-yo straight up off the string.", "Bring your hands back together and catch the yo-yo on the string again as it falls.", "Chain three or more hops in a row, then dismount and bind."],
+      "drills": ["Do 10 hops per throw.", "Try to land on both sides."],
+      "mastery": "You perform at least 5 consecutive Eli Hops and return the yo-yo to your palm.",
+      "mistakes": ["Starting with too little spin.", "Making hops too high.", "Rushing the rhythm."]
+    },
+    {
+      "id": "double-or-nothing", "name": "Double or Nothing", "tier": 2, "requires": ["trapeze"], "hours": 4, "partyTrick": 20,
+      "summary": "A trapeze-based trick in which the yo-yo lands in a second loop of string and exits.",
+      "steps": ["Throw a breakaway as for the trapeze.", "Let the yo-yo swing round your free-hand index finger once, then continue round your throwing-hand index finger.", "Let it land on the outermost string, so it sits on a double-looped mount.", "Pop it off by pulling your fingers out of the loops, then bind or return."],
+      "drills": ["10 per session until clean.", "Practise from both hands."],
+      "mastery": "You hit Double or Nothing and return the yo-yo with a clean bind in 8 of 10 attempts.",
+      "mistakes": ["Not enough spin.", "Landing on the wrong string.", "Rushing the bind."]
+    },
+    {
+      "id": "string-maintenance", "name": "Bearing & String Maintenance", "tier": 2, "requires": ["setup-sleeper"], "hours": 2,
+      "summary": "Keep your yo-yo spinning long and clean by caring for the string, response and bearing.",
+      "steps": ["Change the string when it frays or goes fuzzy.", "Check the string for the right length and twist.", "Clean and lubricate the bearing with a drop of yo-yo lube.", "Know when the response pads need replacing."],
+      "drills": ["Replace a string and measure the sleep time before and after.", "Clean the bearing once a month."],
+      "mastery": "You can swap a string and clean the bearing, and measure a sleep time increase.",
+      "mistakes": ["Using too much lube.", "Using an old frayed string.", "Overtightening the halves."]
+    },
+    {
+      "id": "split-the-atom", "name": "Split the Atom", "tier": 3, "requires": ["trapeze", "bind-return"], "hours": 6, "partyTrick": 30,
+      "summary": "A flashy mount where the yo-yo appears to cut straight through its own string and land on it.",
+      "steps": ["Throw a hard sleeper.", "Bring your throwing hand down and across so the string passes over your free-hand index finger.", "Swing the yo-yo up and around your free hand so it lands on the string between your hands.", "Dismount by pulling your finger out and finish with a bind."],
+      "drills": ["20 attempts per session.", "Link it with a trapeze."],
+      "mastery": "You land Green Triangle and bind out of it on 7 of 10 attempts on video.",
+      "mistakes": ["Starting with a weak sleeper.", "Not managing slack.", "Tangling strings."]
+    },
+    {
+      "id": "hop-the-fence", "name": "Hop the Fence", "tier": 3, "requires": ["looping-intro"], "hours": 6, "partyTrick": 30,
+      "summary": "The first proper looping (2A) trick: the yo-yo flips over the top of your hand and back down, again and again, without winding the string around your fingers.",
+      "steps": ["Throw a gravity pull.", "As the yo-yo returns, flick your wrist forward so it travels over the top of your hand instead of into your palm.", "Let it drop straight down on the far side, then repeat the flick on the next return.", "Build to a steady rhythm of 10 or more hops, then catch."],
+      "drills": ["10 hops each way.", "Add a hop into a combo."],
+      "mastery": "You do 5 hops in a row and return cleanly on 8 of 10 attempts.",
+      "mistakes": ["Hopping while the yo-yo is dying.", "Wrong tension.", "Looking away."]
+    },
+    {
+      "id": "iron-whip", "name": "Whips (e.g. Iron Whip)", "tier": 3, "requires": ["trapeze", "bind-return"], "hours": 8, "partyTrick": 20,
+      "summary": "Whips throw a loop of slack string over the spinning yo-yo so it lands on a new string segment: the entry point to slack tricks.",
+      "steps": ["Land a trapeze.", "Loosen your throwing-hand side to create a few centimetres of slack.", "Flick your throwing hand so the slack loop whips over the yo-yo and catches on the far side.", "Catch the loop cleanly, then dismount and bind."],
+      "drills": ["50 whips per day.", "Try them in both hands."],
+      "mastery": "You land 10 whips in a row on video.",
+      "mistakes": ["Using the arm instead of the wrist.", "Slow motion.", "Letting the string go slack."]
+    },
+    {
+      "id": "looping-intro", "name": "Looping (2A) Basics", "tier": 3, "requires": ["forward-pass", "bind-return"], "hours": 10,
+      "summary": "Two-handed or one-handed looping with responsive yo-yos keeps the yo-yo moving in loops.",
+      "steps": ["Use a responsive, looping-style yo-yo; unresponsive string-trick yo-yos won't work.", "Throw a forward pass and, as it returns, flick your wrist so it goes back out instead of into your hand: an 'outside loop'.", "Keep your elbow still and drive the loops from the wrist, aiming for a level, even rhythm.", "Build to 10 consecutive outside loops, then add inside loops (the yo-yo travels inside your forearm)."],
+      "drills": ["Loop 30 times without a miss.", "Alternate throw hands."],
+      "mastery": "You perform 30 continuous loops without a miss, shown on video.",
+      "mistakes": ["Using an unresponsive yo-yo.", "Hitting the yo-yo.", "Too loose a string."]
+    },
+    {
+      "id": "combo-flow", "name": "Combos & Flow", "tier": 3, "requires": ["split-the-atom", "hop-the-fence", "iron-whip"], "hours": 25,
+      "summary": "Link tricks into smooth sequences without resetting between them.",
+      "steps": ["Pick three tricks that connect easily.", "Plan the transitions and the exit.", "Practise in short chunks and then the whole combo.", "Film and watch for pauses or tangles."],
+      "drills": ["Run a 3-trick combo 20 times.", "Add one trick each week."],
+      "mastery": "You perform a 5-trick combo with no tangle or restart, on video, on three of five attempts.",
+      "mistakes": ["Choosing tricks with awkward transitions.", "Practising only parts.", "Giving up on the first fail."]
+    },
+    {
+      "id": "advanced-binds", "name": "Advanced Binds Under Pressure", "tier": 4, "requires": ["combo-flow"], "hours": 40,
+      "summary": "Bind reliably from different tricks, including fast and low-spin situations.",
+      "steps": ["Practise binds from many mounts.", "Practise low-spin binds.", "Practise with a stopwatch.", "Use them in combos."],
+      "drills": ["100 binds per session.", "Time your bind speed."],
+      "mastery": "You land 19 of 20 binds from at least 5 different tricks.",
+      "mistakes": ["Practising one bind only.", "Rushing.", "Ignoring tension."]
+    },
+    {
+      "id": "freestyle-routine", "name": "Freestyle Routine", "tier": 4, "requires": ["combo-flow", "looping-intro"], "hours": 60,
+      "summary": "A 1-minute routine set to music, planned and performed cleanly.",
+      "steps": ["Choose music and plan the tricks to fit.", "Write the routine and rehearse in sections.", "Add flow and showmanship.", "Film each run and edit weak spots."],
+      "drills": ["Run the routine 30 times.", "Perform it for a small audience."],
+      "mastery": "You perform a 60-second routine to music with zero tangles on video, 3 times in a row.",
+      "mistakes": ["Overloading with difficulty.", "Ignoring the music.", "Not rehearsing the start."]
+    },
+    {
+      "id": "advanced-slack", "name": "Advanced Slack Combos", "tier": 4, "requires": ["advanced-binds"], "hours": 80,
+      "summary": "Combine several slack tricks with creative entrances and exits.",
+      "steps": ["Learn 5 advanced slack tricks.", "Link them with seamless transitions.", "Refine timing.", "Film progress."],
+      "drills": ["Practise each trick 50 times.", "Practise the combo 20 times."],
+      "mastery": "You land a combo of at least 8 advanced slack tricks on video.",
+      "mistakes": ["Moving fast without control.", "Poor spin management.", "Tight string."]
+    },
+    {
+      "id": "original-trick", "name": "Original Trick", "tier": 4, "requires": ["advanced-slack"], "hours": 100,
+      "summary": "Design a new trick that others have not done.",
+      "steps": ["Research existing tricks.", "Experiment with new mounts or exits.", "Refine until repeatable.", "Share on video and credit influences."],
+      "drills": ["Experiment 30 minutes a day.", "Keep a notebook."],
+      "mastery": "You share a video of an original trick, landed 5 times, which experienced players recognise as new.",
+      "mistakes": ["Claiming a known trick.", "Not documenting.", "Giving up too soon."]
+    },
+    {
+      "id": "contest-finalist", "name": "Contest Competitor", "tier": 5, "requires": ["freestyle-routine", "advanced-slack"], "hours": 500,
+      "summary": "Compete in a national or regional yo-yo contest and reach the finals.",
+      "steps": ["Learn the contest format and rules.", "Prepare a polished 1:30-2 minute routine.", "Enter a local contest first.", "Review judging feedback."],
+      "drills": ["Run the routine weekly.", "Perform under pressure."],
+      "mastery": "You reach the finals of a recognised regional, national or international contest.",
+      "mistakes": ["Entering unprepared.", "Ignoring judging criteria.", "Not managing nerves."]
+    },
+    {
+      "id": "yo-yo-teacher", "name": "Teach & Mentor", "tier": 5, "requires": ["advanced-binds", "freestyle-routine"], "hours": 200,
+      "summary": "Teach beginners and run workshops to grow the community.",
+      "steps": ["Plan a lesson based on the early tricks.", "Teach friends first.", "Run a workshop at a club or school.", "Collect feedback."],
+      "drills": ["Teach one trick per week.", "Film a tutorial."],
+      "mastery": "You run a workshop in which most beginners land a sleeper and a bind.",
+      "mistakes": ["Teaching too many tricks at once.", "Skipping basics.", "Not adjusting to learners."]
+    },
+    {
+      "id": "show-performer", "name": "Show Performer", "tier": 5, "requires": ["freestyle-routine", "original-trick"], "hours": 300,
+      "summary": "Perform a polished stage show that blends yo-yo skill with entertainment.",
+      "steps": ["Develop a 5-minute set.", "Add storytelling and audience interaction.", "Perform at events.", "Review video."],
+      "drills": ["Perform 10 times for different audiences.", "Rehearse the set fully."],
+      "mastery": "You perform a 5-minute show at a public event with positive audience response and no major mistakes.",
+      "mistakes": ["Ignoring the audience.", "Too many hard tricks.", "No plan for drops."]
+    }
+  ]
+}

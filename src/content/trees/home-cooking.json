@@ -1,0 +1,192 @@
+{
+  "hobby": "home-cooking",
+  "nodes": [
+    {
+      "id": "knife-basics", "name": "Knife Grip, Claw & Dicing an Onion", "tier": 1, "requires": [], "hours": 4, "partyTrick": 20,
+      "summary": "Hold and use a chef's knife safely and efficiently. Good knife work makes everything else faster and more even.",
+      "steps": ["Grip the knife with a 'pinch': thumb and index finger on either side of the blade just above the handle, other fingers around the handle.", "Curl the fingers of your guiding hand into a claw, knuckles forward, and let the blade slide against your knuckles.", "Always cut on a stable board (damp towel underneath), flat side down for the food you are cutting.", "Dice an onion: halve through the root, peel, make horizontal and vertical cuts toward but not through the root, then slice across."],
+      "drills": ["Dice 3 onions in a row, aiming for 6 mm cubes.", "Slice 10 carrots into evenly thick coins, then 10 into 2 mm slices."],
+      "mastery": "On video, you dice a whole onion in under 90 seconds with a claw grip, no raised fingertips, and pieces that are within about 2 mm of each other in size.",
+      "mistakes": ["Holding the knife by the handle only, with a loose grip.", "Cutting on a sliding or unstable board.", "Using a blunt knife, which is more dangerous than a sharp one."]
+    },
+    {
+      "id": "mise-en-place", "name": "Mise en Place & Reading a Recipe", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Read the whole recipe, then prep and arrange ingredients before the heat goes on. Calm cooks work this way.",
+      "steps": ["Read the recipe all the way through, including times, equipment and temperatures.", "Prepare and measure every ingredient before cooking, in small bowls or on a tray, in the order you will use them.", "Preheat the oven and clear the workspace.", "Keep a bin or scrap bowl at hand and wash as you go."],
+      "drills": ["Prep a stir-fry completely before lighting the stove, timing yourself.", "Plan a weeknight meal and write a three-step timeline."],
+      "mastery": "You show a photo of all ingredients prepped and laid out in order before the first burner is lit, then cook a recipe start to finish without stopping to chop mid-cook.",
+      "mistakes": ["Starting to cook without reading the recipe.", "Chopping while a pan is smoking.", "Forgetting to preheat the oven."]
+    },
+    {
+      "id": "season-taste", "name": "Salt, Season & Taste", "tier": 1, "requires": ["mise-en-place"], "hours": 4,
+      "summary": "Season food in layers and taste as you go. This single habit separates bland from delicious.",
+      "steps": ["Use kosher or flaky salt that you can pick up with your fingers, and learn how much a pinch is.", "Salt at several stages, such as onions as they cook, the pasta water, the finished dish.", "Taste a sample on a clean spoon every few minutes, never from the cooking spoon you've been using.", "When something tastes flat, try a little salt first, then acid (lemon, vinegar)."],
+      "drills": ["Make a pot of plain rice or soup and salt it in four stages, tasting at each stage.", "Salt-test three identical bowls of boiled potatoes at 0, 1 and 2% salt by water weight."],
+      "mastery": "In a blind side-by-side test of a dish under-salted, correctly salted and over-salted, you correctly identify the best-seasoned one, and can fix an under-seasoned pot by taste, shown on video.",
+      "mistakes": ["Salting only at the end.", "Tasting the same spoonful twice.", "Adding salt when the dish actually needs acid."]
+    },
+    {
+      "id": "eggs", "name": "Cook Eggs Five Ways", "tier": 1, "requires": ["mise-en-place"], "hours": 4, "partyTrick": 30,
+      "summary": "Eggs teach heat control: a fried, scrambled, poached, boiled and omelette all hinge on temperature and timing.",
+      "steps": ["Boil eggs 6 minutes for jammy yolks and 9 to 10 for hard; plunge into ice water.", "Scramble over low heat, stirring constantly, and pull off the heat while still glossy.", "Fry in a non-stick pan in butter or oil over medium, basting with spoonfuls of fat for the top.", "Make a simple French-style omelette: whisk, pour into hot buttered pan, shake and fold."],
+      "drills": ["Cook one egg style per day for five days, noting time and heat.", "Make three omelettes in a row, aiming for no browning."],
+      "mastery": "You cook a 6-minute egg with a jammy yolk, a soft-scrambled egg, and a pale folded omelette with no browning, shown in photos of the cut or plated result.",
+      "mistakes": ["Using too high heat so eggs turn rubbery.", "Overcooking scrambled eggs in the pan.", "Not salting at the right time."]
+    },
+    {
+      "id": "pasta-rice", "name": "Pasta & Rice Properly", "tier": 1, "requires": ["season-taste"], "hours": 4,
+      "summary": "The two pantry staples, cooked right: well-salted pasta water and fluffy, separate rice grains.",
+      "steps": ["Boil pasta in a large pot of water salted until it tastes like mild sea water (about 10 g per litre).", "Cook until al dente (a little firm at the centre), reserving a mug of pasta water, then finish in the sauce with a splash.", "For rice, rinse until the water runs clear, then cook with a measured ratio (about 1:1.5 for long grain) and rest covered for 10 minutes.", "Fluff with a fork, never stir during cooking."],
+      "drills": ["Cook spaghetti at 1 minute under packet time and finish it in the sauce.", "Cook rice using the same ratio three times, adjusting by feel."],
+      "mastery": "You make a simple tomato or garlic-and-oil spaghetti where the pasta is al dente and the sauce clings (not watery), plus a pot of rice with separate, non-gummy grains, shown in photos.",
+      "mistakes": ["Under-salting the water.", "Rinsing the pasta after cooking.", "Lifting the lid on rice."]
+    },
+    {
+      "id": "saute-sear", "name": "Heat Control: Sauté & Sear", "tier": 1, "requires": ["knife-basics", "season-taste"], "hours": 6,
+      "summary": "Control pan temperature, fat and crowding to brown food instead of steaming it.",
+      "steps": ["Heat the pan before adding oil, until the oil shimmers.", "Pat food dry, season, and do not overcrowd the pan; cook in batches.", "Leave food alone until it releases naturally from the pan, then flip.", "Match heat to the job: medium for onions and garlic, medium-high for sauté, high for searing."],
+      "drills": ["Sauté 400 g of sliced mushrooms in batches until browned and compare to a crowded pan.", "Sear a chicken thigh skin-side down until deeply golden."],
+      "mastery": "You sauté mushrooms (or similar) until deep brown with no pooled liquid, shown in a photo, and can explain how pan heat, dryness and crowding affected the result.",
+      "mistakes": ["Overcrowding the pan so food steams.", "Moving food constantly.", "Adding wet food to oil without patting dry, causing splatter (keep a lid and a safe distance for hot oil)."]
+    },
+    {
+      "id": "roast-veg", "name": "Roast Vegetables", "tier": 2, "requires": ["saute-sear"], "hours": 4,
+      "summary": "High heat, dry surfaces and space give caramelised, crisp-edged vegetables from the oven.",
+      "steps": ["Heat the oven to 220 C (425 F) with a heavy baking tray inside.", "Cut vegetables into even pieces, toss with oil and salt, and spread in one layer with space between.", "Roast, turning once, until deep golden at the edges.", "Finish with acid (lemon or vinegar), herbs or a sauce."],
+      "drills": ["Roast cauliflower, carrots and potatoes on separate trays and note timings.", "Roast one tray crowded and one spread out, then compare."],
+      "mastery": "You roast a tray of vegetables that are browned and crisp at the edges and tender inside, with no steaming, shown in a photo of the tray and a cut piece.",
+      "mistakes": ["Crowding the tray.", "Cutting vegetables unevenly.", "Using an oven that is too cool."]
+    },
+    {
+      "id": "pan-seared-protein", "name": "Pan-Seared Chicken, Steak & Doneness", "tier": 2, "requires": ["saute-sear"], "hours": 8,
+      "summary": "Cook meat to the right internal temperature with a golden crust, using a thermometer instead of guesswork.",
+      "steps": ["Dry and salt meat in advance (even 30 minutes to a day) and bring close to room temperature.", "Sear in a hot heavy pan, then lower the heat and cook through, basting with butter and aromatics.", "Use an instant-read thermometer: chicken to 74 C (165 F), steak 52 to 57 C (125 to 135 F) for rare to medium, pork 63 C (145 F).", "Rest meat for several minutes before cutting."],
+      "drills": ["Cook 3 chicken thighs and measure the internal temperature on each.", "Cook 3 steaks to rare, medium-rare and medium and cut them open."],
+      "mastery": "You cook a steak to a target temperature, confirmed on a thermometer, with an even colour band when sliced, plus a chicken thigh with crisp skin cooked to a safe 74 C or above, in photos with the thermometer visible.",
+      "mistakes": ["Guessing doneness by cutting into the meat.", "Not resting the meat.", "Cooking poultry below a safe temperature."],
+      "resources": [{ "title": "The Food Lab", "kind": "book", "by": "J. Kenji López-Alt" }]
+    },
+    {
+      "id": "vinaigrette", "name": "Vinaigrette & Salad", "tier": 2, "requires": ["season-taste"], "hours": 3,
+      "summary": "Balance fat and acid, emulsify with mustard and build salads that are well dressed without being soggy.",
+      "steps": ["Start with a ratio of about 3 parts oil to 1 part acid (vinegar or lemon), plus salt.", "Add a spoon of Dijon mustard or honey to help emulsify.", "Whisk or shake in a jar; taste on a leaf, not from a spoon.", "Dress the leaves just before serving and toss gently with clean hands."],
+      "drills": ["Make three vinaigrettes with different acids and compare them.", "Adjust a too-sharp dressing with oil, salt or a pinch of sugar."],
+      "mastery": "You make a stable vinaigrette (an emulsion that stays creamy after 10 minutes) and a lightly dressed salad, shown in a photo, and can adjust it by taste.",
+      "mistakes": ["Tasting dressing on a spoon rather than a leaf.", "Dressing the salad too early.", "Not salting the dressing."]
+    },
+    {
+      "id": "stock-soup", "name": "Stock & a Simple Soup", "tier": 2, "requires": ["saute-sear", "season-taste"], "hours": 6,
+      "summary": "Turn bones and vegetable trimmings into a flavourful stock, then a soup.",
+      "steps": ["Roast bones or chicken carcass, simmer gently (never boil hard) with onion, carrot, celery and herbs for 2 to 4 hours.", "Skim foam and strain through a sieve; chill quickly to keep it safe.", "Sweat onion, add vegetables and stock, then simmer until tender.", "Blend, season, and finish with acid or cream."],
+      "drills": ["Make a chicken stock and a vegetable stock and compare them.", "Make a potato-leek or tomato soup with homemade stock."],
+      "mastery": "You make a clear, flavourful stock and a soup from it, and it passes a blind taste against a store-bought stock, shown in photos with the cooling and storage method.",
+      "mistakes": ["Boiling hard, which makes stock cloudy.", "Cooling stock slowly at room temperature, which is a food-safety risk.", "Under-seasoning."]
+    },
+    {
+      "id": "pan-sauce", "name": "Pan Sauce from the Fond", "tier": 2, "requires": ["pan-seared-protein"], "hours": 4,
+      "summary": "Use the browned bits stuck to the pan to make a quick restaurant-style sauce.",
+      "steps": ["After searing, pour off most of the fat and add shallots or garlic.", "Deglaze with wine, stock or vinegar, scraping up the browned bits.", "Reduce by half, then swirl in cold butter off the heat.", "Season, add herbs, mustard or lemon, and spoon over the meat."],
+      "drills": ["Make three pan sauces with different liquids: white wine, stock, balsamic.", "Reduce stock and time the reduction."],
+      "mastery": "You finish a seared chicken breast or steak with a glossy pan sauce that coats the back of a spoon and tastes balanced (not too salty), shown in a photo of the plated dish and the spoon test.",
+      "mistakes": ["Burning the fond.", "Reducing a salty stock until it is too salty.", "Boiling after adding butter, which breaks the sauce."]
+    },
+    {
+      "id": "knife-cuts", "name": "Classic Knife Cuts", "tier": 2, "requires": ["knife-basics"], "hours": 8,
+      "summary": "Dice, julienne, brunoise and chiffonade so vegetables cook evenly and look professional.",
+      "steps": ["Square off the vegetable to create stable flat sides.", "Cut planks, then sticks (batonnet 6 mm), then dice (6 mm cubes, small dice).", "Julienne is 3 mm sticks; brunoise is 3 mm cubes.", "Chiffonade herbs by rolling leaves and slicing thinly."],
+      "drills": ["Julienne 2 carrots and brunoise 1 carrot.", "Time and weigh your cut vegetables, and discard fewer scraps each session."],
+      "mastery": "You julienne a carrot into 3 mm strips of uniform length and brunoise another into 3 mm cubes in under 5 minutes total, shown on video and by a photo with a ruler.",
+      "mistakes": ["Skipping the squaring-off step.", "Sawing back and forth rather than a smooth stroke.", "Rushing, which causes injuries."],
+      "resources": [{ "title": "La Technique", "kind": "book", "by": "Jacques Pépin" }]
+    },
+    {
+      "id": "braise", "name": "Braising", "tier": 3, "requires": ["pan-seared-protein", "stock-soup"], "hours": 10,
+      "summary": "Cook tough cuts slowly in liquid until tender, producing both a fall-apart meat and a rich sauce.",
+      "steps": ["Season and sear large pieces of meat deeply (short ribs, lamb shanks, pork shoulder).", "Soften aromatics in the same pot, add tomato paste and deglaze with wine.", "Add stock until it comes about halfway up the meat, cover and cook at 150 C (300 F) until a fork slides in.", "Skim fat, reduce the sauce, and adjust seasoning with acid."],
+      "drills": ["Braise chicken thighs (1 hour) as practice, then beef short ribs (3 hours).", "Chill a braise overnight and skim the solid fat."],
+      "mastery": "You serve a braise where the meat is tender to a fork and the sauce is glossy and balanced, shown in photos of the pot, the fork test and the plated dish.",
+      "mistakes": ["Skipping the sear.", "Boiling instead of gently simmering.", "Not tasting the reduced sauce."]
+    },
+    {
+      "id": "roast-chicken", "name": "Roast a Whole Chicken", "tier": 3, "requires": ["pan-seared-protein", "roast-veg"], "hours": 8, "partyTrick": 90,
+      "summary": "The benchmark home cook's dish: crisp skin, juicy meat, and a pan sauce from the drippings.",
+      "steps": ["Dry-brine the bird overnight in the fridge, uncovered, with salt on all sides.", "Roast at 220 C (425 F), or spatchcock it for even cooking, until the thickest part of the thigh reaches 74 C (165 F).", "Rest for 15 minutes.", "Carve into breast, thigh and drumstick, and make a pan gravy from the drippings."],
+      "drills": ["Roast three chickens, varying one thing each time: brine, temperature or spatchcock.", "Carve a chicken in under 3 minutes."],
+      "mastery": "You roast and carve a chicken with crisp skin and juicy meat, confirmed at a safe 74 C or above on a thermometer, shown in photos or video of the carve.",
+      "mistakes": ["Roasting without a thermometer.", "Carving straight from the oven.", "Wet skin that doesn't crisp."]
+    },
+    {
+      "id": "white-sauces", "name": "Roux & Béchamel", "tier": 3, "requires": ["pan-sauce", "stock-soup"], "hours": 6,
+      "summary": "A cooked mix of butter and flour thickens sauces; béchamel becomes mac and cheese, lasagne, gratins and soufflés.",
+      "steps": ["Melt butter, whisk in an equal weight of flour, and cook 2 minutes for a blond roux.", "Add warm milk gradually while whisking, to avoid lumps.", "Simmer for 10 minutes, then season with salt, pepper and nutmeg.", "Adjust thickness with extra milk, and make a Mornay by adding cheese off heat."],
+      "drills": ["Make a thin, medium and thick béchamel and compare the textures.", "Cook a mac and cheese using Mornay sauce."],
+      "mastery": "You make a lump-free béchamel that coats a spoon and holds a line when you draw your finger across it, then use it in a baked dish, shown in photos.",
+      "mistakes": ["Adding cold milk all at once, creating lumps.", "Under-cooking the roux, leaving a raw flour taste.", "Boiling after adding cheese."]
+    },
+    {
+      "id": "fish", "name": "Cook Fish", "tier": 3, "requires": ["pan-seared-protein"], "hours": 6,
+      "summary": "Fish cooks fast; learn to judge doneness, crisp the skin and avoid dry, overcooked fillets.",
+      "steps": ["Buy fresh fish: clear eyes, firm flesh, mild sea smell.", "Pat dry, season, and start skin-side down in a hot pan, pressing flat for 10 seconds.", "Cook mostly on the skin side until about 75 percent done, flip briefly, and finish with butter.", "Check doneness: the flesh turns opaque and flakes, around 52 to 57 C for salmon."],
+      "drills": ["Pan-sear salmon, then sea bass, then cod and compare the times.", "Cook en papillote (baked in parchment) as an alternative."],
+      "mastery": "You pan-sear a fish fillet with crisp skin and moist, just-flaking flesh, and a flake test or thermometer reading is shown in a photo.",
+      "mistakes": ["Cooking from the fridge with wet skin.", "Moving the fish before the crust releases.", "Overcooking by several minutes."]
+    },
+    {
+      "id": "balance-flavour", "name": "Balance Flavour: Salt, Fat, Acid, Heat", "tier": 3, "requires": ["vinaigrette", "pan-sauce"], "hours": 10,
+      "summary": "Diagnose why a dish tastes flat, harsh, greasy or dull and fix it with the right adjustment.",
+      "steps": ["Taste a dish and name the missing element: salt, fat, acid, sweetness, bitterness, heat or texture.", "Fix flat with salt, harsh with fat or a little sugar, heavy with acid, dull with fresh herbs.", "Add the adjustment in small amounts and taste after each.", "Keep a pantry of balancing tools: lemons, vinegars, soy sauce, fish sauce, honey, chili flakes."],
+      "drills": ["Take a bland soup and fix it in five stages, tasting each time.", "Blind-taste three adjusted versions of a dish and rank them."],
+      "mastery": "Given a deliberately flawed dish (too flat, too acidic or too rich), you correctly diagnose the problem and fix it within 10 minutes, and a blind taster prefers the fixed version, shown on video.",
+      "mistakes": ["Adding more salt for every problem.", "Making big changes without tasting.", "Ignoring texture."],
+      "resources": [{ "title": "Salt, Fat, Acid, Heat", "kind": "book", "by": "Samin Nosrat" }]
+    },
+    {
+      "id": "dinner-menu", "name": "Cook a Timed Three-Course Meal", "tier": 4, "requires": ["braise", "roast-chicken", "balance-flavour"], "hours": 25,
+      "summary": "Plan and execute a starter, main and dessert for 4 to 6 people so everything is hot and ready together.",
+      "steps": ["Pick dishes that share ingredients and have make-ahead steps.", "Write a back-timed schedule from serving time, listing oven slots and hob rings.", "Prepare cold items and sauces first, and finish hot items last.", "Leave 15 minutes of slack and clean as you go."],
+      "drills": ["Cook a three-course dinner for 2 as a test run, noting timings.", "Cook one dinner using only dishes that can mostly be prepared a day ahead."],
+      "mastery": "You serve a three-course meal for at least 4 guests, with all courses hot (or properly chilled) at the planned time, with a written timeline and a photo of each course.",
+      "mistakes": ["Choosing three dishes that all need the stove at the same time.", "Skipping a written plan.", "Trying new recipes only on the day."]
+    },
+    {
+      "id": "butcher-chicken", "name": "Break Down a Whole Chicken", "tier": 4, "requires": ["roast-chicken", "knife-cuts"], "hours": 10, "partyTrick": 20,
+      "summary": "Cut a whole bird into eight pieces and reserve the carcass for stock; it saves money and sharpens knife skill.",
+      "steps": ["Pull the leg away, cut through the skin and find the hip joint, then cut through it.", "Separate thigh from drumstick through the joint.", "Cut along the breastbone, remove the breast and wing, and trim.", "Save the back and bones for stock."],
+      "drills": ["Break down 5 chickens in a row, timing each.", "Make stock with the carcass each time."],
+      "mastery": "You break a whole chicken into 8 pieces plus carcass in under 5 minutes, using a sharp knife, with joints cut cleanly and very little meat left on the bones, shown on video.",
+      "mistakes": ["Hacking through bones instead of finding the joint.", "Using a dull or flexible knife.", "Poor cross-contamination hygiene; wash boards, hands and knives after raw poultry."]
+    },
+    {
+      "id": "emulsified-sauces", "name": "Emulsified Sauces", "tier": 4, "requires": ["white-sauces", "eggs", "fish"], "hours": 15,
+      "summary": "Hollandaise, mayonnaise and beurre blanc: stable emulsions of fat and water that demand precise temperature control.",
+      "steps": ["Make mayonnaise by whisking oil slowly into egg yolk and mustard.", "Make hollandaise by whisking yolks over gentle heat until thick, then drizzling in warm clarified butter.", "Make beurre blanc by reducing wine and vinegar, then whisking in cold butter piece by piece.", "Rescue a broken sauce by whisking it slowly into a fresh yolk or a spoon of warm water."],
+      "drills": ["Make three mayonnaises, adding oil faster each time, to find the failure point.", "Break a hollandaise on purpose and rescue it."],
+      "mastery": "You make a hollandaise and a beurre blanc that stay creamy and unbroken for 10 minutes on a warm spot, and show you can rescue a broken one, on video.",
+      "mistakes": ["Overheating yolks and scrambling them.", "Adding fat too quickly.", "Using raw eggs for vulnerable guests (pregnant, elderly, young) without pasteurised eggs."]
+    },
+    {
+      "id": "global-pantry", "name": "Cook Across Cuisines", "tier": 4, "requires": ["balance-flavour", "braise"], "hours": 40,
+      "summary": "Understand the flavour logic of several cuisines: spice blooming, aromatics and the roles of fermented and acidic ingredients.",
+      "steps": ["Choose three cuisines, such as Indian, Thai and Mexican, and stock the key pantry items.", "Learn each cuisine's base: sofrito or soffritto, tadka, curry paste, adobo.", "Bloom whole and ground spices in hot oil for 30 seconds to unlock flavour.", "Cook two dishes from each cuisine, from reliable cookbooks, then adapt one."],
+      "drills": ["Make a curry from scratch, with a tadka, over three attempts.", "Make a salsa, a Thai green curry paste and a vindaloo-style marinade from raw ingredients."],
+      "mastery": "You cook six dishes across three cuisines using the proper base techniques (not jar sauces), and each dish tastes balanced when assessed by guests, with photos of your pantry and bases.",
+      "mistakes": ["Burning spices.", "Substituting key ingredients without understanding their role.", "Using only jar sauces."]
+    },
+    {
+      "id": "no-recipe", "name": "Cook From What's There, No Recipe", "tier": 5, "requires": ["dinner-menu", "global-pantry", "balance-flavour"], "hours": 100,
+      "summary": "Open the fridge, assess the ingredients and produce a coherent, delicious meal with no recipe.",
+      "steps": ["Take inventory and pick a main component, a starch and a sauce or dressing.", "Choose a technique to match each ingredient: roast, sauté, braise or raw.", "Season in layers, taste constantly and correct the balance.", "Plate with contrast of texture, colour and temperature."],
+      "drills": ["Once a week, cook dinner from a 'mystery basket' of five random ingredients.", "Cook the same ingredients two different ways, tasting both."],
+      "mastery": "A second person picks five ingredients you've not seen, and in 60 minutes you cook a balanced, plated dish with no recipe, while being filmed from start to finish.",
+      "mistakes": ["Over-complicating the dish.", "Relying on the same flavour profile.", "Skipping the tasting stage."]
+    },
+    {
+      "id": "tasting-menu", "name": "Five-Course Tasting Menu", "tier": 5, "requires": ["dinner-menu", "emulsified-sauces", "butcher-chicken"], "hours": 150,
+      "summary": "Design, prep and serve a five-course menu for six or more guests with cohesion, timing, plating and seasonal thinking.",
+      "steps": ["Design a menu with a theme, progression of intensity, and no repeated main ingredients.", "Create a prep list with mise en place for each course and a service plan.", "Practise each course at least twice, scaling from two to six portions.", "Serve with plating, wine or drink pairings, and take feedback."],
+      "drills": ["Run a dress rehearsal for two people with a timer for every course.", "Photograph and refine each plated dish before the event."],
+      "mastery": "You serve a five-course dinner to at least six guests with every course at the right temperature, on schedule, plated cleanly, with your written menu, prep list and photos of each course.",
+      "mistakes": ["Too many components per plate.", "Poor pacing between courses.", "Not tasting each course on the day."]
+    }
+  ]
+}

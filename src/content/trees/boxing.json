@@ -1,0 +1,197 @@
+{
+  "hobby": "boxing",
+  "nodes": [
+    {
+      "id": "gear-and-safety", "name": "Gear, Wraps and Safety", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Wrapped hands, proper gloves and a good gym protect your wrists and knuckles. Start with a qualified coach, not videos alone.",
+      "steps": ["Learn to wrap your hands with 4.5 m wraps, securing the wrist, thumb and knuckles.", "Buy gloves sized by weight and your hand size: 12 to 16 oz for bag work and sparring.", "Get a mouthguard fitted, and add headgear and a groin guard before any sparring.", "Join a gym with a qualified coach and ask about their sparring rules."],
+      "drills": ["Wrap both hands from memory in under 3 minutes with no wrinkles.", "Check wraps at the end of a round for slipping."],
+      "mastery": "You can wrap your hands correctly by yourself in under 3 minutes, and name the protective gear required for sparring.",
+      "mistakes": ["Skipping wraps because gloves feel padded enough.", "Wrapping too tight and cutting off circulation.", "Training without a coach."]
+    },
+    {
+      "id": "stance-and-guard", "name": "Stance and Guard", "tier": 1, "requires": ["gear-and-safety"], "hours": 3,
+      "summary": "A balanced stance with hands protecting the chin is where every punch and defence starts.",
+      "steps": ["Stand with feet shoulder-width apart, lead foot forward at about 45 degrees (orthodox: left foot forward).", "Bend the knees, weight about evenly balanced on the balls of the feet.", "Keep hands up near the cheeks, elbows tucked in, chin down.", "Rotate slightly so your shoulders are angled, not square to the opponent."],
+      "drills": ["Hold your guard for 3 x 1-minute rounds while moving your feet.", "Mirror check: hands remain at cheeks when you punch."],
+      "mastery": "A coach or camera shows balanced stance, tight guard and chin down through a 3-minute round of footwork.",
+      "mistakes": ["Hands dropping when you punch.", "Feet too close together or crossing.", "Standing square to the opponent."]
+    },
+    {
+      "id": "basic-footwork", "name": "Basic Footwork", "tier": 1, "requires": ["stance-and-guard"], "hours": 6,
+      "summary": "Move forward, back and sideways without crossing your feet or losing balance. Footwork controls distance.",
+      "steps": ["Step forward with the lead foot first, then the back foot follows the same distance.", "Step back with the rear foot first.", "Step laterally by moving the foot in the direction you are going first.", "Never cross your feet; keep your base."],
+      "drills": ["3 x 3 minutes of moving in all directions, keeping stance width.", "Move around a line on the floor without crossing your feet."],
+      "mastery": "You can move forward, back, left and right for 3 minutes, never crossing your feet and returning to stance each time.",
+      "mistakes": ["Crossing feet and getting tangled.", "Hopping instead of gliding.", "Standing flat-footed."]
+    },
+    {
+      "id": "jab", "name": "The Jab", "tier": 1, "requires": ["stance-and-guard"], "hours": 6,
+      "summary": "The lead-hand straight punch is the most used in boxing: it measures distance, scores points and sets up everything else.",
+      "steps": ["Extend the lead hand straight from the guard, rotating the fist palm-down at the end.", "Step slightly forward with the lead foot as you throw.", "Keep the rear hand on your chin and your chin tucked behind the shoulder.", "Snap it back along the same line to guard."],
+      "drills": ["100 jabs at the mirror, in sets of 20 focusing on form.", "3 x 3 minutes on the heavy bag with only jabs."],
+      "mastery": "You can throw 20 consecutive jabs that return to guard each time, with rear hand staying on the chin, shown on video.",
+      "mistakes": ["Dropping the jab hand after the punch.", "Pushing rather than snapping.", "Leaning forward with the head."]
+    },
+    {
+      "id": "cross", "name": "The Cross (Straight Right)", "tier": 1, "requires": ["jab"], "hours": 6,
+      "summary": "The rear-hand straight punch gets its power from the legs and hips rotating rather than the arm alone.",
+      "steps": ["Push off the ball of the rear foot, rotating the heel outward.", "Turn the hip and shoulder to drive the rear hand straight forward.", "Keep the lead hand up and chin tucked.", "Return to stance after every punch."],
+      "drills": ["50 crosses slowly, feeling the hip rotation.", "Jab-cross on the bag: 5 x 2 minutes."],
+      "mastery": "You can throw a jab-cross 20 times in a row without losing balance or guard, shown on video.",
+      "mistakes": ["Arm punching without hip rotation.", "Over-reaching and falling forward.", "Dropping the lead hand."]
+    },
+    {
+      "id": "rope-skipping", "name": "Jump Rope", "tier": 1, "requires": ["gear-and-safety"], "hours": 6,
+      "summary": "Skipping builds calf endurance, timing and light feet, the engine of boxing footwork.",
+      "steps": ["Pick a rope that reaches your armpits when you stand on it.", "Jump on the balls of the feet, a few centimetres off the ground.", "Turn the rope with wrists, not arms.", "Build up to 3-minute rounds with 1 minute of rest."],
+      "drills": ["3 x 3 minutes of skipping, with 1 minute rest.", "Alternating feet (running skip) for 1 minute each round."],
+      "mastery": "You can skip for three continuous minutes without tripping, three rounds in a row.",
+      "mistakes": ["Jumping too high.", "Swinging arms in big circles.", "Landing on heels."]
+    },
+    {
+      "id": "shadowboxing", "name": "Shadowboxing", "tier": 1, "requires": ["jab", "basic-footwork"], "hours": 8,
+      "summary": "Throwing punches at an imaginary opponent lets you practise technique, balance and movement without equipment.",
+      "steps": ["Start slowly and focus on form for each punch.", "Combine footwork with jab and cross.", "Imagine an opponent and move around them.", "Use a mirror at first, then move freely."],
+      "drills": ["3 x 3 minutes of shadowboxing, with 30-second rests.", "Do one round using only the jab while moving."],
+      "mastery": "You can shadowbox for 3 rounds of 3 minutes with continuous movement and clean technique, shown on video.",
+      "mistakes": ["Standing still and flailing arms.", "Dropping the hands after a punch.", "Wild fast punches without form."]
+    },
+    {
+      "id": "hook", "name": "The Lead Hook", "tier": 2, "requires": ["cross"], "hours": 8,
+      "summary": "A curved punch to the side of the head or body, powered by rotating the hips and pivoting on the lead foot.",
+      "steps": ["Keep the elbow at about 90 degrees and level with the fist.", "Pivot on the lead foot, rotate hips and shoulders to swing the arm like a door on a hinge.", "Keep the rear hand at the chin.", "Do not swing wide; the arm stays compact."],
+      "drills": ["50 hooks on each side slowly in a mirror.", "Jab-cross-hook on the bag for 5 x 2 minutes."],
+      "mastery": "You can throw 20 lead hooks with a tight elbow and a pivot, without losing balance, shown on video.",
+      "mistakes": ["Winding up with the arm swinging wide.", "Not pivoting the foot.", "Leaning too far in."]
+    },
+    {
+      "id": "uppercut", "name": "Uppercuts", "tier": 2, "requires": ["cross"], "hours": 8,
+      "summary": "A rising punch up the middle, effective at close range under the guard.",
+      "steps": ["Bend the knees slightly and drop the shoulder on the punching side.", "Drive up with the legs, rotating the hip, and bring the fist up palm-facing-you.", "Keep the punch close to the body.", "Return to guard."],
+      "drills": ["Throw 30 uppercuts per hand slowly in the mirror.", "Bag work: hook-uppercut combos for 3 rounds."],
+      "mastery": "You can throw 20 uppercuts with each hand with a short path, no dropped guard and balance maintained.",
+      "mistakes": ["Dropping the hand down to wind up.", "Lunging forward.", "Throwing at too long a distance."]
+    },
+    {
+      "id": "slip", "name": "Slipping Punches", "tier": 2, "requires": ["stance-and-guard", "jab"], "hours": 8,
+      "summary": "Move the head slightly off the line of a punch so it passes by, keeping you in range to counter.",
+      "steps": ["Bend the knees and shift the head a few centimetres to the side of the incoming punch.", "Rotate the shoulder for the slip.", "Keep your eyes on the opponent.", "Come back to centre and counter."],
+      "drills": ["Slip jabs on a partner's slow jabs for 3 x 2 minutes.", "Hang a slip bag or string and slip around it."],
+      "mastery": "You can slip 10 consecutive slow jabs from a partner without being touched while maintaining guard.",
+      "mistakes": ["Moving too far from the punch.", "Dropping the guard when slipping.", "Closing the eyes."]
+    },
+    {
+      "id": "block-and-parry", "name": "Blocking and Parrying", "tier": 2, "requires": ["stance-and-guard"], "hours": 6,
+      "summary": "Absorb punches on gloves and forearms or deflect them with a small hand motion, staying ready to counter.",
+      "steps": ["Block: keep the hands high and elbows in, absorbing punches with the gloves and forearms.", "Parry: use a small inward tap of the glove to redirect a jab.", "Keep movements short.", "Return to guard instantly."],
+      "drills": ["Partner throws slow jabs while you parry 20 times.", "Partner throws light hooks; you block 20 times each side."],
+      "mastery": "You can parry 15 slow jabs in a row and block light hooks cleanly, with your partner confirming no touches to your head.",
+      "mistakes": ["Reaching out to block.", "Closing the eyes.", "Over-committing and being pulled off balance."]
+    },
+    {
+      "id": "pivot-and-angles", "name": "Pivots and Angles", "tier": 2, "requires": ["basic-footwork"], "hours": 8,
+      "summary": "Step off the centre line and turn so your opponent has to readjust. Angles let you punch without being punched.",
+      "steps": ["Step slightly off at 45 degrees with the lead foot and pivot the rear foot.", "Pivot on the ball of the lead foot to turn around an opponent.", "Keep your guard and balance.", "Throw a punch from the new angle."],
+      "drills": ["Pivot around a cone in 3 x 2 minute rounds.", "Step-and-jab to the side on a mitt holder."],
+      "mastery": "You can step off the line and throw a jab-cross from the new angle five times in a row, without being square on.",
+      "mistakes": ["Stepping straight back in a line.", "Crossing the feet.", "Spinning away with hands down."]
+    },
+    {
+      "id": "heavy-bag", "name": "Heavy Bag Work", "tier": 2, "requires": ["cross", "rope-skipping"], "hours": 10,
+      "summary": "The heavy bag gives resistance for power, rhythm and conditioning. Treat it as an opponent that moves.",
+      "steps": ["Stay at punching range and move around the bag.", "Throw combinations with full technique, resetting after each.", "Work for 3-minute rounds with 1-minute rest.", "Wear wraps and gloves."],
+      "drills": ["5 x 3 minute rounds: jab, jab-cross, jab-cross-hook, free.", "Final round of 30 seconds all-out pace."],
+      "mastery": "You can do five 3-minute heavy-bag rounds with consistent form, moving around the bag and keeping guard up.",
+      "mistakes": ["Planting feet and punching only with arms.", "Hitting without wraps.", "Dropping the hands between combos."]
+    },
+    {
+      "id": "combinations", "name": "Core Combinations", "tier": 3, "requires": ["hook", "uppercut", "heavy-bag"], "hours": 25,
+      "summary": "Chain punches in flowing sequences like 1-2, 1-2-3 (jab-cross-hook) and 1-2-3-2, switching levels and angles.",
+      "steps": ["Learn the numbering: 1 jab, 2 cross, 3 lead hook, 4 rear hook, 5 lead uppercut, 6 rear uppercut.", "Practise 1-2, 1-2-3, 1-2-3-2, 1-1-2.", "Keep balance and return to guard.", "Mix head and body targets."],
+      "drills": ["Pad work: 10 x 2-minute rounds on mitts with a partner.", "Bag work: pick two combos per round."],
+      "mastery": "On mitts you can throw 10 different four-punch combinations when called, with accuracy and balance.",
+      "mistakes": ["Throwing arm punches without turning.", "Winding up between punches.", "Dropping the guard in combos."]
+    },
+    {
+      "id": "bob-and-weave", "name": "Bob, Weave and Roll", "tier": 3, "requires": ["slip", "pivot-and-angles"], "hours": 20,
+      "summary": "Duck under hooks and come up on the other side. It demands good leg bend and rhythm.",
+      "steps": ["Bend the knees and drop the head below the incoming hook.", "Move under the punch in a U shape toward the opposite side.", "Come back up and counter.", "Keep your eyes on the opponent."],
+      "drills": ["Weave under a rope strung at chin height for 3 x 2 minutes.", "Partner throws slow hooks; you roll under 20 times."],
+      "mastery": "You can roll under five slow hooks in a row each side and counter with a hook, with partner confirmation.",
+      "mistakes": ["Bending at the waist and exposing the face.", "Dropping the guard.", "Dipping straight forward."]
+    },
+    {
+      "id": "counter-punching", "name": "Counter Punching", "tier": 3, "requires": ["slip", "block-and-parry", "combinations"], "hours": 25,
+      "summary": "Defend, then hit back while your opponent is open. Counters turn defence into offence.",
+      "steps": ["Slip or parry the jab and fire a cross.", "Block a hook and counter with a hook to the body.", "Practise slow counters on a partner or mitt holder.", "Return to guard and move."],
+      "drills": ["Partner throws a jab; you slip and counter 20 times.", "Mitt drill: coach calls 'counter right' or 'counter left'."],
+      "mastery": "You can slip-and-counter 10 slow jabs in a row with a clean cross and return to guard, confirmed on video.",
+      "mistakes": ["Counter punching too late.", "Dropping the guard after defending.", "Trying to counter every punch."]
+    },
+    {
+      "id": "body-work", "name": "Body Punching", "tier": 3, "requires": ["hook", "uppercut"], "hours": 15,
+      "summary": "Body shots sap an opponent's energy and open up the head. They need a level change, not just a lowered arm.",
+      "steps": ["Bend the knees to drop level and keep the head safe.", "Throw hooks to the ribs and liver with a pivot.", "Follow body shots with head punches.", "Stay compact."],
+      "drills": ["Bag work: jab to head, hook to body 10 x 2 minutes.", "Mitt drill on body pad."],
+      "mastery": "You can throw a three-punch combination that mixes body and head shots, 10 times in a row, with correct level change.",
+      "mistakes": ["Bending at the waist.", "Telegraphing with the shoulder.", "Dropping the guard on the lead hand."]
+    },
+    {
+      "id": "technical-sparring", "name": "Technical Sparring", "tier": 3, "requires": ["counter-punching", "bob-and-weave", "gear-and-safety"], "hours": 40,
+      "summary": "Light, controlled sparring under supervision, with agreed intensity. It is where your skills meet a live opponent.",
+      "steps": ["Spar only in a gym with a qualified coach.", "Wear headgear, mouthguard, groin guard and 16 oz gloves.", "Agree on light contact at around 30% power.", "Work on one or two goals each round, such as jab and movement.", "Stop immediately if a participant is hurt or dizzy."],
+      "drills": ["Four 2-minute rounds of technical sparring with a coach watching.", "After each round, review one thing you did well and one to fix."],
+      "mastery": "You have completed at least 10 technical sparring sessions of 3 or more rounds, supervised by a coach, with no head-hunting, and landing your jab and counters.",
+      "mistakes": ["Going hard on a partner who is not ready.", "Ignoring signs of concussion.", "Sparring without gear or supervision."]
+    },
+    {
+      "id": "ring-generalship", "name": "Ring Generalship", "tier": 4, "requires": ["technical-sparring", "pivot-and-angles"], "hours": 60,
+      "summary": "Control the centre of the ring, cut off escape routes and keep your opponent on the ropes.",
+      "steps": ["Take the centre, forcing the opponent to circle you.", "Cut off the ring by stepping in the direction they move.", "Pivot off the ropes and corners.", "Control distance with the jab."],
+      "drills": ["Spar with the aim of keeping your opponent on the ropes for as long as possible.", "Practise circling away from the ropes."],
+      "mastery": "In a full sparring round, a coach confirms you controlled the centre of the ring and did not get trapped on the ropes.",
+      "mistakes": ["Chasing the opponent in straight lines.", "Standing on the ropes.", "Neglecting the jab."]
+    },
+    {
+      "id": "feints-and-setups", "name": "Feints and Setups", "tier": 4, "requires": ["combinations", "counter-punching"], "hours": 50,
+      "summary": "Fake a punch or movement to provoke a reaction, then exploit it. Feints open up gaps in a good defence.",
+      "steps": ["Feint the jab and throw the cross.", "Fake a step forward to make the opponent react.", "Combine eye, shoulder and foot feints.", "Be consistent so the feints look real."],
+      "drills": ["Mitt work: feint-jab-cross, feint-hook-cross.", "Spar one round focusing on only feints."],
+      "mastery": "In sparring, you can show three different feints that cause visible reactions from your partner and lead to a clean landed punch.",
+      "mistakes": ["Over-feinting and wasting energy.", "Telegraphing the feint.", "Dropping the guard during the feint."]
+    },
+    {
+      "id": "matchups-and-gameplan", "name": "Reading Styles and Game Plans", "tier": 4, "requires": ["technical-sparring", "feints-and-setups"], "hours": 60,
+      "summary": "Identify an opponent's style (pressure fighter, boxer-puncher, southpaw) and adapt your plan.",
+      "steps": ["Watch the first round for habits: leading hand, defensive weaknesses.", "Against southpaws, move to your lead-foot side and keep your lead foot outside theirs.", "Against pressure fighters, use angles and counters.", "Adapt between rounds."],
+      "drills": ["Spar with partners of different styles, including southpaws.", "Write a plan before the session and review afterwards."],
+      "mastery": "You have written a plan for three different opponents and your coach confirms you executed it in sparring.",
+      "mistakes": ["Fighting the same way regardless.", "Fixating on the plan despite what is happening.", "Not asking the coach for review."]
+    },
+    {
+      "id": "fight-fitness", "name": "Fight Conditioning", "tier": 4, "requires": ["heavy-bag", "technical-sparring"], "hours": 80,
+      "summary": "Build the stamina to stay sharp for 3 or more rounds with the footwork and defence intact.",
+      "steps": ["Run 3 to 5 days a week, including intervals.", "Do bag work and circuits in round format.", "Include strength work for core and legs.", "Taper before a fight."],
+      "drills": ["Road work: 5 km easy plus 6 x 3-minute hard runs weekly.", "Circuit: 6 rounds of bag, burpees and sit-ups."],
+      "mastery": "You can complete six 3-minute rounds of hard bag work or sparring with consistent technique in the last round.",
+      "mistakes": ["Overtraining and getting injured.", "Ignoring recovery.", "Cutting weight dangerously."]
+    },
+    {
+      "id": "amateur-bout", "name": "Amateur Bout", "tier": 5, "requires": ["ring-generalship", "matchups-and-gameplan", "fight-fitness"], "hours": 250,
+      "summary": "Compete in a sanctioned amateur boxing bout with a medical check, referees and protective equipment.",
+      "steps": ["Join a licensed club and register with the national amateur federation.", "Pass the medical and weigh-in.", "Spar with a coach in the weeks before.", "Follow the coach's corner instructions during the bout."],
+      "drills": ["Do full-length sparring rounds at fight pace.", "Complete a pre-fight checklist for gear, weight and warm-up."],
+      "mastery": "You have competed in a sanctioned amateur bout with an official result.",
+      "mistakes": ["Fighting before you are ready.", "Poor weight management.", "Ignoring medical advice."]
+    },
+    {
+      "id": "coach-boxing", "name": "Coaching and Corner Work", "tier": 5, "requires": ["matchups-and-gameplan", "technical-sparring"], "hours": 300,
+      "summary": "Teach fundamentals safely and work a corner. Coaching proves you can explain and spot technique.",
+      "steps": ["Complete a recognised coaching or safeguarding course.", "Assist a head coach in classes.", "Learn corner duties: advice, water, cuts, between-round routines.", "Prioritise student safety above results."],
+      "drills": ["Teach a beginner group the jab and cross over 4 weeks.", "Work a fighter's corner at a sanctioned event."],
+      "mastery": "You hold a recognised coaching qualification and have coached beginners or worked a corner at a sanctioned event.",
+      "mistakes": ["Pushing students into sparring too early.", "Neglecting safeguarding.", "Teaching what you can do rather than what each student needs."]
+    }
+  ]
+}

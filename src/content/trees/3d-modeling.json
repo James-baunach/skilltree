@@ -1,0 +1,207 @@
+{
+  "hobby": "3d-modeling",
+  "nodes": [
+    {
+      "id": "navigate-ui", "name": "Navigate Blender", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Get comfortable moving around the 3D viewport and the Blender interface. Every later skill depends on fluent navigation.",
+      "steps": ["Install the current Blender release from blender.org.", "Orbit with the middle mouse button, pan with Shift plus middle mouse, zoom with the scroll wheel (or use the numpad and gizmo if you have no middle button).", "Learn the editors: 3D Viewport, Outliner, Properties and Timeline, and switch between Object Mode and Edit Mode with Tab.", "Learn the basic keys: G to move, R to rotate, S to scale, X to delete, and Ctrl+Z to undo."],
+      "drills": ["Add a cube, then move, rotate and scale it from the keyboard only.", "Switch between front, side, top and camera views using the numpad or gizmo ten times without thinking."],
+      "mastery": "You can open Blender, add three primitives, arrange them in a scene using only G, R and S with axis keys, and save the file, in under two minutes.",
+      "mistakes": ["Relying on the toolbar and never learning shortcuts.", "Losing the object because you zoomed far out; use View, Frame Selected (numpad period).", "Not saving, then losing work to a crash."],
+      "resources": [{ "title": "Blender", "kind": "tool", "url": "https://www.blender.org" }]
+    },
+    {
+      "id": "mesh-basics", "name": "Mesh Editing Basics", "tier": 1, "requires": ["navigate-ui"], "hours": 6,
+      "summary": "Build shapes by moving vertices, edges and faces, and using the core tools: extrude, inset, bevel and loop cut.",
+      "steps": ["In Edit Mode, learn vertex, edge and face select (keys 1, 2, 3).", "Extrude a face with E, inset with I, bevel with Ctrl+B and add a loop cut with Ctrl+R.", "Build a simple table or chair using only these tools.", "Use Alt+Z or the X-ray toggle to select hidden geometry."],
+      "drills": ["Model a chair from a cube in under 15 minutes.", "Make a low-poly house with a door, window and roof."],
+      "mastery": "You can show a simple chair or house modelled from a cube using only extrude, inset, bevel and loop cuts, with clean geometry in wireframe view.",
+      "mistakes": ["Leaving double vertices from repeated extrude and cancel actions.", "Scaling objects in Edit Mode instead of Object Mode.", "Forgetting to apply scale (Ctrl+A), which breaks bevels and modifiers."]
+    },
+    {
+      "id": "modifiers-basics", "name": "Modifiers: Mirror, Subdivision, Bevel", "tier": 1, "requires": ["mesh-basics"], "hours": 4,
+      "summary": "Modifiers do heavy work non-destructively. Mirror halves your work, Subdivision Surface smooths, Bevel catches highlights.",
+      "steps": ["Add a Mirror modifier and model only half of an object, with Clipping enabled.", "Add a Subdivision Surface modifier at level 2 to smooth the shape.", "Add a Bevel modifier with 2 or 3 segments to soften hard edges.", "Learn modifier order: it matters, because they apply from top to bottom."],
+      "drills": ["Model half a mug or vase with Mirror and Subdivision turned on.", "Take a box and give it believable edges with Bevel at three different widths."],
+      "mastery": "You can show a symmetric object modelled with a Mirror modifier that looks smooth with Subdivision and has no visible seam down the middle.",
+      "mistakes": ["Applying modifiers too early and losing the ability to edit.", "Setting subdivision to a huge level in the viewport and freezing your computer.", "Forgetting to enable Clipping, which opens a gap at the mirror plane."]
+    },
+    {
+      "id": "basic-materials", "name": "Basic Materials", "tier": 1, "requires": ["navigate-ui"], "hours": 3,
+      "summary": "Give objects colour, roughness and metal with the Principled BSDF shader.",
+      "steps": ["Select an object and click New in the Material tab.", "Change Base Colour, Roughness and Metallic and watch how the look changes.", "Use Material Preview or rendered viewport shading to see results.", "Assign different materials to different faces in Edit Mode."],
+      "drills": ["Make five spheres: plastic, rubber, polished metal, brushed metal and glass.", "Colour the chair you modelled with at least three materials."],
+      "mastery": "You can show a row of spheres that clearly read as five different materials under the same light.",
+      "mistakes": ["Setting metallic to 1 with a dark colour and getting a black object.", "Using pure white or pure black albedo, which does not exist in real surfaces."]
+    },
+    {
+      "id": "first-render", "name": "Lights, Camera and First Render", "tier": 1, "requires": ["basic-materials"], "hours": 3,
+      "summary": "Set up a camera and light and press render to make your first finished image.",
+      "steps": ["Add a camera and use View, Align View, Align Active Camera to View to frame it.", "Add an area light or sun light and move it to light the scene from the side.", "Switch render engine to Eevee (fast) or Cycles (realistic) and press F12.", "Save the image with Image, Save As, in PNG."],
+      "drills": ["Render the same scene in Eevee and Cycles and compare.", "Move the light to four positions and render each."],
+      "mastery": "You can show a finished PNG render of your own model with a camera framing, a light and materials applied.",
+      "mistakes": ["Forgetting to set the active camera.", "Rendering at a huge resolution on the first try.", "Leaving the default cube and light in a finished scene."]
+    },
+    {
+      "id": "project-hygiene", "name": "Files, Collections and Naming", "tier": 1, "requires": ["navigate-ui"], "hours": 2,
+      "summary": "A clean scene saves hours later. Name things, group them and keep your files organised.",
+      "steps": ["Rename objects in the Outliner (F2) to meaningful names.", "Group objects into Collections and hide or exclude them as needed.", "Use File, Save Incremental or numbered saves for versions.", "Turn on auto-save and know where recovery files are stored."],
+      "drills": ["Rename and sort a messy scene of 20 objects in 10 minutes.", "Make three numbered versions of a project."],
+      "mastery": "You can show an Outliner with clearly named objects in collections and numbered saves of a project.",
+      "mistakes": ["Leaving objects as Cube.001, Cube.002.", "Overwriting a single file for months with no versions."]
+    },
+    {
+      "id": "hard-surface-basics", "name": "Hard-Surface Modelling", "tier": 2, "requires": ["modifiers-basics"], "hours": 15,
+      "summary": "Model machines, props and architecture with clean bevelled edges using booleans and bevel modifiers.",
+      "steps": ["Block out the shape with simple primitives.", "Use the Boolean modifier to cut holes and shapes, then clean up the result.", "Add bevel modifiers with the Harden Normals or angle limit setting to catch light on edges.", "Add panel lines and small details last."],
+      "drills": ["Model a simple radio, camera or toaster using booleans and bevels.", "Build a sci-fi crate with panels and bolts."],
+      "mastery": "You can show a hard-surface prop whose edges catch light consistently in a render with no shading artefacts.",
+      "mistakes": ["Applying booleans repeatedly, leaving messy ngons.", "Using bevels that are the same size everywhere so the model looks fake."]
+    },
+    {
+      "id": "topology-flow", "name": "Topology and Edge Flow", "tier": 2, "requires": ["modifiers-basics"], "hours": 12,
+      "summary": "Good topology uses mostly quads that follow the shape. It matters for smoothing, deforming and later animation.",
+      "steps": ["Learn why quads are preferred and when triangles or ngons cause problems.", "Follow the natural flow of the form with edge loops around holes, eyes and joints.", "Use poles (vertices with other than four edges) deliberately and place them in flat areas.", "Check shading with a Subdivision modifier and in wireframe."],
+      "drills": ["Model a simple head or hand with continuous loops.", "Fix a messy mesh by redirecting edge flow."],
+      "mastery": "You can show a model in wireframe where edge loops follow the form, with no triangles or ngons in curved areas, and it subdivides without pinching.",
+      "mistakes": ["Having ngons in curved areas, causing pinched shading.", "Adding many extra loops everywhere instead of where they are needed."]
+    },
+    {
+      "id": "uv-unwrap", "name": "UV Unwrapping", "tier": 2, "requires": ["mesh-basics"], "hours": 8,
+      "summary": "Flatten a 3D surface into 2D so you can paint or apply image textures without stretching.",
+      "steps": ["Mark seams along natural edges that are hidden or lie on hard corners.", "Unwrap with U, Unwrap in Edit Mode.", "Apply a UV checker texture to spot stretching.", "Pack islands efficiently in the 0 to 1 space with consistent texel density."],
+      "drills": ["Unwrap a crate, a mug and a simple character head.", "Fix stretching in a poorly unwrapped model."],
+      "mastery": "You can show a model with a checker texture applied that has evenly sized squares and no obvious stretching or visible seams.",
+      "mistakes": ["Too few seams, leaving heavy distortion.", "Different texel density between parts, so some look blurry."]
+    },
+    {
+      "id": "image-textures", "name": "Image Textures and PBR Materials", "tier": 2, "requires": ["uv-unwrap", "basic-materials"], "hours": 10,
+      "summary": "Use image textures for colour, roughness and normals to build physically based materials.",
+      "steps": ["Download free PBR texture sets, for example from Poly Haven or ambientCG.", "Plug colour, roughness, normal and displacement maps into the Principled BSDF.", "Set colour maps to sRGB and data maps to Non-Colour.", "Control scale and mapping with Texture Coordinate and Mapping nodes."],
+      "drills": ["Make a brick wall, wood floor and metal plate with PBR sets.", "Blend two textures with a mask."],
+      "mastery": "You can show a scene with at least three PBR-textured surfaces that look believable up close.",
+      "mistakes": ["Leaving data maps set to sRGB, which gives wrong shading.", "Tiling textures obviously."],
+      "resources": [{ "title": "Poly Haven", "kind": "site", "url": "https://polyhaven.com" }]
+    },
+    {
+      "id": "lighting-camera", "name": "Lighting and Camera Composition", "tier": 2, "requires": ["first-render"], "hours": 10,
+      "summary": "Use three-point lighting, HDRI environments and sensible camera settings to make a model look good.",
+      "steps": ["Set up key, fill and rim lights around your model.", "Use an HDRI as the world lighting for quick realistic results.", "Choose a focal length (50 to 85 mm is flattering) and set depth of field with the camera's aperture.", "Use the rule of thirds and a clear subject in your frame."],
+      "drills": ["Light the same model in three moods: studio, sunset and night.", "Render a turntable still from five angles."],
+      "mastery": "You can show three renders of the same object, each lit to a clearly different mood.",
+      "mistakes": ["Using only one light with no fill, leaving black shadows.", "Using a very wide lens, distorting the model."]
+    },
+    {
+      "id": "reference-modelling", "name": "Modelling from Reference", "tier": 2, "requires": ["mesh-basics"], "hours": 12,
+      "summary": "Match real objects by setting up blueprints or photos in the viewport and checking proportions.",
+      "steps": ["Collect front, side and top reference images of a real object.", "Add them as reference images in the viewport with correct alignment.", "Block out main proportions first, then refine.", "Compare overlaid renders with the references."],
+      "drills": ["Model a real chair or bicycle from photos.", "Match the proportions of a car within 5 percent."],
+      "mastery": "You can show a model overlaid on its reference photos with major proportions matching to within about 5 percent.",
+      "mistakes": ["Modelling from one view only.", "Adding details before the overall proportions are right."]
+    },
+    {
+      "id": "shader-nodes", "name": "Shader Nodes and Procedural Materials", "tier": 3, "requires": ["image-textures"], "hours": 20,
+      "summary": "Build materials from noise, ramps and masks without image files, and add wear and variation.",
+      "steps": ["Use Noise, Voronoi and Musgrave-style textures with a ColorRamp to control patterns.", "Use Bump nodes for fine surface detail.", "Mix materials with masks for dirt, rust or edge wear using the Geometry node's Pointiness or an Ambient Occlusion mask.", "Group nodes and expose parameters."],
+      "drills": ["Make a procedural rusty metal with edge wear.", "Make a marble and a wood material without any image textures."],
+      "mastery": "You can show a procedural material with visible wear and variation, and a screenshot of the node tree.",
+      "mistakes": ["Overly uniform noise that looks fake.", "Crossing wires in huge tangled node trees with no frames or labels."]
+    },
+    {
+      "id": "sculpt-mode", "name": "Digital Sculpting", "tier": 3, "requires": ["topology-flow"], "hours": 25,
+      "summary": "Push and pull a dense mesh like clay to form organic shapes, characters and creatures.",
+      "steps": ["Start with a sphere with Dyntopo or Voxel Remesh to get even geometry.", "Block out large forms with the Grab, Clay Strips and Smooth brushes.", "Move from large to medium to fine detail, increasing resolution as you go.", "Use symmetry for early blocking, then break it for character."],
+      "drills": ["Sculpt a head bust from a sphere in two hours.", "Sculpt a simple creature using only three brushes."],
+      "mastery": "You can show a sculpted bust or creature with believable large-scale forms, anatomy and detail, with wireframe and clay renders.",
+      "mistakes": ["Going into fine detail before the big forms are right.", "Over-smoothing everything into a lump."]
+    },
+    {
+      "id": "retopology", "name": "Retopology and Baking", "tier": 3, "requires": ["sculpt-mode", "uv-unwrap"], "hours": 20,
+      "summary": "Turn a heavy sculpt into a clean, lightweight mesh and bake the lost detail into normal maps.",
+      "steps": ["Create a new low-poly mesh over the sculpt using snapping, or the Shrinkwrap modifier.", "Keep loops around eyes and mouth and follow the form.", "UV unwrap the low-poly mesh.", "Bake a normal map and ambient occlusion from the high-poly to the low-poly in Cycles."],
+      "drills": ["Retopologise a bust to under 5,000 faces.", "Bake and apply a normal map and compare with the original."],
+      "mastery": "You can show a low-poly model under 10,000 triangles that, with its baked normal map, looks very close to the original sculpt.",
+      "mistakes": ["Baking without cage or with overlapping UVs, producing artefacts.", "Retopologising with triangles that deform badly."]
+    },
+    {
+      "id": "cycles-render", "name": "Cycles Rendering and Compositing", "tier": 3, "requires": ["lighting-camera", "shader-nodes"], "hours": 15,
+      "summary": "Get clean realistic renders in a reasonable time, and improve them with the compositor.",
+      "steps": ["Set samples and enable the denoiser; test at low resolution first.", "Use light paths and Filmic or AgX colour management correctly.", "Render in passes or use the compositor for glow, vignette and colour grading.", "Use Render Region and Camera Border to test small areas."],
+      "drills": ["Render the same scene at 32, 128 and 512 samples and compare noise and time.", "Add bloom and colour grading in the compositor."],
+      "mastery": "You can show a noise-free 1080p Cycles render that took under 10 minutes, with before and after compositor comparison.",
+      "mistakes": ["Using huge sample counts when denoising would do.", "Light fireflies caused by tiny bright light sources; clamp indirect or enlarge the light."]
+    },
+    {
+      "id": "geometry-nodes", "name": "Geometry Nodes Basics", "tier": 3, "requires": ["modifiers-basics", "shader-nodes"], "hours": 25,
+      "summary": "Build procedural models with node networks: scatter objects, instance, and generate shapes from parameters.",
+      "steps": ["Add a Geometry Nodes modifier and learn the Group Input and Output nodes.", "Use Distribute Points on Faces with Instance on Points to scatter grass or rocks.", "Use Random Value and attributes to vary scale and rotation.", "Expose sliders so a non-expert can change the result."],
+      "drills": ["Scatter grass over a hill with random scale and rotation.", "Make a procedural fence that adapts to a curve."],
+      "mastery": "You can show a scatter or procedural set-up driven by exposed parameters, and a short video changing them live.",
+      "mistakes": ["Instancing millions of points without realising and crashing.", "Realising instances too early, losing the memory benefit."]
+    },
+    {
+      "id": "animation-basics", "name": "Animation Basics", "tier": 3, "requires": ["navigate-ui"], "hours": 15,
+      "summary": "Move objects over time with keyframes, curves and timing.",
+      "steps": ["Set keyframes with I and scrub the timeline.", "Use the Graph Editor to ease in and out of motion.", "Animate a bouncing ball with squash and stretch.", "Render a short clip as an image sequence or video."],
+      "drills": ["Animate a bouncing ball for 2 seconds with convincing weight.", "Animate a camera orbit around a model."],
+      "mastery": "You can show a short video of a ball bounce with good timing, spacing and ease.",
+      "mistakes": ["Linear motion that looks robotic.", "Setting too many keys instead of fewer, well-placed ones."]
+    },
+    {
+      "id": "character-model", "name": "Full Character Model", "tier": 4, "requires": ["retopology", "topology-flow"], "hours": 80,
+      "summary": "Model, texture and prepare a complete character with clean deformation-ready topology.",
+      "steps": ["Collect front, side and back references or a concept sheet.", "Block out, sculpt, retopologise, UV and texture all parts.", "Check topology for deformation at the shoulders, elbows, knees and face.", "Present on a turntable with studio lighting."],
+      "drills": ["Test the model in an A-pose and T-pose with a basic rig.", "Review with a character artist community."],
+      "mastery": "You can show a turntable video of a fully textured character with clean wireframe, UVs and a topology that deforms well in test poses.",
+      "mistakes": ["Skipping the base mesh and sculpting without a plan.", "Ignoring joint topology until rigging."]
+    },
+    {
+      "id": "advanced-shading", "name": "Advanced Shading: Skin, Glass, Hair", "tier": 4, "requires": ["cycles-render", "shader-nodes"], "hours": 40,
+      "summary": "Master difficult materials with subsurface scattering, transmission, hair and volumetrics.",
+      "steps": ["Use subsurface scattering for skin, wax and leaves.", "Set index of refraction and thickness for glass and liquids.", "Use hair particle or curves and a hair BSDF shader.", "Add volume scattering for fog and clouds."],
+      "drills": ["Render a glass of water with accurate refraction.", "Shade a stylised skin portrait."],
+      "mastery": "You can show a render of a glass, a skin and a hair or fur material that read as realistic in close-up crops.",
+      "mistakes": ["Using too high subsurface so skin looks like candle wax.", "Missing the liquid-glass interface in a glass of water."]
+    },
+    {
+      "id": "rig-animate", "name": "Rigging and Character Animation", "tier": 4, "requires": ["animation-basics", "character-model"], "hours": 80,
+      "summary": "Give a character a skeleton and controls, then animate a walk cycle and acting shot.",
+      "steps": ["Build an armature with correct joint placement and bone roll.", "Skin it with automatic weights and refine by weight painting.", "Add inverse kinematics for legs and a control rig.", "Animate a walk cycle, then a short acting shot using pose-to-pose."],
+      "drills": ["Weight paint a character until elbows and knees bend cleanly.", "Animate a 24-frame looping walk."],
+      "mastery": "You can show a video of a rigged character performing a looping walk cycle and a 5-second acting shot without deformation problems.",
+      "mistakes": ["Animating straight ahead without planning poses.", "Weights bleeding between fingers."]
+    },
+    {
+      "id": "game-ready-export", "name": "Game-Ready Assets and Export", "tier": 4, "requires": ["retopology", "image-textures"], "hours": 40,
+      "summary": "Optimise models for real-time engines: triangle budgets, LODs, texture atlases and clean export.",
+      "steps": ["Set a poly budget and texel density for the target platform.", "Build LOD levels and test them.", "Bake textures and pack them into ORM maps.", "Export as glTF or FBX with correct scale and axes and test in Godot, Unity or Unreal."],
+      "drills": ["Export a prop and import it in a real-time engine without fixes.", "Create three LODs of the same asset."],
+      "mastery": "You can show a prop running in a game engine with correct scale, materials and LODs, with a screenshot of the import settings.",
+      "mistakes": ["Leaving unapplied scale, giving wrong size in the engine.", "Exporting with modifiers unapplied or with N-gons."]
+    },
+    {
+      "id": "photoreal-scene", "name": "Photorealistic Scene", "tier": 5, "requires": ["advanced-shading", "geometry-nodes"], "hours": 200,
+      "summary": "Create a render that can be mistaken for a photograph: modelling, materials, lighting, imperfections and camera work.",
+      "steps": ["Use a real photo as a target and match its lighting and lens.", "Model with believable imperfections, bevels and wear.", "Use procedural and photographic textures and accurate physical scale.", "Finish with camera effects: depth of field, subtle bloom, grain and colour grading."],
+      "drills": ["Ask five people which of two images is the photograph.", "Recreate a photograph of a real room."],
+      "mastery": "You can show a render next to its reference photograph and a blind test where at least half of viewers cannot tell which is which.",
+      "mistakes": ["Perfectly clean surfaces.", "Lighting that doesn't match the environment."]
+    },
+    {
+      "id": "character-pipeline", "name": "Complete Character Pipeline", "tier": 5, "requires": ["rig-animate", "advanced-shading"], "hours": 300,
+      "summary": "Take a character from concept to final animated render, handling sculpt, texture, rig, groom, animation and lighting.",
+      "steps": ["Design a character and make a model sheet.", "Complete the full model, shading and groom.", "Rig with facial controls and animate a short performance.", "Light and render the shot with compositing."],
+      "drills": ["Do a weekly critique with a community.", "Complete a 10-second dialogue shot."],
+      "mastery": "You can show a finished 10 to 30 second animated shot of your own character, with a breakdown reel of every stage.",
+      "mistakes": ["Underestimating how long animation takes.", "Not testing the rig early."]
+    },
+    {
+      "id": "production-short", "name": "Complete Short Film or Asset Pack", "tier": 5, "requires": ["game-ready-export", "geometry-nodes", "cycles-render"], "hours": 400,
+      "summary": "Finish a production-quality project: a short film or a sellable asset pack that you plan, build and polish to a deadline.",
+      "steps": ["Write a scope you can finish, with a schedule and milestones.", "Build in a consistent style with reusable assets.", "Render, composite and edit or package and document the assets.", "Release it publicly and gather feedback."],
+      "drills": ["Set a deadline and hit weekly milestones.", "Show works in progress for feedback each week."],
+      "mastery": "You have released a finished short film or asset pack publicly, with a link to the final work and a breakdown of your process.",
+      "mistakes": ["Scope that is too big.", "Never finishing because you keep polishing."]
+    }
+  ]
+}

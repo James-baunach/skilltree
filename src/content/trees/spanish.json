@@ -1,0 +1,203 @@
+{
+  "hobby": "spanish",
+  "nodes": [
+    {
+      "id": "sounds-alphabet", "name": "Sounds and Alphabet (A1)", "tier": 1, "requires": [], "hours": 4,
+      "summary": "Spanish is spelled almost exactly as it sounds. Learn the five pure vowels and a handful of consonant rules and you can read any word aloud. Tiers loosely map to CEFR: Novice A1, Apprentice A2, Adept B1, Expert B2 to C1, Master C1 to C2.",
+      "steps": ["Learn the five vowels: a, e, i, o, u, each short and pure, with no gliding.", "Learn the key consonants: h is silent, j sounds like English h, ll and y sound like y, ñ like 'ny', rr is trilled.", "Learn c and g changes: ce/ci sound like th or s, ca/co/cu like k; ge/gi like h, ga/go/gu like g.", "Learn stress rules: words ending in a vowel, n or s stress the second-to-last syllable; accents mark exceptions.", "Spell your name aloud with the Spanish alphabet."],
+      "drills": ["Read 30 words aloud and record yourself, then compare to a native recording.", "Spell 10 names out loud using Spanish letter names."],
+      "mastery": "A1: you can read any unfamiliar Spanish word aloud, with correct vowels and stress, and a native speaker understands you.",
+      "mistakes": ["Turning vowels into English diphthongs (saying 'oh-w' for o).", "Pronouncing the silent h.", "Skipping stress marks."]
+    },
+    {
+      "id": "greetings-intro", "name": "Greetings and Introductions (A1)", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Greet people, introduce yourself and ask basic questions. This is the first conversation you can actually have.",
+      "steps": ["Learn hola, buenos días, buenas tardes, buenas noches, adiós, hasta luego.", "Say your name and where you are from: Me llamo..., Soy de...", "Learn tú versus usted and when to use each.", "Learn gracias, por favor, perdón, de nada.", "Ask: ¿Cómo estás? ¿Cómo te llamas? ¿De dónde eres?"],
+      "drills": ["Role-play a 1-minute introduction 10 times in front of a mirror.", "Use a language exchange app for one 10-minute introduction chat."],
+      "mastery": "A1: you can introduce yourself, ask and answer five basic personal questions in Spanish without notes in under a minute.",
+      "mistakes": ["Using usted with children or tú with elders by default.", "Translating word for word from English.", "Forgetting inverted question marks in writing."]
+    },
+    {
+      "id": "numbers-time", "name": "Numbers, Days and Time (A1)", "tier": 1, "requires": ["sounds-alphabet"], "hours": 3,
+      "summary": "Count, tell the time, name the days and months, and handle prices.",
+      "steps": ["Learn 0 to 100, then hundreds and thousands.", "Learn days, months and seasons (lowercase in Spanish).", "Say the time: Son las tres y media.", "Say prices and ages: Tengo treinta años.", "Practise dates: el cinco de mayo."],
+      "drills": ["Read 20 random numbers aloud each day for a week.", "Tell the time on a clock out loud, 10 times a day."],
+      "mastery": "A1: you can say any number to 1,000, read a price, state a date and tell the time without hesitation, 20 correct in a row.",
+      "mistakes": ["Mixing up 15 to 19 and 50 to 90 forms.", "Capitalising days and months.", "Using cardinal numbers for dates other than the first."]
+    },
+    {
+      "id": "core-vocab", "name": "First 500 Words (A1)", "tier": 1, "requires": [], "hours": 20,
+      "summary": "The most frequent 500 words cover a large share of everyday speech. Learn them with spaced repetition.",
+      "steps": ["Use a frequency list or deck, such as the top 500 words.", "Add 10 new words a day in a spaced-repetition app.", "Learn nouns with their article (el, la) to remember gender.", "Make your own sentence for each word.", "Review every day, even when busy."],
+      "drills": ["10 new cards and all due reviews daily for 50 days.", "Write 5 personal sentences a day using new words."],
+      "mastery": "A1: you score 90 percent on a 100-word random test from the top 500, in both directions.",
+      "mistakes": ["Learning words out of context.", "Skipping gender.", "Adding too many new cards and then burning out."]
+    },
+    {
+      "id": "present-tense", "name": "Present Tense (A1)", "tier": 1, "requires": ["core-vocab"], "hours": 12,
+      "summary": "Conjugate regular -ar, -er and -ir verbs plus the key irregulars (ser, estar, tener, ir, hacer). The core of simple sentences.",
+      "steps": ["Learn the endings for -ar, -er and -ir verbs.", "Learn ser versus estar: ser for identity and permanent traits, estar for location and states.", "Learn tener, ir, hacer, querer, poder.", "Drop subject pronouns, since the ending tells you who is acting.", "Make negative sentences with no and ask questions."],
+      "drills": ["Conjugate 5 verbs a day in writing across all persons.", "Say 20 sentences using ser and estar correctly."],
+      "mastery": "A1: you can conjugate any regular verb and ser, estar, tener, ir, hacer in the present tense without errors, 25 out of 25 on a quiz.",
+      "mistakes": ["Using 'ser' for locations and temporary feelings.", "Adding 'yo', 'tú' every time.", "Forgetting stem changes such as querer to quiero."]
+    },
+    {
+      "id": "gender-agreement", "name": "Gender, Articles and Agreement (A1)", "tier": 1, "requires": ["core-vocab"], "hours": 6,
+      "summary": "Nouns are masculine or feminine, and articles and adjectives must match them in gender and number.",
+      "steps": ["Learn the rules: -o is usually masculine, -a usually feminine, with exceptions like el día and la mano.", "Learn el, la, los, las, un, una, unos, unas.", "Make adjectives agree: un coche rojo, una casa roja.", "Place most adjectives after the noun.", "Form plurals by adding -s or -es."],
+      "drills": ["Describe 10 objects in your room with article, noun and adjective.", "Run a gender quiz of 50 nouns."],
+      "mastery": "A1: you correctly produce article, noun and adjective agreement in 20 short phrases, 19 out of 20 right.",
+      "mistakes": ["Putting adjectives before nouns like English.", "Assuming all words ending in -a are feminine (el problema, el mapa).", "Forgetting plural agreement on adjectives."]
+    },
+    {
+      "id": "slow-listening", "name": "Slow Listening (A1)", "tier": 1, "requires": ["sounds-alphabet"], "hours": 15,
+      "summary": "Start training your ear with slow, clear audio made for learners, where you understand most of what is said.",
+      "steps": ["Use beginner videos or podcasts with slow speech, such as Dreaming Spanish beginner content.", "Watch with Spanish subtitles if you need them.", "Listen to the same short clip 3 times.", "Write down 5 new words from each clip.", "Aim for 15 to 30 minutes a day."],
+      "drills": ["Listen to 20 minutes daily for 4 weeks.", "Transcribe a 30-second slow clip."],
+      "mastery": "A1: you understand the gist of a slow 3-minute learner video and can answer 5 simple comprehension questions, 4 right.",
+      "mistakes": ["Starting with fast native TV.", "Passive listening while doing other things.", "Never revisiting a clip."],
+      "resources": [
+        { "title": "Dreaming Spanish", "kind": "site" }
+      ]
+    },
+    {
+      "id": "past-preterite", "name": "Preterite Past (A2)", "tier": 2, "requires": ["present-tense"], "hours": 12,
+      "summary": "Talk about completed past events: what you did yesterday, last week, last year.",
+      "steps": ["Learn regular preterite endings for -ar and for -er/-ir.", "Learn the key irregulars: ser/ir, hacer, tener, estar, poder, decir.", "Learn the spelling changes (c to qu, g to gu, z to c).", "Use time markers such as ayer, anoche, la semana pasada.", "Tell a short story of your weekend."],
+      "drills": ["Write 5 sentences about yesterday every day for 2 weeks.", "Record yourself telling the story of last weekend in 1 minute."],
+      "mastery": "A2: you can tell a 1-minute account of last weekend in the preterite with fewer than 3 errors, checked by a teacher or native speaker.",
+      "mistakes": ["Using present tense for finished events.", "Not learning the ser/ir identical forms.", "Regularising irregular verbs (haceron)."]
+    },
+    {
+      "id": "reflexives-future", "name": "Reflexives, Near Future and Comparisons (A2)", "tier": 2, "requires": ["present-tense", "gender-agreement"], "hours": 10,
+      "summary": "Talk about daily routines, plans and comparisons, using reflexive verbs, ir a + infinitive, and más/menos que.",
+      "steps": ["Learn reflexive pronouns: me, te, se, nos, os, se.", "Describe your daily routine using levantarse, ducharse, acostarse.", "Use ir a + infinitive for plans.", "Compare with más... que, menos... que, tan... como.", "Use gustar and similar verbs: me gusta, me encantan."],
+      "drills": ["Describe your day in 10 sentences aloud.", "Make 10 plans and 10 comparisons about people you know."],
+      "mastery": "A2: you can describe your daily routine and next weekend's plans in 10 correct sentences, using reflexives, ir a and a comparison.",
+      "mistakes": ["Leaving reflexive pronouns off.", "Using 'gustar' with the wrong subject agreement.", "Translating 'I am going to' as 'estoy yendo a'."]
+    },
+    {
+      "id": "simple-conversations", "name": "Simple Conversations (A2)", "tier": 2, "requires": ["greetings-intro", "numbers-time", "present-tense"], "hours": 25,
+      "summary": "Handle practical exchanges: ordering food, asking directions, shopping and small talk, with a real person.",
+      "steps": ["Learn set phrases for restaurants, shops, transport and hotels.", "Practise role-plays aloud with a tutor or language partner.", "Learn how to ask for repetition: ¿Puede repetir? ¿Más despacio, por favor?", "Learn filler words: bueno, pues, vale, a ver.", "Book at least a 25-minute conversation each week."],
+      "drills": ["Three 25-minute online tutor or exchange sessions a week for 4 weeks.", "Role-play ordering a meal from start to finish."],
+      "mastery": "A2: you can complete a 10-minute conversation about yourself, your day and a simple transaction with a native speaker, who confirms they understood you.",
+      "mistakes": ["Waiting to be perfect before speaking.", "Translating in your head.", "Only practising alone."]
+    },
+    {
+      "id": "graded-readers", "name": "Graded Readers (A2)", "tier": 2, "requires": ["core-vocab", "present-tense"], "hours": 25,
+      "summary": "Read short books written for learners, where most words are known, to build vocabulary and reading speed.",
+      "steps": ["Pick a book at your level, such as a graded reader or simple news site.", "Read without stopping for every word, and guess from context.", "Look up only words that appear repeatedly.", "Read 15 to 20 minutes a day.", "Summarise each chapter in 3 sentences in Spanish."],
+      "drills": ["Finish 3 graded readers over 2 months.", "Write a 3-sentence summary after each chapter."],
+      "mastery": "A2: you can read a 5,000-word graded reader and summarise the plot in Spanish in 5 sentences.",
+      "mistakes": ["Choosing books far too hard.", "Translating every sentence.", "Reading once and never again."]
+    },
+    {
+      "id": "short-writing", "name": "Short Texts and Messages (A2)", "tier": 2, "requires": ["past-preterite", "gender-agreement"], "hours": 15,
+      "summary": "Write messages, postcards and short descriptions with simple connected sentences.",
+      "steps": ["Write 5 to 8 sentences a day in a Spanish journal.", "Use connectors: y, pero, porque, entonces, después.", "Check with a tutor or a correction exchange site.", "Rewrite the corrected version.", "Keep an error log of repeated mistakes."],
+      "drills": ["30 days of 5-sentence journals.", "Write a postcard to a language partner."],
+      "mastery": "A2: you can write a 100-word message about your week with simple connectors and fewer than 6 errors, as marked by a tutor or native speaker.",
+      "mistakes": ["Writing in English first and translating.", "Not getting corrections.", "Ignoring the error log."]
+    },
+    {
+      "id": "comprehensible-input", "name": "Comprehensible Input (A2)", "tier": 2, "requires": ["slow-listening", "core-vocab"], "hours": 60,
+      "summary": "Build listening by volume: hours of audio and video you mostly understand.",
+      "steps": ["Aim for 30 to 60 minutes a day.", "Move up from beginner to intermediate content as you improve.", "Watch videos where the host uses visuals and simple words.", "Rewatch favourites.", "Track your hours in a log."],
+      "drills": ["100 hours of listening over 3 to 4 months.", "Keep a weekly log of hours."],
+      "mastery": "A2: you understand the main points of a 5-minute intermediate video on a familiar topic without subtitles, answering 5 questions with at least 4 right.",
+      "mistakes": ["Using content that is too hard and understanding 20 percent.", "Switching constantly between resources.", "Skipping speaking altogether."]
+    },
+    {
+      "id": "imperfect-contrast", "name": "Imperfect vs Preterite (B1)", "tier": 3, "requires": ["past-preterite"], "hours": 25,
+      "summary": "Describe background and habits (imperfect) versus completed events (preterite): the core of Spanish storytelling.",
+      "steps": ["Learn the imperfect endings and the three irregulars: ser, ir, ver.", "Use the imperfect for habits, descriptions, ongoing states and age in the past.", "Use the preterite for finished events and sudden changes.", "Combine them: Estaba cansado cuando llegó mi amigo.", "Tell a childhood story and a story of an incident."],
+      "drills": ["Retell a film plot in the past tense aloud for 2 minutes.", "Write one 150-word story every week for a month."],
+      "mastery": "B1: you can narrate a past story of 2 minutes mixing imperfect and preterite correctly, with at most 3 tense errors, judged by a tutor.",
+      "mistakes": ["Using only one past tense.", "Treating the two as 'was' vs 'did' translations.", "Using the preterite for habits."]
+    },
+    {
+      "id": "subjunctive-present", "name": "Present Subjunctive (B1)", "tier": 3, "requires": ["present-tense", "reflexives-future"], "hours": 30,
+      "summary": "The mood used after wishes, doubts, emotions and requests. It is the grammar hurdle that separates intermediate from basic.",
+      "steps": ["Form it: take the yo present form, drop -o, and add opposite endings (-e for -ar, -a for -er/-ir).", "Learn the irregulars: ser, estar, ir, saber, haber, dar.", "Use it after quiero que, espero que, es importante que, dudo que.", "Use the indicative for certainty and the subjunctive for doubt or desire.", "Practise by turning facts into wishes."],
+      "drills": ["Write 10 'quiero que...' sentences a day for a week.", "Run a 50-sentence indicative vs subjunctive quiz."],
+      "mastery": "B1: you can complete 40 out of 50 subjunctive and indicative gap-fill sentences correctly and speak 5 sentences of wishes and advice aloud with correct mood.",
+      "mistakes": ["Using the infinitive where the subjunctive is needed when subjects differ.", "Using the subjunctive after 'creo que'.", "Memorising lists without sentence practice."]
+    },
+    {
+      "id": "b1-listening", "name": "Everyday Native Speech (B1)", "tier": 3, "requires": ["comprehensible-input"], "hours": 80,
+      "summary": "Follow clear, standard speech about familiar topics at normal speed, including podcasts and vlogs.",
+      "steps": ["Move to native-speed podcasts and YouTube vlogs on topics you like.", "Listen actively: replay, pause and write down 10 words per episode.", "Try different accents, such as Spain, Mexico and Argentina.", "Use transcripts to check what you missed.", "Do 45 to 60 minutes a day."],
+      "drills": ["Take a dictation of a 1-minute native clip and check it.", "Weekly: summarise a podcast episode aloud."],
+      "mastery": "B1: you can follow a 10-minute native podcast on a familiar topic and summarise the main points in Spanish with no more than 2 big omissions.",
+      "mistakes": ["Giving up when speakers are fast.", "Only listening to one accent.", "Never checking against transcripts."]
+    },
+    {
+      "id": "b1-conversation", "name": "Sustained Conversation (B1)", "tier": 3, "requires": ["simple-conversations", "imperfect-contrast"], "hours": 60,
+      "summary": "Hold a conversation of half an hour about experiences, opinions and plans, coping when you do not know a word.",
+      "steps": ["Book regular weekly tutor or exchange sessions.", "Learn opinion phrases: creo que, en mi opinión, estoy de acuerdo.", "Use circumlocution: describe a word you lack instead of switching to English.", "Record sessions and note recurring errors.", "Cover work, travel, family, hobbies and news."],
+      "drills": ["Two 45-minute conversations a week for 6 weeks.", "Record one session per week and review mistakes."],
+      "mastery": "B1: you can hold a 30-minute conversation with a native speaker about experiences and opinions, staying in Spanish throughout, and they rate it comfortable.",
+      "mistakes": ["Switching to English when stuck.", "Only talking about the present.", "Never reviewing recordings."]
+    },
+    {
+      "id": "reading-writing-b1", "name": "Articles and Longer Writing (B1)", "tier": 3, "requires": ["graded-readers", "short-writing", "imperfect-contrast"], "hours": 50,
+      "summary": "Read news and simple novels and write connected texts of 200 words or more on familiar subjects.",
+      "steps": ["Read a news article or short story each day.", "Highlight and review 5 new words and structures.", "Write a weekly 200-word text: an opinion, a story or a letter.", "Use richer connectors: sin embargo, por eso, aunque.", "Have a tutor correct and rewrite."],
+      "drills": ["Read 30 articles in a month.", "Write 4 texts of 200 words and correct."],
+      "mastery": "B1: you can write a 200-word opinion text with a clear structure and fewer than 8 errors, and read a news article and give its main points.",
+      "mistakes": ["Relying on translation tools for the whole text.", "Writing only short disconnected sentences.", "Not rewriting after correction."]
+    },
+    {
+      "id": "advanced-grammar", "name": "Subjunctive Tenses and Conditionals (B2)", "tier": 4, "requires": ["subjunctive-present", "imperfect-contrast"], "hours": 60,
+      "summary": "Use the imperfect and perfect subjunctive, conditionals and if-clauses to talk about hypotheticals, regrets and indirect speech.",
+      "steps": ["Learn the imperfect subjunctive (-ra form) and the conditional tense.", "Use si + imperfect subjunctive + conditional: Si tuviera tiempo, viajaría.", "Learn the perfect tenses and pluperfect subjunctive for regrets: Si hubiera sabido...", "Use reported speech and sequence of tenses.", "Learn the passive and 'se' constructions."],
+      "drills": ["Write 10 hypothetical sentences a day for 2 weeks.", "Do a timed B2 grammar test."],
+      "mastery": "B2: you score at least 80 percent on a B2-level grammar test and can talk for 2 minutes about hypothetical situations with correct if-clauses.",
+      "mistakes": ["Using the present subjunctive after 'si'.", "Skipping sequence of tenses.", "Overusing the infinitive instead of the subjunctive."]
+    },
+    {
+      "id": "b2-discussion", "name": "Fluent Discussion (B2)", "tier": 4, "requires": ["b1-conversation", "advanced-grammar"], "hours": 120,
+      "summary": "Discuss abstract and current topics spontaneously, argue a viewpoint and keep up with native speakers.",
+      "steps": ["Prepare topic vocabulary for news, politics, work, culture and technology.", "Practise arguing both sides of an issue.", "Use idioms and discourse markers to sound natural.", "Join a conversation group, club or meetup in Spanish.", "Have native speakers note your errors in real time."],
+      "drills": ["Two-minute impromptu talk on a random topic, recorded daily.", "One hour of group conversation weekly."],
+      "mastery": "B2: you can hold a 45-minute discussion on an abstract topic with a native speaker without long pauses, and they confirm you were fluent and spontaneous.",
+      "mistakes": ["Avoiding hard subjects.", "Staying with the same safe vocabulary.", "Never practising with several people."]
+    },
+    {
+      "id": "b2-media", "name": "Films, News and Radio (B2)", "tier": 4, "requires": ["b1-listening"], "hours": 150,
+      "summary": "Understand TV, films and radio at natural speed with only occasional gaps.",
+      "steps": ["Watch Spanish-language series and films without subtitles or with Spanish subtitles.", "Listen to news and talk radio from several countries.", "Try humour and slang.", "Note regional differences, such as vosotros, voseo and local words.", "Watch at least 5 hours a week."],
+      "drills": ["Watch a film without subtitles and summarise it in 5 minutes.", "Listen to a news bulletin and note the five main stories."],
+      "mastery": "B2: you can watch a native film or series episode with no subtitles and retell the plot and main characters' motives, with only small gaps.",
+      "mistakes": ["Always using English subtitles.", "Avoiding accents you find hard.", "Watching passively."]
+    },
+    {
+      "id": "b2-writing", "name": "Essays and Formal Writing (B2)", "tier": 4, "requires": ["reading-writing-b1", "advanced-grammar"], "hours": 100,
+      "summary": "Write structured essays, reports, formal letters and reviews with correct register and variety of vocabulary.",
+      "steps": ["Learn structures for argument essays, formal letters and reports.", "Differentiate formal and informal register (usted, formal openings).", "Write one 250-word piece a week, with feedback.", "Read good writing in the same genre.", "Edit for accents, agreement and tenses."],
+      "drills": ["Eight timed 250-word essays over 8 weeks with feedback.", "Rewrite a corrected essay without notes."],
+      "mastery": "B2: you can write a 250-word argument essay in 40 minutes that a tutor rates at B2 or above with few errors.",
+      "mistakes": ["Wrong register in formal writing.", "Translating English idioms.", "Not editing."]
+    },
+    {
+      "id": "c1-register-idiom", "name": "Register, Idiom and Regional Variation (C1)", "tier": 5, "requires": ["b2-discussion", "b2-media", "b2-writing"], "hours": 300,
+      "summary": "Use language flexibly and precisely for social, academic and professional purposes, with idioms, nuance and awareness of regional variation.",
+      "steps": ["Read novels, essays and long-form journalism.", "Learn idioms, proverbs and regionalisms from two or more countries.", "Take part in professional or academic tasks in Spanish.", "Practise summarising complex texts and presenting a talk.", "Take the DELE C1 or SIELE exam to benchmark."],
+      "drills": ["Read one novel a month.", "Give a 10-minute presentation in Spanish to native speakers."],
+      "mastery": "C1: you pass a recognised C1 exam such as DELE C1, or you present for 10 minutes and answer questions fluently in Spanish, as rated by a qualified examiner.",
+      "mistakes": ["Plateauing on comfortable vocabulary.", "Ignoring regional differences.", "Avoiding formal tasks."]
+    },
+    {
+      "id": "c2-mastery", "name": "Near-Native Command (C2)", "tier": 5, "requires": ["c1-register-idiom"], "hours": 600,
+      "summary": "Understand virtually everything and express yourself precisely, with subtle shades of meaning, in any context.",
+      "steps": ["Read classics and specialist texts in Spanish.", "Work, study or live in a Spanish-speaking environment.", "Translate and interpret in both directions.", "Write at length with style and precision.", "Sit the DELE C2 exam."],
+      "drills": ["Translate a 500-word text both ways and compare with a professional version.", "Debate an unfamiliar topic with native speakers for an hour."],
+      "mastery": "C2: you pass the DELE C2 exam, or the equivalent top-level SIELE result.",
+      "mistakes": ["Letting English structures fossilise.", "Stopping contact with native speakers.", "Believing there is nothing more to learn."],
+      "resources": [
+        { "title": "Fluent Forever", "kind": "book", "by": "Gabriel Wyner" }
+      ]
+    }
+  ]
+}

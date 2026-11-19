@@ -1,0 +1,229 @@
+{
+  "hobby": "rock-climbing",
+  "nodes": [
+    {
+      "id": "gym-induction", "name": "Gym Induction & Etiquette", "tier": 1, "requires": [], "hours": 2,
+      "summary": "The rules of a climbing gym: how to fall safely, how to use the space and how to stay out of other people's way.",
+      "steps": ["Take the gym's induction or beginner session and listen to the staff.", "Learn to fall: bend your knees, land on both feet and roll, never reach back with a straight arm.", "Learn the shared rules: no walking under climbers, keep bags off the mats, and never climb above or below someone on the same line.", "Wear shoes that fit snugly but do not hurt, and take off rings and dangling jewellery."],
+      "drills": ["Practise ten controlled falls from the bottom foot-holds onto the mat.", "Down-climb every boulder problem you go up, from low heights."],
+      "mastery": "You can explain the gym's fall zones and rules, and show a safe fall and landing from low height on camera.",
+      "mistakes": ["Landing with straight legs or reaching back with a hand when falling.", "Walking or resting in the fall zone under other climbers.", "Jumping off from the top of a boulder problem instead of down-climbing."]
+    },
+    {
+      "id": "footwork-basics", "name": "Precise Footwork", "tier": 1, "requires": ["gym-induction"], "hours": 4,
+      "summary": "Place your toes accurately and quietly on holds so your legs carry your weight, not your arms.",
+      "steps": ["Look at the foothold until your foot lands on it, then keep your eyes on it.", "Stand on the edge of the shoe near the big toe, not the tip or the flat sole.", "Place the foot silently and without sliding or readjusting.", "Push down through the foot and stand up on it before reaching."],
+      "drills": ["Silent feet: climb an easy wall so no one can hear a foot land.", "Ten easy routes where you place each foot exactly once with no adjusting."],
+      "mastery": "On a graded easy route (about V0 or 5.6 / 4) you place every foot first time without sliding, and it is audibly silent.",
+      "mistakes": ["Looking at the hand holds and ignoring the feet.", "Standing on the tip of the shoe or the flat inside of the sole.", "Dragging or re-shuffling feet after placing them."]
+    },
+    {
+      "id": "body-position", "name": "Balance & Straight Arms", "tier": 1, "requires": ["footwork-basics"], "hours": 4,
+      "summary": "Keep your hips close to the wall over your feet and hang on straight arms so you save strength.",
+      "steps": ["Keep your hips close to the wall and over your feet.", "Hang on straight arms between moves instead of holding a bent-arm pull.", "Move with three points of contact on the wall and one limb moving at a time.", "Rest by standing on your legs and shaking out a hand."],
+      "drills": ["Climb easy routes only using straight arms between moves.", "Do 'three-point' climbs where you must hold the wall with three limbs at every move."],
+      "mastery": "On a route two grades below your limit, you move with straight arms and your forearms do not feel pumped at the top.",
+      "mistakes": ["Hugging the wall with bent arms and hips sagging backwards.", "Rushing, which means grabbing the next hold before your feet are set.", "Gripping holds far tighter than needed."]
+    },
+    {
+      "id": "route-reading", "name": "Grades & Route Reading", "tier": 1, "requires": ["gym-induction"], "hours": 3,
+      "summary": "Understand grades and plan a route from the floor so you climb with a plan rather than guessing.",
+      "steps": ["Learn the gym's grading system: V-scale or Font for boulders, YDS (5.x) or French for ropes.", "Before climbing, trace the line of holds and the likely foot-holds.", "Identify the hardest-looking move and the resting positions.", "Look at the colour or tag system to find the exact holds of a route."],
+      "drills": ["Spend 60 seconds reading each route before touching it.", "Say the sequence aloud, then climb and check how much you got right."],
+      "mastery": "You can describe your climb move by move before the attempt and get at least 80% of the sequence correct.",
+      "mistakes": ["Starting without looking at the route.", "Reading only hand-holds, not feet.", "Choosing climbs by grade number alone and ignoring style."]
+    },
+    {
+      "id": "warm-up-prehab", "name": "Warm-Up & Injury Prevention", "tier": 1, "requires": ["gym-induction"], "hours": 2,
+      "summary": "A short routine that raises your temperature and protects fingers, elbows and shoulders.",
+      "steps": ["Start with five minutes of light cardio and arm and shoulder circles.", "Climb easy routes or problems for 10-15 minutes, gradually increasing grade.", "Add wrist, forearm and shoulder mobility exercises.", "Rest well: avoid training the same fingers hard on consecutive days."],
+      "drills": ["Do the same 15-minute warm-up before every session for a month.", "Include 2 sets of 10 push-ups and 10 scapular pull-ups as shoulder prep."],
+      "mastery": "You follow a repeatable warm-up before each session and can describe why finger pulleys and elbows need gradual loading.",
+      "mistakes": ["Starting on your hardest problem cold.", "Ignoring finger or elbow pain and continuing to train.", "Skipping rest days while the skin and tendons adapt."]
+    },
+    {
+      "id": "tie-in-partner-check", "name": "Tie-In & Partner Check", "tier": 1, "requires": ["gym-induction"], "hours": 3,
+      "summary": "Tie the figure-eight follow-through knot to your harness and check your partner every single time. This habit prevents most rope accidents.",
+      "steps": ["Learn it from a qualified instructor or a certified gym course. Do not teach yourself from text or video.", "Practise tying the figure-eight follow-through with a tail of at least a fist length.", "Check harness buckles and tie-in on your partner and have them check yours: this is the partner check.", "Say the check aloud: harness, knot, belay device, locking carabiner, rope end."],
+      "drills": ["Tie the figure-eight ten times with your eyes closed in a calm setting, then verify with an instructor.", "Run a full partner check before every climb."],
+      "mastery": "A gym instructor or experienced climber watches you tie in and partner check correctly without prompting on three separate occasions.",
+      "mistakes": ["Skipping the check because you are in a hurry or know your partner.", "Leaving a short tail or an incorrectly dressed knot.", "Not looking at your own harness buckles."]
+    },
+    {
+      "id": "top-rope-belay", "name": "Top-Rope Belaying", "tier": 1, "requires": ["tie-in-partner-check"], "hours": 6,
+      "summary": "Hold the rope with a belay device so your partner can climb safely. You must learn this in person.",
+      "steps": ["Take a certified belay course from a gym or qualified instructor. Never learn from text alone.", "Learn the device's pull-feed-brake motion and keep your brake hand on the rope at all times.", "Take in slack as the climber ascends and lower them smoothly.", "Pass the gym's belay test and use the partner check before every climb."],
+      "drills": ["Belay ten full climbs with your instructor or a qualified partner watching.", "Practise lowering a climber at a steady, controlled speed."],
+      "mastery": "You pass the gym's belay certification and perform ten climbs in a row with correct brake-hand technique and a partner check.",
+      "mistakes": ["Letting go of the brake hand to look around or feed rope.", "Standing far from the wall, which gives a hard catch and a risk of dragging.", "Being distracted by conversation or a phone while belaying."]
+    },
+    {
+      "id": "outdoor-etiquette", "name": "Crag Etiquette & Access", "tier": 2, "requires": ["route-reading"], "hours": 3,
+      "summary": "Rules and ethics of climbing outdoors: protecting the rock, access and other people.",
+      "steps": ["Read about local access and seasonal restrictions (for example bird nesting closures) before visiting.", "Stay on established trails, pack out everything and take care of vegetation.", "Keep noise down, do not leave gear on routes and leave dogs and children under control.", "Respect fixed gear and the style of the area: do not add or remove bolts."],
+      "drills": ["Write a short checklist for your local crag including access rules.", "Help clean up a crag day or trail day."],
+      "mastery": "You can describe the local access rules and Leave No Trace principles for your crag and show you follow them during a visit.",
+      "mistakes": ["Ignoring seasonal closures or private land boundaries.", "Chalk and tick marks left everywhere.", "Dropping gear or rubbish at the base."]
+    },
+    {
+      "id": "flagging-drop-knee", "name": "Flagging & Drop Knees", "tier": 2, "requires": ["body-position"], "hours": 6,
+      "summary": "Use your legs and hips to counterbalance so you stay stable and reach further with less effort.",
+      "steps": ["Flag: extend the free leg across or behind to balance a swing.", "Drop knee: turn the hip into the wall and point the knee downward while pressing with the outside edge of the foot.", "Practise on a vertical wall with two good feet and big hand-holds.", "Use them to reach holds that would otherwise cause a barn-door swing."],
+      "drills": ["Climb five routes using a flag on every possible move.", "Do ten drop-knee reaches on each side on a single problem."],
+      "mastery": "On a problem or route at your normal grade, you can demonstrate both a flag and a drop knee on video and show the swing is prevented.",
+      "mistakes": ["Facing the wall flat so the body swings open (barn-door).", "Dropping the knee but with the toe on the wrong edge so the foot slips.", "Using the technique in places where simply stepping would be easier."]
+    },
+    {
+      "id": "hip-turns-reach", "name": "Hip Turns & Reach", "tier": 2, "requires": ["body-position"], "hours": 6,
+      "summary": "Turn your hips sideways to the wall to extend your reach and save strength.",
+      "steps": ["Turn one hip toward the wall so you are standing on the outside edge of your foot.", "Reach with the arm on the same side as the lead hip.", "Alternate sides as the route traverses.", "Use heel and toe hooks to help when the move needs it."],
+      "drills": ["Climb a traverse making sure each reach is done with a turned hip.", "Do a route on which you must turn and untwist at every move."],
+      "mastery": "You show on video that you consistently turn your hips and reach with straight arms on a climb at your normal grade.",
+      "mistakes": ["Facing the wall square and over-using the arms.", "Turning the hip but not pushing from the foot.", "Staying twisted too long and getting stuck."]
+    },
+    {
+      "id": "overhang-technique", "name": "Overhang Technique", "tier": 2, "requires": ["flagging-drop-knee", "hip-turns-reach"], "hours": 10,
+      "summary": "Keep your feet on and your body tight when the wall leans over you.",
+      "steps": ["Use heel hooks and toe hooks to keep your weight on the wall.", "Keep your core engaged to hold your feet on.", "Move your feet up high under your hips before reaching.", "Rest on straight arms when you can."],
+      "drills": ["Climb ten overhanging problems at a grade or two below your limit.", "Try to hold a heel hook at every possible place on a route."],
+      "mastery": "You can climb a 30-degree overhanging route two grades below your onsight limit without your feet cutting loose.",
+      "mistakes": ["Hanging on bent arms.", "Letting the feet swing off.", "Not using toe or heel hooks."]
+    },
+    {
+      "id": "belay-catching-falls", "name": "Catching Falls & Lowering", "tier": 2, "requires": ["top-rope-belay"], "hours": 6,
+      "summary": "Practice dynamic catches and controlled lowering so the climber feels secure and the system works.",
+      "steps": ["Practise on a top-rope with an instructor or experienced partner.", "Take slack out quickly but keep it from being pulled tight.", "Lower smoothly using the device and brake hand.", "Practise communication: 'take', 'slack', 'lower'."],
+      "drills": ["Do ten controlled lowers at a smooth pace.", "Practice standard rope commands with a partner."],
+      "mastery": "A qualified instructor watches you hold a deliberate fall (practice take) and lower safely, with correct communication.",
+      "mistakes": ["Not telling the climber you are taking in slack.", "Locking off too early and giving a hard catch.", "Standing too far from the wall."]
+    },
+    {
+      "id": "core-antagonist", "name": "Core & Antagonist Training", "tier": 2, "requires": ["warm-up-prehab"], "hours": 10,
+      "summary": "Strengthen your core and the push muscles that balance all the pulling climbers do.",
+      "steps": ["Do core work such as planks, hanging knee raises and front levers progressions.", "Train push muscles with push-ups and shoulder presses.", "Do rotator cuff and wrist extensor work with light bands or weights.", "Train 2 times per week alongside climbing."],
+      "drills": ["3 sets of 30-second planks and 3 sets of 10 hanging knee raises.", "3 sets of 15 push-ups on climbing days."],
+      "mastery": "You can hold a 60-second front plank, do 15 hanging knee raises and 20 push-ups with good form.",
+      "mistakes": ["Only training pulling muscles.", "Training to failure and being too tired to climb.", "Ignoring shoulder and elbow health."]
+    },
+    {
+      "id": "arc-endurance", "name": "Endurance Mileage (ARC)", "tier": 2, "requires": ["warm-up-prehab", "body-position"], "hours": 15,
+      "summary": "Long, easy climbing builds the stamina to recover while moving.",
+      "steps": ["Pick routes or traverses at a low intensity that gives a slight forearm pump.", "Climb continuously for 20-30 minutes.", "Rest 10 minutes, then repeat for 2-4 sets.", "Do this 1-2 times per week."],
+      "drills": ["Traverse a wall for 20 minutes continuously.", "Climb 10 easy routes back to back, without rest, in one session."],
+      "mastery": "You can climb continuously for 20 minutes at a low-to-moderate effort without needing to stop.",
+      "mistakes": ["Going too hard so it becomes a power session.", "Skipping rests and getting a deep pump.", "Resting too long between sets."]
+    },
+    {
+      "id": "lead-belay", "name": "Lead Belaying", "tier": 3, "requires": ["belay-catching-falls"], "hours": 10,
+      "summary": "Give slack and catch real falls from a lead climber. It needs qualified instruction and supervised practice.",
+      "steps": ["Take a lead belay course with a qualified instructor.", "Learn to give slack at the right time and move toward the wall to soften catches.", "Practise catching falls in a controlled environment with an instructor.", "Check clips and rope position for back-clipping and Z-clipping."],
+      "drills": ["Catch planned falls from low clips with an instructor supervising.", "Run lead belay scenarios with a partner while an instructor critiques."],
+      "mastery": "You pass a lead belay assessment given by a gym or qualified instructor, including catching a fall.",
+      "mistakes": ["Giving too little or too much slack.", "Standing far from the first bolt.", "Not watching the climber's clipping."]
+    },
+    {
+      "id": "lead-climb-indoor", "name": "Indoor Lead Climbing", "tier": 3, "requires": ["lead-belay", "route-reading"], "hours": 20,
+      "summary": "Clip quickdraws as you climb and take your first controlled falls.",
+      "steps": ["Pass the gym's lead test with an instructor.", "Learn to clip with the rope running correctly, away from the climber's hand.", "Practise clipping from a stable position, not at full stretch.", "Take planned falls with your belayer, gradually increasing height."],
+      "drills": ["Lead five routes at a grade well below your top-rope limit.", "Take 10 falls onto the rope from small to bigger heights."],
+      "mastery": "You lead a route at a grade two below your top-rope limit, clipping every draw and taking a fall.",
+      "mistakes": ["Back-clipping or Z-clipping.", "Clipping at full stretch and getting pumped.", "Not practising falls and then freezing."]
+    },
+    {
+      "id": "dynamic-movement", "name": "Dynamic Movement", "tier": 3, "requires": ["overhang-technique"], "hours": 15,
+      "summary": "Move using momentum with deadpoints and dynos when a static reach is not enough.",
+      "steps": ["Learn the deadpoint: pull, then reach at the moment of zero velocity.", "Learn the dyno: jump to a hold using legs and hips.", "Practise on a low, safe wall with soft landing.", "Control the catch and swing."],
+      "drills": ["10 deadpoints and 10 dynos on a gym problem.", "Climb dyno problems that require different distances."],
+      "mastery": "You show a clean deadpoint and a dyno of at least arm's length plus a body step on video, sticking the hold.",
+      "mistakes": ["Jumping with arms alone.", "Looking at the starting hold instead of the target.", "Not controlling the swing after the catch."]
+    },
+    {
+      "id": "hangboard", "name": "Structured Finger Training", "tier": 3, "requires": ["core-antagonist", "arc-endurance"], "hours": 30,
+      "summary": "Train finger strength on a hangboard with a safe, gradual protocol.",
+      "steps": ["Wait until you have climbed consistently for at least a year.", "Warm up thoroughly, then do short hangs on a large edge.", "Begin with bodyweight hangs such as 7 seconds on and 3 seconds off for 6 reps.", "Increase load or reduce edge size slowly, and stop at any sign of pain."],
+      "drills": ["2 sessions per week, 4-6 sets, each followed by 3 minutes' rest.", "Log your hangs to track progress."],
+      "mastery": "You hang a 20 mm edge for 10 seconds with half-crimp grip and good form, following a written protocol.",
+      "mistakes": ["Starting too early or too hard.", "Using open-hand or full crimp when the fingers are not ready.", "Training with finger pain."]
+    },
+    {
+      "id": "mental-game", "name": "Fall Practice & Mental Game", "tier": 3, "requires": ["lead-climb-indoor"], "hours": 15,
+      "summary": "Manage fear and keep a calm head when pumped or run out.",
+      "steps": ["Practise falls in a graded way until they feel boring.", "Use breathing and a clear mental routine before hard moves.", "Visualise the sequence from the ground.", "Learn the difference between a safe fear and a real danger."],
+      "drills": ["Take 20 falls over a session at increasing height.", "Practise a pre-climb routine with a breathing count."],
+      "mastery": "You take a lead fall at the top of an indoor route calmly, with the rope running properly, and can describe your mental routine.",
+      "mistakes": ["Avoiding falls and so never learning to relax.", "Panicking and gripping tighter.", "Trusting the belayer without checking the system."]
+    },
+    {
+      "id": "sport-outdoors", "name": "Outdoor Sport Climbing", "tier": 3, "requires": ["lead-climb-indoor", "outdoor-etiquette"], "hours": 25,
+      "summary": "Lead bolted routes on real rock, which differs from the gym in holds, rope drag and judgement.",
+      "steps": ["Go with an experienced mentor or guide for the first outdoor trips.", "Choose routes well within your grade (for example 2-3 grades below your gym lead).", "Inspect bolts and anchors and know what poor gear looks like.", "Practise clipping and rope management on real rock."],
+      "drills": ["Do 10 outdoor routes at a grade well within your limit.", "Redpoint (lead without falls) a route at your gym lead grade minus one."],
+      "mastery": "You lead 5 different outdoor sport routes cleanly in one day, as shown in a logbook, with a mentor's sign-off.",
+      "mistakes": ["Choosing routes at your gym limit on the first outdoor trip.", "Ignoring rockfall and loose rock.", "Not checking the rope reaches the ground when lowering."]
+    },
+    {
+      "id": "anchors-rappel", "name": "Anchors, Cleaning & Rappelling", "tier": 3, "requires": ["sport-outdoors"], "hours": 15,
+      "summary": "Close the system at the top of a route and descend, which are common sources of serious accidents. Learn with an instructor.",
+      "steps": ["Take a hands-on course such as a single-pitch or anchors class from a qualified instructor.", "Learn to build a safe personal tether and clean an anchor.", "Learn to rappel with an autoblock or prusik backup and a knot in the rope ends.", "Practise with a second person checking every step."],
+      "drills": ["Rappel 10 times at ground level with a backup before going to height.", "Clean 5 anchors under supervision."],
+      "mastery": "A qualified instructor observes you clean an anchor and rappel with a backup and knotted ends, without errors.",
+      "mistakes": ["Not tying knots in the rope ends.", "Unclipping from the anchor before being on rappel.", "Skipping the partner check at the top."]
+    },
+    {
+      "id": "multi-pitch", "name": "Multi-Pitch Climbing", "tier": 4, "requires": ["anchors-rappel", "mental-game"], "hours": 60,
+      "summary": "Climb routes with several rope lengths, building belays and managing a descent.",
+      "steps": ["Take a multi-pitch course with a guide or experienced mentor.", "Learn to build a belay on bolts and later on gear and manage rope.", "Practise communication over distance and plan the descent before you start.", "Start with short, well-bolted routes with easy retreat options."],
+      "drills": ["Do three supervised multi-pitch routes.", "Time a belay change-over and aim to reduce it."],
+      "mastery": "You lead a 3-pitch route and follow another, changing belays safely, and complete the descent without help.",
+      "mistakes": ["Underestimating time and descent.", "Poor rope management at belays.", "Not carrying a backup plan."]
+    },
+    {
+      "id": "redpoint-projecting", "name": "Projecting & Redpoint Tactics", "tier": 4, "requires": ["sport-outdoors", "hangboard", "dynamic-movement"], "hours": 120,
+      "summary": "Work a hard route over many attempts, memorising moves and resting well, until you send it without falls.",
+      "steps": ["Pick a route at the edge of your ability.", "Work it in sections and memorise sequences and rests.", "Optimise your rests and chalk strategy.", "Attempt link-ups, then send with a clean lead."],
+      "drills": ["Climb the route in sections with rests between.", "Keep a project log of attempts and what changed."],
+      "mastery": "You redpoint a route at least one full grade above your previous redpoint, shown in a video of the entire climb.",
+      "mistakes": ["Choosing a route too hard.", "Attempting too many tries in one day when tired.", "Not resting between burns."]
+    },
+    {
+      "id": "periodized-training", "name": "Periodised Training", "tier": 4, "requires": ["hangboard", "mental-game"], "hours": 150,
+      "summary": "Plan phases of base, strength, power and performance with deliberate rest to peak for a goal.",
+      "steps": ["Set a goal and a date, for example a redpoint or a competition.", "Split the plan into phases, each with a clear purpose.", "Track volume, intensity and recovery.", "Adjust based on injury signs and progress."],
+      "drills": ["Complete a 12-week cycle with written logs.", "Retest a benchmark such as a hangboard max at the end."],
+      "mastery": "You complete a 12-week written plan, retest your benchmarks and show measurable improvement.",
+      "mistakes": ["Training too hard all year.", "No rest weeks.", "Changing the plan every week."]
+    },
+    {
+      "id": "trad-intro", "name": "Trad Gear & Placements", "tier": 4, "requires": ["multi-pitch"], "hours": 80,
+      "summary": "Place removable protection in cracks and build anchors. Learn from a qualified guide or mentor, not from a book alone.",
+      "steps": ["Take a trad course with a certified guide.", "Practise placing nuts and cams at ground level, then test them with body weight.", "Learn to equalise anchors and avoid extension.", "Lead routes well below your limit with an experienced partner."],
+      "drills": ["Place and test 30 pieces at ground level under supervision.", "Lead five easy trad routes with a mentor."],
+      "mastery": "A qualified instructor or mentor assesses ten of your placements as sound and watches you build a solid anchor.",
+      "mistakes": ["Placing gear that is not good.", "Using too little gear on a route.", "Overestimating your skill by relying on sport grades."]
+    },
+    {
+      "id": "elite-send", "name": "Elite Sport Climbing", "tier": 5, "requires": ["redpoint-projecting", "periodized-training"], "hours": 800,
+      "summary": "Climb at a high level, such as 5.13a (7c+) or V8, consistently.",
+      "steps": ["Follow a structured training plan with a coach if possible.", "Track and work on weak points.", "Choose routes that suit your style and work them efficiently.", "Manage injuries and recovery."],
+      "drills": ["Weekly benchmark sessions.", "Attempts on a project of the target grade."],
+      "mastery": "You redpoint a route graded 5.13a (7c+) or harder, or flash 5.12a, with video proof of the full ascent.",
+      "mistakes": ["Overtraining the fingers.", "Ignoring technique at the expense of strength.", "Neglecting rest and nutrition."]
+    },
+    {
+      "id": "instructor", "name": "Qualified Instructor / Coach", "tier": 5, "requires": ["trad-intro", "multi-pitch"], "hours": 400,
+      "summary": "Teach others to climb safely, ideally with a recognised qualification such as a single-pitch instructor award or a national equivalent.",
+      "steps": ["Gain a lot of experience and a log of climbs.", "Take a recognised instructor or coaching course.", "Assist a qualified instructor.", "Teach a beginner course and gather feedback."],
+      "drills": ["Teach a beginner session and receive feedback.", "Practise rescue and emergency scenarios."],
+      "mastery": "You hold a recognised instructor or coaching certification and have taught at least five beginners to a safe standard.",
+      "mistakes": ["Teaching without proper certification.", "Skipping emergency training.", "Assuming experience alone is enough."]
+    },
+    {
+      "id": "first-ascent", "name": "Route Development & First Ascents", "tier": 5, "requires": ["trad-intro", "outdoor-etiquette"], "hours": 500,
+      "summary": "Open a new route for others, a lasting contribution to the climbing community.",
+      "steps": ["Learn local ethics and get permission from landowners and access groups.", "Learn how to clean, bolt or protect a line correctly with mentoring.", "Document the route and share it with the local community.", "Maintain the route over time."],
+      "drills": ["Help a developer clean and equip a route.", "Write a clear topo and description."],
+      "mastery": "You create a new route with proper permission and sound protection, and it is documented and repeated by others.",
+      "mistakes": ["Developing without permission.", "Bolting poor rock or in a poor location.", "Not maintaining the route."]
+    }
+  ]
+}

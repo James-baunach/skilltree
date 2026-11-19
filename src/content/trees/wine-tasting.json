@@ -1,0 +1,184 @@
+{
+  "hobby": "wine-tasting",
+  "nodes": [
+    {
+      "id": "ground-rules", "name": "Ground Rules: Age, Spitting & Pacing", "tier": 1, "requires": [], "hours": 0.5,
+      "summary": "Wine tasting is for adults of legal drinking age. Tasting is a skill of attention, not consumption, and spitting is standard practice.",
+      "steps": ["Only taste wine if you are of legal drinking age where you live.", "Taste small amounts (about 30 ml) and spit into a bucket or cup when tasting several wines; professionals spit routinely.", "Drink water between wines, and eat something plain such as bread or crackers.", "Never drive after a tasting; arrange a lift or a designated driver beforehand."],
+      "drills": ["Practise spitting water into a cup from a distance of 30 cm, with a tight stream.", "Set up a spittoon (a tall cup or bucket) and a water glass at your next tasting."],
+      "mastery": "You set up a tasting for four wines with spittoon, water, plain crackers and 30 ml pours, and describe your plan for getting home safely, shown in a photo of the setup.",
+      "mistakes": ["Swallowing every sample at a multi-wine tasting.", "Tasting on an empty stomach.", "Assuming a few small tastes mean it is fine to drive."]
+    },
+    {
+      "id": "glass-service", "name": "Glassware, Temperature & Opening a Bottle", "tier": 1, "requires": ["ground-rules"], "hours": 2, "partyTrick": 10,
+      "summary": "Serve wine at the right temperature in the right glass and open it cleanly.",
+      "steps": ["Use a clear, tulip-shaped glass with a stem, filled only a third full to leave room to swirl.", "Serve whites and rosés at about 7 to 10 C, sparkling at 6 to 8 C, light reds at about 12 to 14 C and full reds at 16 to 18 C.", "Cut the foil below the lip, insert a waiter's corkscrew at a slight angle and lever the cork out slowly.", "Pour with a slight twist of the wrist at the end to avoid drips."],
+      "drills": ["Chill a white for 2 hours and a red for 20 minutes, then measure the temperatures with a thermometer.", "Open five bottles of wine without breaking the cork."],
+      "mastery": "On video, you open a bottle with a waiter's corkscrew without crumbling the cork, then pour three 30 ml tastings, the wine at the correct temperature confirmed by a thermometer reading.",
+      "mistakes": ["Serving red too warm and white too cold.", "Filling the glass too full.", "Tilting the corkscrew so the cork breaks."]
+    },
+    {
+      "id": "look", "name": "Look: Colour & Clarity", "tier": 1, "requires": ["ground-rules"], "hours": 1,
+      "summary": "Appearance gives clues about the grape, age and sometimes the climate.",
+      "steps": ["Tilt the glass against a white background.", "Note clarity (clear or hazy), intensity (pale, medium, deep) and colour (lemon, gold, amber; pink, salmon; purple, ruby, garnet, tawny).", "Look at the rim: browning or orange suggests age.", "Swirl and look at the 'legs' for a rough sense of alcohol or sugar, though not for quality."],
+      "drills": ["Describe the colour of five wines against a white napkin.", "Line up a young and an old red and compare rim colours."],
+      "mastery": "You describe the intensity and colour of three wines using standard terms, and a peer matches your descriptions to the right glasses in a blind line-up.",
+      "mistakes": ["Judging quality by 'legs'.", "Looking at the wine under yellow light.", "Using vague colour words."]
+    },
+    {
+      "id": "smell", "name": "Smell: Swirl & Sniff", "tier": 1, "requires": ["ground-rules"], "hours": 4,
+      "summary": "Most of what we call taste is smell. Learn to swirl, sniff and name aromas in families.",
+      "steps": ["Give a short sniff without swirling, then swirl and sniff again.", "Name aroma families: fruit (citrus, orchard, tropical, red or black fruit), floral, spice, herbal, earthy, oak (vanilla, toast), and age (nuts, leather).", "Practise with a scent kit or everyday items such as lemon, apple, black pepper, mint, vanilla and tobacco.", "Take a break after 3 or 4 sniffs, or smell your sleeve, to reset."],
+      "drills": ["Smell 10 household items blind and name them.", "Write down three aromas for each wine you try."],
+      "mastery": "In a blind test of 8 common aromas (e.g. lemon, strawberry, green pepper, vanilla, mint, black pepper, honey, mushroom), you correctly name at least 6, shown on video or in a signed answer sheet.",
+      "mistakes": ["Pushing the nose deep into the glass and overwhelming it.", "Writing only 'fruity' with no detail.", "Wearing strong perfume or tasting in a smelly room."]
+    },
+    {
+      "id": "structure", "name": "Taste: Sweet, Acid, Tannin, Body, Alcohol", "tier": 1, "requires": ["look", "smell"], "hours": 6,
+      "summary": "Taste structure means the building blocks that stay when the aroma fades. Learn to feel them one at a time.",
+      "steps": ["Take a sip, let it coat your mouth, and notice sweetness at the tip of the tongue.", "Acidity makes your mouth water; tannin dries your gums like strong black tea; body is weight (skimmed milk vs cream).", "Alcohol shows as warmth in the throat.", "Calibrate by tasting lemon juice (acid), black tea (tannin), sugar water (sweet) and water vs milk (body)."],
+      "drills": ["Taste a dry, off-dry and sweet Riesling in a row, scoring sweetness 1 to 5.", "Compare a Pinot Noir and a Cabernet Sauvignon for tannin and body."],
+      "mastery": "Given two wines, one clearly higher in acidity and one clearly higher in tannin, you correctly identify which is which and score each structure component, confirmed against the producer's tech sheet or an expert key.",
+      "mistakes": ["Mistaking acidity for sweetness.", "Confusing tannin (drying) with bitterness.", "Judging only by alcohol warmth."]
+    },
+    {
+      "id": "notebook", "name": "Keep a Tasting Notebook", "tier": 1, "requires": ["structure"], "hours": 3,
+      "summary": "Writing notes builds memory and vocabulary. Record every wine consistently so you can compare later.",
+      "steps": ["Record the date, producer, wine name, grape, region, vintage and price.", "Write short notes on appearance, nose, palate and your overall verdict.", "Add a photo of the label or use an app.", "Note what you ate with it and whether you would buy it again."],
+      "drills": ["Write notes on 10 different wines over two weeks.", "Re-read old notes and spot patterns in your preferences."],
+      "mastery": "You show a notebook or app with at least 10 consistent tasting entries including structure scores and a verdict, with legible notes and labels.",
+      "mistakes": ["Recording only a score.", "Using only abstract words like 'smooth' or 'nice'.", "Not logging the vintage."]
+    },
+    {
+      "id": "systematic-approach", "name": "Structured Tasting Grid", "tier": 2, "requires": ["notebook"], "hours": 8,
+      "summary": "Use a standard tasting framework, such as the WSET Systematic Approach to Tasting, to describe any wine in the same order and reach a conclusion about quality.",
+      "steps": ["Appearance: clarity, intensity, colour.", "Nose: condition, intensity, aroma characteristics, development.", "Palate: sweetness, acidity, tannin, alcohol, body, flavour intensity, flavour characteristics, finish.", "Conclusion: assess quality (poor to outstanding) with reasons, and readiness for drinking or ageing."],
+      "drills": ["Taste three wines using the full grid, 15 minutes each.", "Compare your grid with a friend's and discuss differences."],
+      "mastery": "You complete a full grid on three different wines in 45 minutes, including a quality conclusion with at least two supporting reasons per wine, and the filled-in sheets are photographed.",
+      "mistakes": ["Skipping the conclusion.", "Rating quality by price or liking alone.", "Changing the order of the grid."]
+    },
+    {
+      "id": "white-grapes", "name": "Key White Grapes", "tier": 2, "requires": ["structure"], "hours": 10,
+      "summary": "Chardonnay, Sauvignon Blanc, Riesling and Pinot Grigio/Gris cover most white wine you will meet.",
+      "steps": ["Taste an unoaked Chardonnay (Chablis style) and an oaked one (California), and note the differences.", "Taste Sauvignon Blanc (grassy, gooseberry, citrus) from Loire or New Zealand.", "Taste a dry Riesling (lime, petrol with age, high acidity) and an off-dry one.", "Add Pinot Grigio, Chenin Blanc, Albarino or Gewurztraminer as extras."],
+      "drills": ["Run a flight of 4 whites with one of each grape, labelled, and note their signatures.", "Make flashcards: grape, 3 aromas, typical acidity, typical regions."],
+      "mastery": "You correctly describe the characteristic aromas, acidity and body of Chardonnay, Sauvignon Blanc, Riesling and Pinot Grigio from memory, and identify at least 3 of 4 in a blind flight, shown on video.",
+      "mistakes": ["Assuming all Chardonnay is buttery and oaky.", "Thinking all Riesling is sweet.", "Chilling white wine until it has no aroma."]
+    },
+    {
+      "id": "red-grapes", "name": "Key Red Grapes", "tier": 2, "requires": ["structure"], "hours": 10,
+      "summary": "Pinot Noir, Merlot, Cabernet Sauvignon, Syrah/Shiraz and Grenache show the range from light and fragrant to dense and powerful.",
+      "steps": ["Taste Pinot Noir: light colour, red fruit, high acid, low tannin.", "Taste Merlot: soft, plummy, medium tannin.", "Taste Cabernet Sauvignon: blackcurrant, firm tannin, full body.", "Taste Syrah/Shiraz (pepper, dark fruit) and Grenache (red fruit, spice, high alcohol)."],
+      "drills": ["Taste 4 reds in order of weight, from lightest to fullest.", "Rank five reds by tannin."],
+      "mastery": "In a blind flight of 4 reds (Pinot Noir, Merlot, Cabernet Sauvignon, Syrah), you order them correctly by body and tannin and name at least 3 of 4 grapes, shown on video.",
+      "mistakes": ["Judging a grape from one bottle.", "Serving reds too warm.", "Confusing alcohol heat with tannin."]
+    },
+    {
+      "id": "winemaking", "name": "How Wine Is Made", "tier": 2, "requires": ["structure"], "hours": 6,
+      "summary": "Knowing how wine is made explains what you taste: fermentation, oak, malolactic conversion and ageing.",
+      "steps": ["Learn the steps: harvest, crush, fermentation, pressing, ageing, bottling.", "Understand red (fermented on skins) vs white (juice only) vs rosé (short skin contact).", "Learn oak influence (vanilla, toast, spice) and malolactic conversion (buttery texture).", "Compare unoaked and oaked versions of the same wine."],
+      "drills": ["Draw the winemaking process for red and white as two flowcharts from memory.", "Taste an oaked and unoaked Chardonnay side by side."],
+      "mastery": "You explain, on video or in writing, how a red, a white and a rosé are made, and name how oak and malolactic conversion change flavour, without notes.",
+      "mistakes": ["Assuming rosé is a blend of red and white (rare outside Champagne).", "Thinking all oak is the same."]
+    },
+    {
+      "id": "labels", "name": "Read a Wine Label", "tier": 2, "requires": ["notebook"], "hours": 4,
+      "summary": "Labels tell you grape, region, vintage, producer and alcohol, but styles differ between Old World and New World.",
+      "steps": ["Find the producer, region or appellation, vintage, alcohol percentage and bottler.", "In Old World labels (France, Italy, Spain) the region implies the grape, such as Chablis for Chardonnay.", "In New World labels (USA, Australia, Chile) the grape is stated.", "Learn quality terms such as Reserva, Riserva, Grand Cru, Premier Cru, DOC/DOCG."],
+      "drills": ["Decode 10 labels, noting the grape and region implied.", "Learn 10 key terms in French, Italian and Spanish."],
+      "mastery": "Given five unfamiliar labels, you correctly state the country, region, likely grape and meaning of any quality term on each, with at least 4 of 5 correct.",
+      "mistakes": ["Assuming a higher price or fancy label means better wine.", "Ignoring vintage on variable-climate wines."]
+    },
+    {
+      "id": "pairing-basics", "name": "Food & Wine Pairing Basics", "tier": 2, "requires": ["structure", "white-grapes"], "hours": 8,
+      "summary": "A few principles explain most good pairings: match weight, balance sweetness and acid, and mind tannin.",
+      "steps": ["Match the weight of the wine to the dish: light fish with light white, steak with full red.", "Acid in wine pairs with acid and fat in food (Sauvignon Blanc with goat cheese).", "Tannin loves fat and protein but clashes with spicy or fishy dishes.", "Sweet wine should be sweeter than the dessert."],
+      "drills": ["Pair one wine with 3 foods and score each match 1 to 5.", "Test a tannic red with a fish dish and a steak and note the difference."],
+      "mastery": "You pair three dishes with three wines, justify each pairing using at least two principles, and a group of tasters votes at least two of three pairings as 'works well', with notes photographed.",
+      "mistakes": ["Following 'red with meat, white with fish' without thinking about weight.", "Ignoring sauce and seasoning.", "Serving sweet dessert with dry wine."]
+    },
+    {
+      "id": "old-world", "name": "Old World Regions", "tier": 3, "requires": ["red-grapes", "white-grapes", "labels"], "hours": 25,
+      "summary": "France, Italy and Spain define the classic styles. Know the key regions and what is in the glass.",
+      "steps": ["France: Bordeaux (Cabernet/Merlot blends), Burgundy (Pinot Noir, Chardonnay), Rhone (Syrah, Grenache), Loire, Alsace, Champagne.", "Italy: Chianti (Sangiovese), Barolo (Nebbiolo), Soave, Prosecco.", "Spain: Rioja (Tempranillo), Ribera del Duero, Rias Baixas (Albarino), Cava.", "Germany: Mosel Riesling and the Pradikat levels."],
+      "drills": ["Taste one wine each from Bordeaux, Burgundy, Rioja and Chianti and note their styles.", "Draw an outline map of France with key regions and grapes from memory."],
+      "mastery": "You label a blank map of France, Italy and Spain with at least 10 key regions and name the main grape(s) of each, and taste at least 4 regional examples with notes.",
+      "mistakes": ["Memorising regions without tasting.", "Treating each region as one style.", "Ignoring vintage variation."],
+      "resources": [{ "title": "Wine Folly: The Essential Guide to Wine", "kind": "book", "by": "Madeline Puckette and Justin Hammack" }]
+    },
+    {
+      "id": "new-world", "name": "New World Regions", "tier": 3, "requires": ["red-grapes", "white-grapes", "labels"], "hours": 20,
+      "summary": "The USA, Australia, New Zealand, Chile, Argentina and South Africa show how climate and style differ from Europe.",
+      "steps": ["California: Napa Cabernet, Sonoma Pinot Noir and Chardonnay.", "Australia: Barossa Shiraz, Margaret River, Hunter Valley Semillon.", "New Zealand: Marlborough Sauvignon Blanc, Central Otago Pinot Noir.", "South America and South Africa: Argentine Malbec (Mendoza), Chilean Carmenere, South African Chenin Blanc and Pinotage."],
+      "drills": ["Do a New World vs Old World flight: Chardonnay from Burgundy vs California.", "Compare Malbec from Cahors with Mendoza."],
+      "mastery": "You name 10 New World regions with their signature grapes and compare them with Old World equivalents, then correctly pick New World vs Old World in at least 3 of 4 blind pairs, shown on video.",
+      "mistakes": ["Assuming New World means cheap or Old World means better.", "Relying on alcohol level alone to guess origin."]
+    },
+    {
+      "id": "sparkling-fortified", "name": "Sparkling, Sweet & Fortified Wines", "tier": 3, "requires": ["white-grapes", "winemaking"], "hours": 12,
+      "summary": "Champagne, Prosecco, Sherry, Port and dessert wines follow different production rules and serve different moments.",
+      "steps": ["Compare traditional method (Champagne, Cava) with tank method (Prosecco).", "Learn Sherry styles: Fino, Amontillado, Oloroso, Pedro Ximenez.", "Learn Port styles: Ruby, Tawny, Vintage.", "Taste a late-harvest, botrytised (Sauternes, Tokaji) or ice wine."],
+      "drills": ["Taste Champagne, Prosecco and Cava side by side.", "Taste Fino vs Oloroso and describe the differences."],
+      "mastery": "You explain how Champagne, Prosecco, Fino Sherry and Tawny Port are each made, and in a blind flight of four you pick at least 3 correctly, shown on video.",
+      "mistakes": ["Serving sparkling too warm.", "Storing opened Sherry for months.", "Treating all sweet wines as the same."]
+    },
+    {
+      "id": "faults", "name": "Spot Faults & Flaws", "tier": 3, "requires": ["systematic-approach", "smell"], "hours": 8,
+      "summary": "Cork taint, oxidation, volatile acidity and reduction are faults you should recognise, so you can return a bad bottle with confidence.",
+      "steps": ["Cork taint (TCA): wet cardboard or damp basement smell and muted fruit.", "Oxidation: brown colour, stewed apple, sherry-like flavours.", "Volatile acidity: nail polish remover or vinegar.", "Reduction: struck match, rubber or cooked cabbage; Brettanomyces: farmyard or plasters."],
+      "drills": ["Smell a spoiled wine (a bottle left open for a week) to learn oxidation.", "Use a fault training kit or a class run by a wine educator."],
+      "mastery": "In a blind test of four wines that include at least two faulty ones, you identify the faulty bottles and name the fault in at least two cases, as confirmed by an instructor or answer key.",
+      "mistakes": ["Confusing sediment or tartrate crystals with a fault.", "Sending back a wine just because you don't like it."]
+    },
+    {
+      "id": "quality-ageing", "name": "Judge Quality & Ageing", "tier": 3, "requires": ["systematic-approach", "red-grapes"], "hours": 15,
+      "summary": "Assess balance, length, intensity and complexity, and know whether a wine is ready, past it or better in ten years.",
+      "steps": ["Apply the BLIC test: Balance, Length, Intensity, Complexity.", "Taste young and mature examples of the same wine to see how tannin softens and fruit develops to savoury notes.", "Learn which wines age: high acidity, tannin, sugar or alcohol.", "Decide drinking windows and storage conditions (cool, dark, steady, 10 to 15 C)."],
+      "drills": ["Taste a wine from the same producer in two vintages 5 or more years apart.", "Rate 6 wines with BLIC and compare your ratings to critic notes."],
+      "mastery": "You write a BLIC-based quality judgement on three wines, including drinking-window estimates, and your rank order agrees with an expert panel or critics on at least 2 of 3.",
+      "mistakes": ["Equating 'old' with 'good'.", "Storing wine in a warm kitchen.", "Judging quality only by whether you liked it."]
+    },
+    {
+      "id": "blind-deduction", "name": "Blind Tasting Deduction", "tier": 4, "requires": ["old-world", "new-world", "quality-ageing"], "hours": 60,
+      "summary": "Work logically from what you see, smell and taste to the grape, climate, country and age of an unknown wine.",
+      "steps": ["Decide first: cool or warm climate? Old World or New World?", "Narrow to likely grapes by structure and aromas, then to regions.", "Estimate vintage by development.", "Commit to a final answer with a reason for each step."],
+      "drills": ["Run a blind flight of 6 wines once per week with a partner pouring.", "Keep a log of your hit rate on grape, country and vintage."],
+      "mastery": "In a blind flight of 6 mainstream wines poured by someone else, you correctly name the grape (or blend) for at least 4 and country or region for at least 3, with a written deduction for each, verified by the pourer.",
+      "mistakes": ["Jumping straight to guessing a producer.", "Ignoring structure clues in favour of aroma.", "Never recording results."],
+      "resources": [{ "title": "The World Atlas of Wine", "kind": "book", "by": "Hugh Johnson and Jancis Robinson" }]
+    },
+    {
+      "id": "flight-host", "name": "Design & Host a Tasting", "tier": 4, "requires": ["pairing-basics", "quality-ageing", "glass-service"], "hours": 25,
+      "summary": "Create a themed flight (vertical, horizontal or blind), host it for friends and teach them something.",
+      "steps": ["Pick a theme: one grape, one region, price tiers, or old vs new world.", "Order wines from light to full, dry to sweet, young to old.", "Prepare tasting sheets, water, spittoons, bread and temperatures.", "Lead a short discussion, reveal the wines, and collect feedback."],
+      "drills": ["Host a small tasting for 4 to 6 adults with 5 wines and spit buckets.", "Run a blind price-versus-quality tasting and reveal prices."],
+      "mastery": "You host a themed tasting for at least four adults with 5 wines in a sensible order, with spit buckets, water and written notes, and guests report that they learned something, shown in photos and a printed handout.",
+      "mistakes": ["Too many wines in one session.", "Serving wines in the wrong order.", "Not offering water, food and a ride-home plan."]
+    },
+    {
+      "id": "buying-cellaring", "name": "Buy, Store & Build a List", "tier": 4, "requires": ["quality-ageing", "labels", "pairing-basics"], "hours": 20,
+      "summary": "Find value wine, plan a small cellar or a restaurant-style list, and store bottles properly.",
+      "steps": ["Learn where value hides: lesser-known regions, previous vintages, and second labels.", "Store bottles on their side, cool, dark and steady.", "Plan a cellar or rack of 24 bottles for different occasions and drinking windows.", "Keep an inventory with drink-by dates."],
+      "drills": ["Find three wines under a set price that score as well as a pricier benchmark in a blind test.", "Build a wine list of 12 wines for a dinner party menu."],
+      "mastery": "You present a plan and inventory for 24 bottles with drinking windows, storage details, and a 12-wine list for a defined occasion, supported by a blind tasting that showed at least one value wine matching a pricier one.",
+      "mistakes": ["Buying only famous names.", "Storing wine near heat or sunlight.", "Cellaring wines that are meant to be drunk young."]
+    },
+    {
+      "id": "blind-mastery", "name": "Advanced Blind Tasting", "tier": 5, "requires": ["blind-deduction", "sparkling-fortified", "faults"], "hours": 200,
+      "summary": "Reliably identify classic wines from around the world, including grape, region, quality level and approximate vintage.",
+      "steps": ["Taste at least 300 classic wines systematically across all major regions.", "Practise 6 wines in 30 minutes under exam conditions twice a week.", "Join a blind tasting group and keep score.", "Refine cool and warm climate markers, oak influence and winemaking clues."],
+      "drills": ["Do timed 6-wine blind flights twice a week for six months.", "Review misses and taste the correct wine again."],
+      "mastery": "In a supervised blind flight of 6 classic wines in 30 minutes, you correctly identify the grape for at least 5, the country or region for at least 4, and vintage within 3 years for at least 3, confirmed by a witness or recorded session.",
+      "mistakes": ["Training only on easy wines.", "Skipping spitting during long practice sessions.", "Forgetting to taste faulty examples."]
+    },
+    {
+      "id": "certified-level", "name": "Advanced Certification & Service", "tier": 5, "requires": ["blind-deduction", "flight-host", "buying-cellaring"], "hours": 250,
+      "summary": "Master theory, tasting and service at a recognised advanced level, such as WSET Level 3 or a sommelier certification.",
+      "steps": ["Enrol in an accredited course and study viticulture, winemaking and the world's regions.", "Practise written tasting notes to the exam standard.", "Practise service: decanting, sparkling wine service, wine and food recommendations.", "Sit and pass the exam."],
+      "drills": ["Write three exam-style tasting notes a week and have them marked.", "Practise opening and serving sparkling wine without spilling."],
+      "mastery": "You hold a pass certificate for an advanced recognised wine qualification (such as WSET Level 3 or a sommelier-court exam), which a verifier can check with the awarding body.",
+      "mistakes": ["Studying theory without tasting.", "Ignoring service skills.", "Starting the course without a wide tasting base."],
+      "resources": [{ "title": "WSET Level 3 Award in Wines", "kind": "course", "by": "Wine & Spirit Education Trust", "url": "https://www.wsetglobal.com" }]
+    }
+  ]
+}

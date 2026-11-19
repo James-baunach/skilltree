@@ -1,0 +1,192 @@
+{
+  "hobby": "memory-palace",
+  "nodes": [
+    {
+      "id": "vivid-imagery", "name": "Vivid Imagery", "tier": 1, "requires": [], "hours": 1, "partyTrick": 5,
+      "summary": "Memory sticks to images that are strange, active, emotional and detailed, not to abstract ideas. Learn to turn any word into a picture.",
+      "steps": ["Pick a word such as 'bicycle' and picture it in detail, with colour, size, sound and smell.", "Exaggerate: make it huge, tiny, glowing or doing something absurd.", "Add movement and a bit of humour or disgust, which makes images stick.", "For abstract words (justice, liberty) use a stand-in such as a judge's gavel or a statue.", "Hold each image for 3 to 5 seconds before moving on."],
+      "drills": ["Turn 10 random words into images and describe each aloud in one sentence.", "Next day, see how many you still recall from the word alone."],
+      "mastery": "You can turn 10 random words into distinct images in 2 minutes and recall at least 8 the next day.",
+      "mistakes": ["Using bland, static images.", "Rushing, so the image is never really seen.", "Using images that look alike."]
+    },
+    {
+      "id": "first-palace", "name": "Your First Palace", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Choose a place you know perfectly, like your home, and mark out a fixed route of ten places (loci) along it.",
+      "steps": ["Choose a familiar location, such as your home or your walk to work.", "Walk it mentally in a fixed direction, starting at the front door.", "Pick 10 distinct spots, each a different object or area (door mat, coat hook, sofa).", "Make them about 2 to 3 steps apart and easy to tell apart.", "Rehearse the route forwards and backwards until you can go through it without hesitation."],
+      "drills": ["Recite your 10 loci in order, then in reverse, twice a day for three days.", "Draw a quick map of the route with the loci numbered."],
+      "mastery": "You can list your 10 loci in order forwards and backwards without error, in under 30 seconds.",
+      "mistakes": ["Picking places that look alike, like several identical doors.", "Changing the direction of travel.", "Using places you don't know well."]
+    },
+    {
+      "id": "ten-item-list", "name": "A List of Ten", "tier": 1, "requires": ["vivid-imagery", "first-palace"], "hours": 1, "partyTrick": 5,
+      "summary": "Place one vivid image for each item at its locus. This is the basic method of loci in action.",
+      "steps": ["Take a list of 10 words and make an image for each.", "Walk your route and put each image in a locus, interacting with it: smash it, hang it, spill it.", "Spend about 10 seconds on each locus.", "To recall, walk the route in your mind and read off what you see.", "Clear the palace by mentally washing the images away when you are done."],
+      "drills": ["Memorise 10 random words in under 3 minutes and recall them in order.", "Recall them again after an hour and after a day."],
+      "mastery": "You can memorise 10 random words in under 3 minutes and recall them perfectly in order, then again 24 hours later with at most one error.",
+      "mistakes": ["Placing images beside the locus, not on it.", "Using the same palace twice in a row without clearing.", "Not testing recall."]
+    },
+    {
+      "id": "link-method", "name": "Link and Story Method", "tier": 1, "requires": ["vivid-imagery"], "hours": 1, "partyTrick": 5,
+      "summary": "Chain items into a story where each image acts on the next. Fast, palace-free and good for short lists.",
+      "steps": ["Take your first two items and make them interact in an absurd way.", "Link item 2 to item 3 in the same way, and so on.", "Keep each link vivid and physical, not just a sentence.", "Run through the story from the start to recall.", "Limit chains to about 10 to 15 items before moving into a palace."],
+      "drills": ["Link 10 random words and recite them in order.", "Link a real shopping list of 12 items and check it in a shop."],
+      "mastery": "You can link 15 random words into a story and recite them in order in under 3 minutes.",
+      "mistakes": ["If one link breaks, the rest are lost; use a palace for longer lists.", "Making links that are too logical to be memorable.", "Chains too long."]
+    },
+    {
+      "id": "rhyme-pegs", "name": "Rhyme Pegs 1-10", "tier": 1, "requires": ["vivid-imagery"], "hours": 2,
+      "summary": "A fixed set of peg words, one for each number, that you hang new items on.",
+      "steps": ["Learn a peg set: 1 bun, 2 shoe, 3 tree, 4 door, 5 hive, 6 sticks, 7 heaven, 8 gate, 9 wine, 10 hen.", "Picture each peg vividly.", "Attach the item to be remembered to the peg with an interactive image.", "Practise recalling in any order, for example 'what was number 7?'", "Extend to 20 later."],
+      "drills": ["Learn all ten pegs until you can say them in 10 seconds.", "Memorise 10 items on the pegs and recall in random order."],
+      "mastery": "You can memorise 10 items on the pegs and answer a random-order question like 'what was number 6?' instantly for all ten.",
+      "mistakes": ["Not learning the pegs cold first.", "Using weak images for the pegs.", "Mixing up the order."]
+    },
+    {
+      "id": "body-palace", "name": "Body Palace", "tier": 1, "requires": ["first-palace"], "hours": 1,
+      "summary": "Your own body is a portable palace that is always with you: toes, knees, hips, stomach, chest, shoulders, chin, nose, eyes, hair.",
+      "steps": ["Set 10 spots, from feet to head.", "Touch each spot while naming it to lock the order.", "Place images on each part.", "Use for quick lists when no other palace is handy.", "Clear and reuse."],
+      "drills": ["Run through the body route with your eyes closed.", "Memorise 10 items from a to-do list this way."],
+      "mastery": "You can list your 10 body loci in order from either end and memorise a 10-item list in under 3 minutes.",
+      "mistakes": ["Using similar parts like both knees.", "Not clearing old images.", "Skipping the physical touch."]
+    },
+    {
+      "id": "recall-review", "name": "Recall and Review", "tier": 1, "requires": ["ten-item-list"], "hours": 2,
+      "summary": "Information fades unless you recall it. Review your palace on a schedule to lock it in.",
+      "steps": ["Recall the list straight after learning it, without looking.", "Recall again after 10 minutes, then after a day, a week and a month.", "Walk the route in your head and see each image again.", "Strengthen any weak or faded images.", "Write the date of each review."],
+      "drills": ["Review a 10-item list on the schedule above and note any errors.", "Keep a log of three lists."],
+      "mastery": "You can still recall a 10-item list perfectly after one week using the review schedule.",
+      "mistakes": ["Reviewing only by rereading the list.", "Skipping the first review.", "Replacing images instead of strengthening them."]
+    },
+    {
+      "id": "palace-library", "name": "A Library of Palaces", "tier": 2, "requires": ["first-palace", "recall-review"], "hours": 6,
+      "summary": "Build many distinct palaces with 20 to 30 loci each so you never run out of space or confuse lists.",
+      "steps": ["Pick places you know well: home, school, work, a friend's house, a regular route.", "Set 20 to 30 loci in each in a consistent order.", "Draw a plan and number the loci.", "Walk each mentally until you know it in both directions.", "Keep a list of palaces and what is stored in each."],
+      "drills": ["Create 5 palaces with at least 20 loci each over two weeks.", "Recite the loci of each in under 40 seconds."],
+      "mastery": "You have at least 5 palaces with 20 or more loci each, and can recite each forwards and backwards without error.",
+      "mistakes": ["Making palaces that share the same features.", "Loci too close together.", "Never reviewing old palaces."]
+    },
+    {
+      "id": "twenty-words", "name": "Twenty Words", "tier": 2, "requires": ["ten-item-list", "link-method"], "hours": 3, "partyTrick": 10,
+      "summary": "The classic demo: memorise 20 words called out by a stranger and recite them forwards, backwards and by number.",
+      "steps": ["Use a palace with 20 loci.", "Have a friend read out 20 random words, one every 5 seconds.", "Place an image at each locus right away.", "Recite forwards, then backwards, then answer 'what was word 13?'.", "Use a fresh palace for each new list."],
+      "drills": ["Do 5 different 20-word lists, each in a new palace.", "Time how many seconds per word you can manage."],
+      "mastery": "You can memorise 20 words read by someone else at one every 5 seconds and recite them forwards and backwards with no errors.",
+      "mistakes": ["Falling behind and trying to catch up.", "Using reused palaces with leftover images.", "Weak images for dull words."]
+    },
+    {
+      "id": "names-faces", "name": "Names and Faces", "tier": 2, "requires": ["vivid-imagery", "link-method"], "hours": 4, "partyTrick": 20,
+      "summary": "Turn a name into a picture and stick it to a feature of the person's face.",
+      "steps": ["Listen and repeat the name aloud as soon as you hear it.", "Pick a distinctive feature: hairline, eyebrows, nose, jaw.", "Turn the name into an image (Baker becomes a baker's hat, Rose a rose).", "Link the image to the feature in an active way.", "Review the names when you leave and use them in conversation."],
+      "drills": ["Learn 10 names from photos in 5 minutes and test yourself.", "At a real event, learn at least 5 names and check them."],
+      "mastery": "You can learn 10 names and faces from photos or a group in about 5 minutes and recall at least 9 correctly an hour later.",
+      "mistakes": ["Not listening, because you are thinking of your reply.", "Using the same feature for everyone.", "Not asking for a repeat when you miss the name."]
+    },
+    {
+      "id": "major-system-basics", "name": "Major System Basics", "tier": 2, "requires": ["rhyme-pegs"], "hours": 6,
+      "summary": "Convert digits to consonant sounds, then to words, so numbers become images.",
+      "steps": ["Learn the sound for each digit: 0 s/z, 1 t/d, 2 n, 3 m, 4 r, 5 l, 6 j/sh/ch, 7 k/g, 8 f/v, 9 p/b.", "Vowels and w, h, y carry no value, so you can add them to build words.", "Make a word for each number from 00 to 09 first.", "Check that your words are concrete and easy to picture.", "Practise converting numbers to words and back."],
+      "drills": ["Drill the digit-to-sound table for 5 minutes a day for a week.", "Convert 20 random 2-digit numbers into words."],
+      "mastery": "You can recite the digit-sound table without hesitation and convert any 2-digit number to your word in under 3 seconds.",
+      "mistakes": ["Using spelling instead of sounds ('knee' is 2, not 72).", "Choosing abstract words.", "Learning too much in one go."]
+    },
+    {
+      "id": "daily-use", "name": "Memory Palace in Daily Life", "tier": 2, "requires": ["ten-item-list", "recall-review"], "hours": 5,
+      "summary": "Use the method for real needs: shopping lists, tasks, errands and appointments.",
+      "steps": ["Pick a short palace for daily lists and clear it each day.", "Convert your tasks into images and place them.", "Walk the route once more before leaving the house.", "Use your link method on the go.", "Notice what you forget and fix that image."],
+      "drills": ["Memorise your shopping list for a week without writing it down.", "Check your accuracy against a written list."],
+      "mastery": "For two weeks you've memorised each shopping or task list of 10 or more items and got every one right, verified against a written list.",
+      "mistakes": ["Using it once, then going back to paper.", "Not clearing old images.", "Choosing hard-to-picture task words."]
+    },
+    {
+      "id": "major-system-100", "name": "Major System 00-99", "tier": 3, "requires": ["major-system-basics"], "hours": 20,
+      "summary": "A fixed image for every number from 00 to 99, which is the foundation of serious number memory.",
+      "steps": ["Make one word per two-digit number, using the digit-sound table.", "Prefer nouns you can picture, and people or objects you know.", "Learn 10 per day and review the previous days.", "Test in both directions: number to image and image to number.", "Keep the list in a notebook and revise until instant."],
+      "drills": ["Run a flashcard deck of 00 to 99 until you reach 2 seconds each.", "Test a random 20 daily."],
+      "mastery": "You can give the image for any 2-digit number, or the number for any image on your list, within 2 seconds, with 98 of 100 correct.",
+      "mistakes": ["Changing images midway.", "Learning all 100 in one weekend and forgetting them.", "Using similar words for different numbers."]
+    },
+    {
+      "id": "digit-strings", "name": "Memorising Digits", "tier": 3, "requires": ["major-system-100", "palace-library"], "hours": 25, "partyTrick": 30,
+      "summary": "Chunk digits in pairs, turn each into an image, and place them along a palace.",
+      "steps": ["Split a long number into pairs and make an image for each.", "Put two or three images per locus, in a fixed order.", "Look at each locus briefly and do not rush; make each scene active.", "Recall by walking the route and decoding images back to digits.", "Build up from 20 digits to 40, then 60."],
+      "drills": ["Memorise 20 random digits in under 4 minutes and recall.", "Repeat with 40 digits."],
+      "mastery": "You can memorise 40 random digits in under 10 minutes and recall them with no errors, witnessed by another person.",
+      "mistakes": ["Rushing and skipping the image.", "Putting too many images in one locus.", "Practising only in your head, not testing in writing."]
+    },
+    {
+      "id": "speech-memorisation", "name": "Speeches and Presentations", "tier": 3, "requires": ["palace-library", "daily-use"], "hours": 20,
+      "summary": "Remember the structure of a talk or a short text by placing key images along a route, then improvise or recite.",
+      "steps": ["Break the speech into 10 to 20 key points.", "Make one image for each key point.", "Place them in order along a palace.", "Rehearse the speech while walking the route mentally.", "Use the images as cues, not as a word-for-word script, unless a recitation is needed."],
+      "drills": ["Deliver a 5-minute talk with no notes.", "Memorise a short poem line by line with one image per line."],
+      "mastery": "You can deliver a 5-minute talk covering all your points in the right order with no notes, in front of at least two people.",
+      "mistakes": ["Using too many images and drowning in detail.", "Never rehearsing aloud.", "Trying to memorise word-for-word when key points are enough."]
+    },
+    {
+      "id": "spaced-facts", "name": "Learning Facts and Vocabulary", "tier": 3, "requires": ["palace-library", "recall-review"], "hours": 20,
+      "summary": "Store long-term knowledge like vocabulary, dates, anatomy or capitals by combining palaces with spaced review.",
+      "steps": ["Create a themed palace per topic.", "Make a sound-alike image for the foreign word and link it to the meaning image.", "Review at 1 day, 3 days, 1 week and 1 month, or use spaced repetition software.", "Test with flashcards, not just walkthroughs.", "Prune and refresh images when they fade."],
+      "drills": ["Learn 50 words of a foreign language and test after a week.", "Learn the 50 US states in order or 30 countries and capitals."],
+      "mastery": "You can recall 50 new facts or vocabulary items with 90 percent accuracy a week after learning them.",
+      "mistakes": ["Skipping the review stage and expecting permanent recall.", "Storing too much with no organisation.", "Not testing yourself both ways."]
+    },
+    {
+      "id": "pao-cards", "name": "Card Images (Person-Action-Object)", "tier": 3, "requires": ["major-system-100"], "hours": 30,
+      "summary": "Give each of the 52 cards a person, action and object, so three cards become one scene.",
+      "steps": ["Pick a person, action and object for each card.", "Make them distinct and link them to the card's rank and suit by a consistent rule.", "Learn 13 cards at a time with flashcards.", "Combine person from card 1, action from card 2 and object from card 3 into one scene.", "Test card to image and image to card."],
+      "drills": ["Practise the deck of cards flashcards until each card to image takes under 2 seconds.", "Run 10 triplets a day."],
+      "mastery": "You can name the person, action and object for any of the 52 cards in 2 seconds, and recall a triplet of any three cards as a scene.",
+      "mistakes": ["Using similar people for different cards.", "Not testing in both directions.", "Trying all 52 in one day."]
+    },
+    {
+      "id": "deck-of-cards", "name": "A Shuffled Deck", "tier": 4, "requires": ["pao-cards", "palace-library"], "hours": 60, "partyTrick": 20,
+      "summary": "Memorise the order of a shuffled deck of cards: the classic test of a trained memory.",
+      "steps": ["Use a palace with 18 loci for a deck of 52 cards, with three cards per locus.", "Scan the cards, forming a scene for each triplet.", "Place each scene at its locus.", "Recall by walking and decoding.", "Time yourself and gradually reduce the time."],
+      "drills": ["Memorise 1 deck every day, tracking time and errors.", "Practise 10 cards, then 26, then the full deck."],
+      "mastery": "You can memorise a fully shuffled deck of 52 cards in under 5 minutes and recall it without a single error, three times in a row.",
+      "mistakes": ["Skipping review after each trial.", "Going for speed before accuracy.", "Reusing a palace without clearing it."]
+    },
+    {
+      "id": "hundred-digits", "name": "100 Digits", "tier": 4, "requires": ["digit-strings"], "hours": 60,
+      "summary": "A long number memorised with chunking, imagery and a big palace system.",
+      "steps": ["Use 25 to 50 loci with 2 to 4 images each.", "Practise 60 digits, then 80, then 100 over several weeks.", "Check errors and fix the weakest conversion pairs.", "Time yourself and keep a training log.", "Recall in writing, 5 digits per group."],
+      "drills": ["Do a 100-digit memory practise run 3 times per week.", "Keep a log of error digits."],
+      "mastery": "You can memorise 100 random digits in under 15 minutes and write them out with at most 2 errors, observed by a witness.",
+      "mistakes": ["Overloading loci.", "Not noting error patterns.", "Practising only once a week."]
+    },
+    {
+      "id": "long-form-recall", "name": "Long-Form Recall", "tier": 4, "requires": ["speech-memorisation", "spaced-facts"], "hours": 60,
+      "summary": "Memorise a long text, speech or body of knowledge and keep it for months.",
+      "steps": ["Choose a 1,000-word text, a long poem or a set of 100 facts.", "Build a large palace system with a clear map.", "Memorise in sections of 100 to 200 words with a review schedule.", "Recite in full at set intervals.", "Maintain it with monthly reviews."],
+      "drills": ["Memorise a 40-line poem and recite it after one week and one month.", "Recite the whole text each month."],
+      "mastery": "You can recite a 1,000-word text or 100-item set from memory with at most 2 errors, and again after one month.",
+      "mistakes": ["Learning everything in one weekend.", "Never reviewing.", "Ignoring weak sections."]
+    },
+    {
+      "id": "name-crowd", "name": "Crowd Names", "tier": 4, "requires": ["names-faces", "palace-library"], "hours": 40, "partyTrick": 60,
+      "summary": "Learn 30 or more names in one meeting using a palace for the faces and names.",
+      "steps": ["Use a palace to hold name images for people in seat order.", "Link each name image to the person's facial feature.", "Repeat each name aloud when introduced.", "Re-run the room mentally during breaks.", "Check your accuracy by asking people to confirm."],
+      "drills": ["Practise with 30 photo names in 15 minutes.", "Try at a real gathering and record how many you recall."],
+      "mastery": "You can learn the names of 30 people in about 30 minutes and name at least 28 of them correctly an hour later.",
+      "mistakes": ["Skipping the mental review.", "Not asking for spelling or repeats.", "Relying on a single feature."]
+    },
+    {
+      "id": "speed-deck", "name": "Sub-Two-Minute Deck", "tier": 5, "requires": ["deck-of-cards"], "hours": 400,
+      "summary": "Competition-level speed memory: a full deck with low error rates in under two minutes.",
+      "steps": ["Train daily with timed decks and a log.", "Refine images to be quick and distinct.", "Use a 'pegging' system where images take less than a second.", "Practise recall in a calm, repeatable routine.", "Compete in or watch an online memory competition."],
+      "drills": ["Run 5 timed decks a day, 5 days a week.", "Analyse errors by card."],
+      "mastery": "You can memorise a shuffled deck in under 2 minutes with a perfect recall, 3 times in a row, on video with the deck shown.",
+      "mistakes": ["Training only speed, not accuracy.", "Not reviewing errors.", "Burnout from too much practice without rest."]
+    },
+    {
+      "id": "memory-athlete", "name": "Memory Athlete", "tier": 5, "requires": ["hundred-digits", "speed-deck", "long-form-recall"], "hours": 800,
+      "summary": "Compete in memory disciplines at national level: long digit strings, decks, words, names and faces in timed events.",
+      "steps": ["Learn the rules of the standard disciplines from a memory sports federation.", "Build a training plan across all disciplines.", "Compete at a local or online event.", "Record your scores and compare with national rankings.", "Keep your systems consistent and review every week."],
+      "drills": ["Do a mock competition every month.", "Maintain a score sheet across disciplines."],
+      "mastery": "You have placed in an official or well-run memory competition with verified scores, such as 300 or more digits in 15 minutes or a deck in under 60 seconds.",
+      "mistakes": ["Switching systems close to a competition.", "Neglecting sleep and breaks.", "Ignoring weaker disciplines."],
+      "resources": [
+        { "title": "Moonwalking with Einstein", "kind": "book", "by": "Joshua Foer" }
+      ]
+    }
+  ]
+}

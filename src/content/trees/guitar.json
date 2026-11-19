@@ -1,0 +1,181 @@
+{
+  "hobby": "guitar",
+  "nodes": [
+    {
+      "id": "hold-tune", "name": "Hold, Tune & Fret", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Sit comfortably, tune by ear-and-tuner, and fret a note that rings cleanly. Everything else rests on this.",
+      "steps": ["Sit upright with the guitar body resting on your right thigh (left if left-handed) and the neck angled slightly up.", "Learn the open strings from thickest to thinnest: E A D G B E.", "Tune each string with a clip-on or phone tuner, always turning the peg up to pitch from slightly below.", "Fret with the tip of your fingertip just behind the fret wire, thumb roughly behind the neck, and pluck each string to check it rings."],
+      "drills": ["Tune all six strings from scratch, twice a day for a week.", "Fret every note on the first four frets of the high E string, checking each rings clearly."],
+      "mastery": "On video, you tune all six strings to within the green zone of a tuner in under 2 minutes, then fret and play a clean note at each of frets 1 to 4 on the B string.",
+      "mistakes": ["Tuning down to pitch, which slips flat.", "Fretting in the middle of the gap between frets.", "Gripping the neck so tightly the hand tires in minutes."]
+    },
+    {
+      "id": "first-chords", "name": "First Open Chords", "tier": 1, "requires": ["hold-tune"], "hours": 8,
+      "summary": "Em, E, Am, A, D and C are the shapes behind thousands of songs. Learn them so every string rings.",
+      "steps": ["Start with Em and E: they use two or three fingers and the same shape moved one string.", "Add Am, A and D, then C, checking each string by plucking one at a time.", "Arch your fingers so fingertips press down and do not touch neighbouring strings.", "Take a break every 10 minutes; fingertips will be sore for a week or two, and that is normal."],
+      "drills": ["Fret each chord, pluck all strings one by one, fix any that buzz or mute. Repeat for all 6 chords.", "Set a 5-minute timer and hold each chord for 20 seconds, resetting your hand between."],
+      "mastery": "You can fret Em, E, Am, A, D and C and have a friend (or camera) confirm every string rings out when you strum slowly, with no buzzing or dead strings.",
+      "mistakes": ["Pressing the pad of the finger so it mutes the next string down.", "Gripping the neck with a thumb over the top so the fingers cannot arch.", "Pressing much harder than needed, causing cramp."]
+    },
+    {
+      "id": "strum-basics", "name": "Down-Up Strumming", "tier": 1, "requires": ["hold-tune"], "hours": 4,
+      "summary": "A steady strumming arm is the engine of rhythm guitar: keep it moving even when you miss strings.",
+      "steps": ["Rest your forearm on the body edge and swing from the wrist and elbow, not the whole arm.", "Strum all six strings with a loose pick grip (thumb and side of the index finger).", "Count 'one and two and three and four and' aloud, with down-strums on the numbers and up-strums on the 'ands'.", "Keep the arm moving constantly, only touching strings on the beats you want to sound."],
+      "drills": ["Strum an open Em at 60 BPM for 3 minutes with continuous down-up motion.", "Mute the strings with your fretting hand and strum a rhythm to focus on the strumming alone."],
+      "mastery": "With a metronome at 70 BPM, you play eight continuous down-up eighth-note strums on a chord for 1 minute without losing the pulse.",
+      "mistakes": ["Stopping the arm on missed strums instead of keeping it moving.", "Strumming from the fingers or stiff wrist only.", "Speeding up when the chord changes."]
+    },
+    {
+      "id": "chord-changes", "name": "Clean Chord Changes", "tier": 1, "requires": ["first-chords", "strum-basics"], "hours": 10,
+      "summary": "Change chords in time without stopping the strum. It's the skill that turns shapes into songs.",
+      "steps": ["Pick two chords, such as G and C or Em and D, and move between them looking for 'anchor' fingers that can stay put or slide.", "Visualise the next shape just before you move, then place all fingers at once.", "Use the 'one-minute changes' game: count how many clean changes you can make in 60 seconds.", "Then change on the beat with a slow metronome, even if the strum is only one down-strum per chord."],
+      "drills": ["One-minute changes between G-C, G-D, Em-C, A-D, Am-Em: aim to beat your last score each day.", "Play four bars of each chord at 60 BPM, one strum per beat, with no gaps."],
+      "mastery": "You score 30+ clean changes in one minute between two open chords and play G-C-D-Em for four bars each at 70 BPM without stopping.",
+      "mistakes": ["Lifting all fingers off the neck before moving, rather than using anchors.", "Looking at the fretting hand only after the change, causing hesitation.", "Stopping the strumming hand during changes."]
+    },
+    {
+      "id": "reading-tabs", "name": "Tabs & Chord Charts", "tier": 1, "requires": ["hold-tune"], "hours": 2,
+      "summary": "Guitar tab and chord boxes are the shorthand every player uses to share music. Learn to read them in minutes.",
+      "steps": ["Tab shows six lines, one per string, with the thinnest (high E) on top and numbers indicating the fret.", "Chord diagrams show the strings as vertical lines, frets as horizontal, with dots for your fingers and X or O above for muted or open strings.", "Read left to right: numbers stacked vertically are played together.", "Note that tab shows pitch but not rhythm; listen to a recording for the timing."],
+      "drills": ["Play a short single-note riff written in tab and check it against a recording.", "Draw a chord box for each chord you know from memory."],
+      "mastery": "Given an unfamiliar one-bar tab and a chord diagram, you play both correctly on the first or second attempt.",
+      "mistakes": ["Reading the top line of the tab as the lowest string (it is the highest).", "Ignoring timing indicators or the original recording."]
+    },
+    {
+      "id": "first-melody", "name": "First Single-Note Melodies", "tier": 1, "requires": ["reading-tabs"], "hours": 5,
+      "summary": "Play a simple tune one note at a time to build picking accuracy and fretting independence.",
+      "steps": ["Pick a simple tune in tab, such as 'Ode to Joy' or 'Smoke on the Water' (power chord riff) or 'Seven Nation Army'.", "Use down-picks first, with the pick close to the string for control.", "Place one finger per fret (index on 1st fret, middle on 2nd and so on) so you do not need to look at your hand.", "Speed up only when you can play it cleanly three times in a row."],
+      "drills": ["Play 'Ode to Joy' from tab at 80 BPM without errors, five times in a row.", "Play a one-string chromatic scale from fret 1 to 4 on each string, slowly."],
+      "mastery": "You play a 16-bar melody from tab at 80 BPM with no wrong or buzzing notes, on video.",
+      "mistakes": ["Fretting too far from the fret wire, causing buzz.", "Looking at the picking hand rather than the fretting hand when stuck."]
+    },
+    {
+      "id": "strum-patterns", "name": "Strumming Patterns & Muting", "tier": 2, "requires": ["strum-basics", "chord-changes"], "hours": 10,
+      "summary": "Move beyond straight down-strokes to the syncopated 'Old faithful' pattern and palm-muted grooves that sound like real songs.",
+      "steps": ["Learn D-DU-UDU (down, down-up, up-down-up) over a steady count: 1, 2 &, & 4 &.", "Keep the arm moving and just miss the strings on the beats you want silent.", "Add accents by hitting some down-strokes harder and ghost-strumming the others.", "Palm-mute by resting the edge of your picking palm lightly on the strings near the bridge for a tight, thumping sound."],
+      "drills": ["Play D-DU-UDU on G, C, D, Em at 80 BPM, four bars each, for 5 minutes.", "Alternate four bars of open strumming with four bars of palm-muted strumming."],
+      "mastery": "You play a full verse and chorus of a song with a syncopated pattern and changes, matching the original recording's feel at tempo, on video.",
+      "mistakes": ["Counting beats but stopping the strumming arm.", "Strumming too hard and drowning chord clarity."]
+    },
+    {
+      "id": "capo-transpose", "name": "Capo & Easy Transposing", "tier": 2, "requires": ["chord-changes"], "hours": 3,
+      "summary": "A capo lets you play in any key with open chords, matching a singer's range without learning new shapes.",
+      "steps": ["Clamp the capo just behind the fret, with all strings ringing clearly, and retune if needed.", "The capo at fret N raises every open chord by N semitones: G shapes with a capo at 2 sound as A.", "Find your singing key by trying different capo positions on a song you know.", "Learn the capo fret needed to play a song in a given key using the shapes you know."],
+      "drills": ["Play G-C-D-Em at capo 0, 2, 3 and 5, naming the sounding key each time.", "Take a song written in B-flat or F# and play it with open shapes using a capo."],
+      "mastery": "Given a song chart in an awkward key and a singer's preferred key, you choose the right capo position and play it correctly in under 2 minutes.",
+      "mistakes": ["Placing the capo on top of the fret wire so strings buzz.", "Forgetting to retune after fitting the capo."]
+    },
+    {
+      "id": "fingerpicking-basics", "name": "Fingerpicking: P-I-M-A", "tier": 2, "requires": ["first-chords", "reading-tabs"], "hours": 10,
+      "summary": "Assign the thumb to the bass strings and fingers to the treble strings to play several notes independently.",
+      "steps": ["Rest your thumb (p) on the low E, index (i) on G, middle (m) on B, ring (a) on high E.", "Play a simple arpeggio pattern: p-i-m-a-m-i on an open chord.", "Let your fingers curl in with relaxed joints and pluck with the fingertip and a bit of nail or flesh.", "Switch chords while the pattern continues, anchoring the thumb on the root note of each chord."],
+      "drills": ["Play p-i-m-a-m-i on Am, C, G and Em at 60 BPM, four times each, for 5 minutes.", "Play the pattern with eyes closed for one minute."],
+      "mastery": "You fingerpick a four-chord loop (such as Am-C-G-Em) at 70 BPM for 2 minutes with even volume and no stops, on video.",
+      "mistakes": ["Fingers flailing instead of staying near the strings.", "Thumb volume overpowering the treble notes."]
+    },
+    {
+      "id": "minor-pentatonic", "name": "Minor Pentatonic Box 1", "tier": 2, "requires": ["first-melody"], "hours": 6,
+      "summary": "The five-note scale behind most rock, blues and folk solos, with one easy-to-remember shape.",
+      "steps": ["Learn the A minor pentatonic scale at frets 5 to 8: two notes per string over all six strings.", "Use fingers 1 and 4 for each pair, going up and down evenly.", "Practice with alternate picking (down-up), keeping the picking hand steady.", "Play it over a backing track in A minor to hear how the notes relate."],
+      "drills": ["Play the scale up and down at 60 BPM in eighth notes, then 80, then 100.", "Improvise 4-note phrases from the shape over an A minor backing track for 5 minutes."],
+      "mastery": "You play the A minor pentatonic scale in Box 1 up and down at 100 BPM in eighth notes with alternate picking and no buzz, on video.",
+      "mistakes": ["Starting with the wrong finger so the shape shifts.", "Rushing the tempo before the shape is automatic."]
+    },
+    {
+      "id": "hammer-pull", "name": "Hammer-Ons, Pull-Offs & Slides", "tier": 2, "requires": ["first-melody"], "hours": 5,
+      "summary": "Legato techniques add smoothness and speed because the fretting hand sounds notes without picking each one.",
+      "steps": ["Hammer-on: pluck a fretted note, then slam another finger onto a higher fret on the same string with enough force to sound it.", "Pull-off: pluck a fretted note and pull the finger slightly sideways as it leaves to sound the lower note underneath.", "Slide: fret a note, pick it, and slide to another fret without lifting pressure.", "Practice each on one string, then in pentatonic phrases."],
+      "drills": ["Play 'trills' with hammer-on/pull-off between frets 5 and 7 on the G string for 30 seconds at a time.", "Play the A minor pentatonic box using only one pick per string."],
+      "mastery": "You play a 4-bar riff that mixes hammer-ons, pull-offs and slides at 80 BPM with all notes evenly loud and clear, on video.",
+      "mistakes": ["Pulling off without a slight pluck, so the note is silent.", "Weak hammer-ons that produce faint notes."]
+    },
+    {
+      "id": "barre-chords", "name": "Barre Chords", "tier": 3, "requires": ["chord-changes", "strum-patterns"], "hours": 25,
+      "summary": "Move one shape anywhere on the neck: F, Bm, B-flat and every minor and major chord become available.",
+      "steps": ["Use the side of your index finger (not the flat pad) to press all six strings at one fret, with the finger slightly rolled toward its bony edge.", "Start with the F major shape (E-shape barre at fret 1) and the Bm shape (A-shape barre at fret 2).", "Keep your thumb behind the neck, mid-way, and use arm weight pulling slightly back, not just thumb squeeze.", "Practice moving the same shape up the neck, naming the chords by the root note on the sixth or fifth string."],
+      "drills": ["Hold an F barre for 10 seconds, release, repeat 10 times; check each string rings.", "Slide an E-shape barre from fret 1 to 12, naming each chord as you go."],
+      "mastery": "You play F-C-Bb-C or similar sequence of barre chords with all strings ringing at 80 BPM for 1 minute, on video.",
+      "mistakes": ["Barring with the flat of the finger so it sits on the joint creases.", "Squeezing with the thumb alone instead of using arm weight.", "Giving up after two days; this typically takes weeks."]
+    },
+    {
+      "id": "travis-picking", "name": "Travis Picking", "tier": 3, "requires": ["fingerpicking-basics"], "hours": 20,
+      "summary": "An alternating thumb bass with syncopated melody on top: the classic folk and country fingerstyle sound.",
+      "steps": ["Thumb alternates between two bass strings (for example, 5th and 4th strings on a C chord) on every beat.", "Add the index finger on the G string and the middle finger on the B string between thumb strokes.", "Begin with just the thumb, adding fingers one at a time.", "Keep the thumb steady even when the fingers move; it should never stop."],
+      "drills": ["Alternate thumb pattern alone at 70 BPM on C, G, Am, Em for 3 minutes.", "Play a complete verse of a Travis pattern song at 80 BPM, then 100."],
+      "mastery": "You play a Travis-picked pattern through a full song (for example 'Freight Train') with a steady thumb at 90 BPM, on video.",
+      "mistakes": ["Letting the thumb rhythm follow the finger rhythm instead of staying independent.", "Playing everything at the same volume with no melody emphasis."]
+    },
+    {
+      "id": "pentatonic-positions", "name": "Pentatonic Across the Neck", "tier": 3, "requires": ["minor-pentatonic", "hammer-pull"], "hours": 15,
+      "summary": "Learn all five pentatonic box shapes so you can play a solo anywhere on the fretboard in any key.",
+      "steps": ["Learn Boxes 2 to 5 of the minor pentatonic, linked end-to-end across the neck.", "Find the root notes (A on the sixth string fret 5, for example) within each box.", "Connect adjacent boxes with slides on a single string.", "Transpose all five boxes to a new key, such as E minor or D minor."],
+      "drills": ["Play each box up and down at 80 BPM in two keys.", "Play a continuous run: Box 1 up to Box 5 and back, with slides between boxes."],
+      "mastery": "You play all five boxes and connect them in both A minor and E minor pentatonic, at 90 BPM with alternate picking, on video.",
+      "mistakes": ["Memorising shapes without knowing which notes are the root.", "Staying only in Box 1."]
+    },
+    {
+      "id": "bends-vibrato", "name": "Bends & Vibrato", "tier": 3, "requires": ["hammer-pull"], "hours": 12,
+      "summary": "Push a string to raise its pitch and shake it to sing. It's what makes a guitar sound vocal.",
+      "steps": ["Bend by pushing the string across the fretboard using three fingers on the same string for strength.", "Check pitch against the target: a whole-step bend should match the note two frets higher.", "Add vibrato by rotating the wrist to rock the string up and down in even oscillations.", "Use lighter strings (extra light or custom light gauge) on an acoustic if bends are hard."],
+      "drills": ["Bend the G string at fret 7 up a whole step to match fret 9, 10 times, checking with a tuner or the fretted note.", "Hold a bend, then vibrato for 4 seconds, 10 repetitions."],
+      "mastery": "You play a whole-step bend that lands in tune (verified by a tuner or against the fretted target note) and sustain a steady vibrato on it for 3 seconds, on video.",
+      "mistakes": ["Bending with one finger only and hurting the hand.", "Not checking the pitch, so bends end sharp or flat."]
+    },
+    {
+      "id": "number-system", "name": "Nashville Numbers & Progressions", "tier": 3, "requires": ["capo-transpose", "strum-patterns"], "hours": 10,
+      "summary": "Think of chords as numbers (I, IV, V) so you can play any song in any key and follow other musicians quickly.",
+      "steps": ["Build the major scale, then label the chords: I, ii, iii, IV, V, vi (and vii-dim).", "Learn common progressions: I-IV-V, I-V-vi-IV, ii-V-I, 12-bar blues.", "Play each progression in several keys: G, C, D, A, E.", "Listen for the sound of each movement and try to identify progressions in songs you hear."],
+      "drills": ["Play I-V-vi-IV in all five open keys, 4 bars each, at 80 BPM.", "Play a 12-bar blues in A, E, and G."],
+      "mastery": "A friend names a key and progression such as 'ii-V-I in D' and you play it correctly within 30 seconds, with no chart.",
+      "mistakes": ["Memorising chord names as unrelated shapes rather than patterns.", "Ignoring the minor vi chord's role."]
+    },
+    {
+      "id": "caged-fretboard", "name": "The CAGED System", "tier": 4, "requires": ["barre-chords", "pentatonic-positions"], "hours": 30,
+      "summary": "Five open chord shapes (C, A, G, E, D) tile the neck, linking chords, scales and arpeggios into one map.",
+      "steps": ["Play C-A-G-E-D shapes as barre chords up the neck for one chord, such as C major.", "Locate chord tones, then pentatonic or major scale notes surrounding each shape.", "Find arpeggios within each shape.", "Use CAGED to find any chord or scale pattern around a chord you hear."],
+      "drills": ["Play all five shapes of C major up the neck, then G major, then D major.", "Play the major scale in all five CAGED positions at 80 BPM."],
+      "mastery": "You name and play any major or minor chord in five different neck positions, and play its major scale in each, without looking at a chart, on video.",
+      "mistakes": ["Treating CAGED as just chord shapes without linking scale notes.", "Learning one key only."]
+    },
+    {
+      "id": "solo-arrangement", "name": "Solo Fingerstyle Arrangement", "tier": 4, "requires": ["travis-picking", "number-system"], "hours": 40,
+      "summary": "Play melody, bass and harmony at once on a single guitar, as a complete solo piece.",
+      "steps": ["Choose a simple melody (a hymn, folk tune or pop song).", "Place the melody on top strings and a bass line on lower strings, with chord tones filling in.", "Write out or tab your arrangement bar by bar.", "Learn each hand independently, then combine slowly."],
+      "drills": ["Practise the melody and bass line separately, then together, at half tempo.", "Record yourself and mark spots where melody volume gets lost."],
+      "mastery": "You play a complete self-arranged piece, with clear melody, steady bass and chord support, from memory in front of a camera or audience.",
+      "mistakes": ["Playing melody and accompaniment with equal volume.", "Choosing a song that is too hard for a first arrangement."]
+    },
+    {
+      "id": "improvise-changes", "name": "Improvising Over Chord Changes", "tier": 4, "requires": ["pentatonic-positions", "bends-vibrato", "number-system"], "hours": 40,
+      "summary": "Solo over a progression by targeting chord tones as the harmony changes, rather than running one scale.",
+      "steps": ["Play over a 12-bar blues in A using minor pentatonic plus the major third (blues scale and major pentatonic mix).", "Target the root and third of each chord (A7, D7, E7) when it arrives.", "Use call-and-response phrases: short statement, then a variation.", "Record yourself, then transcribe and refine your best phrases."],
+      "drills": ["Solo over a 12-bar blues for 5 choruses, using a different position each chorus.", "Play only 3 notes per chord change, landing on chord tones."],
+      "mastery": "You play a 3-chorus improvised solo over a 12-bar blues backing track at 100 BPM that clearly outlines the chord changes, with phrasing and dynamics, on video.",
+      "mistakes": ["Playing scales up and down instead of phrasing.", "Never leaving gaps; space makes phrases musical."]
+    },
+    {
+      "id": "perform-live", "name": "Perform & Play With Others", "tier": 4, "requires": ["strum-patterns", "number-system", "chord-changes"], "hours": 30,
+      "summary": "Keep time, follow a leader and recover from mistakes while playing with other people or for an audience.",
+      "steps": ["Join a jam, open mic or play along with friends on a 3-song set.", "Listen more than you play: lock your rhythm to the drummer or other instruments.", "Keep going when you slip; never stop to correct.", "Make a simple setlist with tempos and capo positions noted."],
+      "drills": ["Play along with a record every day for 10 minutes, matching the groove.", "Record a full three-song take without stopping."],
+      "mastery": "You perform a three-song set with at least one other musician or to an audience, without stopping through mistakes, on video.",
+      "mistakes": ["Stopping at every error.", "Playing too loudly instead of listening."]
+    },
+    {
+      "id": "open-tunings-percussive", "name": "Open Tunings & Percussive Fingerstyle", "tier": 5, "requires": ["solo-arrangement", "caged-fretboard"], "hours": 120,
+      "summary": "Use DADGAD, open G or open D tunings with slaps, taps and harmonics to create orchestral textures from one guitar.",
+      "steps": ["Retune to DADGAD and relearn the neck by finding shapes and drone strings.", "Add percussive body slaps, string-snap (Bartok pizzicato) and natural harmonics at the 12th, 7th and 5th frets.", "Develop a repertoire of 2 to 3 pieces that show contrasting tunings.", "Study arrangements by players like Tommy Emmanuel, Andy McKee or Michael Hedges, then compose your own."],
+      "drills": ["Play natural harmonics at frets 12, 7 and 5 on every string, cleanly, daily.", "Perform a percussive groove for 10 minutes, with the metronome on beats 2 and 4."],
+      "mastery": "You perform a self-arranged piece in an open tuning that features melody, bass, percussion and harmonics, polished and from memory, on video.",
+      "mistakes": ["Percussion that overwhelms the music.", "Detuning guitar from rough hitting, which shifts tuning mid-piece."]
+    },
+    {
+      "id": "original-set", "name": "Write & Perform an Original Set", "tier": 5, "requires": ["improvise-changes", "perform-live", "solo-arrangement"], "hours": 150,
+      "summary": "Compose your own songs with distinctive chord choices, form and improvisation, and deliver a polished live performance.",
+      "steps": ["Write at least 5 original songs or pieces using different forms (verse-chorus, instrumental, 12-bar etc.).", "Arrange each for solo guitar and, if singing, voice.", "Rehearse the set until you can play it with confidence even when nervous.", "Book a real performance and record it."],
+      "drills": ["Run the full set from start to finish once a day for two weeks before the show.", "Record and listen back, noting pace, dynamics and weak spots."],
+      "mastery": "You perform a 20-minute set of original material for a live audience, with video proof, with clean technique, strong dynamics and no breakdowns.",
+      "mistakes": ["Over-rehearsing songs in isolation without a full run-through.", "Setlists with no variation in tempo or mood."]
+    }
+  ]
+}

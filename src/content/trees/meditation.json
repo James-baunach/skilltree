@@ -1,0 +1,189 @@
+{
+  "hobby": "meditation",
+  "nodes": [
+    {
+      "id": "posture-setup", "name": "Sitting Posture", "tier": 1, "requires": [], "hours": 1,
+      "summary": "A stable, comfortable seat lets you stay still without pain or sleepiness. Everything else rests on it.",
+      "steps": ["Choose a chair with your feet flat on the floor, or a cushion that tips your hips slightly above your knees.", "Keep your spine tall but not rigid, with ears over shoulders and chin slightly tucked.", "Rest your hands on your thighs or in your lap and let your shoulders drop.", "Close your eyes or rest a soft gaze on the floor about a metre ahead.", "Set a timer so you don't have to watch the clock."],
+      "drills": ["Sit for 5 minutes in your chosen posture and note where tension appears; adjust once, not constantly.", "Try one session in a chair and one on a cushion to see which you can hold longer."],
+      "mastery": "You can sit upright and still for 10 minutes without needing to shift position or lean on anything.",
+      "mistakes": ["Slouching or collapsing the chest, which leads to sleepiness.", "Forcing a cross-legged position that causes knee pain.", "Constantly fidgeting to find the 'perfect' position."]
+    },
+    {
+      "id": "breath-counting", "name": "Breath Counting", "tier": 1, "requires": ["posture-setup"], "hours": 3,
+      "summary": "Count each exhale from one to ten and start over. It is the simplest honest test of whether your mind has wandered.",
+      "steps": ["Sit in your posture and breathe naturally without controlling it.", "Silently count 'one' on the first exhale, 'two' on the next, up to ten.", "When you lose count or reach past ten, simply go back to one.", "Keep the count light and quiet, like a whisper."],
+      "drills": ["Five-minute sessions, counting only; record how many full rounds to ten you complete.", "Do three sessions a week for two weeks and compare the numbers."],
+      "mastery": "You can complete three consecutive rounds from one to ten without losing count, in a 5-minute sit.",
+      "mistakes": ["Treating a lost count as failure instead of a normal event.", "Deliberately slowing or deepening the breath.", "Counting loudly in your head so it becomes another stream of thoughts."]
+    },
+    {
+      "id": "return-practice", "name": "Noticing and Returning", "tier": 1, "requires": ["breath-counting"], "hours": 3,
+      "summary": "The core repetition of meditation: notice the mind has wandered, drop the story, and gently come back. Each return is a rep.",
+      "steps": ["Pick an anchor, such as the feeling of the breath at the nostrils or belly.", "When you notice you are thinking, label it briefly as 'thinking' and let the thought go.", "Return attention to the anchor without scolding yourself.", "Count how many times you returned; treat the count as success, not failure."],
+      "drills": ["During a 10-minute sit, tally returns with a mental count or a small bead bracelet.", "Practise a kind inner tone: say 'back' softly each time you return."],
+      "mastery": "You can describe, from a 10-minute sit, roughly how many times your mind wandered and what it wandered to, and you came back each time without self-criticism.",
+      "mistakes": ["Believing a good meditation is one with no thoughts.", "Following a thought to the end before noticing.", "Returning with irritation, which trains frustration rather than focus."]
+    },
+    {
+      "id": "body-scan", "name": "Body Scan", "tier": 1, "requires": ["posture-setup"], "hours": 3,
+      "summary": "Sweep attention slowly through the body, noticing sensations without trying to change them. It builds body awareness and relaxes tension.",
+      "steps": ["Lie down or sit comfortably and take three slow breaths.", "Start at the toes of one foot and notice any sensation: warmth, pressure, tingling, or nothing.", "Move up through the feet, legs, pelvis, belly, chest, hands, arms, shoulders, neck, face and scalp.", "Spend about 20 to 30 seconds per region and rest in the whole body at the end."],
+      "drills": ["Do a 15-minute guided or self-led body scan, three times in a week.", "Try a 5-minute version before sleep."],
+      "mastery": "You can scan from toes to scalp in 10 minutes, naming at least one concrete sensation in most regions, and you can say where you hold tension.",
+      "mistakes": ["Trying to relax each part instead of just noticing it.", "Falling asleep every time, and treating it as failure rather than adjusting posture.", "Rushing through regions so nothing is really felt."]
+    },
+    {
+      "id": "daily-habit", "name": "A Daily Habit", "tier": 1, "requires": ["posture-setup"], "hours": 4,
+      "summary": "Short sessions every day beat long, occasional ones. A fixed time and place make the habit automatic.",
+      "steps": ["Choose one fixed time, such as straight after waking or after brushing your teeth.", "Start with just 5 minutes so skipping feels silly.", "Use the same spot and set the timer before you sit.", "Track each day on a calendar and don't miss twice in a row."],
+      "drills": ["Sit 5 minutes a day for 14 days in a row.", "Plan a fallback of 2 minutes for hectic days."],
+      "mastery": "You have logged at least 21 sits in 28 days, each of 5 minutes or more, with a visible calendar or app record.",
+      "mistakes": ["Choosing an ambitious 30-minute target and quitting in a week.", "Meditating only when stressed.", "Having no fixed trigger, so it depends on willpower."]
+    },
+    {
+      "id": "mindful-walking", "name": "Walking Meditation", "tier": 1, "requires": ["return-practice"], "hours": 2,
+      "summary": "Use the sensations of walking as the anchor. It is a useful alternative when sitting feels sleepy or restless.",
+      "steps": ["Pick a quiet path of 10 to 15 paces and walk slowly back and forth.", "Feel the lift, move and placement of each foot.", "Keep your gaze soft and a few metres ahead, hands loosely clasped.", "At each end, pause, turn mindfully and continue."],
+      "drills": ["10 minutes of slow walking, returning to foot sensations each time you drift.", "Alternate 10 minutes sitting with 10 minutes walking."],
+      "mastery": "You can walk for 10 minutes keeping attention on foot sensations, noticing and returning from wandering at least several times without stopping.",
+      "mistakes": ["Walking at normal speed so it becomes a stroll.", "Staring at your feet and tensing the neck.", "Treating it as a break from practice rather than practice."]
+    },
+    {
+      "id": "breath-following", "name": "Following the Breath", "tier": 2, "requires": ["breath-counting", "return-practice"], "hours": 8,
+      "summary": "Drop the counting and stay with the whole in-breath and out-breath continuously. This is the classic concentration practice.",
+      "steps": ["Pick the spot where the breath is most vivid: nostrils, chest or belly.", "Feel the full cycle: the beginning, middle and end of each in-breath and out-breath.", "Notice the small pauses between breaths without forcing them.", "If attention keeps slipping, use a few counts as a reset, then drop them."],
+      "drills": ["Three 15-minute sits per week with no counting.", "Rate sustained attention from 1 to 10 after each sit and chart it over two weeks."],
+      "mastery": "In a 15-minute sit you can stay with the breath for stretches of at least a minute at a time, and report accurately how long your longest stretch was.",
+      "mistakes": ["Controlling the breath instead of observing it.", "Thinking about the breath rather than feeling it.", "Dropping the anchor too early when attention is still unstable."]
+    },
+    {
+      "id": "twenty-minute-sit", "name": "The 20-Minute Sit", "tier": 2, "requires": ["daily-habit", "return-practice"], "hours": 8,
+      "summary": "Extend your sits to 20 minutes. At that length the first restless phase passes and deeper settling becomes possible.",
+      "steps": ["Add 2 to 3 minutes per week until you reach 20.", "Notice what happens in minutes 5 to 12: boredom, itching and doubt usually peak there.", "Stay with the anchor through the discomfort instead of stopping.", "End slowly: open your eyes, wiggle fingers, then stand."],
+      "drills": ["Do 20 minutes daily for 10 days.", "Write one line after each sit about the hardest minute."],
+      "mastery": "You have completed ten 20-minute sits in a row without cutting any short, with a log.",
+      "mistakes": ["Ending the session the moment it gets uncomfortable.", "Judging a sit by how calm it felt.", "Increasing time too fast and burning out."]
+    },
+    {
+      "id": "noting-practice", "name": "Mental Noting", "tier": 2, "requires": ["return-practice"], "hours": 8,
+      "summary": "Give a brief neutral label ('thinking', 'planning', 'hearing', 'itching') to whatever pulls your attention. It stops you getting lost inside the content.",
+      "steps": ["Sit and rest on the breath as normal.", "When something grabs your attention, silently name its category in one word.", "Use a flat tone; don't comment on the content.", "Return to the breath after each note.", "Learn common categories: thinking, remembering, planning, worrying, sensation, sound."],
+      "drills": ["10-minute sit noting every distraction; count the most common label.", "Do a 5-minute 'noting only' sit with no anchor."],
+      "mastery": "In a 10-minute sit you can note distractions in real time and, afterwards, name your top two most frequent mental categories.",
+      "mistakes": ["Labelling with long sentences instead of one word.", "Using notes to argue with or judge thoughts.", "Noting so intensely that it becomes tiring."]
+    },
+    {
+      "id": "sound-awareness", "name": "Sound Awareness", "tier": 2, "requires": ["breath-following"], "hours": 4,
+      "summary": "Treat sound as the anchor and let it come and go without naming or reacting. It trains receptive, non-grasping attention.",
+      "steps": ["Sit and listen to the room as a whole, not seeking anything.", "Notice sounds arising, lasting and fading, including silence between.", "Notice your reaction (like or dislike) as separate from the sound.", "Let loud sounds simply be heard rather than fought."],
+      "drills": ["10 minutes of sound-only sitting in a normal environment, not a silent one.", "Notice three sounds you usually tune out."],
+      "mastery": "You can sit through a noisy environment for 10 minutes without feeling the urge to stop, and describe sounds as sensations rather than stories.",
+      "mistakes": ["Searching for silence and resenting noise.", "Naming and analysing sources (a car, a neighbour).", "Straining the ears instead of staying receptive."]
+    },
+    {
+      "id": "metta-basics", "name": "Loving-Kindness Basics", "tier": 2, "requires": ["breath-following"], "hours": 6,
+      "summary": "Silently offer good wishes, first to yourself, then to others. It builds warmth and reduces harsh self-talk.",
+      "steps": ["Settle with a few breaths and pick 3 to 4 simple phrases: 'May I be safe. May I be well. May I be at ease.'", "Repeat them slowly, directing attention to the meaning, not just words.", "Move on to someone you easily care about, using 'may you...'.", "Don't force a feeling; neutral is fine."],
+      "drills": ["10-minute metta sit, four times in a week.", "End one sit by offering the phrases to a person you passed today."],
+      "mastery": "You can run a 10-minute loving-kindness session cycling through yourself and a loved one, staying with the phrases for most of it, and noticing the effect on your mood.",
+      "mistakes": ["Judging yourself because you don't feel anything.", "Rattling through the phrases on autopilot.", "Starting with a difficult person too early."]
+    },
+    {
+      "id": "restlessness-and-sleepiness", "name": "Working with Restlessness and Sleepiness", "tier": 2, "requires": ["twenty-minute-sit"], "hours": 6,
+      "summary": "Restlessness, sleepiness, doubt, craving and aversion are the standard obstacles. Each has a practical remedy.",
+      "steps": ["Name the obstacle when it arises: 'restless', 'sleepy', 'doubt'.", "For sleepiness: open your eyes, straighten your spine, sit near a window or splash cold water first.", "For restlessness: relax the body and lengthen the exhale, or do two minutes of walking meditation.", "Treat the obstacle as a sensation to investigate rather than an enemy."],
+      "drills": ["Keep a log of which obstacle appeared in each sit for two weeks.", "Try one 'remedy' per session and record whether it helped."],
+      "mastery": "You can name the obstacle in the moment and apply a fitting remedy in at least three out of five tough sits.",
+      "mistakes": ["Fighting the feeling with willpower.", "Meditating when sleep-deprived, then blaming technique.", "Quitting sits as soon as a hindrance arises."]
+    },
+    {
+      "id": "open-monitoring", "name": "Open Awareness", "tier": 3, "requires": ["noting-practice", "breath-following"], "hours": 15,
+      "summary": "Drop the single anchor and let attention rest on whatever arises: sounds, thoughts, sensations. It develops flexible, panoramic awareness.",
+      "steps": ["Begin with 5 minutes on the breath to stabilise.", "Widen attention to include body sensations, sounds and thoughts.", "Don't chase or push away anything; let experiences arise and pass.", "If overwhelmed, return to the breath, then widen again."],
+      "drills": ["20-minute sit: 5 on breath, 15 open awareness.", "Alternate focused and open sits across the week."],
+      "mastery": "You can sit 20 minutes in open awareness and describe how experiences arose and ended, without becoming lost in any single thought for long.",
+      "mistakes": ["Going vague and spacey instead of alert.", "Skipping concentration practice and hoping open awareness will be easy.", "Analysing experience rather than observing it."]
+    },
+    {
+      "id": "sustained-concentration", "name": "Sustained Concentration", "tier": 3, "requires": ["breath-following", "twenty-minute-sit"], "hours": 25,
+      "summary": "Hold the breath as an object for long unbroken periods. This stable focus is the foundation for deeper insight work.",
+      "steps": ["Sit for 30 minutes on the breath with a single point of focus.", "When attention is steady, notice subtle sensations and let your focus narrow.", "Notice whether the mind feels pleasant and still; don't cling to it.", "Return to the same object when distractions appear."],
+      "drills": ["30-minute daily sits for 3 weeks.", "Count the number of times per sit you wander and aim for fewer over weeks."],
+      "mastery": "In a 30-minute sit you wander fewer than about 10 times (by your own tally) and can report long stretches of steady attention.",
+      "mistakes": ["Chasing special states instead of steady attention.", "Tensing the face and forehead with effort.", "Giving up on days when focus is poor."]
+    },
+    {
+      "id": "difficult-emotions", "name": "Sitting with Difficult Emotions", "tier": 3, "requires": ["body-scan", "noting-practice", "restlessness-and-sleepiness"], "hours": 15,
+      "summary": "Meet anxiety, anger or sadness as physical sensations plus thoughts, rather than as problems to solve. This is where meditation pays off in daily life.",
+      "steps": ["When an emotion shows up, name it: 'anger', 'fear'.", "Locate it in the body and describe its shape, temperature and movement.", "Breathe with the sensation, allowing it to change or stay.", "Notice the thoughts feeding it and label them without arguing.", "If it becomes overwhelming, stop, ground yourself with feet and sounds, and consider talking to a professional."],
+      "drills": ["Pick one mild irritation daily and explore it for 5 minutes.", "Write two lines after each session: where in the body, how it changed."],
+      "mastery": "You can stay with a moderate emotion for 10 minutes, describe its bodily sensations precisely, and report how it changed over time.",
+      "mistakes": ["Starting with your most painful memory.", "Using the practice to suppress feelings.", "Continuing when overwhelmed instead of grounding and stopping."]
+    },
+    {
+      "id": "metta-extended", "name": "Extended Loving-Kindness", "tier": 3, "requires": ["metta-basics", "sustained-concentration"], "hours": 12,
+      "summary": "Widen goodwill step by step: self, benefactor, friend, neutral person, difficult person, then all beings.",
+      "steps": ["Spend 3 to 4 minutes on each category, in order.", "For the neutral person, pick a barista or neighbour; for the difficult person, choose someone only mildly irritating.", "If resistance arises, return to yourself or the benefactor.", "Finish with all beings in all directions."],
+      "drills": ["30-minute full-sequence metta sit once a week.", "Offer one silent wish for a stranger each day on the commute."],
+      "mastery": "You can complete a full 30-minute sequence including a mildly difficult person, and observe a measurable softening in how you think of them.",
+      "mistakes": ["Picking someone who harmed you badly as the 'difficult' person.", "Rushing through categories to finish the list.", "Confusing metta with approval of harmful behaviour."]
+    },
+    {
+      "id": "informal-mindfulness", "name": "Mindfulness in Daily Life", "tier": 3, "requires": ["open-monitoring"], "hours": 20,
+      "summary": "Carry the training into ordinary activities: eating, washing up, conversations, email. This is where practice becomes useful.",
+      "steps": ["Choose 2 or 3 daily 'anchor activities' such as brushing teeth, drinking tea, opening doors.", "Do them with full attention to sensation and movement.", "Use three-breath pauses before meetings, messages or when stressed.", "Practise listening fully in one conversation a day without planning your reply."],
+      "drills": ["Eat one meal a day without a screen, noting taste and texture.", "Set 3 random daily phone reminders to take three conscious breaths."],
+      "mastery": "You can describe, in a journal, ten specific moments across two weeks where a pause or noticing changed what you did.",
+      "mistakes": ["Trying to be mindful all day and burning out.", "Skipping formal sitting practice.", "Using it as a performance rather than noticing what is actually there."]
+    },
+    {
+      "id": "day-retreat", "name": "A Day Retreat", "tier": 4, "requires": ["sustained-concentration", "difficult-emotions"], "hours": 40,
+      "summary": "A full day of alternating sitting and walking in silence. It shows what the mind does with few distractions.",
+      "steps": ["Pick a structure: 30 to 45 minutes sitting, 15 to 20 walking, repeating from morning to late afternoon.", "Switch off devices and tell people you are unavailable.", "Eat simply and slowly; rest when needed.", "Write brief notes at the end of the day and consider joining an organised group the first time."],
+      "drills": ["Complete a 6-hour day retreat at home or at a centre.", "Repeat quarterly and compare notes."],
+      "mastery": "You have completed at least 6 hours of silent practice in a day, with attendance verifiable by a retreat centre or a recorded schedule and a written reflection.",
+      "mistakes": ["Overplanning and turning it into a performance.", "Checking the phone during breaks.", "Going very long on a first retreat without guidance."]
+    },
+    {
+      "id": "impermanence-inquiry", "name": "Investigating Change", "tier": 4, "requires": ["open-monitoring", "difficult-emotions"], "hours": 40,
+      "summary": "Watch closely how sensations, moods and thoughts arise and pass. Seeing impermanence directly loosens habitual clinging.",
+      "steps": ["In open awareness, pick a sensation (an itch, an ache) and watch it moment by moment.", "Notice how it changes in intensity, location and quality.", "Apply the same watching to a mood or recurring thought.", "Ask: is there anything here that stays the same?", "Note any shift in how you relate to unpleasantness."],
+      "drills": ["Daily 20-minute inquiry sit for 3 weeks.", "Keep a log of three observed changes per sit."],
+      "mastery": "You can describe in detail, from your own observation, how a strong sensation or emotion changed across a 10-minute window, and apply that to a real-life stress.",
+      "mistakes": ["Intellectualising instead of watching directly.", "Expecting dramatic insights.", "Pushing through pain that signals a real problem rather than sensation."]
+    },
+    {
+      "id": "guided-sessions", "name": "Guiding Others", "tier": 4, "requires": ["metta-extended", "informal-mindfulness"], "hours": 40,
+      "summary": "Leading a short session for a friend or small group tests whether you understand the practice and teaches you to explain it simply.",
+      "steps": ["Write a 10-minute script: posture, breath anchor, wandering, closing.", "Speak slowly with plenty of silence and plain language.", "Offer options for people with difficulty, such as trauma or physical pain.", "Ask for feedback and refine."],
+      "drills": ["Lead five 10-minute sessions for friends or colleagues.", "Record yourself and listen back for pacing."],
+      "mastery": "You have led at least five short guided sessions, with written feedback from participants who say the instructions were clear.",
+      "mistakes": ["Over-talking and filling every silence.", "Overstating health claims.", "Ignoring that some people find meditation distressing."]
+    },
+    {
+      "id": "seven-day-retreat", "name": "A Week-Long Retreat", "tier": 4, "requires": ["day-retreat"], "hours": 70,
+      "summary": "Seven days of silent, structured practice. It is intense but is the most reliable way to deepen concentration and see the mind's patterns clearly.",
+      "steps": ["Choose an established centre with experienced teachers and a clear code of conduct.", "Prepare by sitting daily for at least a month beforehand.", "Follow the schedule, meet the teacher for check-ins and ask for help if you struggle.", "Plan a gentle re-entry afterwards."],
+      "drills": ["Do a 3-day retreat first, then extend to 7 days.", "Maintain a 40-minute daily sit for the month after."],
+      "mastery": "You have completed a full 7-day silent retreat run by an established centre, with a completion record or teacher confirmation.",
+      "mistakes": ["Going with no prior daily practice.", "Pushing through a mental health crisis without telling the teacher.", "Dropping the practice entirely when you return."]
+    },
+    {
+      "id": "lead-a-course", "name": "Teach a Course", "tier": 5, "requires": ["guided-sessions", "seven-day-retreat"], "hours": 150,
+      "summary": "Design and teach a multi-week introductory program. Teaching forces you to refine your own understanding and to meet others' difficulties.",
+      "steps": ["Build an 8-week curriculum covering posture, breath, body scan, difficult emotions, kindness and daily life.", "Provide handouts, recordings and a way for students to ask questions.", "Know your limits and refer people with serious mental health issues to professionals.", "Collect feedback each week and adapt."],
+      "drills": ["Teach a full 8-week course to a group of at least six people.", "Keep a teaching journal and discuss it with a mentor."],
+      "mastery": "You have taught a full multi-week course to at least six students, with attendance records and written testimonials from them.",
+      "mistakes": ["Teaching beyond your training in trauma-informed practice.", "Presenting meditation as a cure-all.", "Skipping your own daily practice while teaching."]
+    },
+    {
+      "id": "long-term-practice", "name": "A Decade of Practice", "tier": 5, "requires": ["seven-day-retreat", "impermanence-inquiry"], "hours": 1000,
+      "summary": "Sustained daily practice, regular retreats and ongoing study over many years. The mark of a master is consistency and humility, not special states.",
+      "steps": ["Keep daily practice of 30 to 60 minutes, with annual retreats of a week or more.", "Study primary texts or modern science from a reputable teacher or tradition.", "Work with a teacher or peer group for regular check-ins.", "Apply the practice in relationships, work and ethical decisions."],
+      "drills": ["Log hours in a spreadsheet and review annually.", "Complete a longer retreat of 10 to 30 days with a qualified teacher."],
+      "mastery": "You can show a multi-year practice log of daily sitting and retreat completions, and a teacher or long-time peer can vouch that the practice shows in your conduct.",
+      "mistakes": ["Treating spiritual experiences as achievements.", "Isolating from teachers and community.", "Confusing meditation skill with emotional maturity."]
+    }
+  ]
+}

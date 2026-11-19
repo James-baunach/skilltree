@@ -1,0 +1,213 @@
+{
+  "hobby": "hiking",
+  "nodes": [
+    {
+      "id": "footwear-footcare", "name": "Footwear & Foot Care", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Choose well-fitting footwear and socks and prevent blisters before they start.",
+      "steps": ["Try boots or trail shoes in the afternoon, when feet are slightly swollen, with the socks you will hike in.", "Check there is a thumb's width in front of your toes and no heel lift on a slope.", "Wear wool or synthetic socks, never cotton.", "Stop at the first hot spot and cover it with tape or a blister plaster."],
+      "drills": ["Break in new footwear on three short walks before a long day.", "Practise lacing so your heel stays locked on downhills."],
+      "mastery": "You complete a 10 km walk with no blisters and can explain how you would treat a hot spot on the trail.",
+      "mistakes": ["Wearing brand-new boots on a long hike.", "Wearing cotton socks that hold sweat.", "Ignoring a hot spot until it becomes a blister."]
+    },
+    {
+      "id": "ten-essentials", "name": "Ten Essentials & Daypack", "tier": 1, "requires": [], "hours": 2,
+      "summary": "The standard kit that lets you cope with a delay, injury or change in weather.",
+      "steps": ["Learn the Ten Essentials: navigation, sun protection, insulation, illumination, first aid, fire, repair tools, nutrition, hydration and emergency shelter.", "Pack them in a daypack of about 20-30 litres.", "Pack heavy items close to your back and keep rain gear at the top.", "Check the kit before every trip."],
+      "drills": ["Build a checklist and pack from it for your next five hikes.", "Weigh your pack and trim anything you did not use."],
+      "mastery": "You show a packed daypack and name each of the Ten Essentials and where it is for each item.",
+      "mistakes": ["Leaving the headlamp at home because you plan to finish before dark.", "Carrying cotton layers.", "Overpacking luxuries and skipping the essentials."]
+    },
+    {
+      "id": "hydration-food", "name": "Water & Food on Trail", "tier": 1, "requires": [], "hours": 3,
+      "summary": "Drink and eat little and often so you do not run out of energy or get dehydrated.",
+      "steps": ["Carry about 0.5 litres of water per hour of moderate hiking, more in heat.", "Eat a snack every hour: nuts, fruit, bars or sandwiches.", "Drink before you feel thirsty.", "Learn to treat water from streams with a filter or purification tablets."],
+      "drills": ["Plan food and water for a 4-hour hike and check what you actually used.", "Practise filtering water at home."],
+      "mastery": "You finish a 4-hour hike with energy left and water remaining, and can state how you planned quantities.",
+      "mistakes": ["Waiting until you are hungry or thirsty.", "Relying on one big lunch.", "Drinking untreated stream water."]
+    },
+    {
+      "id": "pacing-breaks", "name": "Pacing & Breaks", "tier": 1, "requires": ["footwear-footcare"], "hours": 6,
+      "summary": "Walk at a pace you can hold all day and use short stops to keep going.",
+      "steps": ["Use the talk test: you should be able to hold a conversation.", "Start slower than feels necessary.", "Take short breaks of 5 minutes every hour rather than long stops.", "Adjust pace for uphill, and shorten steps on steep ground."],
+      "drills": ["Hike 3 hours at a pace where you can talk the whole time.", "Time yourself on a known route and aim for a steady second half."],
+      "mastery": "You complete a 15 km route and your pace in the second half is no more than 10% slower than the first.",
+      "mistakes": ["Starting too fast and fading.", "Taking long breaks that let muscles stiffen.", "Not eating while walking."]
+    },
+    {
+      "id": "map-basics", "name": "Map Reading Basics", "tier": 1, "requires": [], "hours": 4,
+      "summary": "Understand contour lines, scale and symbols so a map becomes a picture of the land.",
+      "steps": ["Learn the scale: for a 1:25,000 map, 4 cm equals 1 km.", "Read contour lines: close together means steep; wide apart means gentle.", "Learn the legend and symbols for paths, water and buildings.", "Orient the map to the ground and match features you can see."],
+      "drills": ["Take a map on a walk and name five features you can see on it.", "Estimate the distance between two points, then check it."],
+      "mastery": "On a walk you point out your position on the map at five random stops without using a phone.",
+      "mistakes": ["Not orienting the map.", "Ignoring contour lines.", "Trusting the phone only."]
+    },
+    {
+      "id": "leave-no-trace", "name": "Leave No Trace", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Seven principles for protecting the places you walk.",
+      "steps": ["Learn the seven principles: plan ahead, travel and camp on durable surfaces, dispose of waste properly, leave what you find, minimise campfire impacts, respect wildlife and be considerate of others.", "Pack out all rubbish including food scraps.", "Stay on trails and walk through mud rather than around it.", "Bury human waste in a cat hole 15-20 cm deep, at least 60 m from water, or pack it out where required."],
+      "drills": ["Pick up all rubbish you see on your next walk.", "Write your plan to dispose of waste on a day hike."],
+      "mastery": "You can name all seven principles and show a trip where you left no sign of your visit.",
+      "mistakes": ["Cutting switchbacks.", "Leaving fruit peels and assuming they are harmless.", "Playing music loudly on trails."]
+    },
+    {
+      "id": "route-planning", "name": "Route Planning & Timing", "tier": 2, "requires": ["map-basics", "pacing-breaks"], "hours": 6,
+      "summary": "Plan a hike with realistic times, turn-around points and daylight margins.",
+      "steps": ["Calculate time with Naismith's rule: 1 hour per 5 km plus 1 hour per 600 m of ascent.", "Add breaks and a safety margin.", "Work out sunset time and a turn-around time.", "Tell someone your route and when you expect to be back."],
+      "drills": ["Plan three routes and compare predicted time with real time.", "Write a trip plan and leave it with a friend."],
+      "mastery": "Your predicted time is within 20% of actual on three separate hikes and someone has a copy of your plan.",
+      "mistakes": ["Not allowing for ascent.", "No turn-around time.", "Not telling anyone."]
+    },
+    {
+      "id": "layering", "name": "Layering System", "tier": 2, "requires": ["ten-essentials"], "hours": 4,
+      "summary": "Manage temperature with base, insulating and shell layers so you stay warm and dry.",
+      "steps": ["Wear a moisture-wicking base layer.", "Add an insulating mid-layer such as fleece or a light down jacket.", "Carry a waterproof, breathable shell.", "Adjust layers before you get too hot or cold, and remove a layer before steep climbs."],
+      "drills": ["Practise adding and removing a layer on a hike every time you feel a change.", "Test your rain gear in a shower."],
+      "mastery": "You complete a cool, wet hike with no chills and no soaked-through sweat, adjusting layers as needed.",
+      "mistakes": ["Wearing cotton.", "Waiting to put on a layer until you are cold.", "Overdressing at the start."]
+    },
+    {
+      "id": "compass-basics", "name": "Compass Basics", "tier": 2, "requires": ["map-basics"], "hours": 6,
+      "summary": "Use a baseplate compass to take bearings from a map and follow them on the ground.",
+      "steps": ["Learn the parts of the compass: baseplate, rotating bezel, orienting arrow and needle.", "Take a bearing from the map by aligning the baseplate edge between two points and turning the bezel to north.", "Account for declination in your area.", "Follow the bearing by sighting a landmark and walking to it."],
+      "drills": ["Take 10 bearings between landmarks and check them.", "Walk a 500 m leg on a bearing in a park and measure your error."],
+      "mastery": "You walk a 1 km course of three bearings in open terrain and end within 50 m of the target.",
+      "mistakes": ["Ignoring declination.", "Holding the compass near metal or a phone.", "Not turning your whole body."]
+    },
+    {
+      "id": "weather-basics", "name": "Weather Reading", "tier": 2, "requires": ["ten-essentials"], "hours": 5,
+      "summary": "Read forecasts and signs in the sky to decide whether to go or turn back.",
+      "steps": ["Check a mountain-specific forecast the day before and morning of.", "Learn cloud signs: towering cumulus means storm risk, lowering cloud means worsening weather.", "Understand wind chill and temperature drop with altitude.", "Set clear no-go criteria."],
+      "drills": ["Predict the weather for a hike and compare with real.", "Write your no-go criteria for wind, rain and lightning."],
+      "mastery": "You write a go/no-go decision for three hikes and your reasoning matches the real conditions.",
+      "mistakes": ["Checking a town forecast, not mountain forecast.", "Pushing on despite a deteriorating sky.", "Ignoring afternoon storms."]
+    },
+    {
+      "id": "terrain-technique", "name": "Uphill, Downhill & Poles", "tier": 2, "requires": ["pacing-breaks"], "hours": 8,
+      "summary": "Move efficiently on steep ground and use trekking poles to save your knees.",
+      "steps": ["Take short steps uphill and keep your weight over your feet.", "Downhill, bend your knees and take small controlled steps.", "Adjust poles: shorter uphill, longer downhill.", "Use switchbacks and do not cut them."],
+      "drills": ["Hike a 500 m ascent and descent focusing on technique.", "Practise poles on a gentle slope."],
+      "mastery": "You descend 500 m without slipping and without knee pain, using poles correctly.",
+      "mistakes": ["Over-striding downhill.", "Locking knees.", "Gripping poles too tightly."]
+    },
+    {
+      "id": "wildlife-awareness", "name": "Wildlife & Hazards", "tier": 2, "requires": ["leave-no-trace"], "hours": 3,
+      "summary": "Know local wildlife and hazards and how to avoid problems.",
+      "steps": ["Learn the animals and plants in your area: bears, snakes, ticks, poison ivy or similar.", "Store food properly and keep distance from wildlife.", "Check for ticks after hikes in tick country.", "Know the right response to an encounter in your region."],
+      "drills": ["Research your local hazards and write a short plan.", "Do a full tick check after a hike."],
+      "mastery": "You can explain what to do for each of the main local wildlife hazards and show correct food storage.",
+      "mistakes": ["Feeding animals.", "Approaching for a photo.", "Leaving food in your tent or pack."]
+    },
+    {
+      "id": "first-aid-basics", "name": "First Aid Basics", "tier": 2, "requires": ["ten-essentials"], "hours": 8,
+      "summary": "Treat blisters, sprains, cuts and know when to get help.",
+      "steps": ["Take a basic first aid course.", "Learn to treat blisters, cuts, sprains and heat or cold problems.", "Pack a kit suited to your trip.", "Know how to call for help and share your location."],
+      "drills": ["Practise bandaging an ankle.", "Check and restock your kit every season."],
+      "mastery": "You complete a first aid course and demonstrate a wrapped ankle and a clean wound dressing.",
+      "mistakes": ["Carrying a kit you do not know how to use.", "Ignoring early signs of hypothermia.", "Not knowing how to call for help."]
+    },
+    {
+      "id": "bearing-navigation", "name": "Navigating in Poor Visibility", "tier": 3, "requires": ["compass-basics", "route-planning"], "hours": 15,
+      "summary": "Navigate by map and compass when you cannot see far, using pacing and timing.",
+      "steps": ["Plan legs with handrails, catching features and attack points.", "Use timing and pacing (count double steps) to estimate distance.", "Take accurate bearings and walk them precisely.", "Relocate if lost by stopping and using known features."],
+      "drills": ["Do a navigation course at dusk or in a foggy area with a safe backstop.", "Walk 10 legs of 200-500 m and record error."],
+      "mastery": "You walk five legs in low visibility or with eyes closed to a marker and arrive within 20 m using bearing and pacing.",
+      "mistakes": ["Not counting paces.", "Trusting the compass too little.", "Continuing when unsure of position."]
+    },
+    {
+      "id": "gps-navigation", "name": "GPS & App Navigation", "tier": 3, "requires": ["compass-basics", "route-planning"], "hours": 8,
+      "summary": "Use GPS tools well as a backup, with offline maps and good battery habits.",
+      "steps": ["Download offline maps before leaving.", "Learn to read your coordinates and mark waypoints.", "Carry a power bank and turn on airplane mode to save battery.", "Always back up with a paper map and compass."],
+      "drills": ["Navigate a route with both app and map and compare.", "Practise sharing your location."],
+      "mastery": "You navigate a route with an offline app and also give your position on a paper map at any point.",
+      "mistakes": ["Relying on one device.", "Forgetting to download maps.", "Letting the battery die."]
+    },
+    {
+      "id": "long-day-hike", "name": "Long Day Hike", "tier": 3, "requires": ["terrain-technique", "hydration-food"], "hours": 25,
+      "summary": "Complete a 20 km hike with 1000 m of ascent in one day, within a sensible plan.",
+      "steps": ["Build up distance gradually, adding 10-20% per week.", "Plan food and water for the full day.", "Start early with a turn-around time.", "Practise recovery with stretching and a meal."],
+      "drills": ["Complete a series of increasingly long hikes.", "Practise eating on the move."],
+      "mastery": "You complete a 20 km hike with 1000 m of ascent in daylight and without injuries.",
+      "mistakes": ["Increasing distance too fast.", "Ignoring early hot spots.", "Starting too late."]
+    },
+    {
+      "id": "mountain-weather", "name": "Mountain Weather & Lightning", "tier": 3, "requires": ["weather-basics", "layering"], "hours": 10,
+      "summary": "Understand mountain weather patterns and how to react to storms.",
+      "steps": ["Learn the signs of storm build-up and plan to be off summits by noon.", "Know lightning safety: leave exposed ridges, avoid lone trees and open areas.", "Know the signs of hypothermia and heat illness.", "Have a turn-back plan."],
+      "drills": ["Plan a hike with an early start to avoid afternoon storms.", "Practise recognising cloud types."],
+      "mastery": "You describe the lightning safety plan for a route and show you used it on a day with uncertain forecast.",
+      "mistakes": ["Starting late.", "Pressing on to the summit despite warnings.", "Sheltering under tall trees."]
+    },
+    {
+      "id": "stream-crossing", "name": "Stream Crossings & Rough Ground", "tier": 3, "requires": ["terrain-technique"], "hours": 6,
+      "summary": "Judge and cross water and rough terrain safely.",
+      "steps": ["Assess a crossing: look upstream and downstream for a safer, wider place.", "Unbuckle your hip belt and chest strap.", "Face upstream and use poles for three points of contact.", "If water is above the knees and fast, do not cross."],
+      "drills": ["Practise crossing a shallow river with a partner.", "Practise a rock-hop on dry ground."],
+      "mastery": "You cross a thigh-deep stream safely with correct technique or demonstrate good judgement to decline.",
+      "mistakes": ["Crossing in the morning thaw rush or after rain.", "Crossing with a fastened hip belt.", "Going alone in cold water."]
+    },
+    {
+      "id": "wilderness-first-aid", "name": "Wilderness First Aid", "tier": 3, "requires": ["first-aid-basics"], "hours": 20,
+      "summary": "A recognised 16-20 hour course for managing injuries far from help.",
+      "steps": ["Enrol in an accredited wilderness first aid (WFA) course.", "Learn patient assessment, splinting, hypothermia, and evacuation decisions.", "Practise scenarios with others.", "Renew every few years."],
+      "drills": ["Do scenario practice with a friend.", "Build a first aid kit based on your course."],
+      "mastery": "You hold a current WFA certificate and can run a patient assessment in a practical scenario.",
+      "mistakes": ["Relying on an old certification.", "Not practising skills.", "Delaying a call for help."]
+    },
+    {
+      "id": "off-trail-navigation", "name": "Off-Trail Navigation", "tier": 4, "requires": ["bearing-navigation", "gps-navigation", "stream-crossing"], "hours": 40,
+      "summary": "Travel cross-country using terrain reading and route finding where no path exists.",
+      "steps": ["Read the terrain: ridges, spurs, gullies and aspects.", "Choose a line that avoids cliffs and dense brush.", "Keep track of position every few minutes.", "Always have a backup plan and retreat route."],
+      "drills": ["Plan and complete a 10 km off-trail route with a safe boundary.", "Navigate between two points using only map and compass."],
+      "mastery": "You complete a 10 km off-trail route and arrive at your target with a log of your position checks.",
+      "mistakes": ["Following the line on the map into cliffs.", "Not checking position.", "No bail-out plan."]
+    },
+    {
+      "id": "scrambling", "name": "Scrambling", "tier": 4, "requires": ["mountain-weather", "terrain-technique"], "hours": 40,
+      "summary": "Using hands for balance on steep rock, up to Grade 1-2 or Class 3, with good judgement.",
+      "steps": ["Start with an experienced mentor or a guide.", "Learn the grading system in your area (UK Grade 1-3, US Class 3-4).", "Use three points of contact and test holds before use.", "Know when to turn back, especially when descending would be harder than climbing."],
+      "drills": ["Do ten easy scrambles building to harder ground.", "Down-climb sections before committing."],
+      "mastery": "You complete a Grade 2 / Class 3 scramble, including the descent, in dry conditions with a clear risk assessment.",
+      "mistakes": ["Climbing up what you cannot down-climb.", "Using loose rock.", "Going in wet conditions."]
+    },
+    {
+      "id": "group-leadership", "name": "Leading Groups", "tier": 4, "requires": ["wilderness-first-aid", "route-planning"], "hours": 40,
+      "summary": "Take responsibility for others: planning, pace, decisions and communication.",
+      "steps": ["Learn to assess group ability and set a suitable route.", "Brief the group on plan, hazards and turn-back time.", "Keep the group together and pace for the slowest.", "Make clear decisions and debrief afterward."],
+      "drills": ["Lead 5 easy group hikes and ask for feedback.", "Write a risk assessment."],
+      "mastery": "You lead a group of at least four on a full-day hike, finish on time, and each member says they felt safe.",
+      "mistakes": ["Not checking everyone's equipment.", "Leaving stragglers behind.", "Ignoring group fatigue."]
+    },
+    {
+      "id": "big-mountain-day", "name": "Big Mountain Day", "tier": 4, "requires": ["long-day-hike", "mountain-weather"], "hours": 60,
+      "summary": "A demanding hike of 25+ km or 1500+ m ascent, possibly at altitude.",
+      "steps": ["Choose a target with a good weather window.", "Train with progressive long days.", "Learn the signs of altitude illness and descend if they appear.", "Start in the dark with a headlamp and a clear turn-around time."],
+      "drills": ["Do a series of 20 km+ days over several weeks.", "Practise the early start."],
+      "mastery": "You complete a day with 1500+ m of ascent, a summit and a descent back to the trailhead in daylight.",
+      "mistakes": ["Underestimating altitude.", "Skipping food.", "Ignoring turn-back time."]
+    },
+    {
+      "id": "mountain-leader", "name": "Mountain Leader Qualification", "tier": 5, "requires": ["group-leadership", "off-trail-navigation", "scrambling"], "hours": 300,
+      "summary": "Gain a recognised leadership qualification, such as the UK Mountain Leader award or a regional equivalent.",
+      "steps": ["Log the required quality mountain days.", "Complete the training course.", "Complete the assessment, including night navigation.", "Keep a record and keep first aid current."],
+      "drills": ["Log all your days.", "Practise night navigation."],
+      "mastery": "You hold a recognised mountain leader or equivalent qualification.",
+      "mistakes": ["Not logging days.", "Rushing to assessment.", "Letting first aid lapse."]
+    },
+    {
+      "id": "long-distance-trek", "name": "Long-Distance Trek", "tier": 5, "requires": ["big-mountain-day", "off-trail-navigation"], "hours": 400,
+      "summary": "Complete a multi-day route of 100+ km, or a significant section of a long trail.",
+      "steps": ["Plan resupplies, camps and permits.", "Train with back-to-back long days.", "Manage feet, food and weather daily.", "Keep a journal and adjust the plan."],
+      "drills": ["Do back-to-back 25 km days.", "Test your gear on a weekend."],
+      "mastery": "You complete a continuous route of at least 100 km over several days, supported by a log.",
+      "mistakes": ["Carrying too much.", "Ignoring foot care.", "Underestimating resupply."]
+    },
+    {
+      "id": "trail-steward", "name": "Trail Steward & LNT Trainer", "tier": 5, "requires": ["group-leadership", "wildlife-awareness"], "hours": 150,
+      "summary": "Give back by maintaining trails and teaching others to protect wild places.",
+      "steps": ["Volunteer for trail work with a local organisation.", "Learn trail maintenance techniques such as drainage and clearing.", "Take a Leave No Trace trainer course.", "Lead a trail day or workshop."],
+      "drills": ["Complete five volunteer days.", "Teach a short LNT talk."],
+      "mastery": "You have completed a recognised LNT trainer course and led a trail workday or workshop.",
+      "mistakes": ["Working without training.", "Not following the landowner's rules.", "Skipping safety gear."]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "hobby": "car-maintenance",
+  "nodes": [
+    {
+      "id": "workshop-safety", "name": "Workshop Safety and Waste Disposal", "tier": 1, "requires": [], "hours": 2,
+      "summary": "The habits that keep you alive and unhurt: protective gear, a safe workspace, hot-part awareness and legal disposal of fluids.",
+      "steps": ["Work on firm, level ground with the handbrake on, the car in gear (or Park) and the keys out of the ignition.", "Wear safety glasses and nitrile gloves, and tie back hair and remove jewellery.", "Let the engine and exhaust cool for at least an hour before touching them. Never open a hot cooling system cap.", "Collect used oil, coolant, brake fluid and old batteries in sealed containers and take them to a council recycling centre or a garage that accepts them. Never pour them down a drain or on the ground."],
+      "drills": ["Set up a drain tray, rags, gloves and a labelled waste container, and write down where your nearest oil recycling point is.", "Walk around your car and list five hot, sharp or moving hazards under the bonnet."],
+      "mastery": "You can show a photo of your prepared work area (level ground, chocks, eye protection, drain tray, labelled waste containers) and name your local disposal point for oil and batteries.",
+      "mistakes": ["Working on a sloping drive or soft ground.", "Pouring old fluids down a drain; it is illegal and harmful, and coolant is toxic to animals.", "Wearing loose clothing near a running engine or its fan."]
+    },
+    {
+      "id": "know-limits", "name": "Know When to Call a Professional", "tier": 1, "requires": [], "hours": 1,
+      "summary": "Some jobs are not for home mechanics. Knowing the line protects your life and everyone else on the road.",
+      "steps": ["Leave airbag and seat-belt pretensioner systems to a professional; they can deploy explosively and the components are safety-critical.", "On hybrids and electric vehicles, never touch the orange high-voltage cables or the battery pack; high voltage can kill. Only do routine jobs such as tyres, 12 V battery and wipers unless you have training.", "If you are unsure how to do a brake job, steering or suspension repair safely, have a qualified mechanic do or check it.", "Do not work on fuel system leaks, or major structural and welding repairs without proper training and equipment."],
+      "drills": ["Make a list of five jobs you will not do yourself, with the reason.", "Find a trusted local garage and ask how they handle checks of your own work."],
+      "mastery": "You can show a written personal rule list of jobs to leave to a pro and give the reason for each, including airbags and high-voltage systems.",
+      "mistakes": ["Assuming a YouTube video is enough for a safety-critical brake job.", "Cutting or probing orange hybrid or EV cables.", "Ignoring a doubt about a repair because the car is needed tomorrow."]
+    },
+    {
+      "id": "warning-lights", "name": "Owner's Manual and Dashboard Warning Lights", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Your owner's manual and the dashboard tell you what the car needs. Know which lights mean stop now and which mean book a service.",
+      "steps": ["Read the owner's manual section on maintenance, fluids, tyre pressures and the service schedule.", "Learn the red lights (oil pressure, battery, brake, coolant temperature), which mean stop safely as soon as you can.", "Learn the amber lights (engine management, ABS, tyre pressure), which mean get it checked soon.", "Keep the manual in the glove box, and buy a workshop manual for your car, such as a Haynes manual, for procedures."],
+      "drills": ["Identify every light in your car by looking it up in the manual.", "Write the service intervals for your car on one page."],
+      "mastery": "You can look at a photo of a dashboard with several lights on and say which need immediate stopping and which can wait, and cite the manual page.",
+      "mistakes": ["Driving on with a red oil pressure or coolant warning.", "Ignoring an engine management light until it flashes."],
+      "resources": [{ "title": "Haynes Owners Workshop Manuals", "kind": "book", "by": "Haynes" }]
+    },
+    {
+      "id": "fluid-checks", "name": "Check the Fluids", "tier": 1, "requires": ["workshop-safety"], "hours": 2, "partyTrick": 10,
+      "summary": "Check engine oil, coolant, brake fluid and washer fluid in ten minutes. It is the cheapest way to catch problems early.",
+      "steps": ["Park on level ground with the engine off and cooled (wait a few minutes after running for oil to drain back to the sump).", "Pull the oil dipstick, wipe it, reinsert fully and read the level between the min and max marks. Note the oil colour and texture.", "Check coolant level on the cold expansion tank against its min and max marks. Never open the cap on a hot engine.", "Check the brake fluid reservoir level and top up the washer fluid."],
+      "drills": ["Check all four fluids once a month and record readings in a notebook.", "Top up engine oil to the max mark using the specification in the manual."],
+      "mastery": "You can show a log of at least three monthly fluid checks with levels and any top-ups made, using the correct fluid specifications from the manual.",
+      "mistakes": ["Overfilling oil above the max mark.", "Using the wrong type of coolant or oil.", "Ignoring a falling brake fluid level, which can mean worn pads or a leak."]
+    },
+    {
+      "id": "tyre-checks", "name": "Tyre Pressure, Tread and Condition", "tier": 1, "requires": ["warning-lights"], "hours": 2,
+      "summary": "Correct pressures and healthy tyres make the car safer, cheaper to run and better to drive.",
+      "steps": ["Find the correct pressure on the door jamb sticker or in the manual and check with a gauge when the tyres are cold.", "Check tread depth with a gauge: 1.6 mm is the legal minimum in the UK and many countries, and replace before that.", "Inspect sidewalls for bulges, cuts and cracking, and the tread for uneven wear.", "Check the spare, if you have one, and the date code on the sidewall; tyres older than about 6 to 10 years should be assessed."],
+      "drills": ["Check and set all four tyres cold, then log pressures.", "Measure tread depth in three places across each tyre."],
+      "mastery": "You can show a photo of your gauge reading for all four tyres at the correct pressure and a tread depth table for each tyre.",
+      "mistakes": ["Using the maximum pressure on the tyre sidewall instead of the car maker's figure.", "Checking pressures after a long drive when the tyres are warm.", "Ignoring a bulge in a sidewall, which can lead to a blowout."]
+    },
+    {
+      "id": "wipers-bulbs", "name": "Wipers, Bulbs and Quick Fixes", "tier": 1, "requires": ["warning-lights"], "hours": 2,
+      "summary": "Replace wiper blades and bulbs yourself: easy, cheap and important for visibility and being seen.",
+      "steps": ["Look up the correct wiper blade length and fitting type for your car.", "Lift the arm, release the clip and slide off the old blade. Fit the new one and lower the arm gently.", "Check all exterior lights with a helper, then replace blown bulbs, handling halogen bulbs by their base, not the glass.", "Disconnect the battery or switch off the lights before changing bulbs, as the manual recommends."],
+      "drills": ["Replace a pair of wiper blades in under 10 minutes.", "Check and replace any non-working bulb."],
+      "mastery": "You can show new wipers fitted that clear the screen without streaks and a complete exterior light check with every bulb working.",
+      "mistakes": ["Letting a wiper arm snap down onto the glass.", "Touching halogen bulb glass, which shortens its life."]
+    },
+    {
+      "id": "jump-start", "name": "Jump Start and Battery Basics", "tier": 1, "requires": ["workshop-safety"], "hours": 2,
+      "summary": "Safely start a car with a flat battery, and keep terminals clean to avoid problems in the first place.",
+      "steps": ["Park the donor car close but not touching, switch both off and check the manual for jump-start rules, especially on hybrids and EVs.", "Connect red to the dead battery's positive, red to the donor's positive, black to the donor's negative, and black last to bare unpainted metal on the dead car away from the battery.", "Start the donor, wait a few minutes, then start the dead car; remove clamps in reverse order.", "Run the car for at least 20 minutes or drive it, then have the battery tested."],
+      "drills": ["Talk through the clamp order from memory with a friend.", "Clean battery terminals with a wire brush and baking soda solution, wearing gloves and eye protection."],
+      "mastery": "You can demonstrate the correct clamp order on a real car (or explain it step by step to an observer) and show clean terminals on your own battery.",
+      "mistakes": ["Connecting the last clamp to the dead battery's negative terminal, risking a spark near hydrogen gas.", "Crossing the leads, which can damage electronics.", "Jumping a frozen or leaking battery."]
+    },
+    {
+      "id": "lift-support", "name": "Lift and Support the Car Safely", "tier": 2, "requires": ["workshop-safety", "know-limits"], "hours": 4,
+      "summary": "The most important skill in the whole tree: raise a car and hold it up so it cannot fall on you.",
+      "steps": ["Work on hard, level ground, with the handbrake on and wheels chocked on the end staying on the ground.", "Find the manufacturer's jacking points in the manual, and raise with a trolley jack.", "Place axle stands rated above the car's weight under the strong support points, lower the car onto them and check they are stable.", "Never get under a car supported only by a jack, and put a spare wheel under the sill as a backup."],
+      "drills": ["Raise one corner and then the whole front on stands, and rock the car gently to check stability before getting near it.", "Practise the sequence until you can set up and take down in under 15 minutes."],
+      "mastery": "You can show photos of your car raised on correctly placed axle stands on level ground, with wheels chocked and a spare wheel as a backup, and explain why each step matters.",
+      "mistakes": ["Getting under the car held up by only the jack.", "Using bricks, concrete blocks or soft ground; blocks can crumble.", "Placing stands on non-structural parts such as the floor pan or plastic trim."]
+    },
+    {
+      "id": "wheel-rotation", "name": "Wheel Change and Rotation", "tier": 2, "requires": ["lift-support", "tyre-checks"], "hours": 5,
+      "summary": "Remove and refit wheels with the right torque, and rotate them to even out wear.",
+      "steps": ["Loosen the wheel nuts a turn on the ground, then lift and support the car.", "Remove the wheel, clean the hub face and refit, tightening the nuts in a star pattern by hand.", "Lower the car and torque the nuts to the manual's figure with a torque wrench, in a star pattern.", "Re-check the torque after about 50 km (30 miles)."],
+      "drills": ["Rotate all four wheels following the pattern in your manual.", "Change a wheel in under 15 minutes."],
+      "mastery": "You can show a complete wheel rotation with the torque wrench set to the manual's figure, and a re-torque check afterward.",
+      "mistakes": ["Over-tightening with an impact wrench, which stretches studs and warps discs.", "Skipping the re-torque after the first drive.", "Greasing wheel studs when the manual says not to."]
+    },
+    {
+      "id": "oil-change", "name": "Oil and Filter Change", "tier": 2, "requires": ["lift-support", "fluid-checks"], "hours": 6,
+      "summary": "The classic home job: drain old oil, replace the filter and refill with the correct grade.",
+      "steps": ["Look up the oil grade, capacity, filter part number and sump plug torque for your car.", "Warm the engine briefly, switch off and let it cool until the oil is warm but not hot; raise the car safely on axle stands.", "Drain into a pan, replace the sump plug washer, torque the plug, fit the new filter with a thin film of oil on its seal, hand-tight.", "Refill, check the dipstick, run for a minute, check for leaks and re-check the level; dispose of the old oil at a recycling centre."],
+      "drills": ["Do a full oil and filter change and record mileage, oil grade and date.", "Do the next one in half the time with no spills."],
+      "mastery": "You can show photos of the finished job (correct level on the dipstick, no leaks after a test run) and a receipt or log of the oil recycled.",
+      "mistakes": ["Over-tightening the sump plug and stripping the thread.", "Forgetting to remove the old filter's seal so two seals stack and leak.", "Draining hot oil, which can scald."]
+    },
+    {
+      "id": "air-cabin-filters", "name": "Air and Cabin Filters", "tier": 2, "requires": ["fluid-checks"], "hours": 2,
+      "summary": "Replace the engine air filter and cabin pollen filter, which are simple and usually need no special tools.",
+      "steps": ["Look up the locations and part numbers in the manual.", "Open the air filter housing, note the filter orientation, swap and close the clips fully.", "Open the glove box or access panel and replace the cabin filter, noting the airflow arrow direction.", "Dispose of the old filters and note the date and mileage."],
+      "drills": ["Replace both filters and compare old and new side by side.", "Fit them with the airflow arrows facing the correct way."],
+      "mastery": "You can show old and new filters side by side, and a log noting the date and mileage of replacement.",
+      "mistakes": ["Fitting the cabin filter backwards.", "Not closing the air box clips, letting unfiltered air in."]
+    },
+    {
+      "id": "spark-plugs", "name": "Spark Plugs and Ignition", "tier": 2, "requires": ["lift-support", "air-cabin-filters"], "hours": 6,
+      "summary": "On petrol cars, replace spark plugs and read their condition to learn how the engine is running.",
+      "steps": ["Work on a cold engine, disconnect the battery if the manual advises, and clean around each plug before removing it.", "Remove one plug at a time to avoid mixing up the leads or coils, and compare its condition to a colour chart.", "Check the gap with a feeler gauge to the manual's specification and fit with the correct torque.", "Refit coil packs or leads and start the engine."],
+      "drills": ["Read the old plugs and write down what each tells you.", "Torque new plugs to the figure in the manual with a torque wrench."],
+      "mastery": "You can show new plugs fitted at the specified gap and torque, photos of the old plugs and your notes on what they showed, and a smooth idle afterward.",
+      "mistakes": ["Over-tightening plugs in an aluminium head, stripping the thread.", "Dropping debris into the cylinder when removing plugs.", "Mixing up lead order on older engines."]
+    },
+    {
+      "id": "battery-replace", "name": "Battery Test and Replacement", "tier": 2, "requires": ["jump-start"], "hours": 3,
+      "summary": "Test, remove and replace the 12 V battery without damaging the car's electronics.",
+      "steps": ["Test the battery voltage with a multimeter: about 12.6 V at rest is healthy, and about 14 V with the engine running shows the alternator is charging.", "Check the manual for any memory-saver or registration requirement.", "Disconnect the negative terminal first, then the positive, remove the hold-down and lift the battery out carefully; it is heavy.", "Fit the new battery, connect positive first, then negative last, and dispose of the old one at a recycling point."],
+      "drills": ["Measure rest and running voltage and record both.", "Practise the removal order on a spare battery or the diagram."],
+      "mastery": "You can show multimeter readings at rest and running, and a replaced battery that starts the car with the old one properly recycled.",
+      "mistakes": ["Touching a spanner between the positive terminal and the car body, causing a short.", "Throwing the old battery in the bin; it must be recycled."]
+    },
+    {
+      "id": "obd2-codes", "name": "Read Fault Codes with OBD-II", "tier": 2, "requires": ["warning-lights"], "hours": 3,
+      "summary": "Plug in a cheap scanner and read the diagnostic trouble codes behind a warning light.",
+      "steps": ["Find the OBD-II port, usually under the dashboard on the driver's side, and plug in a scanner or Bluetooth adapter.", "Read the stored and pending codes, and note the freeze-frame data.", "Look up each code and the symptoms for your make and model; a code points at a system, not always at the faulty part.", "Clear the code only after you have recorded it and fixed the cause."],
+      "drills": ["Read codes on your own car and list what they mean.", "Watch live data such as coolant temperature and short-term fuel trim."],
+      "mastery": "You can show a scanner screenshot of a code, with your written explanation of the likely causes and what you checked first.",
+      "mistakes": ["Replacing the part named in the code without testing it.", "Clearing codes to make a light go away without finding the cause."]
+    },
+    {
+      "id": "brake-pads", "name": "Brake Inspection and Pad Replacement", "tier": 3, "requires": ["wheel-rotation", "know-limits"], "hours": 15,
+      "summary": "Inspect discs and pads and replace pads on a typical disc brake. Brakes are safety-critical, so go slowly and leave it to a pro if you are unsure.",
+      "steps": ["Remove the wheel on a car held on axle stands, and inspect pad thickness, disc wear and rust lip, and brake hoses for cracks.", "Unbolt the caliper and hang it from the spring with wire so the hose is not stressed, then remove the old pads.", "Push the piston back with a clamp, clean and lightly lubricate the slide pins and contact points, and fit new pads, always replacing in axle sets.", "Torque the caliper bolts, pump the pedal until firm before moving the car, then bed in the pads gently on a quiet road."],
+      "drills": ["Do a brake inspection on all four wheels and record pad thickness and disc condition.", "Replace pads on one axle, both sides, following the workshop manual."],
+      "mastery": "You can show before and after photos of a pad replacement with torque figures noted, a firm pedal before moving the car, and a successful test stop that your car pulls up straight.",
+      "mistakes": ["Letting the caliper hang by its hose.", "Changing only one side's pads.", "Getting grease on the pad friction surface or disc.", "Driving off without pumping the pedal to restore pressure."],
+      "resources": [{ "title": "Haynes Owners Workshop Manuals", "kind": "book", "by": "Haynes" }]
+    },
+    {
+      "id": "brake-fluid", "name": "Brake Fluid Change and Bleeding", "tier": 3, "requires": ["brake-pads"], "hours": 10,
+      "summary": "Brake fluid absorbs moisture and loses its boiling point, so it should be replaced about every two years.",
+      "steps": ["Use the DOT grade stated on the reservoir cap or in the manual, and never reuse fluid from an open container.", "Start at the wheel furthest from the master cylinder, keeping the reservoir topped up so air never enters.", "Attach a clear hose to the bleed nipple, have a helper press the pedal, open, close and repeat until clean fluid flows with no bubbles.", "Check the pedal is firm and dispose of old fluid at a recycling point; it damages paint and is toxic."],
+      "drills": ["Test fluid moisture with a tester strip or meter.", "Bleed one corner and watch the old dark fluid change to new."],
+      "mastery": "You can show clear new fluid at all four bleed nipples, a firm pedal and a safe test stop, with the old fluid taken to recycling.",
+      "mistakes": ["Letting the reservoir run dry and pulling air in.", "Spilling brake fluid on paint, where it strips the finish.", "Mixing incompatible fluid types."]
+    },
+    {
+      "id": "coolant-service", "name": "Cooling System Service", "tier": 3, "requires": ["fluid-checks", "lift-support"], "hours": 8,
+      "summary": "Flush and replace coolant, check hoses and the thermostat, and bleed air from the system.",
+      "steps": ["Work only on a cold engine; never open the cap when the engine is hot.", "Drain through the radiator drain plug into a pan and collect the coolant; do not let pets near it as it is toxic and sweet-tasting.", "Refill with the correct type and mix, using distilled water for any dilution, then bleed air using the manual's method.", "Check hoses for swelling and cracks, and the thermostat opening by watching the temperature gauge."],
+      "drills": ["Pressure test the cooling system for leaks.", "Check the temperature stays steady in traffic after the service."],
+      "mastery": "You can show a refilled cooling system with a stable temperature gauge on a 30-minute test drive, no leaks overnight, and old coolant disposed of correctly.",
+      "mistakes": ["Opening the cap on a hot engine, scalding yourself.", "Leaving air pockets that cause overheating.", "Mixing different coolant types that gel."]
+    },
+    {
+      "id": "suspension-inspect", "name": "Suspension and Steering Inspection", "tier": 3, "requires": ["lift-support", "wheel-rotation"], "hours": 10,
+      "summary": "Check the parts that connect wheels to car for play, leaks and wear, and recognise the noises each fault makes.",
+      "steps": ["With the car on axle stands, grip each wheel at 12 and 6 o'clock and rock to feel play in the ball joint or wheel bearing, then at 3 and 9 o'clock for track rod ends.", "Look for oil leaking from shock absorbers and cracked rubber bushes and gaiters.", "Listen for clunks over bumps, creaks on turning and humming that changes with speed.", "Note findings and have worn parts replaced, and get an alignment check after any suspension work."],
+      "drills": ["Do a full inspection of both axles with notes.", "Use a pry bar gently to check bushes for movement."],
+      "mastery": "You can show a written inspection sheet for a car with worn components identified, matched to symptoms, and confirmed by a second opinion from a professional or workshop manual.",
+      "mistakes": ["Doing the rock test with the car on a jack only.", "Ignoring torn CV joint gaiters."]
+    },
+    {
+      "id": "multimeter-electrical", "name": "Automotive Electrical Testing", "tier": 3, "requires": ["battery-replace"], "hours": 15,
+      "summary": "Use a multimeter to test fuses, circuits, the alternator and a parasitic battery drain.",
+      "steps": ["Learn to measure voltage, resistance and continuity, and always disconnect the battery before resistance tests.", "Check fuses visually and with continuity, and replace them only with the same amp rating.", "Test charging voltage at the battery with the engine running and a load on.", "Find a parasitic drain by putting the meter in series on the negative lead and pulling fuses one at a time, after the car's modules have gone to sleep."],
+      "drills": ["Trace a faulty horn or lamp circuit with a wiring diagram.", "Measure standing current draw after 30 minutes."],
+      "mastery": "You can show a diagnosed electrical fault with the measurements taken at each step, the fix and a retest proving the repair.",
+      "mistakes": ["Replacing a fuse with a higher-rated one, risking a fire.", "Measuring resistance in a live circuit.", "Probing airbag wiring."]
+    },
+    {
+      "id": "belts-hoses", "name": "Drive Belts and Hoses", "tier": 3, "requires": ["coolant-service"], "hours": 8,
+      "summary": "Inspect and replace the serpentine belt and check for aging hoses before they fail.",
+      "steps": ["Take a photo or draw the belt routing before removing it.", "Release the tensioner with the correct tool and slip the belt off, then check pulleys for smooth rotation and tensioner for wear.", "Fit the new belt following the routing and check that it seats in every groove.", "Inspect other belts and hoses for cracks, glazing, swelling and soft spots."],
+      "drills": ["Draw the belt route for your car.", "Replace the belt and run the engine, checking alignment."],
+      "mastery": "You can show a replaced belt correctly routed on every pulley, with the engine running smoothly and quiet and the old belt compared with the new one.",
+      "mistakes": ["Forgetting the routing diagram.", "Putting a belt on with a pulley groove misaligned.", "Confusing a serpentine belt with a timing belt; the latter is a precision job."]
+    },
+    {
+      "id": "systematic-diagnosis", "name": "Systematic Fault Diagnosis", "tier": 4, "requires": ["obd2-codes", "multimeter-electrical", "spark-plugs"], "hours": 60,
+      "summary": "Diagnose faults methodically with live data, tests and elimination rather than swapping parts.",
+      "steps": ["Define the symptom precisely: when, how often, hot or cold, under load or idling.", "Check the basics first: battery, fuses, fluids, leaks, vacuum hoses and earth connections.", "Use live data (fuel trims, coolant and air temperature, sensor readings), a compression or leak-down test and a smoke test for vacuum leaks.", "Test the suspected part before replacing it and verify the fix with a retest."],
+      "drills": ["Solve three faults with a written diagnostic record.", "Use a smoke machine or smoke test to find a vacuum leak."],
+      "mastery": "You can show a diagnostic log for at least three faults, each with symptoms, tests, evidence and a verified fix, with no parts replaced on guesswork.",
+      "mistakes": ["The parts cannon: replacing parts until it works.", "Skipping simple checks like earth cables.", "Not verifying the repair."]
+    },
+    {
+      "id": "suspension-replace", "name": "Replace Suspension Components", "tier": 4, "requires": ["suspension-inspect", "brake-pads"], "hours": 40,
+      "summary": "Replace shocks, springs, control arms and bushes, with attention to spring compression hazards and alignment.",
+      "steps": ["Support the car on axle stands and take wheels off; follow the manual for the order of removal.", "Use spring compressors only when trained and with extreme care; consider fitting a complete strut assembly instead.", "Tighten bushing bolts with the car's weight on the suspension to prevent premature wear.", "Get a professional wheel alignment after the job."],
+      "drills": ["Replace a pair of rear shocks.", "Document torque figures and alignment results before and after."],
+      "mastery": "You can show a completed suspension job with torque figures, plus an alignment printout showing all values within spec.",
+      "mistakes": ["Using a spring compressor carelessly; compressed springs store lethal energy.", "Tightening bushes with the suspension hanging.", "Skipping the alignment."]
+    },
+    {
+      "id": "timing-belt", "name": "Timing Belt and Water Pump", "tier": 4, "requires": ["belts-hoses", "coolant-service", "systematic-diagnosis"], "hours": 40,
+      "summary": "The most feared maintenance job: replace the timing belt, tensioner and water pump with the cam and crank correctly timed. On many engines a mistake destroys the engine.",
+      "steps": ["Get the exact procedure and timing tools for your engine from the workshop manual and check whether it is an interference engine.", "Set the engine to top dead centre and lock the cam and crank with the locking tools before removing anything.", "Replace the belt, tensioner, idlers and water pump as a kit and torque everything to specification.", "Rotate the engine by hand two full turns and re-check the timing marks before starting."],
+      "drills": ["Rotate your engine by hand to TDC and identify all timing marks.", "Read through the procedure and have it checked by an experienced mechanic."],
+      "mastery": "You can show timing marks aligned after two full manual turns, with a photo log of each stage, followed by a smooth first start and no fault codes.",
+      "mistakes": ["Moving the crank or cam while the belt is off.", "Reusing the old tensioner or water pump.", "Skipping the manual rotation check."]
+    },
+    {
+      "id": "driveline-service", "name": "Gearbox, Clutch and Driveline", "tier": 4, "requires": ["suspension-replace", "oil-change"], "hours": 50,
+      "summary": "Service gearbox and differential oil, replace CV joints and driveshaft gaiters, and understand when a clutch is worn.",
+      "steps": ["Check the manual for the gearbox fluid type and fill and drain plug locations.", "Fill from the fill plug until fluid just seeps out, with the car level.", "Replace split CV gaiters promptly before dirt ruins the joint.", "Diagnose clutch symptoms such as slipping, a high bite point or judder."],
+      "drills": ["Change manual gearbox oil.", "Replace a CV boot kit."],
+      "mastery": "You can show a gearbox oil change at the correct level on a level car and a CV gaiter replacement without a click on full lock.",
+      "mistakes": ["Overfilling or underfilling gearbox oil.", "Fitting the wrong ATF type; a wrong fluid can ruin an automatic gearbox."]
+    },
+    {
+      "id": "pre-purchase-inspection", "name": "Pre-Purchase Inspection", "tier": 5, "requires": ["systematic-diagnosis", "suspension-replace", "brake-fluid"], "hours": 60,
+      "summary": "Inspect a used car and report accurately on its mechanical and structural condition, saving you or a friend from a bad buy.",
+      "steps": ["Check history, MOT or inspection records and mileage consistency.", "Inspect panels, rust, tyres, fluids, leaks and brakes, then raise the car safely to check underneath.", "Read the codes, check for hidden accident repair, and do a test drive listening for faults.", "Write a report with a cost estimate for repairs."],
+      "drills": ["Inspect five cars in a day.", "Compare your report to a professional's report on the same car."],
+      "mastery": "You can show written inspection reports on at least three cars that identified real faults later confirmed by a professional mechanic.",
+      "mistakes": ["Being swayed by a clean engine bay.", "Skipping the cold start."]
+    },
+    {
+      "id": "major-overhaul", "name": "Clutch Replacement or Major Mechanical Overhaul", "tier": 5, "requires": ["driveline-service", "timing-belt"], "hours": 120,
+      "summary": "Carry out a major job like a clutch replacement that needs the gearbox out, planned, safe and done right.",
+      "steps": ["Plan the job completely, with parts, tools, a transmission jack and engine support.", "Document and label every connection as you take it apart.", "Replace the clutch kit, release bearing and rear main seal with new parts and torque everything.", "Road-test, bed in the clutch and re-check for leaks."],
+      "drills": ["Complete a job log with photos of every stage.", "Have a pro inspect the work before the road test."],
+      "mastery": "You can show a car with a replaced clutch or equivalent major job, with a photo log, torque record, a clean road test and no leaks after 500 km.",
+      "mistakes": ["Working under the car without proper support.", "Reusing worn bolts, flywheel or release parts."]
+    },
+    {
+      "id": "intermittent-faults", "name": "Diagnose Intermittent and Electrical Faults", "tier": 5, "requires": ["systematic-diagnosis"], "hours": 100,
+      "summary": "Find faults that come and go, such as wiring breaks, bad earths and failing sensors, using patient and structured investigation.",
+      "steps": ["Reproduce the fault with logging, and record live data to a laptop or phone during the problem.", "Use wiring diagrams and a scope or multimeter min and max mode to catch dropouts.", "Wiggle-test connectors and harnesses while monitoring signals.", "Repair wiring with soldered, sealed connections rather than twist joints."],
+      "drills": ["Fix a deliberately seeded fault with a friend.", "Log a drive and find the cause from the data."],
+      "mastery": "You can show a case file for at least one intermittent fault found and fixed with logged data and a lasting repair verified over two weeks.",
+      "mistakes": ["Giving up when the fault is not present.", "Twisted-and-taped wiring repairs that fail later."]
+    }
+  ]
+}

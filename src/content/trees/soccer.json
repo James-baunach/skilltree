@@ -1,0 +1,181 @@
+{
+  "hobby": "soccer",
+  "nodes": [
+    {
+      "id": "safety-and-laws", "name": "Kit, Safety and the Basic Laws", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Shin guards, proper boots and a basic knowledge of the laws keep you safe and let you play with others.",
+      "steps": ["Wear shin guards at every training and match, and boots suited to the surface (firm ground, artificial grass or turf).", "Learn the key laws: offside, fouls, throw-ins, corners, goal kicks and the handball rule.", "Warm up for 10 minutes before playing, with jogging and dynamic stretches.", "Don't play on after a head knock; get checked."],
+      "drills": ["Explain offside to a friend using a pitch diagram.", "Do a 10-minute warm-up before every session for two weeks."],
+      "mastery": "You can explain offside, a foul and a handball correctly, and consistently warm up and wear shin guards.",
+      "mistakes": ["Skipping shin guards in kickabouts.", "Wearing worn studs on hard ground.", "Playing on after a head injury."]
+    },
+    {
+      "id": "ball-familiarity", "name": "Ball Familiarity", "tier": 1, "requires": ["safety-and-laws"], "hours": 4,
+      "summary": "Get comfortable with the ball under both feet: toe taps, sole rolls and inside-outside touches.",
+      "steps": ["Do alternating toe taps on top of the ball.", "Roll the ball with the sole of each foot.", "Tap the ball between the inside of both feet.", "Keep your head up periodically, not just looking at the ball."],
+      "drills": ["1 minute toe taps, 1 minute sole rolls, 1 minute inside taps, repeat 3 times.", "Do the routine 5 days a week."],
+      "mastery": "You can do 50 alternating toe taps and 20 sole-roll switches in one minute each without losing control.",
+      "mistakes": ["Using only your strong foot.", "Staring at the ball.", "Rushing for speed before control."]
+    },
+    {
+      "id": "inside-foot-pass", "name": "Inside-Foot Pass", "tier": 1, "requires": ["ball-familiarity"], "hours": 6,
+      "summary": "The most accurate pass in the game: strike the ball's centre with the flat of the inside of your foot.",
+      "steps": ["Place the non-kicking foot beside the ball, pointing at the target.", "Turn the kicking foot out, lock the ankle, and strike through the middle of the ball.", "Follow through towards the target.", "Keep your head steady and eyes on the ball at contact."],
+      "drills": ["Pass back and forth with a partner 10 m apart, 50 each foot.", "Pass to a wall for 3 x 2 minutes with each foot."],
+      "mastery": "You can complete 20 consecutive passes with each foot to a partner 10 m away, with the ball arriving on the ground at the feet.",
+      "mistakes": ["Striking with the toe.", "Leaning back and lifting the ball.", "A floppy ankle."]
+    },
+    {
+      "id": "first-touch-basics", "name": "First Touch: Receiving", "tier": 1, "requires": ["inside-foot-pass"], "hours": 6,
+      "summary": "Cushion the ball with the inside of the foot or sole so it stays within easy reach.",
+      "steps": ["Get in line with the ball and lift the foot slightly off the ground.", "Withdraw the foot on contact to absorb pace.", "Direct the ball into space with your touch.", "Look up right after the touch."],
+      "drills": ["Partner passes at medium pace; control and pass back 50 times with each foot.", "Wall passes: control the rebound with one touch, 5 x 1 minute."],
+      "mastery": "You can control 20 passes in a row with one touch each so the ball ends within a stride of you.",
+      "mistakes": ["Stiff foot causing the ball to bounce away.", "Looking only at the ball.", "Reaching for the ball instead of getting in line."]
+    },
+    {
+      "id": "close-dribbling", "name": "Close-Control Dribbling", "tier": 1, "requires": ["ball-familiarity"], "hours": 8,
+      "summary": "Keep the ball close while moving, using small touches with the inside and outside of both feet.",
+      "steps": ["Dribble slowly with the inside and outside of the foot, keeping the ball within a metre.", "Change direction with a drag back or turn.", "Keep your head up between touches.", "Increase pace as control improves."],
+      "drills": ["Dribble through a 10-cone slalom with 1-metre spacing 10 times.", "Dribble in a 10 m square, changing direction on a coach's call."],
+      "mastery": "You can dribble a 10-cone slalom in under 15 seconds, touching the ball with both feet and not knocking a cone.",
+      "mistakes": ["Kicking the ball too far ahead.", "Only using the strong foot.", "Head down throughout."]
+    },
+    {
+      "id": "instep-drive", "name": "Instep Drive: Basic Shot", "tier": 1, "requires": ["inside-foot-pass"], "hours": 6,
+      "summary": "Strike the ball cleanly with the laces for power. It is the basis for shooting and long passes.",
+      "steps": ["Approach at a slight angle, plant the standing foot beside the ball.", "Point toes down and lock the ankle.", "Strike through the middle of the ball with the laces.", "Keep your head steady and follow through."],
+      "drills": ["10 shots at a goal from 12 m with each foot.", "Hit a target on a wall from 10 m, 5 x 10 shots."],
+      "mastery": "Of 10 shots from 12 m, you hit the target frame with at least 6 using your stronger foot and at least 3 with your weaker.",
+      "mistakes": ["Leaning back and skying the ball.", "Planting the foot behind the ball.", "Hitting with the toe."]
+    },
+    {
+      "id": "juggling-ball", "name": "Keepy-Uppy", "tier": 1, "requires": ["ball-familiarity"], "hours": 8,
+      "summary": "Keeping the ball in the air with feet, thighs and head develops touch and confidence.",
+      "steps": ["Drop the ball from your hands onto the laces of your foot, lifting it slightly.", "Alternate feet when comfortable.", "Add thigh touches.", "Count your best attempt and aim to beat it."],
+      "drills": ["Five minutes daily, tracking your best streak.", "Aim for streaks with feet only, then feet and thighs."],
+      "mastery": "You can keep the ball up for 20 consecutive touches using both feet, shown on video.",
+      "mistakes": ["Kicking too hard so the ball goes out of reach.", "Using the toe.", "Giving up after drops."]
+    },
+    {
+      "id": "turning-with-ball", "name": "Receiving and Turning", "tier": 2, "requires": ["first-touch-basics", "close-dribbling"], "hours": 10,
+      "summary": "Receive with your back to goal and turn smoothly using the first touch to change direction.",
+      "steps": ["Check your shoulder to see where space is.", "Receive across your body using the foot furthest from the defender.", "Play the ball in the direction you want to go with the first touch.", "Accelerate away."],
+      "drills": ["Partner feeds the ball; you receive and turn left or right on their call, 10 each side.", "Play 3 touches in a 5 m square."],
+      "mastery": "You can receive and turn in the direction called 8 times in 10 under light pressure.",
+      "mistakes": ["Taking a touch then turning.", "Not checking the shoulder.", "Hiding the ball too far from your body."]
+    },
+    {
+      "id": "outside-foot-pass", "name": "Outside-Foot and Weak-Foot Passing", "tier": 2, "requires": ["inside-foot-pass"], "hours": 12,
+      "summary": "Using both feet and the outside of the boot makes you unpredictable and efficient on the ball.",
+      "steps": ["Practise outside-foot passes by turning the toe in slightly.", "Do the same drills with your weaker foot.", "Play short passes first, then lengthen.", "Use your weaker foot during games where possible."],
+      "drills": ["50 weak-foot passes each session.", "A 10-minute passing game where you may use only your weaker foot."],
+      "mastery": "With your weaker foot, you can complete 15 of 20 passes at 10 m to a partner.",
+      "mistakes": ["Avoiding the weaker foot.", "Slapping at the ball.", "Giving up when it feels clumsy."]
+    },
+    {
+      "id": "finishing", "name": "Finishing and Placement", "tier": 2, "requires": ["instep-drive", "first-touch-basics"], "hours": 14,
+      "summary": "Accuracy beats power. Aim for the corners with the inside of the foot and keep the ball low.",
+      "steps": ["Take a touch into the shot if needed.", "Aim for the far post with the inside of the foot.", "Keep the shot low and hit the target.", "Follow up the rebound."],
+      "drills": ["Shoot from the edge of the area at a goal with 4 cones in each corner.", "10 shots with each foot from different angles."],
+      "mastery": "From 12 m, you can hit one of the two bottom corners 6 of 10 attempts with your stronger foot.",
+      "mistakes": ["Blasting the ball at the keeper.", "Looking up too early.", "Shooting off-balance."]
+    },
+    {
+      "id": "jockeying", "name": "1v1 Defending: Jockeying", "tier": 2, "requires": ["safety-and-laws", "close-dribbling"], "hours": 10,
+      "summary": "Stay between the attacker and goal, side-on, slowing the attack until you can win the ball or a teammate arrives.",
+      "steps": ["Approach quickly then slow down 2 metres away.", "Stand side-on with knees bent and weight on your toes.", "Back-pedal while keeping the attacker on one side.", "Wait for a heavy touch before tackling."],
+      "drills": ["1v1 in a 10 x 20 m channel; defender must delay for 5 seconds.", "Mirror drill with a partner in a 5 m line."],
+      "mastery": "In ten 1v1 attacks you delay the attacker for at least 5 seconds in 7 without being beaten.",
+      "mistakes": ["Diving in for the tackle.", "Standing flat-footed and square.", "Watching the player's feet instead of the ball and hips."]
+    },
+    {
+      "id": "moves-and-feints", "name": "Dribbling Moves", "tier": 2, "requires": ["close-dribbling"], "hours": 10,
+      "summary": "Moves like the step-over, Cruyff turn and drag-back help you beat defenders.",
+      "steps": ["Learn the step-over: swing the foot over the ball and push off in the other direction.", "Learn the Cruyff turn: fake a pass or shot, drag the ball behind your standing leg and go.", "Learn the drag-back.", "Use them against a stationary then moving defender."],
+      "drills": ["Practise each move 20 times each side against a cone.", "Beat a passive defender 5 times in a row."],
+      "mastery": "You can beat a semi-active defender with at least two different moves in 5 of 8 attempts.",
+      "mistakes": ["Doing the move too far from the defender.", "Practising only slowly.", "Using fancy moves when a pass is better."]
+    },
+    {
+      "id": "long-passing", "name": "Long Passing and Switches", "tier": 3, "requires": ["instep-drive", "outside-foot-pass"], "hours": 20,
+      "summary": "Drive or lofted passes of 25 to 40 m change the point of attack and break pressing lines.",
+      "steps": ["Approach at an angle and strike through the lower half of the ball with the laces for loft.", "Lean back slightly and follow through high.", "Pick a target before you strike.", "Practise both feet."],
+      "drills": ["Partners 30 m apart: 20 long passes each, aim to land within 3 m.", "Switch play: pass from one flank to the other in small-sided drills."],
+      "mastery": "You can land 6 of 10 lofted passes within a 5 x 5 m target 30 m away with your stronger foot.",
+      "mistakes": ["Leaning forward and driving it into the ground.", "No target.", "Hitting every pass long."]
+    },
+    {
+      "id": "first-time-finish", "name": "First-Time Shots and Volleys", "tier": 3, "requires": ["finishing"], "hours": 20,
+      "summary": "Hit the ball first time without taking a touch, often the only chance you get against a keeper.",
+      "steps": ["Get your body shape ready before the ball arrives.", "Time your approach so the plant foot lands next to the ball.", "Strike through the centre of the ball, keeping your head down.", "For volleys, keep the knee over the ball."],
+      "drills": ["Partner rolls or crosses; hit 10 first-time shots from each side.", "Volley practice with tossed balls, 30 attempts."],
+      "mastery": "You can hit 6 of 10 first-time shots on target from a cross or pass.",
+      "mistakes": ["Taking a touch and losing the chance.", "Leaning back.", "Leaving the plant foot too far away."]
+    },
+    {
+      "id": "tackling-and-heading", "name": "Tackling and Heading", "tier": 3, "requires": ["jockeying"], "hours": 20,
+      "summary": "Win the ball cleanly with a block tackle, and win aerial duels with correct heading technique. Learn both under a coach.",
+      "steps": ["Block tackle: plant the standing foot beside the ball, lock the ankle, and drive through the ball with the inside of the foot.", "Heading: keep eyes open, mouth closed, head back, then strike with the forehead, using neck muscles.", "Start with a soft ball and low volume, especially for youth players.", "Never slide tackle from behind or with studs showing."],
+      "drills": ["Block-tackle contests with a partner at half speed.", "Header from tossed balls 10 reps, strictly limited volume."],
+      "mastery": "You can win the ball with a clean block tackle in 6 of 10 half-speed 1v1s, and head a thrown ball accurately to a partner 5 m away 8 of 10 times.",
+      "mistakes": ["Lunging in.", "Heading with eyes closed.", "Heading too many balls in training."]
+    },
+    {
+      "id": "movement-and-support", "name": "Off-the-Ball Movement and Support", "tier": 3, "requires": ["turning-with-ball", "long-passing"], "hours": 25,
+      "summary": "Most of the game is spent without the ball. Good positioning gives teammates passing options and creates space.",
+      "steps": ["Check your shoulder before receiving to know your surroundings.", "Move into passing angles, not behind defenders.", "Stay at a good distance from the ball carrier.", "Make runs in behind and wide to stretch the defence."],
+      "drills": ["Rondo 5v2 in a 10 x 10 m square, 5-minute rounds.", "3v1 passing drill with a mandatory two-touch limit."],
+      "mastery": "In a 5v2 rondo you can keep possession for 2 minutes with two touches or fewer.",
+      "mistakes": ["Standing in a defender's shadow.", "Always asking for the ball into the feet.", "Staying still after passing."]
+    },
+    {
+      "id": "scanning-and-decisions", "name": "Scanning and Decision Making", "tier": 4, "requires": ["movement-and-support"], "hours": 60,
+      "summary": "Looking around before receiving lets you choose the best option in time, a hallmark of high-level players.",
+      "steps": ["Scan two or three times in the seconds before the ball arrives.", "Note the position of teammates and opponents.", "Decide your first touch and next action before receiving.", "Review match video to see missed options."],
+      "drills": ["Rondo drills with coloured bibs; call the colour you see before receiving.", "Watch your own match footage and mark scanning moments."],
+      "mastery": "In a recorded match or training game, a coach can see you scanning before most receptions and making forward passes in a majority of them.",
+      "mistakes": ["Scanning after the ball has arrived.", "Always playing safe backward.", "Looking only at the ball."]
+    },
+    {
+      "id": "pressing-and-shape", "name": "Pressing and Team Shape", "tier": 4, "requires": ["tackling-and-heading", "movement-and-support"], "hours": 60,
+      "summary": "Win the ball back as a group by pressing together and keeping compact distances between lines.",
+      "steps": ["Press triggers: bad touch, backward pass, or ball going to a sideline.", "First presser closes quickly while others cut passing lanes.", "Keep distances between lines around 10 to 15 m.", "Recover shape quickly if the press is beaten."],
+      "drills": ["6v4 pressing game: win the ball back in 6 seconds.", "Shadow-play with full-team shape."],
+      "mastery": "In an 11v11 or small-sided game, you successfully trigger and join a press so your team wins the ball back within 6 seconds in at least 3 of 10 occasions, confirmed on video.",
+      "mistakes": ["Pressing alone.", "Dashing in without cover.", "Failing to recover after the press."]
+    },
+    {
+      "id": "set-pieces", "name": "Set Pieces", "tier": 4, "requires": ["long-passing", "first-time-finish"], "hours": 50,
+      "summary": "Corners, free kicks and throw-ins decide many games. Specialise in delivery, attacking runs or defensive organisation.",
+      "steps": ["Pick a spot and technique: inswing, outswing, or flat delivery.", "Practise free kicks with the inside of the instep to curve the ball.", "Agree movement patterns for attacking corners.", "Assign marking roles in defence."],
+      "drills": ["20 corner deliveries to a target zone from each side.", "10 free kicks from 20 m with a wall."],
+      "mastery": "You can land 7 of 10 corner deliveries inside a 5 x 5 m target zone, and score at least 2 of 10 free kicks on target from 20 m over a wall.",
+      "mistakes": ["No plan with teammates.", "Trying to blast every set piece.", "Neglecting defensive set-piece roles."]
+    },
+    {
+      "id": "volleys-and-crossing", "name": "Crossing and Wide Play", "tier": 4, "requires": ["long-passing", "moves-and-feints"], "hours": 50,
+      "summary": "Beat the full back and deliver dangerous crosses for runners in the box.",
+      "steps": ["Dribble to the byline or to the edge of the box.", "Pick a target: near post, penalty spot or far post.", "Deliver low or lofted crosses with the laces or inside of the foot.", "Time the cross with teammates' runs."],
+      "drills": ["20 crosses from each side with attackers finishing.", "1v1 wide, then cross, with a defender and striker."],
+      "mastery": "Across 20 crosses, at least 8 reach a teammate in the penalty area for a shot.",
+      "mistakes": ["Crossing without looking.", "Overhitting to the far side.", "Crossing too early."]
+    },
+    {
+      "id": "play-competitive", "name": "Play Competitive Matches", "tier": 5, "requires": ["scanning-and-decisions", "pressing-and-shape", "set-pieces"], "hours": 400,
+      "summary": "Play a full season in an organised league with referees and fixtures. Consistency over weeks shows your level.",
+      "steps": ["Join a registered club or competitive league at your level.", "Train twice a week and play on weekends.", "Review performances and set targets.", "Look after your body: recovery, sleep, fuelling."],
+      "drills": ["Track stats like passes completed and minutes played.", "Do a weekly review with your coach."],
+      "mastery": "You have played at least 20 competitive league matches in a season, verified by a league record.",
+      "mistakes": ["Skipping training and expecting to play.", "Ignoring recovery.", "Playing through injuries."]
+    },
+    {
+      "id": "coach-soccer", "name": "Coach a Team", "tier": 5, "requires": ["scanning-and-decisions", "tackling-and-heading", "safety-and-laws"], "hours": 300,
+      "summary": "Plan sessions, teach technique, and manage a group. Coaching proves you understand the game and can pass it on.",
+      "steps": ["Take a recognised coaching badge from your national federation.", "Plan 60 to 90 minute sessions with warm-up, skills, small-sided games and cool-down.", "Prioritise safety, enjoyment and age-appropriate training.", "Gather feedback and refine."],
+      "drills": ["Coach a youth or adult team for a full season.", "Plan and review 10 sessions."],
+      "mastery": "You hold a recognised coaching badge and have coached a team through a full season, with a federation or club record.",
+      "mistakes": ["Long lines and waiting around.", "Over-coaching during games.", "Focusing on winning over development."]
+    }
+  ]
+}

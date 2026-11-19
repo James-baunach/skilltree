@@ -1,0 +1,181 @@
+{
+  "hobby": "salsa",
+  "nodes": [
+    {
+      "id": "count-the-music", "name": "Counting the Music", "tier": 1, "requires": [], "hours": 2,
+      "summary": "Salsa is danced in eight-beat phrases counted 1-2-3, 5-6-7 with pauses on 4 and 8. Hearing that structure is the first skill.",
+      "steps": ["Listen to a slow salsa track and clap on every beat.", "Count 1-2-3-4, 5-6-7-8 aloud over the music.", "Find the strong beats: the 1 is often where a new phrase starts.", "Listen for the clave or the conga/cowbell pattern behind the melody."],
+      "drills": ["Count along to five different salsa songs for 3 minutes each.", "Tap the basic rhythm of 1-2-3, pause, 5-6-7, pause on your thigh."],
+      "mastery": "You can count 1-2-3-4-5-6-7-8 in time with an unfamiliar salsa track for a full minute and clap on the beat without drifting.",
+      "mistakes": ["Counting 1-2-3-4-5-6-7-8 without noticing the pauses on 4 and 8.", "Starting the count mid-phrase.", "Dancing to the singing instead of the beat."]
+    },
+    {
+      "id": "basic-step", "name": "The Basic Step", "tier": 1, "requires": ["count-the-music"], "hours": 4,
+      "summary": "The forward-and-back basic on1 is the foundation of everything else: step, replace, together, pause, repeat in reverse.",
+      "steps": ["Leader steps forward on 1 with the left foot, replaces weight back on 2, steps together on 3, pauses on 4.", "Then step back with the right foot on 5, replace on 6, step together on 7, pause on 8.", "Follower mirrors: back with the right foot on 1.", "Keep steps small, about shoulder-width."],
+      "drills": ["Dance the basic for 5 minutes to a slow track without stopping.", "Practise in front of a mirror with a metronome at 160 bpm."],
+      "mastery": "You can dance the basic step on beat for 2 minutes at a medium-tempo song without looking at your feet.",
+      "mistakes": ["Taking big steps that leave you off-balance.", "Stepping on 4 or 8 instead of pausing.", "Looking down at your feet."]
+    },
+    {
+      "id": "weight-transfer", "name": "Weight Transfer and Hip Action", "tier": 1, "requires": ["basic-step"], "hours": 4,
+      "summary": "Salsa's smooth look comes from fully transferring weight on each step and letting the hips respond, rather than lifting the body.",
+      "steps": ["Stay on the balls of your feet with knees slightly bent.", "Fully commit weight to the new foot before the other leaves the floor.", "Let the hips move naturally as weight shifts, a small figure-eight.", "Keep the upper body quiet and level."],
+      "drills": ["Do the basic step in place for 3 minutes, focusing on full weight transfers.", "Place a hand on your hips in the mirror to feel them move."],
+      "mastery": "Someone watching sees the weight clearly on one foot at each step and smooth hip movement, without bouncing, on video.",
+      "mistakes": ["Keeping weight half on both feet.", "Forcing exaggerated hip swaying.", "Bouncing up and down."]
+    },
+    {
+      "id": "frame-and-hold", "name": "Frame and Partner Hold", "tier": 1, "requires": ["basic-step"], "hours": 3,
+      "summary": "A firm but relaxed frame is how partners communicate through the arms and body, rather than by pulling.",
+      "steps": ["Stand facing your partner at a comfortable distance.", "Leader's left hand holds follower's right at about eye level, with elbows relaxed.", "Leader's right hand rests under the follower's shoulder blade; follower's left hand rests on the leader's shoulder or upper arm.", "Keep arm muscles engaged enough to feel movement without squeezing."],
+      "drills": ["Dance the basic with a partner for 5 minutes without letting the frame collapse.", "Swap leader and follower roles."],
+      "mastery": "You can dance the basic with a partner for 3 minutes, keeping a stable frame, with neither person gripping or pulling.",
+      "mistakes": ["Squeezing the partner's hand or limp noodle arms.", "Arms dropped too low or too high.", "Standing too close or too far."]
+    },
+    {
+      "id": "side-basic", "name": "Side Basic and Back Basic", "tier": 1, "requires": ["basic-step"], "hours": 3,
+      "summary": "Side-to-side and back-and-forth variations expand your movement and prepare you for turns.",
+      "steps": ["Dance a side basic: step to the side on 1, replace on 2, together on 3, pause, then repeat to the other side.", "Alternate forward-back and side-to-side basics every 8 counts.", "Practise as leader and follower.", "Stay in your frame and on the beat."],
+      "drills": ["Switch between forward, side and back basics every 8 counts for 5 minutes.", "Practise alone and with a partner."],
+      "mastery": "You can switch between forward-back and side-to-side basics every 8 counts, on beat, for 3 minutes.",
+      "mistakes": ["Losing the pause on 4 and 8.", "Changing direction too late.", "Stepping too wide."]
+    },
+    {
+      "id": "etiquette", "name": "Social Dance Etiquette", "tier": 1, "requires": ["frame-and-hold"], "hours": 2,
+      "summary": "Asking, accepting, declining and leaving a dance gracefully makes social dancing safe and fun for everyone.",
+      "steps": ["Ask politely and accept a no without fuss.", "Thank your partner after each song.", "Dance within your own space and watch for others on a crowded floor.", "Never force a move or hold on if your partner is uncomfortable.", "Keep your hygiene and breath fresh."],
+      "drills": ["Attend one social night and dance with at least five different partners.", "Practise saying a polite thank you after every dance."],
+      "mastery": "At a social night you have danced with at least five different partners, with no collisions or uncomfortable moments, and been invited back by at least two.",
+      "mistakes": ["Teaching your partner on the floor uninvited.", "Dancing a big move on a crowded floor.", "Refusing to ask anyone out of shyness."]
+    },
+    {
+      "id": "cross-body-lead", "name": "Cross-Body Lead", "tier": 2, "requires": ["frame-and-hold", "side-basic"], "hours": 8,
+      "summary": "The signature salsa move: the leader swaps places with the follower, who walks forward along a slot. Nearly every pattern passes through it.",
+      "steps": ["On 1-2-3 the leader steps forward-left, replaces, then steps side-ish while guiding the follower forward with the left hand.", "On 5-6-7 the follower walks past through the middle of the 'slot' while the leader pivots and clears.", "End facing each other in reversed positions.", "Use your frame and body rotation to lead, not an arm pull."],
+      "drills": ["Repeat the cross-body lead 20 times in a row with a partner.", "Practise the footwork alone, then add the lead."],
+      "mastery": "You can lead or follow 10 cross-body leads in a row on beat, with a clear slot and no tugging.",
+      "mistakes": ["Pulling the follower across with the arm.", "Leaving the slot and drifting around the floor.", "Rushing the follower's walk."]
+    },
+    {
+      "id": "right-turn", "name": "Follower's Right Turn", "tier": 2, "requires": ["cross-body-lead"], "hours": 8,
+      "summary": "The basic turn: the leader raises the hand and the follower spins under it on the spot, completing one rotation in two beats' worth of steps.",
+      "steps": ["Leader raises the joined hand above the follower's head and guides slightly right.", "Follower steps forward and spins to her right on the ball of one foot, keeping the spin tight.", "Leader steps back and side to keep the space open.", "Follower spots a fixed point and ends facing the leader."],
+      "drills": ["Practise 20 single turns each way solo, spotting a point on the wall.", "Do 10 turns with a partner without losing the beat."],
+      "mastery": "You can lead or follow 10 clean single right turns in a row, landing on beat and without dizziness.",
+      "mistakes": ["Following without spotting and getting dizzy.", "Leader winding arms and hurting the shoulder.", "Travelling across the floor during the spin."]
+    },
+    {
+      "id": "spotting-and-spins", "name": "Spotting and Solo Spin Technique", "tier": 2, "requires": ["weight-transfer"], "hours": 6,
+      "summary": "Reliable spins come from good balance, a tight core and eye spotting. Practising solo is the fastest route to confident turns.",
+      "steps": ["Pick a spot at eye level and keep your eyes on it as long as possible.", "Snap your head around last and return to the spot first.", "Keep arms close, core engaged and weight on the ball of the foot.", "Start with single spins before attempting doubles."],
+      "drills": ["10 single spins on each side with a stop, holding the finish balance for 2 seconds.", "Do 10 spins on a line to check you don't travel."],
+      "mastery": "You can do five single spins in a row and stop in balance facing your starting spot, showing no travel.",
+      "mistakes": ["Moving the head and eyes together with the body.", "Arms flapping out.", "Leaning back during the turn."]
+    },
+    {
+      "id": "left-turn", "name": "Left Turn and Hand Changes", "tier": 2, "requires": ["right-turn"], "hours": 8,
+      "summary": "A left turn and basic hand changes let you link several moves smoothly without letting go of the connection.",
+      "steps": ["Learn the left-turn lead by guiding the follower's right hand across her body.", "Practise exchanging hands on the 4 and 8 pauses.", "Combine cross-body lead, right turn and left turn in an 8-count pattern.", "Stay on beat and keep your frame."],
+      "drills": ["Run a four-move pattern: cross-body, right turn, left turn, cross-body, repeated 5 times.", "Practise hand changes in slow motion."],
+      "mastery": "You can run a four-move sequence with a partner for 3 minutes on beat and with smooth hand changes.",
+      "mistakes": ["Tangling arms by changing hands too late.", "Spending too much time on the lead and falling off beat.", "Yanking the follower round."]
+    },
+    {
+      "id": "basic-shines", "name": "Basic Shines: Suzy-Q and Side Step", "tier": 2, "requires": ["weight-transfer"], "hours": 8,
+      "summary": "Shines are solo footwork passages. Learn a handful of classics, such as Suzy-Q and side-together-tap, to fill the breaks in a dance.",
+      "steps": ["Learn Suzy-Q: cross right foot over, step left foot back, step right foot to the side.", "Learn the side-together-tap and a simple front-back-tap pattern.", "Dance each for 8 counts on beat.", "Link two shines in sequence."],
+      "drills": ["Repeat each shine 20 times on a slow track.", "String 3 shines into a 24-count routine."],
+      "mastery": "You can dance three different shines in a row for 24 counts on beat without hesitation, shown on video.",
+      "mistakes": ["Rushing the footwork ahead of the beat.", "Holding the upper body stiff.", "Looking at the floor."]
+    },
+    {
+      "id": "lead-follow-skills", "name": "Lead and Follow Basics", "tier": 2, "requires": ["cross-body-lead"], "hours": 8,
+      "summary": "A lead is an invitation delivered with body and frame, and a follow is active listening. Both roles need practice.",
+      "steps": ["As a leader, prepare the move with your body weight before using your hands.", "As a follower, maintain tone in your arms and respond to the direction of pressure.", "Practise changing speed and direction with a partner to check clarity.", "Try dancing with your eyes closed (follower) for a minute."],
+      "drills": ["Dance a basic for 3 minutes where the leader randomly changes direction every 8 counts.", "Switch roles and compare experiences."],
+      "mastery": "A teacher or experienced partner confirms you can lead or follow a new move, unseen, with only light cues.",
+      "mistakes": ["Leaders relying on arm strength.", "Followers anticipating the next move.", "Not communicating with your partner."]
+    },
+    {
+      "id": "combination-building", "name": "Combinations and Sequences", "tier": 3, "requires": ["left-turn", "basic-shines"], "hours": 20,
+      "summary": "Link four to six moves in a flowing, musical sequence. This is where you can really dance socially rather than perform isolated moves.",
+      "steps": ["Learn 8 to 10 moves: cross-body, inside turn, outside turn, copa, hammerlock, enchufla.", "Practise linking in 8-count and 16-count blocks.", "Plan a loop of five moves you can repeat without thinking.", "Add variety by changing the order."],
+      "drills": ["Dance a five-move loop for a full song, changing order halfway.", "Record a social dance and review it."],
+      "mastery": "You can lead or follow a continuous 3-minute salsa song with at least eight different moves, on beat.",
+      "mistakes": ["Planning too far ahead and ignoring the partner.", "Overusing one favourite move.", "Rushing transitions."]
+    },
+    {
+      "id": "double-turns", "name": "Double Turns and Multiple Spins", "tier": 3, "requires": ["spotting-and-spins", "left-turn"], "hours": 25,
+      "summary": "Adding a second rotation requires rhythm, tight posture and a clear lead. Controlled doubles look elegant when done safely.",
+      "steps": ["Learn the lead for a double: more energy and a longer raised hand, with the hand held high and quiet.", "Followers keep the arms close and use the core to rotate twice, finishing on beat.", "Leaders hold the hand over the follower's head without yanking.", "Build from slow doubles to song tempo."],
+      "drills": ["20 doubles solo each way.", "10 consecutive double turns with a partner at medium tempo."],
+      "mastery": "You can do 10 consecutive double turns on beat and finish in balance, shown on video.",
+      "mistakes": ["Leaders twisting the follower's wrist.", "Followers dropping arms.", "Adding turns without balance."]
+    },
+    {
+      "id": "on2-timing", "name": "Mambo On2 Timing", "tier": 3, "requires": ["combination-building"], "hours": 25,
+      "summary": "On2 starts the break step on beat 2 instead of 1, aligning with the conga and giving a smoother, jazzier feel. Many clubs dance it.",
+      "steps": ["Learn the on2 basic: break forward on 2, replace on 3, pause on 4 (or tap), break back on 6, replace on 7, pause on 8.", "Listen for the conga's 'slap' on 2 and 6.", "Dance basic alone first, then with a partner.", "Switch between on1 and on2 with the same moves."],
+      "drills": ["10 minutes of on2 basic to a slow song.", "Dance a 3-move pattern on2 with a partner."],
+      "mastery": "You can dance a 3-minute song on2 without sliding to on1, with a partner and a combination of at least five moves.",
+      "mistakes": ["Counting with the on1 pattern in your head and mixing timing.", "Ignoring the music cues.", "Rushing the break."]
+    },
+    {
+      "id": "clave-and-percussion", "name": "Hearing Clave and Percussion", "tier": 3, "requires": ["count-the-music", "combination-building"], "hours": 15,
+      "summary": "Understanding clave, conga, cowbell and bongo patterns lets you dance to what the band is actually playing.",
+      "steps": ["Learn the 3-2 and 2-3 son clave patterns and clap them.", "Listen for the cowbell and conga in salsa tracks.", "Identify the montuno section where the music becomes more energetic.", "Time your breaks and shines to instrumental hits."],
+      "drills": ["Clap clave along to 5 songs and mark if each is 2-3 or 3-2.", "Dance a shine that lands on the clave hits."],
+      "mastery": "You can identify and clap the clave direction (2-3 or 3-2) for five unseen salsa songs, correctly.",
+      "mistakes": ["Confusing the clave with the main melody.", "Only focusing on beat 1.", "Assuming all songs share the same structure."]
+    },
+    {
+      "id": "advanced-patterns", "name": "Advanced Partner Patterns", "tier": 3, "requires": ["double-turns", "lead-follow-skills"], "hours": 25,
+      "summary": "Patterns like the copa, sombrero, dile que no and dips require strong frames, spatial awareness and precise timing.",
+      "steps": ["Learn each pattern as a lead and follow breakdown.", "Practise at slow tempo with a teacher or partner.", "Mind safety: dips need strength and communication.", "Build a repertoire of 10 to 15 advanced moves."],
+      "drills": ["Drill each pattern 20 times slowly, then at music speed.", "Teach a pattern to a friend."],
+      "mastery": "You can lead or follow at least eight advanced patterns cleanly on beat, shown on a video.",
+      "mistakes": ["Jumping into dips without a sturdy frame.", "Forgetting the beat.", "Leading figures without regard for the follower's comfort."]
+    },
+    {
+      "id": "musical-interpretation", "name": "Musical Interpretation", "tier": 4, "requires": ["clave-and-percussion", "on2-timing"], "hours": 60,
+      "summary": "Respond to breaks, accents, mambo sections and instrument solos, so that the music shapes the dance.",
+      "steps": ["Listen to a track beforehand and note breaks and key accents.", "Slow, pause or hit a pose on the breaks.", "Match intensity to the music: calmer in verses, bigger in montuno.", "Use shines to answer a horn or conga solo."],
+      "drills": ["Choreograph a short routine that includes three musical hits and perform to an unseen song.", "Social dance a full night and mark which breaks you caught."],
+      "mastery": "In a video of an improvised social dance, you hit at least five musical accents or breaks cleanly in a 3-minute song.",
+      "mistakes": ["Dancing the same way through the whole song.", "Planning pre-set moves that clash with the music.", "Sacrificing the partner to hit the accent."]
+    },
+    {
+      "id": "floorcraft-and-adaptability", "name": "Floor Craft and Adaptability", "tier": 4, "requires": ["advanced-patterns"], "hours": 60,
+      "summary": "Adjust your dancing to different partners, spaces and tempi. Great social dancers make everyone look good.",
+      "steps": ["Scale moves to your partner's level and comfort.", "Navigate crowded floors by shrinking patterns and watching traffic.", "Dance to fast and slow songs.", "Dance with at least 20 different partners across a month."],
+      "drills": ["Spend one social night only leading simple moves and focusing on partner comfort.", "Dance with beginners and experts on the same night."],
+      "mastery": "An experienced dancer observing a social night confirms you adapted your lead or follow to at least five partners of different levels without collisions.",
+      "mistakes": ["Doing flashy moves on a packed floor.", "Dancing the same routine with everyone.", "Ignoring partner feedback."]
+    },
+    {
+      "id": "partner-and-cabaret-routine", "name": "Performance Choreography", "tier": 4, "requires": ["advanced-patterns", "musical-interpretation"], "hours": 80,
+      "summary": "Creating and performing a 2-3 minute routine teaches precision, stagecraft and teamwork.",
+      "steps": ["Pick a song and map out its structure.", "Choreograph an opening, a build, a break and a finish.", "Rehearse with video and a coach's feedback.", "Perform at a showcase or social night."],
+      "drills": ["Rehearse the routine 20 times at full speed.", "Run it in front of an audience of friends."],
+      "mastery": "You have performed a choreographed 2-minute salsa routine live, with video evidence.",
+      "mistakes": ["Overloading the routine with difficult moves.", "Not rehearsing under pressure.", "Ignoring formations and spacing."]
+    },
+    {
+      "id": "compete-salsa", "name": "Competition", "tier": 5, "requires": ["partner-and-cabaret-routine", "floorcraft-and-adaptability"], "hours": 300,
+      "summary": "Compete in a recognised salsa congress, social-dance contest or jack-and-jill. It pushes standards of timing, technique and presentation.",
+      "steps": ["Pick a division matching your level.", "Train with a coach for months in technique and stamina.", "Prepare routines or improvisation as the category requires.", "Study judges' feedback and adjust."],
+      "drills": ["Perform full-length routines three times without stopping.", "Compete at one local event before a regional one."],
+      "mastery": "You have placed or been a finalist in a recognised salsa competition, with a published result.",
+      "mistakes": ["Rushing to compete without enough routine practice.", "Neglecting fitness.", "Ignoring judging criteria."]
+    },
+    {
+      "id": "teach-salsa", "name": "Teach a Class", "tier": 5, "requires": ["floorcraft-and-adaptability", "on2-timing"], "hours": 200,
+      "summary": "Teaching a beginner class forces you to break down timing, lead and follow, and to spot errors in others.",
+      "steps": ["Plan a lesson with warm-up, technique, partner work and social practice.", "Demonstrate slowly and break moves into steps.", "Rotate partners and give individual feedback.", "Reflect on each class and refine."],
+      "drills": ["Teach a 4-week beginner course.", "Get feedback from students and a senior teacher."],
+      "mastery": "You have taught a multi-week beginner salsa course, with attendance records and student feedback.",
+      "mistakes": ["Talking too much and dancing too little.", "Teaching too many moves at once.", "Ignoring role balance."]
+    }
+  ]
+}
