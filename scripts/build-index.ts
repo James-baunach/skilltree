@@ -202,15 +202,16 @@ for (const file of listJson(join(CONTENT, 'trees'))) {
 }
 
 // ---------- relationship graph ----------
-// Each hobby gets a trait vector: its sub-category profile, overridden per trait by the hobby's own
-// "traits" string. For similarity the vector is smoothed towards its hand-picked synergy partners,
+// Each hobby gets a trait vector: its own "traits" string if it has one, else its sub-category's
+// default profile. For similarity the vector is smoothed towards its hand-picked synergy partners,
 // so two hobbies in the same sub-category still differ by the company they keep.
 const T = traits.map((t) => t.id);
 const ids = [...hobbies.keys()].filter((id) => subOf.has(id));
 const profiles: Record<string, Record<string, number>> = {};
 for (const id of ids) {
   const own = hobbies.get(id)!.traits;
-  const p = { ...subOf.get(id)!.traits, ...(own ? parseTraits(own) : {}) };
+  // A hobby's own traits string replaces its group's default profile entirely.
+  const p = own ? parseTraits(own) : { ...subOf.get(id)!.traits };
   for (const k of Object.keys(p)) if (!p[k]) delete p[k];
   profiles[id] = p;
 }

@@ -43,8 +43,8 @@ Trait strings are compact: `"dexterity3 precision3 patience3 mechanical2"`. Weig
 
 ### How relatedness is computed (`scripts/build-index.ts`)
 
-1. Each hobby's trait vector starts as its group's profile. Any `traits` on the hobby itself
-   override individual weights.
+1. Each hobby's trait vector is its own `traits` string if it has one, otherwise its group's
+   default profile.
 2. Each vector is then nudged 35% towards the average of the hobby's hand-picked synergies. This way
    two hobbies in the same group still differ by the company they keep.
 3. Similarity is 80% cosine similarity and 20% a bonus for a direct synergy link.
